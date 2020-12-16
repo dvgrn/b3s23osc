@@ -1,3 +1,923 @@
+#N Block
+#O JHC group 1970
+#C Example of "*k" symmetry.
+#C Used as an eater in many oscillators, such as 135.0.0,
+#C 150.0.0, 188.0.0, 246.0.0, 360.0.0, and 460.0.0.  Also used as
+#C a 'rephaser' in 135.0.0, 150.0.0, and 240.0.0. 
+x = 2, y = 2, rule = B3/S23
+2o$2o!
+
+#N Tub
+#O JHC group 1970
+#C Example of "*c" symmetry.  Used as an
+#C eater in P24 toadflipper, most p29s, Eureka (P30), and 47.0.0.
+x = 3, y = 3, rule = B3/S23
+bo$obo$bo!
+
+#N Boat
+#O JHC group 1970
+#C Example of "/" symmetry.
+x = 3, y = 3, rule = B3/S23
+2o$obo$bo!
+
+#N Ship
+#O JHC group 1970
+#C Example of "xc" symmetry.  Used as an
+#C eater of traffic lights in two P24 oscillators.
+x = 3, y = 3, rule = B3/S23
+2o$obo$b2o!
+
+#N Barge
+#O JHC group 1970
+#C Example of "xk" symmetry.
+x = 4, y = 4, rule = B3/S23
+bo$obo$bobo$2bo!
+
+#N Snake
+#O JHC group 1970
+#C Example of ".k" symmetry.  Used in
+#C 60.4.1 and 15240.0.0 to convert a glider into a boat, which a
+#C subsequent glider deletes.
+x = 2, y = 4, rule = B3/S23
+2o$o$bo$2o!
+
+#N Beehive
+#O JHC group 1970
+#C Example of "+e" symmetry.  This
+#C often occurs in a group of 4, known as a "honey farm", which
+#C arises, for example, from a beehive with an extra cell in one
+#C of its corners.
+x = 4, y = 3, rule = B3/S23
+b2o$o2bo$b2o!
+
+#N Aircraft carrier
+#C Example of ".e" symmetry.
+x = 4, y = 3, rule = B3/S23
+2o$o2bo$2b2o!
+
+#N Long boat
+#O JHC group 1970
+x = 4, y = 4, rule = B3/S23
+2o$obo$bobo$2bo!
+
+#N Long snake
+#C Also called a python, not to be confused with the programming languge
+#C Example of ".c" symmetry.
+x = 5, y = 3, rule = B3/S23
+2o$obobo$3b2o!
+
+#N Loaf
+#O [JHC group 1970]
+x = 4, y = 4, rule = B3/S23
+b2o$o2bo$bobo$2bo!
+
+#N Eater 1
+#O * 1971
+#C Also called a fishhook
+#C This is a very useful still-life,
+#C because of its ability to eat gliders (see period 30 section), beehives
+#C (see period 30 section), and lightweight and middleweight spaceships
+#C (see period 46 section), and to modify many other things.  The term
+#C "eater" also applies to other still-lifes (and occasionally
+#C oscillators) that share this ability; the most useful of these
+#C are the block, eater2, and eater3, but
+#C many others are sometimes useful, including the tub,
+#C ship, and snake.
+x = 4, y = 4, rule = B3/S23
+2o$obo$2bo$2b2o!
+
+#N Long ship
+#O JHC group 1970
+x = 4, y = 4, rule = B3/S23
+2o$obo$bobo$2b2o!
+
+#N Long barge
+#O JHC group 1970
+x = 5, y = 5, rule = B3/S23
+bo$obo$bobo$2bobo$3bo!
+
+#N Very long snake
+x = 6, y = 4, rule = B3/S23
+2o$obo$3bobo$4b2o!
+
+#N Canoe
+#C Also called sinking ship
+x = 5, y = 5, rule = B3/S23
+2o$obo$3bo$4bo$3b2o!
+
+#N Pond
+x = 4, y = 4, rule = B3/S23
+b2o$o2bo$o2bo$b2o!
+
+#N Shillelagh
+#O Charles L. Corderman & Hugh Thompson 1971
+x = 3, y = 5, rule = B3/S23
+2o$obo$2bo$bo$b2o!
+
+#N Tub with tail
+#O Charles L. Corderman & Hugh Thompson 1971
+x = 5, y = 5, rule = B3/S23
+bo$obo$bobo$3bo$3b2o!
+
+#N Hook with tail
+x = 5, y = 4, rule = B3/S23
+obo$2obo$3bo$3b2o!
+
+#N Mango
+x = 5, y = 4, rule = B3/S23
+b2o$o2bo$bo2bo$2b2o!
+
+#N Very long boat
+x = 5, y = 5, rule = B3/S23
+2o$obo$bobo$2bobo$3bo!
+
+#N Long^3 snake
+x = 7, y = 5, rule = B3/S23
+2o$obo$3bo$4bobo$5b2o!
+
+#N Long canoe
+x = 6, y = 6, rule = B3/S23
+2o$obo$3bo$4bo$5bo$4b2o!
+
+#N Hat
+#C Found in 1971. Example of "-c" symmetry.
+x = 5, y = 4, rule = B3/S23
+2bo$bobo$bobo$2ob2o!
+
+#N Integral sign
+x = 5, y = 5, rule = B3/S23
+3b2o$2bobo$2bo$obo$2o!
+
+#N Trans-boat with tail
+#C Trans- and cis- have the same meanings as they do in organic chemistry.
+x = 5, y = 5, rule = B3/S23
+2o$obo$bobo$3bo$3b2o!
+
+#N Cis-boat with tail
+x = 5, y = 5, rule = B3/S23
+bo$obo$2obo$3bo$3b2o!
+
+#N Long shillelagh
+x = 3, y = 6, rule = B3/S23
+2o$obo$2bo$bo$o$2o!
+
+#N Tub with long tail
+x = 4, y = 6, rule = B3/S23
+bo$obo$bobo$3bo$2bo$2b2o!
+
+#N Long hook with tail
+x = 6, y = 4, rule = B3/S23
+3bo$obobo$2o2bo$4b2o!
+
+#N Very long ship
+x = 5, y = 5, rule = B3/S23
+2o$obo$bobo$2bobo$3b2o!
+
+#N Very long barge
+x = 6, y = 6, rule = B3/S23
+bo$obo$bobo$2bobo$3bobo$4bo!
+
+#N Long^4 snake
+x = 8, y = 6, rule = B3/S23
+2o$obo$3bo$4bo$5bobo$6b2o!
+
+#N Very long canoe
+x = 7, y = 7, rule = B3/S23
+2o$obo$3bo$4bo$5bo$6bo$5b2o!
+
+#N Snake siamese snake
+x = 2, y = 7, rule = B3/S23
+2o$o$bo$2o$o$bo$2o!
+
+#N Carrier siamese snake
+#C Also called broken snake
+x = 3, y = 7, rule = B3/S23
+2o$o$bo$2o$o$2bo$b2o!
+
+#N Crrier siamese  carrier
+x = 4, y = 7, rule = B3/S23
+2o$o$2bo$b2o$bo$3bo$2b2o!
+
+#N Long integral
+x = 4, y = 6, rule = B3/S23
+2b2o$bobo$bo$2bo$obo$2o!
+
+#N Boat with long tail
+x = 4, y = 6, rule = B3/S23
+2o$obo$bobo$3bo$2bo$2b2o!
+
+#Tub with very long tail
+x = 4, y = 7, rule = B3/S23
+bo$obo$bobo$3bo$2bo$bo$b2o!
+
+#N Very long shillelagh
+x = 4, y = 7, rule = B3/S23
+b2o$bobo$3bo$2bo$bo$o$2o!
+
+#N Cis-shillelagh
+x = 5, y = 6, rule = B3/S23
+2b2o$2bobo$4bo$3bo$obo$2o!
+
+#N Integral with tub
+x = 6, y = 6, rule = B3/S23
+2o$obo$2bo$2bobo$3bobo$4bo!
+
+#N Integral with hook
+x = 6, y = 5, rule = B3/S23
+2o$obo$2bo$2bob2o$3bobo!
+
+#N Beehive with tail
+x = 6, y = 5, rule = B3/S23
+b2o$o2bo$b2obo$4bo$4b2o!
+
+#N Trans-barge with tail
+x = 6, y = 6, rule = B3/S23
+bo$obo$bobo$2bobo$4bo$4b2o!
+
+#N Cis-barge with tail
+x = 6, y = 5, rule = B3/S23
+2bo$bobo$obobo$bo2bo$4b2o!
+
+#N Fuse with two tails
+x = 6, y = 6, rule = B3/S23
+2o$bo$bobo$2bobo$4bo$4b2o!
+
+#N Claw with tail
+x = 6, y = 5, rule = B3/S23
+2o$o2bo$b2obo$4bo$4b2o!
+
+#N Very long hook with tail
+x = 7, y = 4, rule = B3/S23
+4bo$3bobo$obo2bo$2o3b2o!
+
+#N Cis-hook with tail
+x = 6, y = 5, rule = B3/S23
+3bo$2bobo$bo2bo$o3b2o$2o!
+
+#N Loop
+x = 5, y = 4, rule = B3/S23
+b2o$o2bo$bobo$2ob2o!
+
+#N Block on table
+x = 4, y = 5, rule = B3/S23
+2o$2o2$4o$o2bo!
+
+#N Loaf siamese barge
+x = 5, y = 5, rule = B3/S23
+b2o$o2bo$obobo$bobo$2bo!
+
+#N Boat-tie
+#C Pun on bowtie
+x = 6, y = 6, rule = B3/S23
+bo$obo$b2o$3b2o$3bobo$4bo!
+
+#N Ship-tie
+#C A "fleet" consists of 2 of these,
+#C and arises, for example, from a ship with an extra bit added
+#C at one end.
+x = 6, y = 6, rule = B3/S23
+2o$obo$b2o$3b2o$3bobo$4b2o!
+
+#N Half-bakery
+#C As its name would suggest, they often appear in pairs.
+x = 7, y = 7, rule = B3/S23
+4b2o$3bo2bo$3bobo$b2obo$o2bo$obo$bo!
+
+#N Paperclip
+x = 5, y = 6, rule = B3/S23
+2b2o$bo2bo$bob2o$2obo$o2bo$b2o!
+
+#N Big S
+#O MIT group 1971
+x = 7, y = 6, rule = B3/S23
+4b2o$3bo2bo$3bob2o$2obo$o2bo$b2o!
+
+#N Bi-pond
+x = 7, y = 7, rule = B3/S23
+b2o$o2bo$o2bo$b2ob2o$3bo2bo$3bo2bo$4b2o!
+
+#N Boat-ship tie
+x = 6, y = 6, rule = B3/S23
+2o$obo$b2o$3b2o$3bobo$4bo!
+
+#N Table on table
+x = 5, y = 4, rule = B3/S23
+2ob2o$bobo$bobo$2ob2o!
+
+#N Moose antlers
+x = 9, y = 5, rule = B3/S23
+2o5b2o$o7bo$b3ob3o$3bobo$4bo!
+
+#N Cis-mirrored R-bees
+#C Can be modified by either flipping one of the halves
+#C and/or by moving one of them two cells up or down.
+x = 7, y = 4, rule = B3/S23
+bo3bo$obobobo$obobobo$b2ob2o!
+
+#N Block on dock
+x = 6, y = 6, rule = B3/S23
+b2o$b2o2$b4o$o4bo$2o2b2o!
+
+#N Twin hat
+x = 9, y = 5, rule = B3/S23
+2bo3bo$bobobobo$bobobobo$2obobob2o$4bo!
+
+#N Dead spark coil
+x = 7, y = 5, rule = B3/S23
+2o3b2o$obobobo$2bobo$obobobo$2o3b2o!
+
+#N Beehive on dock
+x = 6, y = 7, rule = B3/S23
+b2o$o2bo$b2o2$b4o$o4bo$2o2b2o!
+
+#N Scorpion
+#C Occurs in gens 4760-5165 of "rabbits", this 9-bit
+#C methuselah found by Andrew Trevorrow:
+#C o...ooo
+#C ooo..o.
+#C .o.....
+x = 7, y = 6, rule = B3/S23
+3bo$b3o$o3b2o$obobobo$b2obobo$5bo!
+
+#N Fourteener
+x = 7, y = 5, rule = B3/S23
+4b2o$2o2bobo$o5bo$b5o$3bo!
+
+#N Bookends
+#C Like the R-bees, one side can be mirrored and/or
+#C shifted two cells.
+x = 7, y = 4, rule = B3/S23
+2o3b2o$obobobo$2bobo$b2ob2o!
+
+#N Cap on table
+#C Example of "-e" symmetry
+x = 4, y = 6, rule = B3/S23
+b2o$o2bo$4o2$4o$o2bo!
+
+#N Beehive with two tails
+#C Example of "-e" symmetry
+x = 8, y = 5, rule = B3/S23
+3b2o$2bo2bo$bob2obo$bo4bo$2o4b2o!
+
+#C Example of "+c" symmetry
+x = 7, y = 5, rule = B3/S23
+3bo$b5o$o5bo$b5o$3bo!
+
+#N Spiral
+#O RTW 1971
+#C Example of "rc" symmetry
+x = 7, y = 7, rule = B3/S23
+2o4bo$bo2b3o$bobo$2bobo$3bobo$3o2bo$o4b2o!
+
+#C Example of "+k" symmetry
+x = 10, y = 8, rule = B3/S23
+3bo2bo$3b4o$b2o4b2o$obob2obobo$obob2obobo$b2o4b2o$3b4o$3bo2bo!
+
+#C #C Example of "+k" symmetry
+x = 12, y = 8, rule = B3/S23
+2o8b2o$o2bo4bo2bo$2b2o4b2o$3bob2obo$3bob2obo$2b2o4b2o$o2bo4bo2bo$2o8b
+2o!
+
+#C Example of "rk" symmetry
+x = 8, y = 8, rule = B3/S23
+2b2obo$2bob2o$2o4b2o$bob2o2bo$o2b2obo$2o4b2o$2b2obo$2bob2o!
+
+#N Eater 2
+#O DJB
+x = 7, y = 7, rule = B3/S23
+2obo$2ob3o$6bo$2ob3o$bobo$bobo$2bo!
+
+#N Eater 3
+#O DJB 6/22/77
+x = 12, y = 12, rule = B3/S23
+b2o$o2bo2b2o$obo4bo2bo$bo5bobobo$4b2obo2bo$4bo2bo$bo4bo$b5o2$3bo$2bobo
+$3bo!
+
+#N Eater 4
+#O DJB
+x = 15, y = 14, rule = B3/S23
+10b2o$11bo$11bob2o$10b2o2bo$7bo4b2o$7b5o$5b2o4bo$6bo2b2o$6bobo$bo2bobo
+bo$b4ob2o$5bo$3bobo$3b2o!
+
+#N Eater 5
+#O DJB
+x = 14, y = 14, rule = B3/S23
+9bo$8bobo$8bob3o$7b2o4bo$6bo3b3o$6b5o$4b2o$3bobo2b3o$b3obobo2bo$o4bobo
+$b2ob2ob2o$2bobo$2bobo$3bo!
+
+#C Unnamed eater
+x = 10, y = 5, rule = B3/S23
+3bo$2bobobob2o$bob2ob2obo$bo$2o!
+
+#N 29-bit still life #1
+#C The most common 29-bit still life in B3/S23/C1 on Catagolue.
+#C Much more common than its size would suggest.
+x = 8, y = 10, rule = B3/S23
+5bo$4bobo$2obobobo$2obobobo$3bob2o$2obo$2obo$3bob2o$3bo2bo$4b2o!
+
+#N 31.4
+#O Mike Playle, 2013
+#C Used in the Snark, which is probably the most important discovery in the 2010s.
+x = 13, y = 8, rule = B3/S23
+2b2o$2bobo$4bo4b2o$4ob2o2bo2bo$o2bobobobob2o$3bobobobo$4b2obobo$8bo!
+
+#N Blinker
+#O JHC 3/70
+#C Example of "+c*c" symmetry.  This
+#C often occurs in a group of 4, known as a "traffic light",
+#C which arises, for example, from a T-tetromino. 
+x = 3, y = 1, rule = B3/S23
+3o!
+
+#N Toad
+#O SN 5/70
+#C See discussion of toad hasslers in the P60 section.
+x = 4, y = 2, rule = B3/S23
+b3o$3o!
+
+#N Beacon
+#O JHC 3/70
+x = 4, y = 4, rule = B3/S23
+2b2o$3bo$o$2o!
+
+#N Clock
+#O SN 5/70
+#C Example of ".kxk" symmetry.
+x = 4, y = 4, rule = B3/S23
+bo$2b2o$2o$2bo!
+
+#N Bipole
+#C Example of ".cxc" symmetry.
+x = 5, y = 5, rule = B3/S23
+3b2o$4bo$bobo$o$2o!
+
+#N Tripole
+#C Example of "/xk" symmetry.
+x = 6, y = 6, rule = B3/S23
+4b2o$3bobo2$bobo$o$2o!
+
+#N Quadpole
+#C More common than tripole
+#C Example of ".cxc" symmetry.
+x = 7, y = 7, rule = B3/S23
+5b2o$6bo$3bobo2$bobo$o$2o!
+
+#N Lei
+x = 6, y = 7, rule = B3/S23
+b3o2$2o2bo2$bo2b2o2$2b3o!
+
+#N Fox
+#O DHB 7/77
+#C Smallest asymmetric P2
+x = 7, y = 6, rule = B3/S23
+2b3o$o$o3bo$obo$2bo2b2o$4bo!
+
+#N Phoenix 1
+#O MIT group 12/71
+#C Also known as flip-flops
+#C Example of "rk*k" symmetry.
+x = 8, y = 8, rule = B3/S23
+4bo$2bobo$6bo$2o$6b2o$bo$3bobo$3bo!
+
+#N By flops
+#O RTW
+#C Example of "-c+e" symmetry.
+x = 6, y = 7, rule = B3/S23
+2bo$2bobo$o$b5o$o$2bobo$2bo!
+
+x = 7, y = 5, rule = B3/S23
+2ob3o$o$bo3bo$6bo$b3ob2o!
+
+x = 7, y = 7, rule = B3/S23
+4b3o$2o$obob2o2$2bobo$bo$b2o!
+
+#N Why not
+#O DJB 7/77
+x = 7, y = 7, rule = B3/S23
+3bo$3bobo$bo$ob5o$bo$3bobo$3bo!
+
+#N Eater plug
+#O RTW 2/73
+x = 8, y = 8, rule = B3/S23
+7bo$5b3o$4bo$5bo$2bo2bo$bob2o$bo$2o!
+
+#N Test tube baby
+x = 8, y = 5, rule = B3/S23
+2o4b2o$obo2bobo$2bo2bo$2bo2bo$3b2o!
+
+#N Spark coil
+#O * 1971
+x = 5, y = 8, rule = B3/S23
+2ob2o$o3bo$b3o3$b3o$o3bo$2ob2o!
+
+#N Four boats
+x = 8, y = 8, rule = B3/S23
+3bo$2bobo$bo2bo$o4b2o$b2o4bo$3bo2bo$3bobo$4bo!
+
+#N Light bulb
+#O * 1971
+x = 7, y = 9, rule = B3/S23
+2bob2o$2b2obo2$2b3o$bo3bo$bo3bo$2bobo$obobobo$2o3b2o!
+
+#C Variant of light bulb
+x = 9, y = 9, rule = B3/S23
+3bo$b3o$o$6o$6bo$2bo3bo$2b2obo$6b3o$8bo!
+
+#N Scrubber
+#O * 1971
+x = 11, y = 11, rule = B3/S23
+4bo$2b3o$bo$bo2b3o$2obo3bo$3bo3bo$3bo3bob2o$4b3o2bo$9bo$6b3o$6bo!
+
+#N Quad
+#O Robert A. Kraus 4/71
+#C Example of "rk*k" symmetry.
+x = 6, y = 6, rule = B3/S23
+2o2b2o$o2bobo$bo$4bo$obo2bo$2o2b2o!
+
+#N Cloverleaf
+#O RTW before 6/72
+#C Example of "xc*c" symmetry.
+x = 7, y = 7, rule = B3/S23
+b2ob2o$ob2o2bo$2o4bo$bo3bo$o4b2o$o2b2obo$b2ob2o!
+
+#N Block on griddle
+#O RTW 7/72
+#C Can be stabilized other ways
+#C Example of "n-e" symmetry.
+x = 6, y = 7, rule = B3/S23
+2bo$2bobo$o4bo$6o2$2b2o$2b2o!
+
+#N Almosymmetric
+#O * 1971
+#C Example of "n-e" symmetry.
+x = 8, y = 9, rule = B3/S23
+3bo$3bobo$bo$6b2o$2o$6bo$2bo$bo2bobo$b2o2b2o!
+
+#C Example of "-c+e" symmetry.
+x = 9, y = 6, rule = B3/S23
+4bo$b2obob2o$o3bo3bo$obobobobo$bo2bo2bo$3bobo!
+
+#O DRH 5/20/93
+#C Example of "n-c" symmetry.
+x = 9, y = 7, rule = B3/S23
+b2o3b2o$3bobo2bo$o5b2o$ob4o$b2o3b2o$b2o2bo2bo$2bo3b2o!
+
+#O DRH 4/23/93
+#C Example of ".c+c" symmetry.
+x = 9, y = 9, rule = B3/S23
+4bo$3bobo$2o2bo2b2o$o4b2obo$2b2ob2o$ob2o4bo$2o2bo2b2o$3bobo$4bo!
+
+#O DRH 5/20/93
+#C Example of "n/" symmetry.
+x = 7, y = 7, rule = B3/S23
+2o$o3b2o$bobobo2$b2o2bo$3bo2bo$5b2o!
+
+#N Laputa
+#O RCS 9/23/92
+#C Example of "n.e" symmetry.
+x = 12, y = 7, rule = B3/S23
+3b2ob2o$3b2obo3b2o$8bo2bo$b6ob3o$o2bobo$2o3bob2o$4b2ob2o!
+
+#N Blinkers bit pole
+#O RTW 6/77
+#C Example of "n.e" symmetry.
+x = 7, y = 6, rule = B3/S23
+5b2o$3obobo2$bobo2bo$o4bo$2o3bo!
+
+#O DRH 5/20/93
+#C Example of "n.k" symmetry.
+x = 8, y = 6, rule = B3/S23
+6b2o$3o2bobo2$bob2o2bo$o5bo$2o4bo!
+
+#O DRH 5/20/93
+#C Example of "n.k" symmetry.
+x = 16, y = 6, rule = B3/S23
+2b2o8bo$bobo6bobobo$3bob2obobobo$2obobo3b2obob2o$3bo2bo5bo$2bobo7b2o!
+
+#O DRH 4/23/93
+#C Example of ".k+k" symmetry.
+x = 10, y = 8, rule = B3/S23
+2bo$2bo3b3o$o2bo$5bo2b2o$2o2bo$6bo2bo$b3o3bo$7bo!
+
+#C Example of ".kxk" symmetry.
+x = 10, y = 8, rule = B3/S23
+5b3o$2b2o$2bo3bob2o$3b2ob2o$2b2ob2o$2obo3bo$6b2o$2b3o!
+
+#N Piston
+#O * 1971
+#C Example of "-c+c" symmetry.
+x = 11, y = 5, rule = B3/S23
+2o7b2o$obo2bo2bobo$2b4o2bo$obo2bo2bobo$2o7b2o!
+
+#C Example of "-c+c" symmetry.
+x = 15, y = 5, rule = B3/S23
+2o3b2ob2o3b2o$obobob2o2bobobo$2bob2o4bobo$obobob2o2bobobo$2o3b2ob2o3b
+2o!
+
+#O DRH 5/20/93
+#C Example of "n.c" symmetry.
+x = 9, y = 7, rule = B3/S23
+3bo$2bobob2o$bo2bobobo$o4bo2bo$obob2obo$b2obobo$5bo!
+
+#N Complementary blinker
+#O AF 7/12/94
+#C Example of ".c+c" symmetry.
+x = 7, y = 7, rule = B3/S23
+2b2ob2o$bobob2o$o2bo$2o3b2o$3bo2bo$2obobo$2ob2o!
+
+#N Example of ".cxc" symmetry.
+x = 13, y = 9, rule = B3/S23
+9b2o$3bo3bo2bo$2bobo2b2o$bo2b3o2b4o$o4b2o2bo2bo$4o4b2obo$4b2o2bobo$2bo
+2bo3bo$2b2o!
+
+#O DRH 4/23/93
+#C Example of "/xc" symmetry.
+x = 9, y = 9, rule = B3/S23
+2o$obo3b2o$4bo2bo$2bo$3b2obo$3b2o$b2o2bobo$b2o5bo$7b2o!
+
+#O DRH 4/23/93
+#C Example of ".crc" symmetry.
+x = 11, y = 11, rule = B3/S23
+8bo$3o3bo2b2o$6bo$b2obo3bo2$2bobobobo2$2bo3bob2o$4bo$2o2bo3b3o$2bo!
+
+#O DRH 4/23/93
+#C Example of "rc*c" symmetry.
+x = 13, y = 13, rule = B3/S23
+6bo$5bobo$2b2o2bo2b2o$2bob2o4bo$4b3ob2o$bo6b2obo$obobo3bobobo$bob2o6bo
+$3b2ob3o$2bo4b2obo$2b2o2bo2b2o$5bobo$6bo!
+
+#O AF 7/26/94
+#C Example of "rk*k" symmetry.  A muttering moat.
+x = 12, y = 12, rule = B3/S23
+5b2o$4bo2bo$3bobobo$9bo$b2o7bo$o8bobo$obo8bo$bo7b2o$2bo$4bobobo$4bo2bo
+$5b2o!
+
+#O DRH 4/23/93
+#C Example of "xk*k" symmetry.
+x = 14, y = 14, rule = B3/S23
+4b2o2b2o$4bobo2bo$8bo$5bo$2o5bobo2b2o$o2bobo5bobo$bo7bo$4bo7bo$obo5bob
+o2bo$2o2bobo5b2o$8bo$5bo$4bo2bobo$4b2o2b2o!
+
+#O DRH 1973
+#C Using snakes instead of tubs reduces bounding box but increases population
+#C Example of "-e+e" symmetry.  Infinitely extensible.
+x = 7, y = 12, rule = B3/S23
+3bo$2bobo$3bo2$b5o$o3bobo$o3bobo$b5o2$3bo$2bobo$3bo!
+
+#O DRH 4/23/93
+#C Example of "-e+e" symmetry.
+x = 9, y = 12, rule = B3/S23
+4bo$2b5o$bo5bo$o2b3o2bo$b2o3b2o$4b2o$4b2o$b2o3b2o$o2b3o2bo$bo5bo$2b5o$
+4bo!
+
+#O DRH 4/23/93
+#C Example of "-e+e" symmetry.
+x = 9, y = 10, rule = B3/S23
+bo4bo$bob2o2b2o$ob3o$2bo3b2o$4b2o$4b2o$2bo3b2o$ob3o$bob2o2b2o$bo4bo!
+
+#O DRH 4/23/93
+#C Example of "-e+k" symmetry.
+x = 14, y = 10, rule = B3/S23
+2b2o6b2o$2bobob2obobo$5b2o3bo$bo2b2o3b2obo$obobo2bobobobo$obobo2bobobo
+bo$bo2b2o3b2obo$5b2o3bo$2bobob2obobo$2b2o6b2o!
+
+#C Example of ".e+e" symmetry.
+x = 13, y = 12, rule = B3/S23
+5bobo$3b3ob3o$2bo3bo3bo$2b2o2bob3o$2o2b3o4b2o$bo2b2o3bobo$bobo3b2o2bo$
+2o4b3o2b2o$2b3obo2b2o$2bo3bo3bo$3b3ob3o$5bobo!
+
+#C Example of "+k*k" symmetry.
+x = 12, y = 12, rule = B3/S23
+2ob2o2b2ob2o$2obo4bob2o$4bo2bo$3o6b3o$o4b2o4bo$3bo4bo$3bo4bo$o4b2o4bo$
+3o6b3o$4bo2bo$2obo4bob2o$2ob2o2b2ob2o!
+
+#C Example of "+k*k" symmetry.
+x = 16, y = 16, rule = B3/S23
+3b2o6b2o$3bobo4bobo2$2o3bob2obo3b2o$obobo6bobobo$5b2o2b2o$2bo10bo$4bo
+6bo$4bo6bo$2bo10bo$5b2o2b2o$obobo6bobobo$2o3bob2obo3b2o2$3bobo4bobo$3b
+2o6b2o!
+
+#C Example of ".krk" symmetry.
+x = 20, y = 20, rule = B3/S23
+4b2o$3bobo$5bob3o7bo$2b2obo2b3o4bobo$5bo13bo$4bo9b6o$6bo5bo$7bo4bo3b2o
+$7bo3bo6bo$2b2o5bo5bo$4bo5bo5b2o$bo6bo3bo$2b2o3bo4bo$7bo5bo$6o9bo$o13b
+o$2bobo4b3o2bob2o$2bo7b3obo$14bobo$14b2o!
+
+#C Example of "xk*k" symmetry.
+x = 18, y = 18, rule = B3/S23
+3bo10bo$2bobo8bobo$bo2bo8b2obo$o4b2ob2ob2o2bobo$b2o4b2o3bo2b2o$3bo2b2o
+3bob2o$3bobo2b3obobo$4b2o3bobo$3b2obo3b2o2bo$3bo2b2o3bob2o$6bobo3b2o$
+3bobob3o2bobo$3b2obo3b2o2bo$b2o2bo3b2o4b2o$obo2b2ob2ob2o4bo$bob2o8bo2b
+o$2bobo8bobo$3bo10bo!
+
+#N Barber pole
+#O MIT group 1970
+#C Infinitely extensible
+x = 12, y = 12, rule = B3/S23
+10b2o$9bobo2$7bobo2$5bobo2$3bobo2$bobo$o$2o!
+
+#O RTW <1990
+#C Infinitely extensible
+x = 13, y = 17, rule = B3/S23
+8b2o2bo$8bobobo$12bo$10bo$10bo$8bo$8bo$6bo$6bo$4bo$4bo$2bo$2bo$o$obobo
+$o2b2o!
+
+#O DRH 1994
+#C Infinitely extensible
+x = 18, y = 28, rule = B3/S23
+15bo$13bobo$12bo4bo$12b5o$17bo$14b2o$14bobo2$14bo$13bo$13bo$11bo$10bo$
+10bo$8bo$6b2o2$5bo$3b2o2$2bo$3bo$b3o2$6o$5bo$bobo$3bo!
+
+#O RTW <1990
+#C Infinitely extensible
+x = 22, y = 22, rule = B3/S23
+15b2o$15b2o2$13b4o$13bo3bo$16bobob2o$14bobobob2o$14bo3bo$12b2o3b2o2$
+11b2o$10bo$8bobo$3b2o3bo$3bo2b2o$2obo$2obob2o$4bo3bo$5b4o2$5b2o$5b2o!
+
+#O bottom end: RTW <1990; top end: DRH 1995
+#C Infinitely extensible
+x = 17, y = 23, rule = B3/S23
+13b3o2$12bo2b2o2$10b2obo2bo$14bo$9b2o3bo2$8b2o2$7b2o2$6b2o2$5b2o2$4b2o
+$2bo$3bobo$2obob3o$3bo4bo$bobob3o$2b2obo!
+
+#O RTW <1990
+#C Infinitely extensible
+x = 14, y = 24, rule = B3/S23
+10b2o$10bobo$6b3obo$5b3o2bob2o$10bo$11bo$9bo2$8b2o2$7bo2$6b2o2$5bo2$4b
+2o2$3bo$bobo3bo$3bobo2bo$2obobo2bo$3bo2bo$2b2o!
+
+#O DRH 1994
+#C Infinitely extensible
+x = 46, y = 10, rule = B3/S23
+3bo38b2o$2b2o37bo$2b2o40bo$2bo5bo3bobobobo3bobobobo3bobobobo3b2o$6bobo
+bobo5bobobo5bobobo5bo$5o5bo4bo4bo4bo4bo4bo4b6o$o4bo4b6o4b6o4b6o9bo$bob
+o37bobo$3bo8b2o8b2o8b2o9bo$12b2o8b2o8b2o!
+
+#O AWH 8/25/94
+#C Infinitely extensible
+x = 53, y = 9, rule = B3/S23
+4b2o$2o2bo4bo5bo7bo5bo$obobo2b2o2bobo2b2o3b2o2bobo2b2o15b2o$2bobob3o2b
+obo2b3ob3o2bobo2b3o4bo5bo4bo2b2o$b2obo2b2o2bobo2b2o3b2o2bobo2b2o3b2o2b
+obo2b2o2bobobo$4bo4bo5bo7bo5bo4b3o2bobo2b3obobo$4b2o29b2o2bobo2b2o2bob
+2o$37bo5bo4bo$47b2o!
+
+#O DRH 1994
+#C Infinitely extensible
+x = 60, y = 15, rule = B3/S23
+2o$o$bobobo15bo5bobo$5bobobobobobobobobobobo2bo2bobobobobobobo$b2o4bo
+2bo2bo2bo2bobobo2bobobo2bo2bo2bo2bo2bo$6bobobobobobobo2bo2bobobobobobo
+bobobobobo2bo8bo$bo2bo15bobo5bo15bobo2bo4bobo$3bobo40bobo2bo3bo2bo$3bo
+44bobo2bo$50bobo4b2o$52bobo$54bobobo$59bo$58b2o!
+
+#O DRH 1994
+#C Infinitely extensible
+x = 35, y = 8, rule = B3/S23
+2o31b2o$o2b3o3b3ob3o3b3ob3o3b3o2bo$bob4ob4ob4ob4ob4ob4obo$2o31b2o$3bo
+2bobo2bobo2bobo2bobo2bobo2bo$2obo2bobo2bobo2bobo2bobo2bobo2bob2o$2obo
+2bobo2bobo2bobo2bobo2bobo2bob2o$4bo5bo3bo5bo3bo5bo!
+
+#N Venetian blinds
+#O DRH 9/12/92
+#C This uses diagonal edges for the agar.  A vertical edge is also known, along with a corner
+#C joining it to the diagonal edge.  It's easy to prove that horizontal edges don't exist.
+x = 63, y = 58, rule = B3/S23
+18bob2ob2o6bo6b2ob2obo$18b2obobo3b2obobob2o3bobob2o$21bo3bo2bobobobo2b
+o3bo$21bo2b3o3bobo3b3o2bo$20b2obo5bobobo5bob2o$23bo2b2obo3bob2o2bo$20b
+2o2b3o2b2ob2o2b3o2b2o$16b2obob2o3b2ob5ob2o3b2obob2o$16b2ob2o4bo11bo4b
+2ob2o$19bo2b2obobo7bobob2o2bo$16b2o2b3o2b2ob7ob2o2b3o2b2o$8b2o2b2obob
+2o3b2ob13ob2o3b2obob2o2b2o$5bo2bo3b2ob2o4bo19bo4b2ob2o3bo2bo$4bobobo6b
+o2b2obobo15bobob2o2bo6bobobo$3bo2bob2o2b2o2b3o2b2ob15ob2o2b3o2b2o2b2ob
+o2bo$3bob2o4bob2o3b2ob21ob2o3b2obo4b2obo$2ob2o3b2ob2o4bo27bo4b2ob2o3b
+2ob2o$obo3b2obobo2b2obobo23bobob2o2bobob2o3bobo$2bob2obobo2b3o2b2ob23o
+b2o2b3o2bobob2obo$2bobo2b4o3b2ob29ob2o3b4o2bobo$b2o2bo7bo35bo7bo2b2o$o
+2bobo4b2obobo31bobob2o4bobo2bo$bobo2b5o2b2ob31ob2o2b5o2bobo$2bob3o2b3o
+b37ob3o2b3obo$4bobo2bo43bo2bobo$2bobobo2bobo39bobo2bobobo$2b2o3bob2ob
+39ob2obo3b2o$9b45o3$9b45o$2b2o3bob2ob39ob2obo3b2o$2bobobo2bobo39bobo2b
+obobo$4bobo2bo43bo2bobo$2bob3o2b3ob37ob3o2b3obo$bobo2b5o2b2ob31ob2o2b
+5o2bobo$o2bobo4b2obobo31bobob2o4bobo2bo$b2o2bo7bo35bo7bo2b2o$2bobo2b4o
+3b2ob29ob2o3b4o2bobo$2bob2obobo2b3o2b2ob23ob2o2b3o2bobob2obo$obo3b2obo
+bo2b2obobo23bobob2o2bobob2o3bobo$2ob2o3b2ob2o4bo27bo4b2ob2o3b2ob2o$3bo
+b2o4bob2o3b2ob21ob2o3b2obo4b2obo$3bo2bob2o2b2o2b3o2b2ob15ob2o2b3o2b2o
+2b2obo2bo$4bobobo6bo2b2obobo15bobob2o2bo6bobobo$5bo2bo3b2ob2o4bo19bo4b
+2ob2o3bo2bo$8b2o2b2obob2o3b2ob13ob2o3b2obob2o2b2o$16b2o2b3o2b2ob7ob2o
+2b3o2b2o$19bo2b2obobo7bobob2o2bo$16b2ob2o4bo11bo4b2ob2o$16b2obob2o3b2o
+b5ob2o3b2obob2o$20b2o2b3o2b2ob2o2b3o2b2o$23bo2b2obo3bob2o2bo$20b2obo5b
+obobo5bob2o$21bo2b3o3bobo3b3o2bo$21bo3bo2bobobobo2bo3bo$18b2obobo3b2ob
+obob2o3bobob2o$18bob2ob2o6bo6b2ob2obo!
+
+#O DRH 12/4/94, improved by MDN 12/6/94
+x = 42, y = 61, rule = B3/S23
+b2o2b2o8b2o8b2o$bo2bo2bob2o3bo2bob2o3bo2bob2o4b2o$2bob2obobo2bo2bobobo
+2bo2bobobo2bobo2bo$b2o2bobo3b2ob2obo3b2ob2obo3b2ob2obo$o2bo4bo4bo4bo4b
+o4bo4bo3b2o$2o2b3obob2o2b3obob2o2b3obob2o2b3o2bo$2b2o2bob2ob3o2bob2ob
+3o2bob2ob3o2bobo2bo$2ob2o2bobobob2o2bobobob2o2bobobob2o3bob2o$o37bo$b
+2obobobobobobobobobobobobobobobobobobo$2bob34o$o2bobobobobobobobobobob
+obobobobobobo$2obo33b3o$2bobobobobobobobobobobobobobobobobobo3bo$2bob
+33obo2bo$2obobobobobobobobobobobobobobobobobob3obo$o2bo36bo$bo2bobobob
+obobobobobobobobobobobobobobo$2b2ob32ob2o$3bobobobobobobobobobobobobob
+obobobobo$2bo35b2o$bob2obobobobobobobobobobobobobobobobobo$2bo2b32o2bo
+$3bobobobobobobobobobobobobobobobobob2obo$2b2o35bo$4bobobobobobobobobo
+bobobobobobobobobo$2b2ob32ob2o$3bobobobobobobobobobobobobobobobobobo$
+2bo35b2o$bob2obobobobobobobobobobobobobobobobobo$2bo2b32o2bo$3bobobobo
+bobobobobobobobobobobobobob2obo$2b2o35bo$4bobobobobobobobobobobobobobo
+bobobobo$2b2ob32ob2o$3bobobobobobobobobobobobobobobobobobo$2bo35b2o$bo
+b2obobobobobobobobobobobobobobobobobo$2bo2b32o2bo$3bobobobobobobobobob
+obobobobobobobob2obo$2b2o35bo$4bobobobobobobobobobobobobobobobobobo$2b
+2ob32ob2o$3bobobobobobobobobobobobobobobobobobo2bo$bo36bo2bo$ob3obobob
+obobobobobobobobobobobobobobob2o$o2bob33obo$bo3bobobobobobobobobobobob
+obobobobobobo$2b3o33bob2o$6bobobobobobobobobobobobobobobobobo2bo$4b34o
+bo$3bobobobobobobobobobobobobobobobobobob2o$3bo37bo$2obo3b2obobobo2b2o
+bobobo2b2obobobo2b2ob2o$o2bobo2b3ob2obo2b3ob2obo2b3ob2obo2b2o$2bo2b3o
+2b2obob3o2b2obob3o2b2obob3o2b2o$3b2o3bo4bo4bo4bo4bo4bo4bo2bo$4bob2ob2o
+3bob2ob2o3bob2ob2o3bobo2b2o$4bo2bobo2bobobo2bo2bobobo2bo2bobob2obo$5b
+2o4b2obo2bo3b2obo2bo3b2obo2bo2bo$15b2o8b2o8b2o2b2o!
+
+#N Houndstooth agar
+#O DRH 3/30/94
+x = 34, y = 46, rule = B3/S23
+13b2o4b2o$12bo2bo3b2o$12bo2bo$9b2ob4ob6o$9bobo4bo6bo$11bo2bo2bo2bo2bo$
+11b3ob2o2b3ob2o$9b2o2b2o2b3ob2o2bo$8bo3bo3bo3bo3bobo$3b2o2bobo3bo3bo3b
+o3bobo$3bo3b3ob3ob3ob3ob2o2b3o$4b3o2b2ob3ob3ob3ob3o3bo$b3o4bo3bo3bo3bo
+3bo3bobo$o2bobo3bo3bo3bo3bo3bo2bobob2o$o2bobob3ob3ob3ob3ob3o2bobob2o$b
+3o2bo2b2ob3ob3ob3obobo3bo$4bobobo3bo3bo3bo3bobobobo$3bobobobo3bo3bo3bo
+3bobobo$3bo3bobob3ob3ob3ob2o2bo2b3o$2obobo2b3ob3ob3ob3ob3obobo2bo$2obo
+bo2bo3bo3bo3bo3bo3bobo2bo$3bobo3bo3bo3bo3bo3bo4b3o$3bo3b3ob3ob3ob3ob2o
+2b3o$4b3o2b2ob3ob3ob3ob3o3bo$b3o4bo3bo3bo3bo3bo3bobo$o2bobo3bo3bo3bo3b
+o3bo2bobob2o$o2bobob3ob3ob3ob3ob3o2bobob2o$b3o2bo2b2ob3ob3ob3obobo3bo$
+4bobobo3bo3bo3bo3bobobobo$3bobobobo3bo3bo3bo3bobobo$3bo3bobob3ob3ob3ob
+2o2bo2b3o$2obobo2b3ob3ob3ob3ob3obobo2bo$2obobo2bo3bo3bo3bo3bo3bobo2bo$
+3bobo3bo3bo3bo3bo3bo4b3o$3bo3b3ob3ob3ob3ob2o2b3o$4b3o2b2ob3ob3ob3ob3o
+3bo$6bobo3bo3bo3bo3bobo2b2o$7bobo3bo3bo3bo3bo$8bo2b2ob3o2b2o2b2o$9b2ob
+3o2b2ob3o$10bo2bo2bo2bo2bo$10bo6bo4bobo$11b6ob4ob2o$18bo2bo$13b2o3bo2b
+o$13b2o4b2o!
+
+#O Agar found by Robert A. Kraus 1971, stabilized by DRH 12/13/94
+x = 33, y = 43, rule = B3/S23
+10b2o$2b2ob2o4bo3bo$2b2obobo3bob3o10b2o2b2o$5bo6bo12bobo2b2o$5bob2o5b
+4o7bo$2b2obo7b2o2bo5b2ob6o$2bo2b3o4bo3bo5bo3bo4bo$3b2o7bo9bo3bobobo$5b
+o2bobo3bobobobo3bo3bo$5bo$6b2o2bobobobo3bobobo7bo$30b3o$8bobobo3bobobo
+bo2b2o2bo$27bo2bo$8bo3bobobobo3bobo2b2obo$4b2o22bob2o$4bobobobobobo3bo
+bobobobobo$b2obo22b2o$2bob2o2bobo3bobobobo3bo$2bo2bo$3bo2b2o2bobobobo
+3bobobo7bo$3o27b3o$o7bobobo3bobobobo2b2o2bo$27bo2bo$8bo3bobobobo3bobo
+2b2obo$4b2o22bob2o$4bobobobobobo3bobobobobobo$b2obo22b2o$2bob2o2bobo3b
+obobobo3bo$2bo2bo$3bo2b2o2bobobobo3bobobo$3o$o7bobobo3bobobobo2b2o$27b
+o$4bo3bo3bobobobo3bobo2bo$2bobobo3bo9bo7b2o$bo4bo3bo5bo3bo4b3o2bo$b6ob
+2o5bo2b2o7bob2o$7bo7b4o5b2obo$b2o2bobo12bo6bo$b2o2b2o10b3obo3bobob2o$
+17bo3bo4b2ob2o$21b2o!
+
+
+x = 36, y = 44, rule = B3/S23
+9bo7bo7bo$9bobo5bobo5bobo$7bo7bo7bo$8b5o3b5o3b5o$7bo7bo7bo$9bobo5bobo
+5bobo$7bo3bo3bo3bo3bo3bo$3bo5bo3bo3bo3bo3bo3bobobo$bobob2o3bo3bo3bo3bo
+3bo5bo$3bo4bo3bo3bo3bo3bo3bobobob2o$2obobobo3bo3bo3bo3bo3bo4bo$3bo5bo
+3bo3bo3bo3bo3b2obobo$2bobobo3bo3bo3bo3bo3bo5bo$8bo3bo3bo3bo3bo3bo$7bo
+3bo3bo3bo3bo3bo$3bo5bo3bo3bo3bo3bo3bobobo$bobob2o3bo3bo3bo3bo3bo5bo$3b
+o4bo3bo3bo3bo3bo3bobobob2o$2obobobo3bo3bo3bo3bo3bo4bo$3bo5bo3bo3bo3bo
+3bo3b2obobo$2bobobo3bo3bo3bo3bo3bo5bo$8bo3bo3bo3bo3bo3bo$7bo3bo3bo3bo
+3bo3bo$3bo5bo3bo3bo3bo3bo3bobobo$bobob2o3bo3bo3bo3bo3bo5bo$3bo4bo3bo3b
+o3bo3bo3bobobob2o$2obobobo3bo3bo3bo3bo3bo4bo$3bo5bo3bo3bo3bo3bo3b2obob
+o$2bobobo3bo3bo3bo3bo3bo5bo$8bo3bo3bo3bo3bo3bo$7bo3bo3bo3bo3bo3bo$3bo
+5bo3bo3bo3bo3bo3bobobo$bobob2o3bo3bo3bo3bo3bo5bo$3bo4bo3bo3bo3bo3bo3bo
+bobob2o$2obobobo3bo3bo3bo3bo3bo4bo$3bo5bo3bo3bo3bo3bo3b2obobo$2bobobo
+3bo3bo3bo3bo3bo5bo$8bo3bo3bo3bo3bo3bo$8bobo5bobo5bobo$12bo7bo7bo$7b5o
+3b5o3b5o$12bo7bo7bo$8bobo5bobo5bobo$10bo7bo7bo!
+
+#O Agar found by Robert A. Kraus 1971, stabilized by ????
+x = 24, y = 24, rule = B3/S23
+9b2o2b2o$9bobo2bo$13bo$6b2o2bo5b2o$6bobo3bobo2bo$10bo5bo$3b2o2bo5bo5b
+2o$3bobo3bobo3bobo2bo$7bo5bo5bo$2o2bo5bo5bo5b2o$obo3bobo3bobo3bobo2bo$
+4bo5bo5bo5bo$bo5bo5bo5bo$o2bobo3bobo3bobo3bobo$2o5bo5bo5bo2b2o$4bo5bo
+5bo$3bo2bobo3bobo3bobo$3b2o5bo5bo2b2o$7bo5bo$6bo2bobo3bobo$6b2o5bo2b2o
+$10bo$9bo2bobo$9b2o2b2o!
+
+#N Squaredance
+#O Agar found by Don Woods, 1971, stabilized by DRH 3/25/93
+x = 40, y = 40, rule = B3/S23
+12bob2o4bob2o4bob2o$12b2obo4b2obo4b2obo2$12b3o5b3o5b3o$11bo2bo4bo2bo4b
+o2bo$11bo7bo7bo$13bo7bo7bo$9b2o6b2o6b2o$2o11b2o6b2o6b2o$o2b2o3bo2bo4bo
+2bo4bo2bo4bo$bobo2bobo2bo4bo2bo4bo2bo4bo$2obo9b2o6b2o6b2o3b2o$4b2o3b2o
+6b2o6b2o9bob2o$7bo4bo2bo4bo2bo4bo2bobo2bobo$7bo4bo2bo4bo2bo4bo2bo3b2o
+2bo$9b2o6b2o6b2o11b2o$2o11b2o6b2o6b2o$o2b2o3bo2bo4bo2bo4bo2bo4bo$bobo
+2bobo2bo4bo2bo4bo2bo4bo$2obo9b2o6b2o6b2o3b2o$4b2o3b2o6b2o6b2o9bob2o$7b
+o4bo2bo4bo2bo4bo2bobo2bobo$7bo4bo2bo4bo2bo4bo2bo3b2o2bo$9b2o6b2o6b2o
+11b2o$2o11b2o6b2o6b2o$o2b2o3bo2bo4bo2bo4bo2bo4bo$bobo2bobo2bo4bo2bo4bo
+2bo4bo$2obo9b2o6b2o6b2o3b2o$4b2o3b2o6b2o6b2o9bob2o$7bo4bo2bo4bo2bo4bo
+2bobo2bobo$7bo4bo2bo4bo2bo4bo2bo3b2o2bo$9b2o6b2o6b2o11b2o$13b2o6b2o6b
+2o$10bo7bo7bo$12bo7bo7bo$9bo2bo4bo2bo4bo2bo$9b3o5b3o5b3o2$8bob2o4bob2o
+4bob2o$8b2obo4b2obo4b2obo!
+
+#N Ring of fire
+#O DRH 9/24/92
+#C A "muttering moat"; i.e. an oscillator whose rotor consists of a closed loop of cells,
+#C each of which touches exactly 2 others.
+x = 30, y = 34, rule = B3/S23
+13bobo$11bo2bo2bo$9bo2bobobo2bo$7bo2bobobobobo2bo$8bobo2bo2bobobo2bo$
+6b3obo5b2o2bobo$9bo10bob3o$5b4o12bo$22b4o$4b3o$7bo16b3o$3b4o16bo$24b4o
+$2b3o$5bo20b3o$b4o20bo$25b5o$5o$4bo20b4o$b3o20bo$25b3o$2b4o$6bo16b4o$
+3b3o16bo$23b3o$4b4o$8bo12b4o$5b3obo10bo$7bobo2b2o5bob3o$6bo2bobobo2bo
+2bobo$8bo2bobobobobo2bo$10bo2bobobo2bo$12bo2bo2bo$14bobo!
+
+
 #C Period 4
 x = 12, y = 12, rule = B3/S23
 4b2o$3bo2bo$4b2obo$5bobo2bo$2b4obobobo$bo5b3obo$ob3o5bo$obobob4o$bo2bo
