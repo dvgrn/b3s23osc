@@ -917,6 +917,364 @@ $2b3o$5bo20b3o$b4o20bo$25b5o$5o$4bo20b4o$b3o20bo$25b3o$2b4o$6bo16b4o$
 3b3o16bo$23b3o$4b4o$8bo12b4o$5b3obo10bo$7bobo2b2o5bob3o$6bo2bobobo2bo
 2bobo$8bo2bobobobobo2bo$10bo2bobobo2bo$12bo2bo2bo$14bobo!
 
+#N Caterer
+#O DRH 8/4/89
+#C Provides a spark used in other oscillators
+x = 6, y = 8, rule = B3/S23
+2bo$2bo$b2obo$4b2o$bo$b2o$2o$3o!
+
+#N Jam
+#O AF 1988
+x = 7, y = 7, rule = B3/S23
+3bo$3bo$2b2obo$bo3b2o$obo$o2bo$b2o!
+
+#N 2 eaters
+#O RWG 9/71
+x = 9, y = 8, rule = B3/S23
+7b2o$7bo$5bobo$5b2o$2b2o$bobo$bo$2o!
+
+#N Eaters plus
+#O RTW 7/91
+x = 9, y = 10, rule = B3/S23
+7b2o$7bo$4b2obo$3bo2bo$3bo$5bo$2bo2bo$bob2o$bo$2o!
+
+#N Biting off more than they can chew
+#O Peter Raynham 7/72
+x = 12, y = 12, rule = B3/S23
+11bo$9b3o$8bo$9bo$6bo2bo$6bo$4b2o2bo$8bo$2bo3b2o$bob2o$bo$2o!
+
+#N Trice tongs
+#O RTW 2/82
+x = 7, y = 7, rule = B3/S23
+5b2o$2b2o2bo$bo$bobobo$2o3bo$2b3o$2bo!
+
+#N Pulsar quadrant
+#O DJB#46 7/73
+x = 8, y = 8, rule = B3/S23
+3b3o2$2bo4bo$bobo3bo$bo2bo2bo$2o3bo$2b3o$2bo!
+
+#N Two pulsar quadrants
+#O DJB#47 7/73
+x = 9, y = 9, rule = B3/S23
+4b3o2$3bo4bo$2bobo3bo$3o2bo2bo$6bo$4b2o$4bo$4bo!
+
+#O RTW 4/82
+x = 9, y = 9, rule = B3/S23
+3b3o2$2bo$o7bo$4o4bo$4bo3bo$2o2bobo$obobo$b2ob2o!
+
+#O DRH 8/89
+#C volatility 17/18
+x = 15, y = 5, rule = B3/S23
+4bo$4b3o3bob3o$3bobo3bobo$3obo3b3o$10bo!
+
+#N Cuphook
+#O RCS 10/70
+x = 9, y = 8, rule = B3/S23
+4b2o$2obobo$2obo$3bo$3bo2bo$4b2obo$7bo$7b2o!
+
+#N Stillater
+#O RTW 9/85
+x = 8, y = 8, rule = B3/S23
+3bo$2bobob2o$2bob2obo$2o$bobob2o$bobo2bo$2bo2bo$3b2o!
+
+#N 1-2-3
+#O DJB#4 8/72
+x = 10, y = 9, rule = B3/S23
+2b2o$o2bo$2obob2o$bobo2bo$bo4bob2o$2b3obob2o$5bo$4bo$4b2o!
+
+#O AF 8/22/94
+x = 9, y = 9, rule = B3/S23
+o7bo$3o3b3o$3bobo$4ob4o$o2bobo2bo$2b2ob2o$3bobo$bobobobo$b2o3b2o!
+
+#N Germ
+#O DJB#9 9/72
+x = 10, y = 10, rule = B3/S23
+4b2o$5bo$3bo$2bob4o$2bo4bo$b2obo$2bobob4o$obobo4bo$2o3b3o$7b2o!
+
+#O DJB#7 <=1976
+#C Same rotor as in "2 eaters".
+x = 14, y = 11, rule = B3/S23
+5b2o$5bobo$7bo$2ob4ob2o$2obo4bobo$3bobo2bobo$3bobo4bob2o$4b2ob4ob2o$6b
+o$6bobo$7b2o!
+
+#O RTW 6/72
+#C Can be reduced by 4 cells, by replacing the snakes by joined L tetrominos.
+x = 11, y = 11, rule = B3/S23
+4bob2o$4b2obo2$4b3o2b2o$3bo3bo2bo$b3o3bobo$o6bob2o$b3ob2o$3bobo$3bobo$
+4bo!
+
+#N Mini pressure cooker
+#O RTW before 6/72
+x = 11, y = 10, rule = B3/S23
+5bo$4bobo$4bobo$3b2ob2o$obo5bobo$2obobobob2o$3bo3bo$3bobobo$4bobo$5bo!
+
+#N Pressure cooker
+#O MIT group 9/71
+x = 11, y = 12, rule = B3/S23
+5bo$4bobo$4bobo$3b2ob2o$obo5bobo$2obobobob2o$3bo3bo$3bo3bo$4b3o2$4b2ob
+o$4bob2o!
+
+#N Hustler
+#O RTW 6/71
+x = 11, y = 12, rule = B3/S23
+5b2o$5b2o2$3b4o$obo4bo$2obo3bo$3bo3bob2o$3bo4bobo$4b4o2$4b2o$4b2o!
+
+#N Loading dock
+#O DJB#3 9/72
+x = 8, y = 9, rule = B3/S23
+4bo$3bobo$2bobobo$2bobobo$2o4b2o$bobobo$bobobo$2bobo$3bo!
+
+#N Snake dance
+#O RTW 5/72
+x = 9, y = 9, rule = B3/S23
+3b2obo$3bob2o$2obo$bobob4o$o7bo$4obobo$5bob2o$2b2obo$2bob2o!
+
+#N Tubber
+#O RTW before 6/72
+#C Rotor is confined to 2 parallel diagonals.
+x = 13, y = 13, rule = B3/S23
+4bobo$4b2obo$7b3o$4b2o4bo$2obo2b2o2bo$bobo4bob2o$o3bo3bo3bo$b2obo4bobo
+$2bo2b2o2bob2o$2bo4b2o$3b3o$5bob2o$6bobo!
+
+
+#N Diamond ring
+#O DJB#2 1972
+x = 13, y = 13, rule = B3/S23
+6bo$5bobo$4bobobo$4bo3bo$2b2o2bo2b2o$bo4bo4bo$obob2ob2obobo$bo4bo4bo$
+2b2o2bo2b2o$4bo3bo$4bobobo$5bobo$6bo!
+
+#N New five
+#O DRH 1/90
+x = 9, y = 9, rule = B3/S23
+2b2o$bo2bo$bobo2bo$2obob2o$o$b3ob4o$5bo2bo$ob2o$2ob2o!
+
+#O DJB#92 7/26/76
+x = 7, y = 9, rule = B3/S23
+4bo$2obobo$bobo2bo$o2bob2o$2o$3bob2o$2obo2bo$2obobo$4bo!
+
+#O DJB#103 6/3/77
+#C Rotor has symmetry type "-c", but stator can't be made symmetric.
+x = 7, y = 16, rule = B3/S23
+4b2o$3bobo$3bo$2ob2o$bobo$bobob2o$2obo$3bobo$2o$o2bobo$bobo$2obob2o$3b
+o$3b2o$2obo$2obobo!
+
+#O DRH 10/89
+x = 10, y = 17, rule = B3/S23
+3bo2bo$3bo2bo$4o2b4o2$4b2o2$3b4o$b3o2b3o$bo6bo$b3o2b3o$3b4o2$4b2o2$4o
+2b4o$3bo2bo$3bo2bo!
+
+#O DJB#79 6/6/76
+#C (DJB found the smallest form of this, with
+#C just 1 2x3 rectangle.  I don't know who found the wick.)
+x = 27, y = 25, rule = B3/S23
+17b2o$18bo7bo$18bobo3b3o$13b2o4b2o2bo$14bo7bobo$14bobo5bobo$9b2o4b2o6b
+o$10bo7b3o$10bobo5b3o$5b2o4b2o9b2o$6bo7b3o5bobo$6bobo5b3o7bo$b2o4b2o9b
+2o4b2o$2bo7b3o5bobo$2bobo5b3o7bo$3b2o9b2o4b2o$6b3o5bobo$6b3o7bo$3bo6b
+2o4b2o$2bobo5bobo$2bobo7bo$3bo2b2o4b2o$3o3bobo$o7bo$8b2o!
+
+#O DRH 8/89
+x = 7, y = 13, rule = B3/S23
+5b2o$2bobobo$2bo$2bobo2$3bo$3bo$bob2o$2o$4bo$3b2o$4b2o$3b3o!
+
+#O DRH 8/89
+x = 6, y = 13, rule = B3/S23
+2bobo$bo3bo$o3bo$b2o2$3bo$3bo$bob2o$2o$4bo$3b2o$4b2o$3b3o!
+
+#O RTW 8/89
+x = 13, y = 13, rule = B3/S23
+3bo5bo$2bobo3b2o$bo2bo$o5b3o2bo$b2o5bobobo$9bo2bo$3bo6b2o$3bo$bob2o$2o
+3bo$4bobo$3bo2bo$4b2o!
+
+#N Skewed traffic light
+#O RTW 8/89
+x = 24, y = 22, rule = B3/S23
+13b2o$12bo2bo$13bobo$9b2o3bo$10bob2o$12bo$12bo2$2o8b3o6bo$4obo8bo3b2o$
+obo2b3obo4bo$9bo4bob3o2bobo$4b2o3bo8bob4o$4bo6b3o8b2o2$11bo$11bo$10b2o
+bo$9bo3b2o$8bobo$8bo2bo$9b2o!
+
+#N Double ewe
+#O RTW before 9/71
+x = 20, y = 20, rule = B3/S23
+6b2o$7bo$6bo$6b2o$9b2o$6b3obo$ob2obo$2obobo$5bo3bo$4bo3b2o4b2o$4b2o4b
+2o3bo$10bo3bo$14bobob2o$14bob2obo$9bob3o$9b2o$12b2o$13bo$12bo$12b2o!
+
+#N Double caterer
+#O DRH 8/89
+x = 19, y = 12, rule = B3/S23
+5b2o3bo$4bo2bo2b3o$4b2obo5bo$6bob4obo$2b3obobo3bob2o$bo2bo2bo3bo2bobo$
+obo2bo3bob2o4bo$bo10b2ob3o$2b2ob2ob2o3bo$3bo3bo5bob3o$3bo3bo6b2o2bo$
+17b2o!
+
+#N Triple caterer
+#O DRH 8/89
+x = 16, y = 11, rule = B3/S23
+5b2o$4bo2bo2b2o$4b2obo3bo$6bob3o4bo$2b3obobo4b3o$bo2bo2bo4bo$obo2bo3bo
+2b2o$bo$2b2ob2ob2ob2o$3bo3bo3bo$3bo3bo3bo!
+
+#O DRH 1/90
+#C Smallest known p3 (as of 1995) in which a corner of the
+#C bounding box is active.
+x = 11, y = 11, rule = B3/S23
+6bo$6b3o$2o2b2o3bo$bobobob2o$4b2obo$2bobo2bo$2bo2b3ob2o$2ob2o3bobo$3bo
+2bobo$2bobo3bo$2o4b2o!
+
+#O AF 7/30/94 (symmetric form)
+x = 13, y = 13, rule = B3/S23
+6bo$2b2obobo$3bobo2bo$3bob2obo$2obo4b3o$2obobobo3bo$3bobo3bo2bo$3bo2b
+2ob3o$2b2o$4b8o$4bo6bo$7b2o$7b2o!
+
+#N Surprise
+#O DJB#10 11/72
+x = 10, y = 9, rule = B3/S23
+3bo4b2o$3b3o2bo$b2o3bobo$o2b2obob2o$bo6bo$2obob2o2bo$bobo3b2o$bo2b3o$
+2o4bo!
+
+#O DRH 9/10/89
+x = 10, y = 5, rule = B3/S23
+4b2o$b4obob2o$ob2o2bob2o$bo4bo$5b2o!
+
+#N Bent keys
+#O DRH 8/89
+x = 12, y = 4, rule = B3/S23
+4b4o$b4o2b4o$ob2o4b2obo$bo8bo!
+
+#N Short keys
+#O DRH 8/89
+x = 12, y = 3, rule = B3/S23
+b2ob4ob2o$ob3o2b3obo$b3o4b3o!
+
+#O AF 7/13/94
+x = 12, y = 5, rule = B3/S23
+4b4o$2b3o2b3o$2b3o2b3o$obo6bobo$2o8b2o!
+
+#O left side by DRH 8/89, right side by Charles Trawick 6/71
+#C 2 related wicks.  The one on the right is Candelabra.  The wick
+#C can also turn a corner.
+x = 34, y = 6, rule = B3/S23
+28b2o$29bo2bo$29bobobo$b2ob4ob4ob4ob4ob4obo2bo$ob3o2bobo2bobo2bobo2bob
+o2bobo$b3o3b3o2b3o3bo4bo4bo!
+
+#N Candlefrobra
+#O RTW 11/84
+#C Variant of Candelabra
+x = 39, y = 7, rule = B3/S23
+21b2o3b2o3b2o$2ob2o15bo2bobo2bobo2bob2o$2obo16b4ob4ob4obo$3bo31bo$3bob
+4ob4ob4o16bob2o$2b2obo2bobo2bobo2bo15b2ob2o$6b2o3b2o3b2o!
+
+#N Cross
+#O RTW 10/89
+#C One of the few known oscillators in which one phase is a polyomino. 
+x = 8, y = 8, rule = B3/S23
+2b4o$2bo2bo$3o2b3o$o6bo$o6bo$3o2b3o$2bo2bo$2b4o!
+
+#N 2x3 cross
+#O HH 2/26/93
+#C A larger version of Cross, which may be made any size.
+x = 18, y = 13, rule = B3/S23
+2b4ob4ob4o$2bo2bobo2bobo2bo$3o2b3o2b3o2b3o$o16bo$o16bo$3o12b3o$2bo12bo
+$3o12b3o$o16bo$o16bo$3o2b3o2b3o2b3o$2bo2bobo2bobo2bo$2b4ob4ob4o!
+
+#N Star
+#O HH 2/16/93
+#C Another polyomino.
+x = 18, y = 13, rule = B3/S23
+2b4ob4ob4o$2bo2bobo2bobo2bo$3o2b3o2b3o2b3o$o16bo$o16bo$3o12b3o$2bo12bo
+$3o12b3o$o16bo$o16bo$3o2b3o2b3o2b3o$2bo2bobo2bobo2bo$2b4ob4ob4o!
+
+#O HH 3/5/93
+#C Any of its four corners can be present or absent, and it will still work
+x = 11, y = 11, rule = B3/S23
+2o3bo3b2o$2o2b3o2b2o$2b3ob3o$2bo5bo$b2o5b2o$2o7b2o$b2o5b2o$2bo5bo$2b3o
+b3o$2o2b3o2b2o$2o3bo3b2o!
+
+#O DRH 1994
+x = 16, y = 16, rule = B3/S23
+6bo$6bo$6b2o$8bobo$5bo2bobo$3b2obo4bo$6b2ob2o2b3o$3b2o2b3o3bo$2bo3b3o
+2b2o$3o2b2ob2o$4bo4bob2o$5bobo2bo$5bobo$8b2o$9bo$9bo!
+
+#O DRH 11/27/94
+Volatility -> 1 as length increases. (Volatility = number
+#C of rotor cells divided by total number of cells in rotor and stator.)
+x = 71, y = 9, rule = B3/S23
+51bo3bo5bo6b2o$46bo4bo3bo4bo2bo2bo3bo$b2o6bo5bo3bo19bo3bo7bo3bo13bo$o
+3bo2bo2bo4bo3bo4bo9bo4bo3bob2ob2obo3bob2ob2ob4obo$bo13bo3bo7bo3bo7bo3b
+o7bo3bo8b2o$2bob4ob2ob2obo3bob2ob2obo3bob2ob2obo3bo4bo9bo$5b2o8bo3bo7b
+o3bo7bo3bo$12bo9bo4bo3bo4bo$27bo3bo!
+
+#O DRH 9/18/89
+x = 54, y = 13, rule = B3/S23
+17b2o16b2o$12b2o3b2o3b2o6b2o3b2o3b2o$3b2o3b2o2bo10bo2b2o2bo10bo2b2o3b
+2o$bo3bobo2bobo2b6o2bobo2bobo2b6o2bobo2bobo3bo$o2bobob4obobo6bobob4obo
+bo6bobob4obobo2bo$2o3bo2b2o2bo2b2o2b2o2bo2b2o2bo2b2o2b2o2bo2b2o2bo3b2o
+$8b2o5b2o2b2o5b2o5b2o2b2o5b2o$2o3bo2b2o2bo2b2o2b2o2bo2b2o2bo2b2o2b2o2b
+o2b2o2bo3b2o$o2bobob4obobo6bobob4obobo6bobob4obobo2bo$bo3bobo2bobo2b6o
+2bobo2bobo2b6o2bobo2bobo3bo$3b2o3b2o2bo10bo2b2o2bo10bo2b2o3b2o$12b2o3b
+2o3b2o6b2o3b2o3b2o$17b2o16b2o!
+
+#N P3 rumbling river
+#O DRH 11/26/94
+#C The rotor is connected and contained in a strip of height 2.
+x = 49, y = 12, rule = B3/S23
+14b2o6b2o6b2o3bob2o$4bo8bo2bo4bo2bo4bo2bo2b2obo$o2bobo4bo3b2o2bo3b2o2b
+o3bobo5bob2o$4obo2b6o2b6o2b6o2b6obobo$5bobo5bobo5bobo5bobo5bobo6b2o$2b
+2obobobobo3bobobo3bobobo3bobobo3bobo5bo$bo5bobo3bobobo3bobobo3bobobo3b
+obobobob2o$b2o6bobo5bobo5bobo5bobo5bobo$7bobob6o2b6o2b6o2b6o2bob4o$7b
+2obo5bobo3bo2b2o3bo2b2o3bo4bobo2bo$10bob2o2bo2bo4bo2bo4bo2bo8bo$10b2ob
+o3b2o6b2o6b2o!
+
+#N Pulsar
+#O JHC 3/70
+#C The first known, and most commonly occurring, p3 oscillator.
+x = 13, y = 13, rule = B3/S23
+2b3o3b3o2$o4bobo4bo$o4bobo4bo$o4bobo4bo$2b3o3b3o2$2b3o3b3o$o4bobo4bo$o
+4bobo4bo$o4bobo4bo2$2b3o3b3o!
+
+#N Quasar
+#O RTW 8/71
+x = 29, y = 29, rule = B3/S23
+10b3o3b3o2$8bo4bobo4bo$8bo4bobo4bo$8bo4bobo4bo$10b3o3b3o2$8b3o7b3o$2b
+3o2bo4bo3bo4bo2b3o$7bo4bo3bo4bo$o4bobo4bo3bo4bobo4bo$o4bo17bo4bo$o4bo
+2b3o7b3o2bo4bo$2b3o19b3o2$2b3o19b3o$o4bo2b3o7b3o2bo4bo$o4bo17bo4bo$o4b
+obo4bo3bo4bobo4bo$7bo4bo3bo4bo$2b3o2bo4bo3bo4bo2b3o$8b3o7b3o2$10b3o3b
+3o$8bo4bobo4bo$8bo4bobo4bo$8bo4bobo4bo2$10b3o3b3o!
+
+x = 41, y = 21, rule = B3/S23
+20b3o3b3o2$18bo4bobo4bo$18bo4bobo4bo$18bo4bobo4bo$20b3o3b3o$36bo$18b3o
+7b3o3b5o$12b3o2bo4bo3bo4bobo5bo$17bo4bo3bo4bobo2bobobo$10bo4bobo4bo3bo
+4bobo4bobo$10bo4bo19b2o2bo$10bo4bo2b3o7b3o$12b3o$4bo$2b5o3b3o$bo5bobo
+4bo$obobo2bobo4bo$obo4bobo4bo$bo2b2o$10b3o!
+
+#O DRH 11/27/94
+x = 26, y = 26, rule = B3/S23
+11bo2bo$11bo2bo$10b2o2b2o$8b3o4b3o3$7b3o6b3o$6b2o10b2o$3bo2bo12bo2bo$
+3bo2bo12bo2bo$2b2o18b2o$3o20b3o3$3o20b3o$2b2o18b2o$3bo2bo12bo2bo$3bo2b
+o12bo2bo$6b2o10b2o$7b3o6b3o3$8b3o4b3o$10b2o2b2o$11bo2bo$11bo2bo!
+
+#O DRH 11/27/94
+x = 36, y = 22, rule = B3/S23
+20bo2bo$20bo2bo$19b2o2b2o$17b3o4b3o3$16b3o6b3o$15b2o10b2o$12bo2bo12bo
+2bo$12bo2bo12bo2bo$11b2o18b2o$9b3o20bobo$35bo$34b2o$8b3o$7b2o$4bo2bo$
+4bo2bo$3b2o$bobo$o$2o!
+
+#O HH 3/5/93
+x = 15, y = 15, rule = B3/S23
+5bo3bo$5bo3bo$5bo3bo$4b2o3b2o$3bobo3bobo$5o5b5o4$5o5b5o$3bobo3bobo$4b
+2o3b2o$5bo3bo$5bo3bo$5bo3bo!
+
+#O DIB 3/7/93
+x = 35, y = 35, rule = B3/S23
+15bo3bo$15bo3bo$15bo3bo$14b2o3b2o$13bobo3bobo$10b5o5b5o4$10b5o5b5o$5bo
+3bobo11bobo3bo$5bo3b2o13b2o3bo$5bo3bo15bo3bo$4b2o3bo15bo3b2o$3bobo3bo
+15bo3bobo$5o25b5o4$5o25b5o$3bobo3bo15bo3bobo$4b2o3bo15bo3b2o$5bo3bo15b
+o3bo$5bo3b2o13b2o3bo$5bo3bobo11bobo3bo$10b5o5b5o4$10b5o5b5o$13bobo3bob
+o$14b2o3b2o$15bo3bo$15bo3bo$15bo3bo!
+
+#O RWG 9/22/94
+x = 39, y = 27, rule = B3/S23
+23bo$23bo$23bo3bo$22b2o3bo$21bobo3bo$18b5o4b2o$27bobo$28b5o2$18b5o$13b
+o3bobo16bo$13bo3b2o7b5o4bobo$13bo3bo11bobo3b2o$12b2o3bo12b2o3b2o$11bob
+o3bo13bo2b2o$8b5o18bo2bo3bo$31bo3b4o$2o$2o35b2o$8b5o24b2o$4o3bobo$o3bo
+2b2o$3b2o2bo$2b2o3bo$2b2o3bo$bobo$2bo!
 
 #C Period 4
 x = 12, y = 12, rule = B3/S23
@@ -1025,7 +1383,7 @@ x = 31, y = 12, rule = B3/S23
 2o$bo27b2o$bobo25bo$2b2o23bobo$7bo4bo14b2o$5b2ob4ob2o3bo4bo$7bo4bo3b2o
 b4ob2o$2b2o14bo4bo$bobo23b2o$bo25bobo$2o27bo$29b2o!
 
-#C Snackers hassling two blocks; symmetrical Period 9.
+#C Snackers hassling two blocks; symmetrical. Period 9.
 x = 20, y = 24, rule = B3/S23
 2o16b2o$bo7b2o7bo$bobo3bo4bo3bobo$2b2o2bo6bo2b2o$5bo8bo$5bo8bo$5bo8bo$
 2b2o2bo6bo2b2o$bobo3bo4bo3bobo$bo7b2o7bo$2o16b2o$7b2o2b2o$7b2o2b2o$2o
@@ -1044,6 +1402,18 @@ x = 18, y = 21, rule = B3/S23
 3bob2o4b2obo$3b2o2bo2bo2b2o$b2o3bo4bo3b2o$o3b2ob4ob2o3bo$b3obobo2bobob3o$3bob
 obo2bobobo$6bo4bo$7b4o$8b2o2$4b2o6b2o$4bo8bo$5b3o2b3o2$3b4o4b4o$2bo4b4o4bo$3b
 12o2$3b3ob4ob3o$2bo2b8o2bo$2b2o10b2o!
+
+#N 69P8
+#O carybe, 2018
+x = 16, y = 17, rule = B3/S23
+b2o10b2o$obo10bobo$3o10b3o2$b2o10b2o$4o8b4o$o3bo6bo3bo$5bo4bo$2bo2bo4bo2bo$5b
+o4bo$o3bo6bo3bo$4o8b4o$b2o10b2o2$3o10b3o$obo10bobo$b2o10b2o!
+
+#N 55P10
+#O Bullet51, 2018
+x = 21, y = 9, rule = B3/S23
+3b2o11b2o$b3ob2ob2ob2ob2ob3o$o8bobo8bo$b5obobobobob5o$6b2obobob2o$3b2o
+5bo5b2o$3bo13bo$4bo11bo$3b2o11b2o!
 
 #N Crown
 #C Period 12. Found by Noam Elkies in 1995.
@@ -1094,6 +1464,30 @@ obobo$4bo3bo!
 #C Found via asymmetric soup search
 x = 8, y = 9, rule = B3/S23
 5b2o$2bo2b2o$bo4bo$bo4bo$6bo$2obobo$2ob2o2$5b3o!
+
+#N 68P16
+#O carybe, 2018
+x = 20, y = 20, rule = B3/S23
+10b2o3b2o$10b2o3b2o$6bo$2o3b2o$2o2bo10bo$5bo3b2o2b2obo$5bo3bo6b2o2$2o$
+2o3bo7b2o$5b2o7bo3b2o$18b2o2$2b2o6bo3bo$3bob2o2b2o3bo$4bo10bo2b2o$13b
+2o3b2o$13bo$3b2o3b2o$3b2o3b2o!
+
+#N 54P17.1
+#O Dean Hickerson
+#C The first period 17 oscillator to be found. Discovered on April 27,
+#C 1997.
+x = 15, y = 13, rule = b3/s23
+5bo9b$4bobo8b$4bobo3b2o3b$b2obob2o3bo3b$2bobo6bob2o$o2bobob3obo2bo$2ob
+obo4bobo2b$3bobo2b2o2b2ob$3bobo3bobo3b$4b2obobobo3b$6bobobo4b$6bobo6b$
+7b2o!
+
+#N Honey thieves
+#O Matthias Merzenich
+#C The smallest known period 17 oscillator in terms of population
+#C as of December 2020.
+x = 15, y = 15, rule = B3/S23
+2o$bo$bobo9b2o$2bobo8bo$11bobo$11b2o$5b2o$5b2ob2o$8b2o$2b2o$bobo$bo8bo
+bo$2o9bobo$13bo$13b2o!
 
 #C Period 18 R-pentomino hassler. Found in 2020.
 x = 21, y = 54, rule = B3/S23
@@ -1244,6 +1638,13 @@ x = 33, y = 21, rule = B3/S23
 16bo3bo8bobob$16bo14bob$2o29b2o$bo14bo16b$bobo8bo3bo16b$2b2o7b2o3bo16b
 $6bo6bobo17b$6bo26b$6bo26b$2b2o29b$bobo29b$bo31b$2o!
 
+#N P36 shuttle
+#O carybe, 2018
+x = 30, y = 30, rule = B3/S23
+14b2o$14b2o4$15b2o$14b2obo$16bo4$15bobo$14b2o2bo4bo$14bo7bobo$2o4bo5b
+2o3b2o4b2o3b2o$2o3b2o4b2o3b2o5bo4b2o$5bobo7bo$6bo4bo2b2o$12bobo4$13bo$
+12bob2o$13b2o4$14b2o$14b2o!
+
 #N Beluchenko's P37
 #O Nicolay Beluchenko, April 2009
 #C The first period 37 oscillator to be found.  Also called 124P37.
@@ -1281,10 +1682,34 @@ o$3b2o56bob2o$4bo9b2o37bo5b3o2bo$2bo10bobo37b2o3bo3b2o$2b5o8bo5b2o35b
 28b3o$28bo$29bo$42b2o$35b2o5bobo$35bo8bo$44b2o2$31bo$30bobob2o$30bobob
 obo$27b2obobo3bo2bo$27bo2bo2b2ob4o$29b2o4bo$35bobo$36b2o!
 
-#N P46 shuttle
+#C Period 45, stablized by four different P9 oscillators
+x = 63, y = 61, rule = B3/S23
+10b2o16b2o$11bo16bo$11bobo12bobo$12b2o3b6o3b2o$16bo6bo$15bo8bo$16bo6bo
+$12b2o3b6o3b2o$11bobo12bobo$11bo16bo$10b2o16b2o4$20bo2bo$16b2o2bo2bo$
+16b2o2bo2bo7b2o$31b2o$3bo32bo8b2o10b2o$2bobo31bo6bo2bo10bo2bo$2bobo26b
+3o8b4o12b4o$2o2b2o36b3o14b3o$bobo2bo34b3o16b3o$o2b5o23b3o9b4o10b4o$obo
+4bo6b3o27bo2bo8bo2bo$bob2o2b2o27bo11bo6bo$3bo3b2o27bo11bo6bo$3bo3b2o5b
+3o31bo6bo$bob2o2b2o35bo2bo8bo2bo$obo4bo35b4o10b4o$o2b5o7b2o24b3o16b3o$
+bobo2bo8b2o7bo2bo2b2o10b3o14b3o$2o2b2o18bo2bo2b2o10b4o12b4o$2bobo19bo
+2bo15bo2bo10bo2bo$2bobo40b2o10b2o$3bo3$26b2o$24bo4bo$20b2o10b2o$20bo2b
+o6bo2bo$21b3ob4ob3o$24bo4bo$21b3o6b3o$20bo12bo$21b5o2b5o$26b2o$23b2o4b
+2o$22bobo4bobo$22b2o6b2o3$24b2o2b2o$23bo2b2o2bo$21bobob4obobo$19b3obob
+o2bobob3o$18bo3b2ob4ob2o3bo$19b2o3bo4bo3b2o$21b2o2bo2bo2b2o$21bob2o4b
+2obo!
+
+#N Twin bees shuttle
 x = 33, y = 13, rule = B3/S23
 17bo$16b2o$15b3obo9b2o$14b2o13b2o$15b2o$16bo2$16bo$15b2o$2b2o10b2o13b
 2o$2b2o11b3obo9b2o$16b2o$17bo!
+
+#N Tanner's p46
+#O Tanner Jacobi
+#C A period 46 oscillator discovered by Tanner Jacobi in October 2017.
+#C Unrelated to the twin bees shuttle
+x = 13, y = 26, rule = B3/S23
+2b2o9b$2bo10b$3bo9b$2b2o9b$13b$9b2o2b$9bo3b$10bo2b$9b2o2b$b2o10b$b2o6b
+2o2b$o7bobo2b$b2o6bo3b$b2o7b3o$12bo$13b$13b$13b$13b$13b$13b$b2o10b$b2o
+2b2o6b$5bobo5b$7bo5b$7b2o4b!
 
 #C P48 beehive hassler
 x = 23, y = 39, rule = B3/S23
@@ -1301,11 +1726,55 @@ x = 19, y = 15, rule = B3/S23
 2o15b2o$obo13bobo$2bo13bo$2b3o9b3o$6bo5bo$2b5o5b5o$2bo4bo3bo4bo$4b4o3b
 5o$3b2o4bo5bobo$7b6o3b2o$6bo4bobo$7b4o2bo$9bo3bob2o$11bobo2bo$10b2ob2o!
 
+#N P49 bumper loop
+#O Entity Valkyrie, 2018
+#C Smaller than the P49 Snark loop
+x = 46, y = 46, rule = B3/S23
+11b2o$11bo2b2o$12bobobo$11b2obo2bo11bo$10bo5b2o9b3o$11b2o3bo9bo$8b3o5b
+o9b2o$8bo2b3o2bo$11bo9bo$12bobo6bo16b2o$9b3o5bo2bo13b2o3bo$9bo5b2o5bo
+12bo3bobo$21b2o12bob2obobob2o$36bobobob2obo2$3b2o34bob4o$4bo29b2o3bobo
+2bo$4bobo27b2o2bo4bo$5b2o32bob2o3$35b2o$10b3o20bob2o$9b2obo20b3o$9b2o
+3$3b2obo32b2o$2bo4bo2b2o27bobo$bo2bobo3b2o29bo$b4obo34b2o2$ob2obobobo$
+2obobob2obo12b2o$4bobo3bo12bo5b2o5bo$6bo3b2o13bo2bo5b3o$6b2o16bo6bobo$
+24bo9bo$29bo2b3o2bo$18b2o9bo5b3o$19bo9bo3b2o$16b3o9b2o5bo$16bo11bo2bob
+2o$29bobobo$30b2o2bo$33b2o!
+
+#N P64 thunderbird hassler
+#O carybe, 2018
+x = 15, y = 27, rule = B3/S23
+3b2o$3b2obo$7bo$4bo$5bob2o$7b2o6$12bo$o5b2o3bobo$o4bo2bobo3bo$o5b2o3bo
+bo$12bo6$7b2o$5bob2o$4bo$7bo$3b2obo$3b2o!
+
+#N Merzenich's p64
+#O Matthias Merzenich
+#C The smallest known period-64 oscillator.
+x = 21, y = 21, rule = B3/S23
+5b2o$5b2o3$8b2o$9b2o8b2o$19b2o2$10bobo$9bo3bo$8bo3bo$7bo3bo$8bobo2$2o$
+2o8b2o$11b2o3$14b2o$14b2o!
+
 #N Two blockers hassling R-pentomino
 #C Period 72. Found by Robert Wainwright in 1990. Looks identical but flipped after a half-cycle.
 x = 31, y = 15, rule = B3/S23
 19bo$18bob2o$18bob2o$19b2o2$8b2o12b2o$8b2o12b2o3$7bobo$6bo18b2o$b2o2bo
 4bo10b2obo2bob2o$b2obo2bob2o10b2o2bo4bo$5b2o19bo$27bobo!
+
+#N 84P87
+#O Tanner Jacobi, 1/27/16
+#C The smallest known period-87 oscillator.
+x = 37, y = 41, rule = B3/S23
+14bo$14b3o$17bo$16b2o2$24b2o$24b2o8b2o$34b2o$20bo$19bobo$18bo2bo$19b2o
+2$4bo$3bobo$4bo2$9bo$9b2o15b2o$2o3bo5bo15bobo$2o4b3o19b3o4b2o$7bobo15b
+o5bo3b2o$9b2o15b2o$27bo2$32bo$31bobo$32bo2$16b2o$15bo2bo$15bobo$16bo$b
+2o$b2o8b2o$11b2o2$19b2o$19bo$20b3o$22bo!
+
+#N P130 shuttle
+#O David Eppstein, 2001
+x = 46, y = 27, rule = B3/S23
+5b2o32b2o$5b2o32b2o3$20b2o$2o4b2o11bo18b2o4b2o$2o3bo2bo10b3o16bobo3b2o
+$5bobo16bo13b3o$6bo15b2ob3o$22b2o3bo$3bo17bo20bo$2bobo17bo3bo14bobo$2b
+2o18b4o16b2o2$2b2o18b4o16b2o$2bobo17bo3bo14bobo$3bo17bo20bo$22b2o3bo$
+6bo15b2ob3o$5bobo16bo13b3o$2o3bo2bo10b3o16bobo3b2o$2o4b2o11bo18b2o4b2o
+$20b2o3$5b2o32b2o$5b2o32b2o!
 
 #N Gabriel's p138
 #C Discovered by Gabriel Nivasch in 2002. Appears mirrored after a half-cycle.
@@ -1314,7 +1783,7 @@ x = 23, y = 23, rule = B3/S23
 4bo11bo4bo$2o4bo11b2o2bo$5bo13b2o$4bo2$12bo$11bobo$10bo3bo$9b2o$9bo$
 12bo$10b3o!
 
-#N Achim's P144
+#N Achim's p144
 #C Found by Achim Flammenkamp in 1994. Looks identical but flipped after a half-cycle.
 x = 28, y = 19, rule = B3/S23
 2o24b2o$2o24b2o$8b2o$7bo2bo$8b2o2$12b3o$12bobo$12b3o$13b2o$13b3o$13bob
@@ -1327,6 +1796,16 @@ x = 41, y = 52, rule = B3/S23
 o$16bo16b8o4$13b2o12b2o$13b2o12b2o4$16bo16b8o$8o8bobo14bob4obo$ob4obo
 8b2o15b8o$8o6$25b3o$13b3o10bo$14bo11bo$14bo10b3o$13b3o$25b3o$13b3o9b3o
 $13b3o$25b3o$13b3o10bo$14bo11bo$14bo10b3o$13b3o!
+
+#N Jason's p156
+#O Jason Summers, 31 October 2004
+#C Oscillator, or actually an eight-barrelled glider gun,
+#C discovered in a RandomAgar search. Also known as "92p156".
+x = 42, y = 42, rule = B3/S23
+20b2o$20b2o4$8b2o22b2o$9bo12b2o8bo$9bobo10bo7bobo$5bo4b2o10bo7b2o4bo$
+5b3o15bo10b3o$8bo24bo$7b2o24b2o7$32bo2bo$33b3o$2o38b2o$2o38b2o$6b3o$6b
+o2bo7$7b2o24b2o$8bo24bo$5b3o10bo15b3o$5bo4b2o7bo10b2o4bo$9bobo7bo10bob
+o$9bo8b2o12bo$8b2o22b2o4$20b2o$20b2o!
 
 #N Karel's P177
 #O Karel Suhajda, 2007
