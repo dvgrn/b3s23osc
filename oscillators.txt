@@ -2288,43 +2288,295 @@ o3bo3bo3bo3bo3bo3bo3bo3bo3bo3bo12b2o2bo$24b3o3b3o3b3o3b3o3b3o3b3o3b3o
 obo4bo4bo$29b2ob2o7b2ob2o7b2ob2o$30bobo9bobo9bobo$30bobo9bobo9bobo$31b
 o11bo11bo!
 
-#N Worker bees, size 2
-#C Period 9 
-x = 24, y = 12, rule = B3/S23
-$2o20b2o$bo20bo$bobo16bobo$2b2o16b2o2$5b6o2b6o2$2b2o16b2o$bobo16bobo$b
-o20bo$2o20b2o!
+#N Burloaferimater
+#O DJB#40 1972
+x = 11, y = 10, rule = B3/S23
+5bo$4bobo$3bobobo$3bobobo$2obo3bob2o$obo4bob2o$3b4o2$5b2o$5b2o!
 
-#C Unnamed billiard table. Period 9.
+#N Airforce
+#O DJB#41 1972
+#C Rotor consists of 2 copies of the rotor in burloaferimeter.
+x = 13, y = 14, rule = B3/S23
+4b2o$4b2o2$2o2b4o$o2bo4bo$bobo3bobo$2obobobobo$3bobobobob2o$3bobo3bobo
+$4bo4bo2bo$5b4o2b2o2$7b2o$7b2o!
+
+#O DJB#77 <=1976
+x = 13, y = 13, rule = B3/S23
+5b2o$5bo$6bo$3b3obob2o$2bo2bobobo2bo$3b3obobob2o$3o4bobo$o2bobobobo$3b
+o4bo$4b4o2$6b2o$6b2o!
+
+#O DJB#106 6/6/77
+#C Right half can also be turned upside-down and shifted up 2 units.
+x = 19, y = 11, rule = B3/S23
+4bo9bo$3bobo7bobo$3bobo7bobo$2obob2o5b2obob2o$ob2o2bo5bo2b2obo$4b2o7b
+2o$4bo2bo3bo2bo$5b3o3b3o2$4bob2o3b2obo$4b2obo3bob2o!
+
+#O DJB#109 6/19/77
+#C Supplies a domino spark.
+x = 16, y = 16, rule = B3/S23
+4bo$3bobo$3bobo$2obob2o$ob2o4bo$4b3obo$4bo$5b3o2b2o$8bo$5b2obobobo$5b
+2obobob3o$9b2o4bo$11b4o$11bo$12bo$11b2o!
+
+#O DRH 9/22/94
+x = 13, y = 11, rule = B3/S23
+7b2o$6bo2bo$7bobo$4b3obob2o$3bo4bobobo$3bo2b3o3bo$2obo5b3o$bo2b2obobo$
+bo4b2o$2b3o3bo$4b2ob2o!
+
+#O 10/1/94
+x = 21, y = 12, rule = B3/S23
+5b2o$6bo2bo2bo4b2o$4bo4b6o2bo$3bob4o6bobo$3bobo2bo2bob3obob2o$2obobobo
+bo2bo2bobob2o$o2b4o3bobob2obo$2bo4b4obobo2bo$3b4o4b2obobo$5bo2b2o5bo$
+7b2ob5o$12bo!
+
+#DJB#113 6/21/77
+x = 18, y = 18, rule = B3/S23
+7bo2bo$7b4o2$5b8o$4bo8bo$3bob3o3b2obo$3bobo6bobo$2obobo8bob2o$bobo10bo
+bo$bobo10bobo$2obo8bobob2o$3bobo6bobo$3bob2o3b3obo$4bo8bo$5b8o2$7b4o$
+7bo2bo!
+
+#DJB#113 9/7/81
+x = 21, y = 15, rule = B3/S23
+5b2o7b2o$5b2o7b2o2$5b4o3b4o$2o2bo4bobo4bo$o2bobo2b2ob2o2bobo$bobobo9bo
+bo$2obobo2b2ob2o2bobob2o$3bobo9bobobo$3bobo2b2ob2o2bobo2bo$4bo4bobo4bo
+2b2o$5b4o3b4o2$5b2o7b2o$5b2o7b2o!
+
+#N Blocker
+#O RTW
+#C Supplies a spark used in some P16, 24, 40, 72, and 360 oscillators.
+x = 4, y = 10, rule = B3/S23
+b2o$b2o3$2o$2obo$3bo$3bo$o2bo$b2o!
+
+#N Kok's galaxy
+#O Jan Kok 1971
+#C Supplies a spark used in some P56, 120, 128, and 856 oscillators.
+#C Serves as Golly's logo
+x = 9, y = 9, rule = B3/S23
+6ob2o$6ob2o$7b2o$2o5b2o$2o5b2o$2o5b2o$2o$2ob6o$2ob6o!
+
+#N Figure eight
+#O SN 1970
+#C Supplies sparks used in many other oscillators, including other P8s.
+x = 6, y = 6, rule = B3/S23
+3b3o$3b3o$3b3o$3o$3o$3o!
+
+#N Smiley
+#O AF 7/17/94
+x = 7, y = 7, rule = B3/S23
+2obob2o$3bo$o5bo$b5o3$3ob3o!
+
+#N Achim's p8
+#O AF 7/20/94
+#C Period 8/2, symmetry type ".cxc".
+x = 9, y = 9, rule = B3/S23
+b2o$o$bo3bo$bo3b2o$3bobo$2b2o3bo$3bo3bo$8bo$6b2o!
+
+#O DRH 11/16/94
+#C A p8 variant of the p4 emulators
+x = 19, y = 11, rule = B3/S23
+8b3o3$2b2obo7bob2o$2bo13bo$3b2o9b2o$3o2b9o2b3o$o2bo11bo2bo$b2o13b2o2$
+8b3o!
+
+#N Cauldron
+#O Don Woods, RTW 1971
+#C Also called crucible
+x = 11, y = 12, rule = B3/S23
+5bob2o$5b2obo2$3b5o$obo5bobo$2obo3bob2o$3bo3bo$3bo3bo$4b3o2$4b2obo$4bo
+b2o!
+
+#N Hertz oscillator
+#O JHC group 1970
+x = 12, y = 12, rule = B3/S23
+5bob2o$5b2obo2$5b3o$b2obobobo$b2obo3bo$4bo3bob2o$4bo3bob2o$5b3o2$4bob
+2o$4b2obo!
+
+#N R2D2
+#O Peter Raynham early 1970s (with a different stator), rediscovered and named by NDE 8/14/94
+x = 11, y = 8, rule = B3/S23
+4b2ob2o$3bobobo$3bobobo$2obo3bob2o$2obo3bob2o$3bo3bo$3bobobo$4b2ob2o!
+
+#N Pyrotechnecium
+#O DJB#42 1972
+x = 10, y = 14, rule = B3/S23
+5bob2o$5b2obo2$3b5o$2bo5bo$bobobo2bo$bobo2bob2o$2obo2bobo$bo2bobobo$bo
+5bo$2b5o2$bob2o$b2obo!
+
+#O AF 8/26/94
+#C Supplies a 2-bit spark, which might be usable when the one in figure 8 fails.
+x = 12, y = 12, rule = B3/S23
+6b2o$10b2o$5b2obo2bo$6bob3o$7bo$2bo4b4o$ob2o3bo2bo$o3b3ob2o$2b2obobo$
+3bobobo$bobob2o$b2o!
+
+#O DJB#80 6/30/76
+#C Honey farm hassler
+x = 19, y = 17, rule = B3/S23
+4bo$4b3o$7bo$6b2o9b2o$17bo$15bobo$8b3o4b2o$7bo3bo$6bo5bo$7bo3bo$2b2o4b
+3o$bobo$bo$2o9b2o$11bo$12b3o$14bo!
+
+#O RTW 1989
+x = 11, y = 15, rule = B3/S23
+2o7b2o$o2b2ob2o2bo$b2obobob2o$2bobobobo$2bob3obo$3b5o4$4b3o$5bo$5bo$bo
+7bo$obob2o2bobo$2o2b2o3b2o!
+
+#O DJB#115 6/22/77
+#C Loaf flipper
+x = 18, y = 18, rule = B3/S23
+7bob2o$7b2obo2$5b5o$4bo4bo$3bo2bo$3bob2o$2obo4b2o$bobo3bo2bo2b2o$o2b2o
+2bobo4bo$2o6bo5bob2o$11b2obobo$11b2obo2bo$8bo4bo2b2o$8b5o2$7bob2o$7b2o
+bo!
+
+#N Roteightor
+#O RTW 1972
+x = 14, y = 14, rule = B3/S23
+bo$b3o8b2o$4bo7bo$3bo6bobo$3bo3bo2b2o$8bo$5bo2bo$6b3o2$2b2o$bobo5b2o$b
+o7bo$2o8b3o$12bo!
+
+#N Multiple roteightors
+#O DRH 1/90
+#C Can be infinitely extended
+x = 28, y = 27, rule = B3/S23
+11bo$11b3o8b2o$14bo7bo$13bo6bobo$6bo6bo3bo2b2o$6b3o9bo$9bo5bo2bo7b2o$
+8b2o6b3o7bo$bo22bobo$b3o20b2o$4bo5b3o$3bo6bo2bo5b3o$3bo3bo2bo8bo2bo$8b
+o2bo4bo2bo$5bo2bo8bo2bo3bo$6b3o5bo2bo6bo$15b3o5bo$2b2o20b3o$bobo22bo$b
+o7b3o6b2o$2o7bo2bo5bo$9bo9b3o$6b2o2bo3bo6bo$5bobo6bo$5bo7bo$4b2o8b3o$
+16bo!
+
+#O DJB#105 6/6/77
+x = 17, y = 17, rule = B3/S23
+6b2o$7bo$6bo$6b4o$2o2b2o4bo$o2bobob3o$bobo2b2o4bo$2obo7bobo$3bo7bobo$
+3bobo4b2obob2o$4b2o4bo2b2obo$6b2o3b2o$6bo5bo$7b5o2$6bob2o$6b2obo!
+
+#O DJB#55 <=1976
+x = 11, y = 18, rule = B3/S23
+3b2ob2o$3b2ob2o2$b9o$o4bo4bo$b3o3b3o$3bobobo5$3bobobo$b3o3b3o$o4bo4bo$
+b9o2$3b2ob2o$3b2ob2o!
+
+#N Figure eights hassling long barge
+#O RTW 9/84
+x = 14, y = 14, rule = B3/S23
+6b3o$6b3o$6b3o$9b3o$9b3o$9b3o$3o$3o$3o$3b3o5b2o$3b3o7bo$3b3o3bo2bo$9bo
+bo$10bo!
+
+#N Figure eights hassling tub
+#O AF 8/31/94
+x = 17, y = 17, rule = B3/S23
+3o11b3o$3o11b3o$3o11b3o$3b3o5b3o$3b3o5b3o$3b3o5b3o2$8bo$7bobo$8bo2$3b
+3o5b3o$3b3o5b3o$3b3o5b3o$3o11b3o$3o11b3o$3o11b3o!
+
+#C Toadflipper; see discussion in period 60 section
+x = 16, y = 20, rule = B3/S23
+b2o10b2o$o2bo8bo2bo$3o2b6o2b3o$3b2o6b2o$2bo10bo$2b2obo4bob2o$7b2o2$6bo
+$5bo2bo$5bo2bo$7bo2$7b2o$2b2obo4bob2o$2bo10bo$3b2o6b2o$3o2b6o2b3o$o2bo
+8bo2bo$b2o10b2o!
+
+#O RTW 9/89
+#C Period 8/2, symmetry type "/xk".
+x = 20, y = 20, rule = B3/S23
+9b2o$8bo2bo$7bobobo$7bo2bo$6bo$7bobo$4bo$2b2obo5b2o$bo8bo2bo3b2o$obo2b
+o3bo2bo3bo2bo$o2bo4bo5bo2bobo$b2o4bo10bo$7bobo4bob2o$8bo6bo$10bobo$13b
+o$9bo2bo$8bobobo$8bo2bo$9b2o!
+
+#O DJB#90 7/16/76
+x = 15, y = 12, rule = B3/S23
+4b2o3b2o$3bobo3bobo$3bo7bo$2ob2o5b2ob2o$2obo3bo3bob2o$3bobo3bobo$3bobo
+3bobo$2b2obo3bob2o$3bo2b3o2bo$3bo7bobo$4b3o5b2o$6bo!
+
+#O DJB#138 1/23/83
+x = 15, y = 12, rule = B3/S23
+4b2o3b2o$3bobo3bobo$3bo7bo$2ob2o5b2ob2o$2obo7bob2o$3bob2o2bobo$3bobo3b
+obo$2b2obo3bob2o$3bo2b3o$3bo$4b3o$6bo!
+
+#O DJB#94 7/29/76
+x = 21, y = 12, rule = B3/S23
+4b2o9b2o$3bobo9bobo$3bo13bo$2ob2o11b2ob2o$2obo13bob2o$3bob2o2bobo2b2ob
+o$3bobo3bobo3bobo$2b2obo3bobo3bob2o$3bo2b3o3b3o2bo$bobo13bobo$b2o3b2ob
+obob2o3b2o$6bob2ob2obo!
+
+#N Bottle
+#O AF 8/7/94
+#C Also see "ship in a bottle", in the period 16 section
+x = 18, y = 18, rule = B3/S23
+4b2o6b2o$3bo2bo4bo2bo$3bobo6bobo$b2o2b3o2b3o2b2o$o6bo2bo6bo$ob2o10b2ob
+o$bobo10bobo$3b2o8b2o3$3b2o8b2o$bobo10bobo$ob2o10b2obo$o6bo2bo6bo$b2o
+2b3o2b3o2b2o$3bobo6bobo$3bo2bo4bo2bo$4b2o6b2o!
+
+#N Tumbling T-tetson
+#O RTW
+x = 22, y = 11, rule = B3/S23
+3bo$2b2o$bob2o14b3o$3o2bo13b3o$2bobobo12b3o$3bobobo8b3o$4bo2b3o6b3o$5b
+2obo7b3o$6b2o3bo$6bo4b2o$11bo!
+
+#N nonstandard type 1 p8 toad sucker
+#O DJB
+#C See discussion at period 60
+x = 26, y = 11, rule = B3/S23
+22b2o$2b2o$21bo3bo$o3bo15bo4bo$o4bo13bobobo$2bobobo5b2o4bobobo$3bobobo
+6bobo4bo$4bo4bobo4bo3bo$5bo3bo2b2o$18b2o$6b2o!
+
+#N nonstandard type 1 p8 toad flipper
+#O DJB
+#C See discussion at period 60
+x = 26, y = 12, rule = B3/S23
+22b2o2$2b2o17bo3bo$20bo4bo$o3bo14bobobo$o4bo12bobobo$2bobobo5b2o2bo4bo
+$3bobobo6bobo3bo$4bo4bobo$5bo3bo2b2o4b2o2$6b2o!
+
+#N 69P8
+#O carybe, 2018
+x = 16, y = 17, rule = B3/S23
+b2o10b2o$obo10bobo$3o10b3o2$b2o10b2o$4o8b4o$o3bo6bo3bo$5bo4bo$2bo2bo4bo2bo$5b
+o4bo$o3bo6bo3bo$4o8b4o$b2o10b2o2$3o10b3o$obo10bobo$b2o10b2o!
+
+#N Worker bee
+#O DJB#52 1972
+x = 16, y = 11, rule = B3/S23
+2o12b2o$bo12bo$bobo8bobo$2b2o8b2o2$5b6o2$2b2o8b2o$bobo8bobo$bo12bo$2o
+12b2o!
+
+#N Two worker bees
+#C Can be infinitely extended. In fact, an infinite single row of
+#C six on cells followed by two off cells will be a period 9 oscillator
+#C without any stabilization needed.
+x = 24, y = 11, rule = B3/S23
+2o20b2o$bo20bo$bobo16bobo$2b2o16b2o2$5b6o2b6o2$2b2o16b2o$bobo16bobo$bo
+20bo$2o20b2o!
+
+#O DJB#43 1972??
 x = 11, y = 15, rule = B3/S23
 4b2o$5bo$4bo$3bob3o$3bobo2bo$2obo2b2obo$bobobobobo$bobobobob2o$2bo4bo
 2bo$3b2o3bo$5b3o$b3o$bo2b2o$4bobo$5bo!
 
-#C Unnamed billiard table. Period 9.
+#O DJB#83 7/10/76
 x = 14, y = 14, rule = B3/S23
 10b2o$6b2o2bo$6bobobo$7bo2bob2o$10bob2o$10bo$b2o5bobo$bobo4b2o$2bo3b2o
 $7bo$7o$o$3b2o$3b2o!
 
-#C Period 9.
-x = 22, y = 25, rule = B3/S23
-10b2o$9bobo$9bo$7b2ob4o$6bobobo2bo$6bobobo$4b2o2b2o$3bo4bo$3b5o$b2o3bo
-4bo$o2b3o3b2ob2o$2obo5b2ob2o3b2o$3bo14bo$3b2o3b2ob2o5bob2o$8b2ob2o3b3o
-2bo$10bo4bo3b2o$14b5o$13bo4bo$12b2o2b2o$11bobobo$8bo2bobobo$8b4ob2o$
-12bo$10bobo$10b2o!
+#O DJB#155 10/9/84
+x = 23, y = 25, rule = B3/S23
+11b2o$10bobo$10bo$8b2ob4o$7bobobo2bo$7bobobo$5b2o2b2o$4bo4bo$4b5o$2b2o
+3bo4bo$bo2b3o3b2ob2o$b2obo5b2ob2o3b2o$4bo14bo$4b2o3b2ob2o5bob2o$9b2ob
+2o3b3o2bo$11bo4bo3b2o$15b5o$14bo4bo$13b2o2b2o$12bobobo$9bo2bobobo$9b4o
+b2o$13bo$11bobo$11b2o!
 
-#N Snacker of size 2, offset
-#C Period 9
+#N Snacker
+#O MDN 1972
+x = 20, y = 11, rule = B3/S23
+2o16b2o$bo16bo$bobo12bobo$2b2o12b2o$7bo4bo$5b2ob4ob2o$7bo4bo$2b2o12b2o
+$bobo12bobo$bo16bo$2o16b2o!
+
+#N Two snackers
 x = 31, y = 12, rule = B3/S23
 2o$bo27b2o$bobo25bo$2b2o23bobo$7bo4bo14b2o$5b2ob4ob2o3bo4bo$7bo4bo3b2o
 b4ob2o$2b2o14bo4bo$bobo23b2o$bo25bobo$2o27bo$29b2o!
 
-#C Snackers hassling two blocks; symmetrical. Period 9.
+#O RWG 7/15/94
+#C Snackers hassling two blocks
 x = 20, y = 24, rule = B3/S23
 2o16b2o$bo7b2o7bo$bobo3bo4bo3bobo$2b2o2bo6bo2b2o$5bo8bo$5bo8bo$5bo8bo$
 2b2o2bo6bo2b2o$bobo3bo4bo3bobo$bo7b2o7bo$2o16b2o$7b2o2b2o$7b2o2b2o$2o
 16b2o$bo7b2o7bo$bobo3bo4bo3bobo$2b2o2bo6bo2b2o$5bo8bo$5bo8bo$5bo8bo$2b
 2o2bo6bo2b2o$bobo3bo4bo3bobo$bo7b2o7bo$2o16b2o!
 
-#C Snackers hassling two blocks in a different way. Period 9.
+#O RWG 7/15/94
+#C Snackers hassling two blocks
 x = 22, y = 24, rule = B3/S23
 2o16b2o$bo7b2o7bo$bobo3bo4bo3bobo$2b2o2bo6bo2b2o$5bo8bo$5bo8bo$5bo8bo$
 2b2o2bo6bo2b2o$bobo3bo4bo3bobo$bo7b2o7bo$2o16b2o$10b2o2b2o$10b2o2b2o$
@@ -2337,11 +2589,37 @@ x = 18, y = 21, rule = B3/S23
 obo2bobobo$6bo4bo$7b4o$8b2o2$4b2o6b2o$4bo8bo$5b3o2b3o2$3b4o4b4o$2bo4b4o4bo$3b
 12o2$3b3ob4ob3o$2bo2b8o2bo$2b2o10b2o!
 
-#N 69P8
-#O carybe, 2018
-x = 16, y = 17, rule = B3/S23
-b2o10b2o$obo10bobo$3o10b3o2$b2o10b2o$4o8b4o$o3bo6bo3bo$5bo4bo$2bo2bo4bo2bo$5b
-o4bo$o3bo6bo3bo$4o8b4o$b2o10b2o2$3o10b3o$obo10bobo$b2o10b2o!
+#O DJB#76 <=1976
+x = 13, y = 13, rule = B3/S23
+5b2o$4bo2bo$3bo2bo$2bob2ob3o$2bo4bo2bobo$3b3obobob2o$3o4bobo$o2b5obo$
+3bo4bo$4b4o2$6b2o$6b2o!
+
+#O DJB#161 1/21/86
+x = 13, y = 13, rule = B3/S23
+3bo$3b3o$b2o3bo$o3b2obo$b3obobo$8b2o$b4o5bo$bo6b2obo$2b2o2bo2bobo$4bob
+obo2b2o$4bobobobo$5b2obobo$9bo!
+
+#O DJB#153 9/30/84
+x = 14, y = 14, rule = B3/S23
+4b2o$3bobo$3bo$2obo$2obo$3bob2o$2obo$obo2bo2bo$3b2obobo3b2o$5bo7bo$5bo
+b6o$6bo$7bob2o$6b2ob2o!
+
+#O DRH 2/16/95
+#C 2 p5s hassle a blinker. DRH's 1995 file included a similar oscillator where
+#C 4 p5s hassled a blinker, but it was huge and removed from this file to save space.
+x = 45, y = 25, rule = B3/S23
+26bo$25bobo$25bob3o$22bob2o4bo$14b2o6b2o3b2obo$13bobo9b2obob2o$7b2obo
+2bo6b5obo$6bob2obob2o4bo5bob2ob2obo$6bo4bo8b4o5b2o$4b2ob4obob2o4bobo3b
+o2bobo3bob3o$3bobo4bobo4b2ob2obob2o2bobo3bo$3bo3b3o2bob3obob2ob3o3b2o$
+2obobo2bobo13b2ob2ob2obo$bobobob2o2bobobobo6bo12b3o$bobobo3bobobob2o6b
+2obobob2o4b5o$2b2ob4o2b2obo7bo2bob2obo4bob3obo$9b2o3bo8bobo4bo2b3o5b3o
+$7bo2bo3b2o8b2o4bobo3bo3bo3bo$7b2o20b2obob3obob4o$33bo3b3o$35bobobob2o
+bo$34b2o2bo2bob2o$35bobo2bo$35bo2b2o$34b2o!
+
+#O DJB#139 5/1/83
+x = 20, y = 17, rule = B3/S23
+5b2o6b2o$5b2o6b2o3$6bo6bo$2o2b2ob2o2b2ob2o2b2o$2o4bo6bo4b2o4$2o4bo6bo
+4b2o$2o2b2ob2o2b2ob2o2b2o$6bo6bo3$5b2o6b2o$5b2o6b2o!
 
 #N 55P10
 #O Bullet51, 2018
@@ -2349,17 +2627,155 @@ x = 21, y = 9, rule = B3/S23
 3b2o11b2o$b3ob2ob2ob2ob2ob3o$o8bobo8bo$b5obobobobob5o$6b2obobob2o$3b2o
 5bo5b2o$3bo13bo$4bo11bo$3b2o11b2o!
 
+#N 38P11.1
+#O DJB#112 6/20/77
+x = 12, y = 12, rule = B3/S23
+2b2ob2o$3bobobo$3bo4bo$2obo5bo$2obo2bo3bo$3bobobo3bo$3bo2bo3b2o$4bo$5b
+7o$11bo$7b2o$7b2o!
+
+#N Achim's p11
+#O AF 8/4/94
+x = 22, y = 22, rule = B3/S23
+10b2o$10b2o$5bo4b2o4bo$4bobo8bobo$3bobob3o2b3obobo$2bobo2b3o2b3o2bobo$
+3bo4b2o2b2o4bo$4b2o10b2o$4b3o8b3o$4b3o8b3o$3o16b3o$3o16b3o$4b3o8b3o$4b
+3o8b3o$4b2o10b2o$3bo4b2o2b2o4bo$2bobo2b3o2b3o2bobo$3bobob3o2b3obobo$4b
+obo8bobo$5bo4b2o4bo$10b2o$10b2o!
+
+#O DJB#156 10/9/84
+x = 23, y = 27, rule = B3/S23
+10b2o$9bobo$9bo$7b2ob4o$6bobobo2bo$6bobo$4b2o2bo$3bo$3b4o5bo5b2o$b2o
+15bo$o2b2o7bo3bobo$2obo4bo3bo3b2o$3bo7bo10bo$3o7bobo7b3o$o10bo7bo$5b2o
+3bo3bo4bob2o$4bobo3bo7b2o2bo$4bo15b2o$3b2o5bo5b4o$19bo$14bo2b2o$14bobo
+$9bo2bobobo$9b4ob2o$13bo$11bobo$11b2o!
+
+#N Rattlesnake
+#O Dean Hickerson, 2016
+x = 13, y = 15, rule = B3/S23
+8b2o$8bo$9bo$8b2o4$5bo$5b2o$2obobob3o$ob2obobobo$6bo2b3o$7b2o3bo$9b3o$
+9bo!
+
+#N Dinner table
+#O RTW 1972
+#C Period 12/4, symmetry type "nrc".
+x = 13, y = 13, rule = B3/S23
+bo$b3o7b2o$4bo6bo$3b2o4bobo$9b2o$6b2o$6b2o$6b2o$2b2o$bobo4b2o$bo6bo$2o
+7b3o$11bo!
+
+#O DJB#159 1986?
+x = 21, y = 21, rule = B3/S23
+7b2o$7bobo$9bo$7bob2ob2o$7b2o4bo$10b2o$7b3ob2o$2ob2obo6bo2b2o$o3bobo2b
+4obo2bo$b3o2bobo5b2o$3bobo2bo3bo2bobo$5b2obo3bobo2b3o$3bo2bobob2o2bobo
+3bo$3b2o2bo6bob2ob2o$8b2ob3o$9b2o$7bo4b2o$7b2ob2obo$11bo$11bobo$12b2o!
+
 #N Crown
-#C Period 12. Found by Noam Elkies in 1995.
-x = 25, y = 15, rule = B3/S23
-$5bo$4o3bo11bo$3bo3bo9bo3b4o$7bo3b3o3bo3bo$4bo7bo4bo$5b2o13bo$18b2o2$
-5b2o8b2o$5bo2b6o2bo$6b2o6b2o$3b3o10b3o$3bo2bobo4bobo2bo$4b2o4b2o4b2o!
+#O NDE 1/93/95
+#C Supplies a spark used in other oscillators; see 132 and 156 for examples
+x = 23, y = 15, rule = B3/S23
+11bo$2o9bo$4obo3bo3bo7b2o$obo2b3o2b3o4bob4o$10b3o2b3o2bobo$4b2o$4bo12b
+2o$18bo$9b2o$4b2obo4bob2o$4bo10bo$5b2o6b2o$2b3o2b6o2b3o$2bo2bo8bo2bo$
+3b2o10b2o!
+
+#O DRH 1/4/95
+#C A larger version of crown, with a more accessible spark.
+x = 23, y = 27, rule = B3/S23
+11bo$11bo$2o7bo3bo$4obo4b3o8b2o$obo2b3o2b3o4bob4o$15b3o2bobo$4b2o$4bo
+12b2o$9b2o7bo$7bo4bo2$6bobo2bobo$4b4ob2ob4o$bobo4bo2bo4bobo$b2ob2obo4b
+ob2ob2o$4bobo6bobo$b2obobo6bobob2o$b2obo10bob2o$4bobob4obobo$4bobo6bob
+o$3b2obob4obob2o$3bo2b3o2b3o2bo$5bo2b4o2bo$4b2obo4bob2o$4bo2bo4bo2bo$
+5bo2bo2bo2bo$6b2o4b2o!
+
+#O AF,AWH,RWG 8/8/94
+#C First found on a 32x32 torus, without the outer p4s.
+x = 58, y = 49, rule = B3/S23
+11b2obo21bob2o$15bo3bo11bo3bo$11bo7b2o9b2o7bo$12b2ob2o2bo11bo2b2ob2o$
+16bo2b2ob2o3b2ob2o2bo$15b2o7bobo7b2o$16bo3bo9bo3bo$21bob2ob2obo3$bobo
+53bo$bo2bo17b3ob3o27b2o$4bo52bo$bo21bo3bo25b2obo$2bobobo16bo3bo24bo4bo
+$4b4o14b3ob3o27bo$52b2o$56b2o$2b4o17bo3bo25bo$3bobobo14bobobobo23bo4bo
+$8bo13bobobobo24bob2o$5bo6bo3bo3b2o2bobo2b2o3bo3bo5bo3bo3bo$5bo2bo3bob
+3o2bo4bobo4bo2b3obo5bob3o3b2o$6bobo3bo3bo3b4o3b4o3bo3bo5bo3bo3bo2$6bob
+o3bo3bo3b4o3b4o3bo3bo5bo3bo3bo$5bo2bo3bob3o2bo4bobo4bo2b3obo5bob3o3b2o
+$5bo6bo3bo3b2o2bobo2b2o3bo3bo5bo3bo3bo$8bo13bobobobo24bob2o$3bobobo14b
+obobobo23bo4bo$2b4o17bo3bo25bo$56b2o$52b2o$4b4o14b3ob3o27bo$2bobobo16b
+o3bo24bo4bo$bo21bo3bo25b2obo$4bo52bo$bo2bo17b3ob3o27b2o$bobo53bo3$21bo
+b2ob2obo$16bo3bo9bo3bo$15b2o7bobo7b2o$16bo2b2ob2o3b2ob2o2bo$12b2ob2o2b
+o11bo2b2ob2o$11bo7b2o9b2o7bo$15bo3bo11bo3bo$11b2obo21bob2o!
+
+#N Baker's dozen
+#O RTW 8/89
+x = 11, y = 23, rule = B3/S23
+8b3o$9b2o$8b2o$9bo$5b2o$6bob2o$8bo$8bo3$2o3b2o$2o2bo2bob2o$4bobo2b2o$
+5bo2$2bo$2bo$b2obo$4b2o$bo$b2o$2o$3o!
+
+#O DJB#131 10/26/80
+#C 4 baker's dozens, using only stable objects and each other for support.
+x = 25, y = 23, rule = B3/S23
+8bob2ob2obo$8b2obobob2o2$8b3o3b3o$8bo2bobo2bo$10b2ob2o2$2o3b2o11b2o3b
+2o$2o2bo2bob2o3b2obo2bo2b2o$4bobo2b2o3b2o2bobo$5bo13bo2$5bo13bo$4bobo
+2b2o3b2o2bobo$2o2bo2bob2o3b2obo2bo2b2o$2o3b2o11b2o3b2o2$10b2ob2o$8bo2b
+obo2bo$8b3o3b3o2$8b2obobob2o$8bob2ob2obo!
 
 #N Carnival shuttle
-#C Period 12. Found by Robert Wainwright in 1984. Stablized by P4 monograms.
+#C Supported by monograms; middleweight emulators work too
 x = 23, y = 7, rule = B3/S23
-obobo$obobo11b3ob3o$o3bo3bo2bobo5bo$bobo5bo3bo2b2o3b2o$o3bo3bo2bobo5bo$obobo
-11b3ob3o$obobo!
+obobo$obobo11b3ob3o$o3bo4bo3b2o4bo$bobo5b2ob3ob2o3b2o$o3bo4bo3b2o4bo$o
+bobo11b3ob3o$obobo!
+
+#O DJB <1980, RTW 1989
+x = 78, y = 14, rule = B3/S23
+55bo$22bo10bo9b2o9bobo$21bobo8bobo8b2o10bo$22bo10bo$41bo29b3ob3o$3ob3o
+33bobo2bobo4bobo2b2o5bo3b2o4bo$3bo4b2o3bo5b2o2bobo4bobo2b2o3bo2bobo2bo
+2bo2bobo2bo4b2ob3ob2o3b2o$2o3b2ob3ob2o4bo2bobo2bo2bo2bobo2bo3b2o2bobo
+4bobo2b2o5bo3b2o4bo$3bo4b2o3bo5b2o2bobo4bobo2bobo33b3ob3o$3ob3o29bo$
+44bo10bo$22bo10b2o8bobo8bobo$21bobo9b2o9bo10bo$22bo!
+
+x = 33, y = 5, rule = B3/S23
+3ob3o19b3ob3o$3bo4b2o3bo5bo3b2o4bo$2o3b2ob3ob2o5b2ob3ob2o3b2o$3bo4b2o
+3bo5bo3b2o4bo$3ob3o19b3ob3o!
+
+#O RTW 9/84
+x = 38, y = 7, rule = B3/S23
+obobo$obobo26b3ob3o$o3bo4bo3b2o2b2o5bo3b2o4bo$bobo5b2ob3obo2bo4b2ob3ob
+2o3b2o$o3bo4bo3b2o2b2o5bo3b2o4bo$obobo26b3ob3o$obobo!
+
+#O MDN, DRH >~2/20/95
+#C A wick based on 12.0.2, using a p3 multiple caterer.
+x = 52, y = 39, rule = B3/S23
+10bo3b2o$9bobo2bo6b2o$10b2o3bo5bo6b2o$12b3obo5bo5bo6b2o$10b2o2bobo2b3o
+bo5bo5bo6b2o$b2o6bo2b3obobo2bobo2b3obo5bo5bo$obo5bobo3bobo2b3obobo2bob
+o2b3obo5bo5b2o$obob2o3bo3b2ob2o3bobo2b3obobo2bobo2b3obo3bobo$bobobo4b
+2obo6b2ob2o3bobo2b3obobo2bobo2bo$3bo7bo5b2obo6b2ob2o3bobo2b3obobob2o$
+2bo2bo5bo6bo5b2obo6b2ob2o3bobobobobo$2bo15bo6bo5b2obo6b2obo2bo3bo$2bo
+3bo5bo12bo6bo5b2obo3bo3b3o$2bo3bo3b2o20bo6bo5b4o$2bo7b2ob2ob2o21bo6bo
+2bo$2bo2bo4b2o4b3o3b4o4bobo15b2o$3bo8bo3b2o4b2obo7bo6bo$bobobo17b3o3bo
+3bo4b2o$obob2o4bo22bo4b2ob2o$obo7bo6bo12bobo5b2o$b2o5bob2o5bo6bo15bo$
+7b2o6bob2o5bo6bo$6bo4b2ob2o6bob2o5bo6bo$8b2o2bobo3b2ob2o6bob2o5bo$4bob
+o3bobob3o2bobo3b2ob2o6bob2o$4bo5bobobo2bobob3o2bobo3b2ob2o3bo$5b4obobo
+b3o2bobo2bobob3o2bobo3bobo$6bob2o3bo5bob3o2bobo2bobob3o2bo$6bo7bo5bo5b
+ob3o2bobo2b2o$5bob3o3b2o6bo5bo5bob3o$7bo2bo9b2o6bo5bo3b2o$4bobo2b2o16b
+2o6bo2bobo$3b2o29b2o3bo$3b2o$4bobo2$4bo2bo$4bobo$5bo!
+
+#O NDE 6/9/95
+#C R-pentomino hassler
+x = 44, y = 41, rule = B3/S23
+$20b3o$21bo2$19b2ob2o$16b2o7b2o$16bo9bo$17b9o2$17b9o$16bo9bo$16b2o7b2o
+$19b2ob2o2$21bo$20b3o8b2o3b2o$6b2o3b2o18bobobobo$6bobobobo19bo3bo$7bo
+3bo$27bobobo5bobobo$2bobobo5bobobo4b3ob3obob2o3b2obob3o$3obob2o3b2obob
+3o4bo3bobobo5bobobo$2bobobo5bobobo5b2o$32bo3bo$7bo3bo19bobobobo$6bobob
+obo18b2o3b2o$6b2o3b2o8b3o$22bo2$20b2ob2o$17b2o7b2o$17bo9bo$18b9o2$18b
+9o$17bo9bo$17b2o7b2o$20b2ob2o2$22bo$21b3o!
+
+#N Buckingham's p13
+#O DJB#96 7/31/76
+x = 25, y = 15, rule = B3/S23
+4bo15bo$3bobo13bobo$3bobo13bobo$b3ob2o11b2ob3o$o23bo$b3ob2o11b2ob3o$3b
+ob2o11b2obo$10bo3bo$11bobo$10b2ob2o$8bo2bobo2bo$7bobobobobobo$7b2o2bob
+o2b2o$11bobo$12bo!
+
+#N 53P13
+#O Bullet51, 2015
+x = 14, y = 12, rule = B3/S23
+3b2o$3bo4b2obo$2obobo3b2obo$obob2obo4bo$2bo3bob4o$2bo3bo4bobo$b2obobob
+2o2b2o$o2b2obobo$bo3b2obo$2b2o3bo$4b3o$4bo!
 
 #N 66P13
 #O Bullet51, 2019
@@ -2367,6 +2783,19 @@ x = 20, y = 17, rule = B3/S23
 5bo$3b5o$2bo5bo$2bo2b3o10b2o$b2obo13bo$o3b2o9b2obo$bobo2bo10bo$2ob2ob
 2o5bo$7bo4bo$2ob2ob2o5bobo$bobo2bo$o3b2o$b2obo$2bo2b3o$2bo5bo$3b5o$5bo
 !
+
+#N 34P13
+#O Nicolay Beluchenko, 2009
+#C The smallest known period 13 oscillator.
+x = 16, y = 16, rule = 23/3
+4b3o9b2$6bo9b$6b2o8b$5bo10b$8bo7b$4bo3bo7b$9b2o5b$2o2b3o5bo3b$2o5bo4b
+2obo$7bo3bo3bo$7bobo5bo3$6b2o8b$6b2o!
+
+#N Tumbler
+#O George Collins, Jr. 1970
+#C Period 14/2, symmetry type "-c+c".
+x = 7, y = 6, rule = B3/S23
+b2ob2o$b2ob2o$2bobo$obobobo$obobobo$2o3b2o!
 
 #N 34P14 shuttle
 #O carybe, 2018
@@ -2381,11 +2810,119 @@ x = 13, y = 10, rule = B3/S23
 8b2o$4b2obo2bo$3bobob2obo$3bobobo2b2o$2obo3bobo2bo$o2bo3bobob2o$b2o2bo
 bobo$2bob2obobo$2bo2bob2o$3b2o!
 
+#N Pentadecathlon
+#O JHC 1970
+#C Frequently used in higher-period oscillators
+x = 10, y = 3, rule = B3/S23
+2bo4bo$2ob4ob2o$2bo4bo!
+
+#O RTW 10/78
+#C 2 PDs hassle 2 blocks symmetrically.
+x = 10, y = 16, rule = B3/S23
+2bo4bo$2ob4ob2o$2bo4bo5$2b2o2b2o$2b2o2b2o5$2bo4bo$2ob4ob2o$2bo4bo!
+
+#N Jolson
+#O RTW 11/84
+#C 2 PDs hassle 2 blocks asymmetrically.
+x = 14, y = 16, rule = B3/S23
+2bo4bo$2ob4ob2o$2bo4bo5$5b2o2b2o$5b2o2b2o5$2o3bo2bo3b2o$5o4b5o$2o3bo2b
+o3b2o!
+
+#O DJB 3/73
+#C Four pentadecathlons hassling four blocks
+x = 20, y = 20, rule = B3/S23
+10bo4bo$8b2ob4ob2o$bo8bo4bo$bo$obo$bo$bo$bo5b2o2b2o$bo5b2o2b2o5bo$obo
+15bo$bo15bobo$bo5b2o2b2o5bo$7b2o2b2o5bo$18bo$18bo$17bobo$18bo$4bo4bo8b
+o$2b2ob4ob2o$4bo4bo!
+
+#O DJB 7/73
+#N Two pentadecathlons hassling barge
+x = 15, y = 15, rule = B3/S23
+7b8o$7bob4obo$7b8o5$3o7bo$obo6bobo$3o5bobo$3o4bobo$3o5bo$3o$obo$3o!
+
+#N p15 biblock hassler
+#O DRH 2/21/95
+x = 19, y = 24, rule = B3/S23
+2b2o3bo$2bobobobo$4bobobo$3b2obob2o$2bo3b2o3bo$bob2o2b2o$bobo2bobo3bo$
+2b3o2b2o5b2ob2o$6b2o3bo2b2ob2o$5obob2o$o2bo2bobo$5bo2bo$6b2o$10b2o2b2o
+$6b5ob2ob3o$5bo12bo$6b6o2b4o$11bo2bo$8b2o6b2o$8bo2bo2bo2bo$9b3o2b3o2$
+7b4ob2ob4o$7bo2b2o2b2o2bo!
+
+#N Loaflipflop
+#O RTW 1990
+#C 4 pentadecathlons hassle a loaf.
+x = 36, y = 36, rule = B3/S23
+15bo$14b3o$13b5o7$13b5o$14b3o$15bo2$2bo6bo$b2o6b2o$3o6b3o5bo$b2o6b2o5b
+obo$2bo6bo5bo2bo2bo2b2o4b2o2bo$16b2o2bo3b3o2b3o3bo$21bo2b2o4b2o2bo$18b
+o$17bobo3$17b3o$17b3o$18bo3$18bo$17b3o$17b3o3$17bobo$18bo!
+
 #N Karel's p15
 #O Karel Suhajda
 #C A period 15 oscillator discovered on December 11, 2002
 x = 10, y = 11, rule = B3/S23
 2bo4bo2b$2b6o2b$2bo4bo2b4$2b6o2b$bo6bob$o8bo$bo6bob$2b6o!
+
+#N Achim's p16
+#O AF 7/27/94
+#C Period 16/2, symmetry type "rc*c".
+x = 13, y = 13, rule = B3/S23
+7b2o$7bobo$2bo4bob2o$b2o5bo$o2bo$3o2$10b3o$9bo2bo$4bo5b2o$2b2obo4bo$3b
+obo$4b2o!
+
+#N 2 pre L hassler
+#O RTW 7/83
+#C 4 blockers hassle a pair of pre-loafs.  Period 16/2, symmetry type ".k+k".
+x = 24, y = 16, rule = B3/S23
+4b2o12b2o$2obo2bob2o4b2obo2bob2o$2o2bo4bo4bo4bo2b2o$5bo12bo$6bobo6bobo
+$13bo$12bobo$9bo5bo$8bo5bo$9bobo$10bo$6bobo6bobo$5bo12bo$2o2bo4bo4bo4b
+o2b2o$2obo2bob2o4b2obo2bob2o$4b2o12b2o!
+
+#N Sailboat
+#O RTW 6/84
+#C The 2 p8 oscillators (figure 8 and
+#C Kok's galaxy) supply sparks which attack the boat in the
+#C same way, but it's not possible to use 2 copies of either.
+x = 27, y = 24, rule = B3/S23
+7bob2o5b2obo$7b2obo5bob2o2$5b5o7b5o$4bo4bo7bo4bo$3bo2bo12b2o2bo$3bob2o
+14bobo$2obo5bo7bo3bobob2o$bobo4bobo5bo6bobo$o2b2o2bo2bo6bobo2b2o2bo$2o
+6b2o8bo6b2o$12b2o$12bobo$13bo2b2o2$3b2ob6o2bo3bo$3b2ob6o2bo4bo$3b2o11b
+obobo$3b2o5b2o5bobobo$3b2o5b2o6bo4bo$3b2o5b2o7bo3bo$10b2o$3b6ob2o8b2o$
+3b6ob2o!
+
+#N Ship in a bottle
+#O RWG 8/7/94
+#C Period 16/2, symmetry type "/xk".
+x = 18, y = 18, rule = B3/S23
+4b2o6b2o$3bo2bo4bo2bo$3bobo6bobo$b2o2b3o2b3o2b2o$o6bo2bo6bo$ob2o10b2ob
+o$bobo10bobo$3b2o3b2o3b2o$7bobo$7b2o$3b2o8b2o$bobo10bobo$ob2o10b2obo$o
+6bo2bo6bo$b2o2b3o2b3o2b2o$3bobo6bobo$3bo2bo4bo2bo$4b2o6b2o!
+
+#N p16 biblock hassler
+#O NDE 2/20/95
+#C 2 1-bit sparks (from a blocker and a mold) hassle a pair of
+#C blocks.  Sparks can also come from oscillators of period 5,
+#C 6, 12, 29, 47, or 72 (not shown).
+#C The biblock creates a 1-bit spark of its own in gen 13, so
+#C it's possible to build a loop of 4 of them (see period 52).
+x = 19, y = 11, rule = B3/S23
+4b2o$2obo2bob2o$2o2bo4bo$5bo$6bobo4b3o$13b3obo$9b2o3bobobo$9b2o4bo2bo$
+16b2o$9b2o$9b2o!
+
+#N Symmetric p16 biblock hassler
+#O NDE 2/21/95
+x = 25, y = 16, rule = B3/S23
+4b2o13b2o$2obo2bob2o5b2obo2bob2o$2o2bo4bo5bo4bo2b2o$5bo13bo$6bobo7bobo
+2$3b2o4b2o3b2o4b2o$3b2o4b2o3b2o4b2o$3b2o15b2o$4bo4b2o3b2o4bo$3bobo3b2o
+3b2o3bobo$2b2obo13bob2o3$3b2o15b2o$3b2o15b2o!
+
+#N Achim's other p16
+#O AF 8/7/94 (on a 32x32 torus), RWG 8/17/94
+x = 35, y = 35, rule = B3/S23
+9bo15bo$9b2o13b2o$9b2o13b2o$10bo13bo$13b2o5b2o2$11bo11bo$11bo11bo$12b
+2o7b2o$3o29b3o$b3o10b2o3b2o10b3o$6b2o5bo7bo5b2o$8bo17bo$4bo3bo2bo11bo
+2bo3bo$4bo5bo13bo5bo$10bo13bo4$10bo13bo$4bo5bo13bo5bo$4bo3bo2bo11bo2bo
+3bo$8bo17bo$6b2o5bo7bo5b2o$b3o10b2o3b2o10b3o$3o29b3o$12b2o7b2o$11bo11b
+o$11bo11bo2$13b2o5b2o$10bo13bo$9b2o13b2o$9b2o13b2o$9bo15bo!
 
 #N Rich's p16
 #O Rich Holmes
