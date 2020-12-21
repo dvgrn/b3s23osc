@@ -1054,9 +1054,10 @@ x = 7, y = 9, rule = B3/S23
 
 #O DJB#103 6/3/77
 #C Rotor has symmetry type "-c", but stator can't be made symmetric.
-x = 7, y = 16, rule = B3/S23
-4b2o$3bobo$3bo$2ob2o$bobo$bobob2o$2obo$3bobo$2o$o2bobo$bobo$2obob2o$3b
-o$3b2o$2obo$2obobo!
+x = 8, y = 17, rule = B3/S23
+5b2o$4bobo$4bo$b2ob2o$2bobo$2bobob2o$b2obo$4bobo$b2o$bo2bobo$2bobo$b2o
+bob2o$2bobo$obob2o$2o2bo$4bobo$5b2o!
+
 
 #O DRH 10/89
 x = 10, y = 17, rule = B3/S23
@@ -1177,9 +1178,8 @@ $3o12b3o$o16bo$o16bo$3o2b3o2b3o2b3o$2bo2bobo2bobo2bo$2b4ob4ob4o!
 #N Star
 #O HH 2/16/93
 #C Another polyomino.
-x = 18, y = 13, rule = B3/S23
-2b4ob4ob4o$2bo2bobo2bobo2bo$3o2b3o2b3o2b3o$o16bo$o16bo$3o12b3o$2bo12bo
-$3o12b3o$o16bo$o16bo$3o2b3o2b3o2b3o$2bo2bobo2bobo2bo$2b4ob4ob4o!
+x = 11, y = 11, rule = B3/S23
+5bo$4b3o$2b3ob3o$2bo5bo$b2o5b2o$2o7b2o$b2o5b2o$2bo5bo$2b3ob3o$4b3o$5bo!
 
 #O HH 3/5/93
 #C Any of its four corners can be present or absent, and it will still work
@@ -1559,8 +1559,9 @@ x = 16, y = 7, rule = B3/S23
 
 #N Overweight emulator
 #O RTW ????
-x = 16, y = 7, rule = B3/S23
-7b2o$2b2obo4bob2o$2bo10bo$3b2o6b2o$3o2b6o2b3o$o2bo8bo2bo$b2o10b2o!
+x = 17, y = 10, rule = B3/S23
+7b3o$8bo$2b2o9b2o$2bo2b7o2bo$3b2o7b2o$3o11b3o$o2bobo5bobo2bo$b2o3bo3bo
+3b2o2$7b3o!
 
 x = 26, y = 11, rule = B3/S23
 8b2o2b2o2b2o$8b2o2b2o2b2o2$2b2obo14bob2o$2bo20bo$3b2o16b2o$3o2b16o2b3o
@@ -2249,12 +2250,12 @@ $9b4o$2bobo2bo6bo2bobo$2bo3bo2b4o2bo3bo$2bobo2bo6bo2bobo$9bo2bo$2bo6bo
 
 #O RTW 11/16/94
 #C 4 unixes support a simple diagonal wick.
-x = 33, y = 34, rule = B3/S23
+x = 34, y = 34, rule = B3/S23
 16b2o$15b4o$14bo2bobo$13bobo2b2o$12bobo$11b2o$11b3o$12bobo$13b2o$9b2o$
 8bo2bo$9bo$10bo$2b2o7bo2bo$4bob2o4bo17b2o$o2bo2b2o5bo16bobo$obo11bo2bo
-13b2o$bo13bo16bo$16bo13bobo$b2o14bo2bo4b2o2bobo$b2o15bo6bobo2bo$19bo6b
-4o$20bo2bo3b2o$21bo2bo$22bobo$23bo$18b2o$18b2o2$19bo$18bobo$13b2o2bo2b
-o$13b2obo$17b2o!
+13b3o$bo13bo16b2o$16bo13bobo$b2o14bo2bo4b2o2bobo$b2o15bo6bobo2bo$19bo
+6b4o$20bo2bo3b2o$21bo2bo$22bobo$23bo$18b2o$18b2o2$19bo$18bobo$13b2o2bo
+2bo$13b2obo$17b2o!
 
 #O right end:RTW 10/78, middle and left end:DRH 10/89
 x = 75, y = 21, rule = B3/S23
@@ -2631,10 +2632,6 @@ x = 20, y = 17, rule = B3/S23
 x = 21, y = 9, rule = B3/S23
 3b2o11b2o$b3ob2ob2ob2ob2ob3o$o8bobo8bo$b5obobobobob5o$6b2obobob2o$3b2o
 5bo5b2o$3bo13bo$4bo11bo$3b2o11b2o!
-
-x = 14, y = 14, rule = B3/S23
-4b2o$3bobo$3bo$2obo$2obo$3bob2o$2obo$obo2bo2bo$3b2obobo3b2o$5bo7bo$5bo
-b6o$6bo$7bob2o$6b2ob2o!
 
 x = 13, y = 10, rule = B3/S23
 2b2o2bo2b2o$2bo7bo$3b2o3b2o$o5bo5bo$6ob6o$4bo3bo$2b2o5b2o$2bo7bo$3bo5b
@@ -3297,7 +3294,6 @@ o8b3o4bo$16b2o3b2o2$2bo2bo27bo2bo$2b4o27b4o$8bo21bo$4b5o21b5o$4bo4b2o
 13b2obobo$8b2obo15bob2o$11bo15bo$11b2o3b2o3b2o3b2o$15bo2bobo2bo$16b2o
 3b2o!
 
-
 #C p27 traffic light hassler
 x = 28, y = 18, rule = B3/S23
 4b2o$5bo14b2o$5bobo12bobob2o$6b2o14bobo$22bobo$22bobob2o$b2o7b3o7bobob
@@ -3320,6 +3316,12 @@ bo3bobob2o3bo4bo3bo3bo$bo5bo3b3o2bo3b3ob3o$2b6ob2o3b6o2bobo$5bo2bobo2b
 o6bob2o$2b2o2b2o2bobo2b3o4bo$2bo4bob2o2b2o3b2o2bobob2o$3bo3bo2bo4b2o5b
 ob2obo$2b2o4b2o5bob5o$19bo!
 
+#N 56P27
+#O Nicolay Beluchenko, May 2010
+x = 30, y = 30, rule = b3/s23
+15b2o13b$15b2o13b5$13b2o15b$14b2o14b$10bo4bo14b$10bo3bo15b$10b2o7b3o8b
+$19bo10b2$2o21bo6b$2o5b2o11bob2o6b$6b2obo11b2o5b2o$6bo21b2o2$10bo19b$
+8b3o7b2o10b$15bo3bo10b$14bo4bo10b$14b2o14b$15b2o13b5$13b2o15b$13b2o!
 
 #C Most known p28 and p29 oscillators are "pulsar hasslers".  Consider a
 #C pair of hollow 3x3 squares, with 3 empty columns between them:
@@ -3462,14 +3464,14 @@ $18b2o2b2o3bo9b2o$18bo3b2o3bo9b2o$22b2o3bo$24bobo$25bo2$14b3o$13bo3bo$
 12bo5bo$13bo3bo$14b3o$14b3o4$15b2o$15b2o!
 
 #N P30 LWSS gun
-x = 73, y = 32, rule = B3/S23
+x = 73, y = 33, rule = B3/S23
 37b2o$37bobo$40bo11bobo$25b2o10bo2bo10bo2bo4bo$24b3o13bo9b2o5b2o$12bo
 8bob2o12bobo8b2o3bo8b2o$12bobo6bo2bo5bo6b2o11b2o10b2o$13bobo5bob2o5bo
 11bo8bo2bo$2o11bo2bo7b3o13b2o10bobo$2o11bobo9b2o14b2o$12bobo$12bo9bo$
 23b2o$22b2o2$33bobo$33b2o$34bo2$29bobo26bo2bo$30b2o12b4o14bo$30bo12bo
 3bo10bo3bo$34b2o11bo11b4o$33bobo7bo2bo22b2o$23bo11bo33bobo$23bobo45bo$
 12b2o12b2o9b2o32b2o$12b2o12b2o9b2o$26b2o6b2o6bo3b2o$23bobo7b3o5bo3bobo
-$23bo10b2o6b5o$37b2o4b3o!
+$23bo10b2o6b5o$37b2o4b3o$37b2o!
 
 #O DRH 2/14/95
 #C 4 p5s hassle a beehive.
@@ -3619,24 +3621,8 @@ bo4b2o$obo2bobo$bo4bo5$12b2o$8b2obo2bo$7bobo5b5o$7bo3bo5bo2bo$7bo3b2o
 8bo$8bo8b2o3bo$9bo2bo5bo3bo$10b5o5bobo$15bo2bob2o$16b2o5$23bo4bo$22bob
 o2bobo$22b2o4bo!
 
-#O DRH 2/14/95
-#C 4 p5s hassle a beehive.
-x = 79, y = 24, rule = B3/S23
-35b2o4b2o$35bobo2bobo27b2o$37bo2bo6b2o4b2o8b2o3bo2bo$36bo4bo6bo4bobo8b
-o3b2o$26bo9bo4bo6bob2obo2bo7bob2o2b4ob2o$25bobo8bo4bo5b2obobob2o6b2obo
-bobo3bobobo$25bob3o8b2o14bo6bobobobo2b2obobobo$22bob2o4bo14bob2ob2ob2o
-13bobo2bobob2o$14b2o6b2o3b2obo17b2o3b3ob2obob3obo2b3o3bo$13bobo9b2obob
-2o11bo3bobo2b2obob2ob2o4bobo4bobo$7b2obo2bo6b5obobo4bo13bobo2bo3bobo4b
-2obob4ob2o$6bob2obob2o4bo5bo4b2obo4bo2b2o5b2o5b4o8bo4bo$6bo4bo2bo5b5o
-3b3o2b2o3b6obob2ob2obo5bo4b2obob2obo$4b2ob4obob2o8b2o6b3o4b3o10bob5o6b
-o2bob2o$3bobobo4bo7bo4b2o5b3o12b2obob2o9bobo$3bo2b2o2bobob7ob2o4b3o2b
-2o13bob2o3b2o6b2o$2ob3o2bobob2o2bobo5bo5b2obo14bo4b2obo$bobobob2o2bobo
-bobo6bobobo4bo15b3obo$bobobo3bobobob2o6b2obobob2o6b4o9bobo$2b2ob4o2b2o
-bo7bo2bob2obo6b6o9bo$9b2o3bo8bobo4bo6bo4bo$7bo2bo3b2o8b2o4b2o6bo2bo$7b
-2o27bobo2bobo$36b2o4b2o!
-
 #N P35 beehive hassler
-#O Dean Hickerson, 1995
+#O Dean Hickerson, 2/14/1995
 #C The first known period 35 oscillator
 x = 79, y = 24, rule = B3/S23
 35b2o4b2o36b$35bobo2bobo27b2o7b$37bo2bo6b2o4b2o8b2o3bo2bo7b$36bo4bo6bo
@@ -3747,15 +3733,15 @@ x = 34, y = 26, rule = B3/S23
 3o2b3o4b3o$5b2o2bo3b2o3bo5bo$9bob2o2b3o$10bo2bobo$12bobo$13bo!
 
 #C P36 honey farm hassler
-x = 49, y = 30, rule = B3/S23
-18b2o$16bo2bo13b2o$32bo2bo$35bo$16b2obo15bo$18bobo2b2o4bo3bobo4b2o$19b
-o4bo3bo3bobo5bobo$20bo7bo4bo9bo$12b2o6bo2bo5b4o8b2obob2o$11bobo23b4o3b
-2obo$11bobob2o18bo2bo3b2o$12bobobo17bo2bo2b3ob3o$14bo6b3o10b2o5b2o3bo$
-b2o11b2o4bo3bo9b3o5b4o$o2bo2b2o6b3o2bo5bo8b3o4bo4b3o$3o2bobo6b3o2bo5bo
-8b3o4b2o2bo2bo$3b2o9b3o2bo5bo8b2o10b2o$2bo2bo8b2o4bo3bo9bo$2b2o3bo5bo
-7b3o8bobobo$5bob2obob2o18b2obobo$bob2obo4bo23bobo$b2obob2o3bo4b4o15b2o
-$5bo9bo4bo8b2o$6bobo5bobo3bo7b4o$7b2o4bobo3bo7bobo2bo$13bo13b2o2bobo$
-13bo18bobo$13bo2bo17b2o$14b2o17b3o$32bobo!
+x = 49, y = 32, rule = B3/S23
+$18b2o$16bo2bo13b2o$32bo2bo$35bo$16b2obo15bo$18bobo2b2o4bo3bobo4b2o$
+19bo4bo3bo3bobo5bobo$20bo7bo4bo9bo$12b2o6bo2bo5b4o8b2obob2o$11bobo23b
+4o3b2obo$11bobob2o18bo2bo3b2o$12bobobo17bo2bo2b3ob3o$14bo6b3o10b2o5b2o
+3bo$b2o11b2o4bo3bo9b3o5b4o$o2bo2b2o6b3o2bo5bo8b3o4bo4b3o$3o2bobo6b3o2b
+o5bo8b3o4b2o2bo2bo$3b2o9b3o2bo5bo8b2o10b2o$2bo2bo8b2o4bo3bo9bo$2b2o3bo
+5bo7b3o8bobobo$5bob2obob2o18b2obobo$bob2obo4bo23bobo$b2obob2o3bo4b4o
+15b2o$5bo9bo4bo8b2o$6bobo5bobo3bo7b4o$7b2o4bobo3bo7bobo2bo$13bo13b2o2b
+obo$13bo18bobo$13bo2bo17b2o$14b2o17b3o$32bobo$32b2o!
 
 #C P36 traffic light hassler
 x = 38, y = 20, rule = B3/S23
@@ -4130,14 +4116,6 @@ $3b2o4b7o8b7o4b2o$3bo2b2o4bo4b2o2b2o4bo4b2o2bo$4b3obo7bob4obo7bob3o$
 10b2ob2o10b2ob2o$6b2o9b2o2b2o9b2o$6bo11bo2bo11bo$7bo9bo4bo9bo$6b2o9b2o
 2b2o9b2o!
 
-#C P48 beehive hassler
-x = 23, y = 39, rule = B3/S23
-3b2o10b2o$2bo2bo8bo2bo$2b3o2b6o2b3o$5b2o6b2o$4bo10bo$4b2obo4bob2o$9b2o
-$18bo$4bo12b2o$4b2o$10b3o2b3o2bobo$obo2b3o2b3o4bob4o$4obo3bo3bo7b2o$2o
-9bo$11bo2$10b2o$9bo2bo$10b2o2$10b2o$9bo2bo$10b2o2$11bo$2o9bo$4obo3bo3b
-o7b2o$obo2b3o2b3o4bob4o$10b3o2b3o2bobo$4b2o$4bo12b2o$18bo$9b2o$4b2obo
-4bob2o$4bo10bo$5b2o6b2o$2b3o2b6o2b3o$2bo2bo8bo2bo$3b2o10b2o!
-
 #N 69P48
 #O Noam Elkies, 2002.
 #C The top part has period 16. The bottom part has period 7, but it skips a phase every 48 generations.
@@ -4292,6 +4270,16 @@ x = 26, y = 31, rule = B3/S23
 3o2b2o3b2o2b3obo$obobo13bobobo$o2bo3bo2bobo2bo3bo2bo$b2o7bobo7b2o$10bo
 bo2$b2o4b3o3b3o4b2o$o2bo15bo2bo$obo17bobo$bob2o13b2obo$2b3o13b3o$3b2o
 13b2o!
+
+#N P57 bumper loop
+#O Entity Valkyrie, 2018
+x = 44, y = 44, rule = B3/S23
+14bo$14b3o$17bo7b3o$16b2o11bo$26bo2bobo2$12b2o8b2o3b4obo$12bo9bo5b3o2b
+o$10bobo8bo9bo$10b2o9b2o8bo2bo$7b2o25bo$5b2obo24bo$3b2obo27b3o$8bo27bo
+$3bo$3bob3o34b2o$b2o39bo$3bo36bobo$40b2o$6bobo$6bo2bo$5bo2b2o$34b2o2bo
+$34bo2bo$35bobo$2b2o$bobo36bo$bo39b2o$2o34b3obo$40bo$7bo27bo$7b3o27bob
+2o$10bo24bob2o$9bo25b2o$9bo2bo8b2o9b2o$12bo9bo8bobo$10bo2b3o5bo9bo$11b
+ob4o3b2o8b2o2$12bobo2bo$14bo11b2o$16b3o7bo$27b3o$29bo!
 
 #N p58, type 3 toadsucker
 #O RWG,MDN 10/25/94 (using larger p29s), DRH 12/13/94
@@ -4945,9 +4933,12 @@ $b2o40b2o$b2o40b2o4$2b2o38b2o$2b2o38b2o$o3bo36bo3bo$3bo38bo$3bo38bo9$
 #C p46 spark turns the glider into a block; the next spark turns
 #C it back into a glider.  The period can be anything of the
 #C form 184+92n.  Also see 276.0.0.
-x = 45, y = 45, rule = B3/S23
-8b2o$8b2o16$2obo3bob2o$o2bo3bo2bo$b3o3b3o8$8b2o$8b2o6$4bo21b2o$5b2o9b
-2o7bobo15b2o$4b2o10b2o7bo17b2o$25b3o4$25b3o$25bo$25bobo$26b2o!
+x = 46, y = 46, rule = B3/S23
+3bo5b2o$2b3o4b2o$b2ob2o2$obobobo2$b2ob2o$b2ob2o$3bo9$b2obo3bob2o$bo2bo
+3bo2bo$2b3o3b3o8$9b2o$9b2o6$5bo21b2o$6b2o9b2o7bobo15b2o$5b2o10b2o7bo
+17b2o$26b3o2$41bo$38b2o3bo$26b3o9b2obob2o$26bo10bo6b2o$26bobo9b2obob2o
+$27b2o9b2o3bo$41bo!
+
 
 #N Pseudo p94 gun
 #O DJB,RCS,PC 7/11/94
@@ -5004,4 +4995,323 @@ $58bo7bo2b2o$33b3o10bo11bo8b3o$21bo24bo20b3o$21bo24bo7b3o3b3o3bo2b2o$
 obo20b2o$21bo2bo11bo2bo$19bo2b2o2bo9bobobo$19bo2b2o2bo10bob3o$21b4o14b
 3o$19bobo2bobo$19b2o4b2o18bo2bo$43bo2b2o2bo$43bo2b2o2bo$45b4o$43bobo2b
 obo$43b2o4b2o!
+
+#N P230 glider shuttle
+#O DRH 3/19/92 (using early version of toaster)
+#C 4-glider shuttle with period 230+40n.  See comments for P42 glider shuttle.
+x = 68, y = 58, rule = B3/S23
+26b2o12b2o$18b2o2b2o2bo14bo2b2o2b2o$18bo2bo2bobo14bobo2bo2bo$19b2ob3ob
+2o12b2ob3ob2o$20bobobobo14bobobobo$13bo4bo9bo10bo9bo4bo$12bobo2bob3obo
+b3obo8bob3obob3obo2bobo$13bo3bo3b2ob2o3bo8bo3b2ob2o3bo3bo$18b3ob3ob3o
+10b3ob3ob3o$11b5o4bo5bo14bo5bo4b5o$10bo4bo36bo4bo$9bo2bo8bo3bo16bo3bo
+8bo2bo$6bo2bob2o10bo20bo10b2obo2bo$5bobobo5bo36bo5bobobo$6bo2bo4bobo
+34bobo4bo2bo$9b2o2bo2bo34bo2bo2b2o$14b2o36b2o$6b2o52b2o$b2o2bo2bo50bo
+2bo2b2o$bobo2bobo24b2o24bobo2bobo$3b2obob2o23b2o23b2obob2o$2bo3b2o3bo
+44bo3b2o3bo$bob2o2b2o50b2o2b2obo$bobo2bobo3bo42bo3bobo2bobo$2b3o2b2o
+50b2o2b3o$6b2o3bo18bobo2bobo18bo3b2o$5obob2o21b2o2b2o21b2obob5o$o2bo2b
+obo22bo4bo22bobo2bo2bo$5b2obo2bo44bo2bob2o$6bobobobo42bobobobo$4bo3bob
+obo12bo7b2o7bo12bobobo3bo$4b5obob2o12b2o5b2o5b2o12b2obob5o$10b2o3bo9b
+2o14b2o9bo3b2o$6b3o2b2o42b2o2b3o$5bobo2bobo3bo34bo3bobo2bobo$5bob2o2b
+2o42b2o2b2obo$6bo3b2o3bo36bo3b2o3bo$7b2obob2o40b2obob2o$5bobo2bobo42bo
+bo2bobo$5b2o2bo2bo42bo2bo2b2o$10b2o44b2o$18b2o13b2o13b2o$13b2o2bo2bo
+12b2o12bo2bo2b2o$10bo2bo4bobo26bobo4bo2bo$9bobobo5bo28bo5bobobo$10bo2b
+ob2o10bo12bo10b2obo2bo$13bo2bo8bo3bo3b2o3bo3bo8bo2bo$14bo4bo13b2o13bo
+4bo$15b5o4bo5bo6bo5bo4b5o$22b3ob3ob8ob3ob3o$17bo3bo3b2ob2o8b2ob2o3bo3b
+o$16bobo2bob3obob4o2b4obob3obo2bobo$17bo4bo9bo2bo9bo4bo$24bobobobo6bob
+obobo$23b2ob3ob2o4b2ob3ob2o$24bobo2bo2bo2bo2bo2bobo$24bo2b2o2b2o2b2o2b
+2o2bo$23b2o18b2o!
+
+#N Obnoxious P230
+#O RWG 5/28/92
+#C Sparks from a p46 shuttle interact 3 times with sparks from a p5 MW volcano; one
+#C interaction makes a temporary blinker; another makes a temporary glider. 
+x = 33, y = 26, rule = B3/S23
+9b2o$5b2o2bo$4bo2bobo$2obob3ob2o$ob2obobobo$11bo$b4obob3obo$o3b2ob2o3b
+o$b3ob3ob3o$3bo5bo2$4bo3bo$6bo2$4bobo3bobo$6bo3bo8bobo2b2o$2bo11bo3bo
+3bob3o4b2o$bo3bo5bo3bo3bo6b2o3b2o$2bo11bo5b5obo$6bo3bo12b3o$4bobo3bobo
+$23b3o$20b5obo$4b2o13bo6b2o$4b2o12bo3bob3o$19bobo2b2o!
+
+#N P230 glider gun
+#O PC 6/28/94
+#C Based on 2 LWSS reflections from
+#C p46 oscillators.  In one, the LWSS is turned 90 degrees; in
+#C the other it becomes 2 parallel gliders.
+x = 75, y = 64, rule = B3/S23
+42bo$41b2o$40b3obo9b2o$13bo25b2o13b2o$13b2o25b2o$2o9bob3o25bo$2o13b2o$
+14b2o25bo$14bo25b2o$39b2o13b2o$14bo25b3obo9b2o$14b2o25b2o$2o13b2o25bo$
+2o9bob3o$13b2o$13bo51bo5b2o$64b3o4b2o$63b2ob2o2$62bobobobo2$63b2ob2o$
+15b2o40b2o4b2ob2o$15b2o39bobo6bo$58bo6$15b3o3b3o$15bo2bobo2bo$14bo3bob
+o3bo38b2obo3bob2o$14b4o3b4o38bo2bo3bo2bo$15bo7bo40b3o3b3o$35b2o$35b2o
+6$64b2o5b2o$64b2o5b2o5$63bo$15b2o5b2o11b2o5b2o17bobo$15b2o5b2o11bob2ob
+2obo18b2o$36bobobobo$36bobobobo$35bo7bo4$37b2ob2o29b2o$35bo2bobo2bo27b
+obo$35b3o3b3o29bo$36bo5bo30b2o2$35b2o5b2o$35b2o5b2o!
+
+#N P240 glider shuttle
+x = 58, y = 26, rule = B3/S23
+8o42b8o$ob4obo42bob4obo$8o42b8o3$28b2o$28b2o9$23bo10bo$23bobo6bobo$23b
+2o8b2o2$28b2o$28b2o3$8o42b8o$ob4obo42bob4obo$8o42b8o!
+
+#N P246 glider shuttle
+#O DRH 11/89 (p270+24n), 4/92 (p246)
+#C 2-glider shuttle with period 246+24n.  See comments for P42 glider shuttle.
+x = 60, y = 51, rule = B3/S23
+10bo11bo14bo11bo$9bobo9bob4o6b4obo9bobo$10bo9bobob3o6b3obobo9bo$19bobo
+16bobo$8b5o7bo18bo7b5o$7bo4bo7b2o16b2o7bo4bo$6bo2bo10b2o16b2o10bo2bo$
+3bo2bob2o10b2o16b2o10b2obo2bo$2bobobo5bo34bo5bobobo$3bo2bo4bobo32bobo
+4bo2bo$6b2o2bo2bo32bo2bo2b2o$11b2o34b2o2$29b2o$29b2o$5b2o46b2o$5b2o46b
+2o$5b2o46b2o$6bo20bo4bo20bo$5bobo20bo2bo20bobo$3obobo19b3o2b3o19bobob
+3o$4obo48bob4o$4bo50bo2$22bo6b2o6bo$20bobo6b2o6bobo$bo2bo16b2o14b2o16b
+o2bo$4bo50bo$o4bo48bo4bo$2o2bobo46bobo2b2o$5bob2o42b2obo3$5bo2bo42bo2b
+o$5b2o46b2o$29b2o$29b2o2$11b2o34b2o$6b2o2bo2bo32bo2bo2b2o$3bo2bo4bobo
+32bobo4bo2bo$2bobobo5bo34bo5bobobo$3bo2bob2o10b2o16b2o10b2obo2bo$6bo2b
+o8bo2bo16bo2bo8bo2bo$7bo4bo34bo4bo$8b5o34b5o$18b2obo16bob2o$10bo9bobo
+2b2o6b2o2bobo9bo$9bobo9bo4bo6bo4bo9bobo$10bo11bo14bo11bo$22bo2bo8bo2bo!
+
+#N P276 glider shuttle
+#O DRH 1/24/92
+Glider shuttle based on the same reflection as in 184.0.0.  Also see 90.0.1
+x = 87, y = 27, rule = B3/S23
+17b2o$2o15bobo$2o17bo$17b3o4$17b3o$2o17bo7b2o$2o15bobo7b2o$17b2o5$46bo
+21b2o$47b2o9b2o7bobo15b2o$46b2o10b2o7bo17b2o$67b3o4$67b3o$67bo17b2o$
+67bobo15b2o$68b2o!
+
+#N 4-barrelled p276 glider gun
+#O DJB before 11/92
+x = 94, y = 54, rule = B3/S23
+25b2o7b2o$26bo8bo$26bobo6bobo$27b2o7b2o5$6bob2o$2o3bo2b2o2b3o12b2o$2o
+3bo6b2o13b2o$5b2o3b3o$7bo3bo$21bo5bo$7bo3bo9bo5bo$5b2o3b3o$2o3bo6b2o3b
+2o11b2o$2o3bo2b2o2b3o$6bob2o11bo5bo$21bo5bo46b2o$64b2o6b2ob2o14b2o$64b
+2o6bo2bo15b2o$72bo2bo$73b2o$18b2o$b2o14b2ob2o19b3o29b2o$b2o15bo2bo20bo
+29bo2bo$18bo2bo18b3o29bo2bo15b2o$19b2o51b2ob2o14b2o$74b2o$19b2o$18bo2b
+o$b2o15bo2bo6b2o$b2o14b2ob2o6b2o$18b2o46bo5bo$66bo5bo11b2obo$79b3o2b2o
+2bo3b2o$42b2o18b2o11b2o3b2o6bo3b2o$42b2o37b3o3b2o$66bo5bo9bo3bo$66bo5b
+o$82bo3bo$81b3o3b2o$65b2o13b2o6bo3b2o$51bo13b2o12b3o2b2o2bo3b2o$49bobo
+32b2obo$50b2o4$56b2o7b2o$56bobo6bobo$58bo8bo$58b2o7b2o!
+
+#N P282 glider shuttle
+#O RWG 9/13/92
+#C Based on P47. See comments for P42 glider shuttle.
+x = 92, y = 92, rule = B3/S23
+40bo7bo$39bobo5bobo$40bo7bo3$41bo5bo$40b3o3b3o$34b3o2b2ob2ob2ob2o2b3o$
+40b3o3b3o$31b2o8bo5bo8b2o$30bobo23bobo$30bo27bo$29b2o27b2o2$36b2o13b2o
+$36b2o13b2o2$25bo3b2o27b2o$24bobo3bo27bo$25bo4bobo23bobo$31b2o8bo5bo8b
+2o$23b5o12b3o3b3o$22bo4bo6b3o2b2ob2ob2ob2o2b3o$21bo2bo15b3o3b3o$18bo2b
+ob2o16bo5bo$17bobobo5bo$18bo2bo4bobo$21b2o2bo2bo11bo7bo$26b2o11bobo5bo
+bo$12bo4bo22bo7bo$10b3o4b3o$9bo10bo$9b2o8b2o53bo4bo$72b3o4b3o$7bo14bo
+48bo10bo$7bo14bo48b2o8b2o$7bo6b2o6bo$14b2o53bo14bo$69bo14bo$bo5bo14bo
+5bo40bo6b2o6bo$obo3b3o12b3o3bobo46b2o$bo3b2ob2o10b2ob2o3bo$6b3o12b3o
+39bo5bo14bo5bo$7bo14bo39bobo3b3o12b3o3bobo$63bo3b2ob2o10b2ob2o3bo$7bo
+14bo45b3o12b3o$6b3o12b3o45bo14bo$bo3b2ob2o10b2ob2o3bo$obo3b3o12b3o3bob
+o39bo14bo$bo5bo14bo5bo39b3o12b3o$63bo3b2ob2o10b2ob2o3bo$14b2o46bobo3b
+3o12b3o3bobo$7bo6b2o6bo40bo5bo14bo5bo$7bo14bo$7bo14bo53b2o$69bo6b2o6bo
+$9b2o8b2o48bo14bo$9bo10bo43bo4bo14bo$10b3o4b3o42bobo$12bo4bo45b2o6b2o
+8b2o$71bo10bo$72b3o4b3o$43bo7bo6bo15bo4bo$42bobo5bobo6bo4b2o$43bo7bo5b
+3o3bo2bo2b2o$63bobo4bo2bo$64bo5bobobo$44bo5bo16b2obo2bo$43b3o3b3o15bo
+2bo$37b3o2b2ob2ob2ob2o2b3o6bo4bo$43b3o3b3o12b5o$34b2o8bo5bo8b2o$33bobo
+23bobo4bo$33bo27bo3bobo$32b2o27b2o3bo2$39b2o13b2o$39b2o13b2o2$32b2o27b
+2o$33bo27bo$33bobo23bobo$34b2o8bo5bo8b2o$43b3o3b3o$37b3o2b2ob2ob2ob2o
+2b3o$43b3o3b3o$44bo5bo3$43bo7bo$42bobo5bobo$43bo7bo!
+
+#N 60P312
+#O Dave Greene, 2004
+#C Based on Jason's p156
+x = 42, y = 42, rule = B3/S23
+20b2o$20b2o4$9b2o$8bo2bo10b2o$9b2o11bo$22bo12bo$23bo10bobo$34bobo$35bo
+7$32bo2bo$33b3o$2o38b2o$2o38b2o$6b3o$6bo2bo7$6bo$5bobo$5bobo10bo$6bo
+12bo$19bo11b2o$18b2o10bo2bo$31b2o4$20b2o$20b2o!
+
+#N P360 2-barelled glider gun
+#O DJB before 10/92
+x = 69, y = 56, rule = B3/S23
+54b2o$54b2o2$55bo$33bo2b2o16bobo$32bo3b2o2b2o7b2o2bo2bo$32bo7b2o7b2obo
+$33b4o16b2o2$57b2o$57b2o9$65b2o$65bobo$67bo$67b2o3$15bo$15b3o$18bo31b
+2o$17b2o31bo$51b3o$53bo3$2o$bo$bobo$2b2o$35bo$33b2o2bo$34bo3bo$35bo2$
+36b3o3$10b2o$10b2o2$14b2o12bo2b2o$16bob2o7bo3b2o2b2o$12bo2bo2b2o7bo7b
+2o$12bobo13b4o$13bo2$13b2o$13b2o!
+
+#N P400 glider loop
+#O RWG 1987
+#C A glider bounces between 4 centinals.  By expanding the loop and using more than one
+#C glider, oscillators of period 100N can be built for any N.
+x = 80, y = 80, rule = B3/S23
+2o48b2o11bo15bo$bo48bo12b3o11b3o$bobo21b2o21bobo15bo9bo$2b2o7b2o12b2o
+12bo8b2o15b2o9b2o$10bobo26b2o$10bo29b2o$10b3o22b2o2b2o4$10b3o22b2o2b2o
+26b3o3b3o$10bo29b2o24bo2bo3bo2bo$10bobo26b2o25b2obo3bob2o$2b2o7b2o12b
+2o12bo8b2o$bobo21b2o21bobo$bo48bo$2o48b2o9$65b2o9b2o$65b2o9b2o2$o15bo$
+3o11b3o$3bo9bo$2b2o9b2o4$69bo3bo$69bo3bo2$5bo5bo$4b3o3b3o53b2obo3bob2o
+$3b2obo3bob2o53b3o3b3o$68bo5bo2$6bo3bo$6bo3bo4$65b2o9b2o$66bo9bo$63b3o
+11b3o$63bo15bo2$2b2o9b2o$2b2o9b2o4$34bo$32bobo$33b2o3$28b2o48b2o$29bo
+48bo$29bobo21b2o21bobo$30b2o8bo12b2o12b2o7b2o$3b2obo3bob2o25b2o26bobo$
+3bo2bo3bo2bo24b2o29bo$4b3o3b3o26b2o2b2o22b3o4$39b2o2b2o22b3o$38b2o29bo
+$39b2o26bobo$2b2o9b2o15b2o8bo12b2o12b2o7b2o$3bo9bo15bobo21b2o21bobo$3o
+11b3o12bo48bo$o15bo11b2o48b2o!
+
+#O DJB 1992, DRH 1995
+#C p460 glider gun based on a reaction
+#C found by DJB which converts 2 gliders to 3 gliders.  One
+#C glider escapes; the others are reflected by p46 shuttles
+#C to repeat the reaction.  Given a period P oscillator which
+#C can reflect a glider 90 degrees, we can build a gun whose
+#C period is any multiple of P that's >= 452.  (DJB originally
+#C used this to build a p500 gun, using centinals (100.0.0) to
+#C reflect the gliders.)
+x = 92, y = 152, rule = B3/S23
+40b2o5b2o$40b2o5b2o12$42bo3bo$42bo3bo3$39b2obo3bob2o$40b3o3b3o$41bo5bo
+8$40b2o$40b2o4$91bo$89b3o$88bo$88b2o11$27b2o$3b2o9b2o8b2obobo$3b2o8b2o
+9b2o3b2o$14b5o5b2obobo$15b4o8b2o2$15b4o$14b5o$3b2o8b2o15b2o$3b2o9b2o
+14b2o4$90b2o$83b3o4b2o$83b3o$82bo3bo$82b2ob2o$82bo3bo$83bobo$34b2o35bo
+11bobo$34b2o35bobo10bo$71b2o4$22b2o44b2o15b2ob2o$21bobo44b2o14bo5bo$
+21b2o37b2o$61b2o20bo7bo$60bo22bo2bobo2bo$83b3o3b3o2$71b2o$72bo$71bo$
+71b2o4$83b2o5b2o$83b2o5b2o4$27b2o$28bo$25b3o$25bo4$59b2o$59b2o6$15b2o
+7bo$2o12bo2bo6b2o$2o11b2o2bo8bo$14bo2bo4bob2o33b3o3b3o$15bo6b3o11b2o
+21bo2bobo2bo$36b2o21bo7bo$15bo6b3o$14bo2bo4bob2obo32bo5bo$2o11b2o2bo
+10bo32b2ob2o$2o12bo2bo6bo3bo$15b2o7b4o8$53b2o$53b2o$59b2o5b2o$59b2o5b
+2o6$46b3o3b3o$45bo2bo3bo2bo$45b2obo3bob2o16$46b2o5b2o$46b2o5b2o!
+
+#O DRH 1/3/91
+#C Sparks from a p46 shuttle interact 6 times with
+#C sparks from a p15 pentadecathlon; one interaction makes a
+#C temporary blinker.
+x = 34, y = 21, rule = B3/S23
+12bo$8b2o2bo$2o5bo5bo13b2o$2o4b2o2bobo14b2o$7b2o3bo$8b3o$21b2o3b2o$8b
+3o9bo2bobo2bo$7b2o3bo6bo9bo$2o4b2o2bobo5b2o9b2o$2o5bo5bo5bo9bo$8b2o2bo
+7bo2bobo2bo$12bo8b2o3b2o$27bo3$24bo6bo$23b2o6b2o$22b3o6b3o$23b2o6b2o$
+24bo6bo!
+
+#N P808 glider gun
+#O DJB before 11/91
+#C A B-heptomino moves around a track made of various eaters and p8 oscillators; it makes
+#C 4 moves each of durations 64, 65, and 73.
+#C (In 1996, DJB found several B-heptomino moves using only
+#C stable objects to form a track, thereby producing guns of all periods >= 62.)
+x = 117, y = 133, rule = B3/S23
+65bo$65b2o$40bo23b2obo31b2o$40b3o20bo2b3o30bo$43bo18bobobo30bobo$42b2o
+17bobobo31b2o$37b2o20b3o2bo$38bo21bob2o$38bobo20b2o$39b2o21bo4bo2b2o$
+66bo3b2o2b2o$66bo7b2o$67b4o$62b2o$61bo2bo$37b2o23b2o$37b2o$bo$b3o34bo$
+4bo32bobo$3b2o31bo2bo$35bo2bo2$28bobo4bo2bo52b2o$27bo9b2o51bo2bo$22b2o
+2bo4bo58bo$22b2obo2bob2o2b2o54bo$26b2o7bo54bob2o$35bobo54b2o$36b2o2$
+91b2o$91b2o$69b2o$69b2o$91bo$89b3o$68b2o18bo8b2o2bo$68b2obo16b2o3b2o2b
+2o3bo8bo$71bo21b2o7bo6b3o$71bo26b4o6bo$29b3o15b2o19bo2bo36b2o4b2o$9b2o
+15bo4bo14bo2bo2b2o15b2o43bo$7bo2bo14b2o3bo15bobo4bo2bo55bobo$24b2o21bo
+5bobobo54b2o$7bo2bo14bo2bo21b2obo2bo$8bo2bo14b2o8b2o12bo2bo$9bobo20b2o
+bo2bob2o5bo4bo21b2o$10bo21bo4bo2b2o5b5o17b2o2bo2bo$36bo29bo2bo4bobo$2b
+o6b2o22bobo13bo15bobobo5bo$b3o5b2o37bobo15bo2bob2o$3obo44bo19bo2bo$bo
+3bo64bo4bo$2bo3bo64b5o$3bob3o$4b3o66bo$5bo66bobo$73bo2$43bo$42bobo66bo
+$43bo$109bob3o$41b5o65b2obo$41bo4bo64bob2o$44bo2bo19bo44b3obo$44b2obo
+2bo15bobo37b2o$41bo5bobobo15bo36bo2bo6bo$40bobo4bo2bo28b2o$40bo2bo2b2o
+17b5o5b2obo2bob2o19bo2bo$41b2o21bo4bo5bo4bo2b2o20bo2bo$63bo2bo12bo26bo
+bo$60bo2bob2o9bobo28bo$3b2o54bobobo5bo$2bobo55bo2bo4bobo35b2o$2bo43b2o
+15b2o2bo2bo35b2o$b2o4b2o37b2o20b2o$8bo9b2o2bo$5b3o6b2o2b2o3bo$5bo8b2o
+7bo3b2o16b2o$19b4o5bo16b2obo$25b3o20bo$25bo22bo$45bo2bo$46b2o$24b2o$
+23bo2bo$23bo$23bo55b2o$23bob2o52bobo9bobo$25b2o54bo8bo$81b2o2b2o2bo4bo
+$85b2obo2bob2o$24b2o52b2o9b2o$24b2o52b2o2$79bo$78bobo31b2o$77bo2bo31bo
+$76bo2bo33b3o$115bo$76bo2bo$78b2o3$42bo2b2o$41bo3b2o2b2o$41bo7b2o$42b
+4o30b2o$76bobo$53b3o22bo$53b3o22b2o$18b2o33b3o17b2o$17bobo30b3o20bo$
+17bo32b3o21b3o$16b2o32b3o23bo6$41b2o$45bo28bo$40b2o2bobo25b3o$39bo2b3o
+bobo22bo$40b6o2bo22b2o$41b2ob2o$38bo2b6o$38bobob3o2bo$40bobo2b2o$41bo$
+44b2o!
+
+#N P856 glider gun
+#C DJB before 11/91
+x = 105, y = 87, rule = B3/S23
+82bo$80b3o$79bo$17b2o60b2o$18bo$18bobo$19b2o8b2o$29b2o3$26b3o24b2o$2o
+26bo24b2o$bo24b3o$bobo$2b2o6$98bo2bo$97bo$95b2o$92bo6b2obo$95bo3bo2bo$
+57b2o36b3obo3bo$46b2o9b2o33bo11bo$42b4o4b2o41bo3bob3o$42b3ob2o2b2o42bo
+2bo3bo$47bo9b3o34bob2o6bo$58b2o40b2o$27b2o26b2o42bo$27b2o26b3o37bo2bo$
+56bobo$44b2o11b2o$44b2o$74b2o$74b2o$bob2ob2o36b3o$2ob2o2b2o36b2o8b2o$o
+41b2o7b4o4b2o$7b2o33b3o6b3ob2o2b2o$2o5b2o34bobo10bo$2o42b2o$8bo$2o2b2o
+b2o$b2ob2obo8$99b2o$99bobo$101bo$48b2o51b2o$48b2o4$82b2o$82bobo$84bo$
+22b2o60b2o$23bo$20b3o$20bo8$59b4o$55b2obo4bo$54bo3bo4bo$54bo4b2o$54bo
+2bo4b2o$54bo2bo3bo2bo$30b2o23b2o4bo2bo$31bo26b2o4bo$28b3o24bo4bo3bo$
+28bo26bo4bob2o$56b4o!
+
+#N Crystallization and decay oscillator
+#O DRH 3/27/90
+#C Extensible to period 2700+1950N.  A p150 gun shoots gliders
+#C toward a pair of PDs.  The first is reflected 180 degrees
+#C and hits the second, forming a honey farm.  Subsequent
+#C gliders grow a crystal back toward the gun; every 11
+#C gliders add another pair of beehives to the crystal.
+#C Eventually, an eater stops the growth and the crystal
+#C begins to decay: two successive gliders delete one pair of
+#C beehives.  (This is based on an earlier pattern found and
+#C lost by RWG, using a p46 gun.)
+x = 77, y = 91, rule = B3/S23
+5b2o$5b2o3$5bo$4bobo$3bo3bo$3b5o16b2o$2b2o3b2o15bobo$3b5o11b2o6bo11bob
+o$4b3o8b2obo2bo2bo2bo10bo2bo4bo$5bo9b2o2b2o6bo9b2o5b2o$24bobo8b2o3bo8b
+2o$24b2o11b2o10b2o$29bo8bo2bo$4bo22b2o10bobo$6b2o20b2o$5b3o$5b2o$6bo$
+5bobo$6b2o$20bobo$20b2o$2obob2o14bo2$o5bo6bo$14b2o$b2ob2o7b2o$3bo3$35b
+o$33b3o$3b2o15bobo9bo$3b2o16b2o9b2o$21bo6$20b2o$20bo$21b3o$23bo25$66b
+2o6b2o$58bo6bo2bo4bo2bo$59b2o4bo2bo4bo2bo$58b2o5bo2bo4bo2bo$66b2o6b2o
+7$60bo$60bo$59bobo$60bo$60bo$60bo$60bo$59bobo$60bo$60bo!%
+
+#N p120-based PRNG
+#O DRH 3/21/92
+Pseudo random number
+#C generator, based on an earlier pattern by RWG (a larger
+#C version of 40894.0.0).  Produces a sequence of bits b[n],
+#C represented by gliders, satisfying the recurrence
+#C b[n] = b[n-1] XOR b[n-7].  The sequence has period 127,
+#C so the period of the pattern is 120*127.  Increasing the
+#C separation between the NW and SE parts by 15N units
+#C diagonally changes the 7 above to K=7+N  (N >= -4).  The
+#C period of the sequence depends rather erratically on K:
+#C 
+#C K | 2 3  4  5  6   7  8  9  10   11   12   13    14    15
+#C P | 3 7 15 21 63 127 63 73 889 1533 3255 7905 11811 32767
+#C 
+#C K |  16  17     18     19     20   21      22      23
+#C P | 255 273 253921 413385 761763 5461 4194303 2088705
+#C 
+#C K |      24       25     26        27       28        29
+#C P | 2097151 10961685 298935 125829105 17895697 402653181
+#C 
+#C K |       30      31   32   33
+#C P | 10845877 2097151 1023 1057
+#C 
+#C Also see 40894.0.0.  (In 1996, DRH built a p30-based PRNG.)
+#C This uses a "boat-bit", a reaction in which gliders hitting
+#C a snake alternately create and destroy a boat. 
+x = 139, y = 126, rule = B3/S23
+23bo$21bobo$11b2o6b2o$10bo3bo4b2o12b2o$9bo5bo3b2o12b2o$9bo3bob2o4bobo$
+9bo5bo7bo$10bo3bo$11b2o6$11b2o$2b3o5bobo$bo3bo6bo$o5bo$o5bo2$6bo$5b2o$
+5b2o$3bo2b2o$4bobo$4b2o3$2b2o3b2o$2b2o3b2o2$4b3o$4b3o$5bo6$5b2o$5b2o9$
+100b2o$100b2o6$118b2o$118b2o2$119bo$98b2o3b2o13bobo$118bobo$99bo3bo15b
+o$100b3o$100b3o$116b2obob2o$116bo5bo$117bo3bo$118b3o2$99bo5bo$98b3o5bo
+$98b3o3b3o2$96b2o3b2o$96b2o3b2o14bo$116bo$116b3o4$101b2o$101bo17b5o$
+102b3o13bob3obo$104bo14bo3bo$120b3o$121bo4$102bo17b2o$101bo18b2o$101b
+3o2$79b2o$79bobo$80b3o$81b2o$78b2o$78b3o$91b3o$91bo$79b2o11bo$79b2o2$
+88bo$82b2obobobo$82bob2ob2o10b2o$93b2o4bobo$94b2o3bo$93bo4$118b2o$86bo
+19b3o2bo5bo3bo$86b2o14bo3bo9bo5bo$74bobo8bobo12bobo4bo8bo3bo2bo$74bo3b
+o19b2o16bo$64b2o12bo10b2o7b2o17bo3bo3bo$64b2o8bo4bo7bo2bo7b2o18b2o3b2o
+bo$78bo7bo7b2o4bobo23bo$74bo3bo7bo6bo2bo5bo23b2o7b2o$74bobo9bo7b2o39bo
+bo$87bo2bo46bo$89b2o46b2o!%
+
+#N p46-based PRNG
+#C RWG ????, DRH 1/10/95
+#C Pseudo random LWSS generator. Produces a sequence of bits b[n],
+#C represented by LWSSs, satisfying the recurrence
+#C b[n] = b[n-1] EQV b[n-10].  The sequence has period 889,
+#C so the period of the pattern is 46*889. Moving the bottom
+#C right gun and the reflector at the right edge 46N units
+#C farther right changes the 10 above to  K=10+4N  (N>=0).
+#C The period of the sequence depends on K as indicated in
+#C the description of 15240.0.0.
+x = 156, y = 74, rule = B3/S23
+146b2o5b2o$146b2o5b2o8$147bo5bo$146b3o3b3o$145b2obo3bob2o3$148bo3bo$
+148bo3bo5$147bo$146bobo$33bo111b2ob2o$32b2o8b2o101bo3bo$18b2o11b3obo5b
+o2bo99b3ob3o$18b2o10b2o8b2ob3o99bo3bo$31b2o8b2obo100bo3bo$32bo10bo102b
+obo4b2o$147bo5b2o$32bo$31b2o$18b2o10b2o13b2o30b2o$18b2o11b3obo9b2o30b
+2o$b2o29b2o$b2o30bo3$41bo2bo$19b4o22bo19b4o$18bo3bo18bo3bo18bo3bo58b2o
+$22bo19b4o22bo59b2o$18bo2bo42bo2bo59bo24b2o$b3o3b3o142bobo$o2bo3bo2bo
+143bo$2obo3bob2o69bo73b2o$57bo5bo5b2o8b2o15b2o$21b2o19bob2o11bo5bo5b2o
+7b2o16b2o$20b2o14b2o3bo2b2o2b3o28b2o2b2o$22bo13b2o3bo6b2o3b2o11b2o$41b
+2o3b3o$43bo3bo9bo5bo52bo$57bo5bo15b2o2b2o31b2o$43bo3bo21b2o7b2o16b2o
+17bobo$41b2o3b3o20b2o8b2o15b2o$36b2o3bo6b2o13b2o15bo$36b2o3bo2b2o2b3o
+12b2o$42bob2o$33bo$32b2o58b2o$32bobo17bo38bo$b2o5b2o41b2o25b2o10bo2b2o
+$b2o5b2o40b3obo9b2o12b2o10bo2bo18bo$30b2o17b2o13b2o24bobo11b2o4bo2bo$
+32bo17b2o39b2o12b2o3b5o10b2o$17b2o10b2o2bo17bo52bo5b3ob2o9b2o$17b2o11b
+o2bo57b2o18b2obo$31bobo17bo38bobo19b2o$31b2o17b2o26b2o10bo2bo$49b2o13b
+2o12b2o10bo2b2o17b2o$31b2o17b3obo9b2o25bo19b2obo$31bobo17b2o39b2o16b3o
+b2o9b2o$17b2o11bo2bo18bo57b5o10b2o$17b2o10b2o2bo76bo2bo$32bo79bo!%
 
