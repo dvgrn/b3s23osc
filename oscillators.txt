@@ -3142,6 +3142,20 @@ x = 14, y = 14, rule = B3/S23
 7bo$6b2o$5b2o$4bo$3bob4o$2bobo4bo$b2obob2obo2b2o$2o2bob2obob2o$4bo4bob
 o$5b4obo$9bo$7b2o$6b2o$6bo!
 
+#N Period 12 toadflipper
+x = 16, y = 26, rule = B3/S23
+5bo4bo$4bobo2bobo$4bob4obo$3b2o6b2o$2bo2bob2obo2bo$bob2o2b2o2b2obo$bob
+o2b4o2bobo$2ob3o4b3ob2o$bobo8bobo$bobo3b2o3bobo$2bo10bo$8bo$7bo2bo$7bo
+2bo$9bo$2bo10bo$bobo3b2o3bobo$bobo8bobo$2ob3o4b3ob2o$bobo2b4o2bobo$bob
+2o2b2o2b2obo$2bo2bob2obo2bo$3b2o6b2o$4bob4obo$4bobo2bobo$5bo4bo!
+
+#N Period 12 toadsucker
+x = 17, y = 26, rule = B3/S23
+6bo4bo$5bobo2bobo$5bob4obo$4b2o6b2o$3bo2bob2obo2bo$2bob2o2b2o2b2obo$2b
+obo2b4o2bobo$b2ob3o4b3ob2o$2bobo8bobo$2bobo3b2o3bobo$3bo10bo$9bo$7bo2b
+o$7bo2bo$8bo$2bo10bo$bobo3b2o3bobo$bobo8bobo$2ob3o4b3ob2o$bobo2b4o2bob
+o$bob2o2b2o2b2obo$2bo2bob2obo2bo$3b2o6b2o$4bob4obo$4bobo2bobo$5bo4bo!
+
 #N Buckingham's p13
 #O DJB#96 7/31/76
 x = 25, y = 15, rule = B3/S23
@@ -3550,6 +3564,17 @@ x = 29, y = 29, rule = B3/S23
 2o2b$9b3o13bobob$9b2ob2o13bob$11b4o12b2o$11b2obo14b$13b2o14b$29b$29b$29b$
 29b$15b2o12b$15bo13b$16b3o10b$18bo10b!
 
+#O Sokwe 12/29/20
+x = 29, y = 36, rule = B3/S23
+15b2o$15bobo$17bo$13b4ob2o$13bo2bobobo$11b2o2bo4bo$10bo2b2o2b2ob2o$10b
+3o2b2obo2bo$8b2o3bo5b2o$9bob2obob2obo$7bo2bobobobobo2bo$5b4obo7bob4o$
+4bo5bo2b3o2bo5bo$3bob5o9b5obo$b3obobo5b3o5bobob3o$o3bo2bo4bo3bo4bo2bo
+3bo$b2o3bo4bo5bo4bo3b2o$2bob3o2bo2bo3bo2bo2b3obo$2bob3o2bo3b3o3bo2b3ob
+o$b2o3bo15bo3b2o$o3bo2bo13bo2bo3bo$b3obobo13bobob3o$3bob5o9b5obo$4bo5b
+o7bo5bo$5b4obo7bob4o$7bo2bob5obo2bo$9bob2obob2obo$8b2o4bo4b2o$10b3o2bo
+b2o2bo$10bo2b2o3bob2o$11b2o2bo2bobo$13bo4bobo$13b4ob2o$17bo$15bobo$15b
+2o!
+
 #O NDE 3/22/95
 #C A period 9+11 traffic light hassler.
 x = 28, y = 21, rule = B3/S23
@@ -3739,6 +3764,16 @@ $24b2o$23bo$19bo2bo!
 x = 20, y = 20, rule = B3/S23
 7b2o$7b2o4$11bo$6bo4b2o$2o3bobo5bo$2o2b2obo5b2o$5b2o2$18b2o$11b2o5b2o$
 10bo2bo$10b3o$11bo3$11b2o$11b2o!
+
+#N p24 lumps of muck hassler
+#O Sokwe 12/27/20
+#C Uses two copies of Scorbie's p6 sparker
+x = 42, y = 17, rule = B3/S23
+10bo8b2o$4bo4bobo7b2o$4b3o2bobo$7bobob2o18b2o3bo$4b2obobo2bo17bo2bobob
+o2bo$4bo4bobo18bob2obob4o$5b3obobo8bo8b2obo2bo$2o2b2obobobo8bo8bo4bobo
+b3o$o4bobobobo8b2o8bobobobo4bo$b3obobo4bo8bo8bobobob2o2b2o$6bo2bob2o8b
+o8bobob3o$b4obob2obo18bobo4bo$bo2bobobo2bo17bo2bobob2o$5bo3b2o18b2obob
+o$30bobo2b3o$21b2o7bobo4bo$21b2o8bo!
 
 #O NDE 9/23/94 (with toasters instead of eaters), DRH 10/19/94
 #C Based on pushing 2 or more traffic light
@@ -3998,19 +4033,19 @@ $23bo10b2o6b5o$37b2o4b3o$37b2o!
 
 #O DRH 2/14/95
 #C 4 p5s hassle a beehive.
-x = 80, y = 24, rule = B3/S23
-36b2o4b2o$36bobo2bobo27b2o$38bo2bo6b2o4b2o8b2o3bo2bo$37bo4bo6bo4bobo8b
-o3b2o$27bo9bo4bo6bob2obo2bo7bob2o2b4ob2o$26bobo8bo4bo5b2obobob2o6b2obo
-bobo3bobobo$26bob3o8b2o14bo6bobobobo2b2obobobo$23bob2o4bo14bob2ob2ob2o
-13bobo2bobob2o$15b2o6b2o3b2obo17b2o3b3ob2obob3obo2b3o3bo$14bobo9b2obob
-2o11bo3bobo2b2obob2ob2o4bobo4bobo$8b2obo2bo6b5obo16bo3bobo2bo3bobo4b2o
-bob4ob2o$7bob2obob2o4bo5bob2ob2obo4b2o8b2o5b4o8bo4bo$7bo4bo8b4o5b2o6bo
-2bo4bob2ob2obo5bo4b2obob2obo$5b2ob4obob2o4bobo3bo2bobo3bo2b2o12bob5o6b
-o2bob2o$4bobo4bobo4b2ob2obob2o2bobo3bo11b2obob2o9bobo$4bo3b3o2bob3obob
-2ob3o3b2o17bob2o3b2o6b2o$b2obobo2bobo13b2ob2ob2obo14bo4b2obo$2bobobob
-2o2bobobobo6bo14b2o8b3obo$2bobobo3bobobob2o6b2obobob2o5bo4bo8bobo$3b2o
-b4o2b2obo7bo2bob2obo6bo4bo9bo$10b2o3bo8bobo4bo6bo4bo$8bo2bo3b2o8b2o4b
-2o6bo2bo$8b2o27bobo2bobo$37b2o4b2o!
+x = 79, y = 24, rule = B3/S23
+35b2o4b2o$35bobo2bobo27b2o$37bo2bo6b2o4b2o8b2o3bo2bo$36b2o2b2o6bo4bobo
+8bo3b2o$26bo8b3o2b3o5bob2obo2bo7bob2o2b4ob2o$25bobo9bo2bo6b2obobob2o6b
+2obobobo3bobobo$25bob3o16bo3bobo10bo3bo2b2obobobo$22bob2o4bo16b2obobo
+8bo3b4o6bob2o$14b2o6b2o3b2obo15bo4bo3bob2obob2obo2bob3o2bo$13bobo9b2ob
+ob2o15bob2obo2bo4b2o4bobo4bobo$7b2obo2bo6b5o3bo3bo6b2obo4bob2ob3o10b2o
+b4ob2o$6bob2obob2o4bo5b4ob2o6bo2bo4bo4b2o2b2ob2o3bo3bo4bo$6bo4bo3bo3b
+2ob2o2b2o4bo6b2o6b2ob4o5bo4b2obob2obo$4b2ob4ob2o10b3ob2obo14bo3bo3b5o
+6bo2bob2o$3bobo4bobo4b2o4bo2bob2obo15b2obob2o9bobo$3bo2b3obo2bob2obob
+2obo3bo4bo15bob2o3b2o6b2o$2obo6b4o3bo8bobob2o16bo4b2obo$bobobob2o2bo3b
+o10bobo3bo16b3obo$bobobo3bobobob2o6b2obobob2o6bo2bo9bobo$2b2ob4o2b2obo
+7bo2bob2obo5b3o2b3o8bo$9b2o3bo8bobo4bo6b2o2b2o$7bo2bo3b2o8b2o4b2o6bo2b
+o$7b2o27bobo2bobo$36b2o4b2o!
 
 #C 6 gliders in a 180 gen loop.  This use of a queen bee
 #C as a reflector is called a "buckaroo".
@@ -4027,15 +4062,15 @@ x = 39, y = 39, rule = B3/S23
 x = 79, y = 21, rule = B3/S23
 26bo$25bobo$25bob3o40b2o$22bob2o4bo16b2o4b2o8b2o3bo2bo$14b2o6b2o3b2obo
 17bo4bobo8bo3b2o$13bobo9b2obob2o16bob2obo2bo7bob2o2b4ob2o$7b2obo2bo6b
-5obo20b2obobob2o6b2obobobo3bobobo$6bob2obob2o4bo5bob2ob2obo20bo6bobobo
-bo2b2obobobo$6bo4bo8b4o5b2o14bob2ob2ob2o13bobo2bobob2o$4b2ob4obob2o4bo
-bo3bo2bobo3bo12b2o3b3ob2obob3obo2b3o3bo$3bobo4bobo4b2ob2obob2o2bobo3bo
-2b2o3bo3bobo2b2obob2ob2o4bobo4bobo$3bo3b3o2bob3obob2ob3o3b2o6bo2bo2bo
-3bobo2bo3bobo4b2obob4ob2o$2obobo2bobo13b2ob2ob2obo4bobo7b2o5b4o8bo4bo$
-bobobob2o2bobobobo6bo14bo5bob2ob2obo5bo4b2obob2obo$bobobo3bobobob2o6b
-2obobob2o20bob5o6bo2bob2o$2b2ob4o2b2obo7bo2bob2obo16b2obob2o9bobo$9b2o
-3bo8bobo4bo17bob2o3b2o6b2o$7bo2bo3b2o8b2o4b2o16bo4b2obo$7b2o40b3obo$
-51bobo$52bo!
+5o3bo3bo14b2obobob2o6b2obobobo3bobobo$6bob2obob2o4bo5b4ob2o14bo3bobo
+10bo3bo2b2obobobo$6bo4bo3bo3b2ob2o2b2o4bo14b2obobo8bo3b4o6bob2o$4b2ob
+4ob2o10b3ob2obo14bo4bo3bob2obob2obo2bob3o2bo$3bobo4bobo4b2o4bo2bob2obo
+4bob2o7bob2obo2bo4b2o4bobo4bobo$3bo2b3obo2bob2obob2obo3bo4bo4bo2bo6bob
+2ob3o10b2ob4ob2o$2obo6b4o3bo8bobob2o6bobo5bo4b2o2b2ob2o3bo3bo4bo$bobob
+ob2o2bo3bo10bobo3bo6bo7b2ob4o5bo4b2obob2obo$bobobo3bobobob2o6b2obobob
+2o14bo3bo3b5o6bo2bob2o$2b2ob4o2b2obo7bo2bob2obo16b2obob2o9bobo$9b2o3bo
+8bobo4bo17bob2o3b2o6b2o$7bo2bo3b2o8b2o4b2o16bo4b2obo$7b2o40b3obo$51bob
+o$52bo!
 
 #C Honey farm hassler
 x = 29, y = 22, rule = B3/S23
@@ -4143,12 +4178,11 @@ x = 19, y = 19, rule = B3/S23
 11bo2bo$b2o13b2o2$b2o13b2o$o2bo11bo2bo$bo2bo9bo2bo$b3o11b3o2$2bobo9bob
 o$bo2bo9bo2bo$2b2o11b2o$2b2o11b2o!
 
-#O JP21 11/12/20
-x = 45, y = 33, rule = B3/S23
-4$20b2o$19bo2bo$20bobo4bo$18b2obo3b3o$18b3o3bo$18b2o4b2o2$30b2o$30b2o
-2bo$12b3o7bo7bo4bo$21bobo6bo4bo$7b2ob2o9bobo6bo$7b2obobo7bo2bo7bobob2o
-$13bo6bobo9b2ob2o$8bo4bo6bobo$8bo4bo7bo7b3o$9bo2b2o$12b2o2$18b2o4b2o$
-19bo3b3o$16b3o3bob2o$16bo4bobo$21bo2bo$22b2o
+#O yujh 12/27/20
+x = 30, y = 21, rule = B3/S23
+13bo6bo$11bobo4b3o$12bobo2bo$12bo4b2o2$23b2o$23b2o2bo$5b3o7bo7bo4bo$14b
+obo6bo4bo$2ob2o9bobo6bo$2obobo7bo2bo7bobob2o$6bo6bobo9b2ob2o$bo4bo6bo
+bo$bo4bo7bo7b3o$2bo2b2o$5b2o2$11b2o4bo$12bo2bobo$9b3o4bobo$9bo6bo!
 
 #N Jason's P33
 #O Jason Summers, 2000
@@ -5137,12 +5171,20 @@ x = 28, y = 25, rule = B3/S23
 2o18b2o$3bo20bo$2obo2b2o12b2o2bob2o$bobobobo12bobobobo$o2bobo16bobo2bo
 $2o2b2o16b2o2b2o!
 
-#N P90 pre-pulsar hassler
+#C P90 pre-pulsar hassler
 x = 31, y = 24, rule = B3/S23
 6b2o15b2o$5bo19bo$8bo13bo$4bo3bo13bo3bo$b4o3bo13bo3b4o$6bo17bo3$2o27b
 2o$o2b2o6b3o3b3o6b2o2bo$b2ob2o5bobo3bobo5b2ob2o$4b2o5b3o3b3o5b2o$4b2o
 19b2o$b2ob2o19b2ob2o$o2b2o21b2o2bo$2o27b2o3$6bo17bo$b4o3bo13bo3b4o$4bo
 3bo13bo3bo$8bo13bo$5bo19bo$6b2o15b2o!
+
+#O FWKnightshi 12/29/20
+#C P90 pre-pulsar hassler
+x = 33, y = 32, rule = B3/S23
+7bo2bob2obo2bo$6b2o2bo4bo2b2o$7bo2bob2obo2bo4$6b2o$7bo$7bobo$8b2o21bo$
+12b3o16bo$12bobo15bobo$12b3o16bo$bo29bo$bo29bo$obo28bo$bo10b3o15bobo$b
+o10bobo16bo$bo10b3o16bo$bo$obo$bo$bo21b2o$23bobo$25bo$25b2o4$14bo2bob
+2obo2bo$13b2o2bo4bo2b2o$14bo2bob2obo2bo!
 
 #O RTW 5/28/92
 #C 2 p46 shuttles push a beehive back and forth.
@@ -5587,6 +5629,30 @@ x = 46, y = 46, rule = B3/S23
 17b2o$26b3o2$41bo$38b2o3bo$26b3o9b2obob2o$26bo10bo6b2o$26bobo9b2obob2o
 $27b2o9b2o3bo$41bo!
 
+#N Period 184 glider gun
+#O David Buckingham, 07/96
+#C Output suppressed
+x = 39, y = 38, rule = B3/S23
+20bo$18b3o$17bo$17b2o$31bo$29b3o$28bo$28b2o5$21b2o$20bobo$20bo$20b2obo
+$3b2o17b2o$2bobo$2bo32b2o$b2o32bo$36b3o$38bo6$7b2o$6bobo$6bo$5b2o4$19b
+2o$19bobo$21bo$21b2o!
+
+#N R190
+#O DJB 7/7/96
+#C Four copies of R190 Herschel track. Repeat time 107 ticks.
+x = 83, y = 81, rule = B3/S23
+47b2o$44b2o2bo$42b3ob2o$41bo$38bo2b4ob2o$38b3o3bob2o$41bo$40b2o26b2o$
+68bo$17b2o47bobo$18bo47b2o$17bo$17b2o$9bo$9b3o$12bo57b2obo$11b2o57bob
+2o2$20b2o15bo25b2o$20b2o15bobo23b2o$37b3o$39bo3$46b2o3b2o$47bo3bo$30b
+2o12b3o5b3o$31bo12bo9bo$28b3o23bobo$28bo26b2o$26bobo$26b2o3$2b2o$2bobo
+b2o18b2o34b3o$4bob2o18bobo33bo14b2o$3bo24bo32b3o13bo$3b2ob2o20b2o45bob
+o$4bobo68b2ob2o$4bobo71bobo$5b2ob2o68bobo$7bobo45b2o20b2ob2o$7bo13b3o
+32bo24bo$6b2o14bo33bobo18b2obo$20b3o34b2o18b2obobo$81b2o3$57b2o$56bobo
+$28b2o26bo$28bobo23b3o$30bo9bo12bo$30b3o5b3o12b2o$33bo3bo$32b2o3b2o3$
+45bo$45b3o$20b2o23bobo15b2o$20b2o25bo15b2o2$11b2obo57b2o$11bob2o57bo$
+73b3o$75bo$66b2o$67bo$17b2o47bo$16bobo47b2o$16bo$15b2o26b2o$43bo$37b2o
+bo3b3o$37b2ob4o2bo$43bo$37b2ob3o$36bo2b2o$36b2o!
+
 
 #N Pseudo p94 gun
 #O DJB,RCS,PC 7/11/94
@@ -5734,6 +5800,13 @@ o$5b2o46b2o$29b2o$29b2o2$11b2o34b2o$6b2o2bo2bo32bo2bo2b2o$3bo2bo4bobo
 32bobo4bo2bo$2bobobo5bo34bo5bobobo$3bo2bob2o10b2o16b2o10b2obo2bo$6bo2b
 o8bo2bo16bo2bo8bo2bo$7bo4bo34bo4bo$8b5o34b5o$18b2obo16bob2o$10bo9bobo
 2b2o6b2o2bobo9bo$9bobo9bo4bo6bo4bo9bobo$10bo11bo14bo11bo$22bo2bo8bo2bo!
+
+#N P246 bookend shuttle
+#C Related to the P246 glider gun
+x = 32, y = 39, rule = B3/S23
+9bo8bo$9b3o6b3o$12bo8bo5b2o$11b2o7b2o4bob3o$26bo4bo$23b2obob3o$23bo2bo
+bo$24b2o8$6bobo$6b2o10b3o$6b2o9bo2bo$5b3o9b2o$5bo$7bo$5b3o10$6b2o$3bob
+o2bo$b3obob2o$o4bo$b3obo4b2o7b2o$3b2o5bo8bo$11b3o6b3o$13bo8bo!
 
 #N P276 glider shuttle
 #O DRH 1/24/92
