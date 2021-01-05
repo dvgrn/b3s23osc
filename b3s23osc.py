@@ -1,6 +1,6 @@
 # b3s23osc.py version 1.1
 # version 1.0: David Raucci, 1/5/2021 ( https://conwaylife.com/forums/viewtopic.php?p=118160#p118160 )
-# version 1.1: Dave Greene,  1/5/2021 ( auto-find oscillators.txt in same directory as script )
+# version 1.1: Dave Greene,  1/5/2021 ( handle various possible error conditions, copy result to clipboard )
 
 import time
 import golly as g
@@ -8,6 +8,8 @@ import os
 
 start_time = time.time()
 g.setrule("B3/S23")
+# clear the universe before starting to build stamp collection
+g.new("oscillators.rle")
 
 def show_message(message, time_):
     g.show(str(message))
@@ -566,14 +568,15 @@ for i in range(len(comments)):
 comments2 = comments2.replace(' #C', '\n#C')
 comments2 = '#N ' + comments2[3:].replace('#N', '#C') #comments file only has one #N, and it's at the very beginning
 show_message('Comments size: %s KB' % ((len(comments2)+500)//1000),0.5)
-# g.note("Click OK to copy comments to the clipboard.")
-# g.setclipstr(comments2)
 
 tempname = os.path.join(g.getdir("temp"),"oscillators.rle")
 g.save(tempname, "rle")
 with open(tempname,"r") as f:
     allrle = f.read()
 with open(tempname,"w") as f:
-    f.write(comments2 + "\n")
-    f.write(allrle)
+    f.write(comments2 + "\n" + allrle)
 g.open(tempname)  # this integrates the comments into the currently open pattern file
+                  # there still seem to be some issues with keeping the comments after re-saving the file,
+                  # but I'll deal with that separately.  Meanwhile:
+g.note("Click OK to copy pattern with comments to the clipboard.")
+g.setclipstr(comments2 + "\n" + allrle)
