@@ -569,7 +569,7 @@ show_message('Comments size: %s KB' % ((len(comments2)+500)//1000),0.5)
 # g.note("Click OK to copy comments to the clipboard.")
 # g.setclipstr(comments2)
 
-tempname = os.path.join(g.getdir("temp"),"oscillator.rle")
+tempname = os.path.join(g.getdir("temp"),"oscillators.rle")
 g.save(tempname, "rle")
 with open(tempname,"r") as f:
     allrle = f.read()
