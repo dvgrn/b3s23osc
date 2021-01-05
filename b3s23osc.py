@@ -1,8 +1,13 @@
-# b3s23osc.py version 1.0 -- hotdogPi, 1/5/2021 ( https://conwaylife.com/forums/viewtopic.php?p=118160#p118160 )
+# b3s23osc.py version 1.1
+# version 1.0: David Raucci, 1/5/2021 ( https://conwaylife.com/forums/viewtopic.php?p=118160#p118160 )
+# version 1.1: Dave Greene,  1/5/2021 ( auto-find oscillators.txt in same directory as script )
 
 import time
 import golly as g
+import os
+
 start_time = time.time()
+g.setrule("B3/S23")
 
 def show_message(message, time_):
     g.show(str(message))
@@ -211,6 +216,11 @@ def convert_grid_to_rle(grid1):
     return to_return
 
 def open_file2(file):
+    if not os.path.exists(file):
+        oldfile = file
+        file = g.opendialog("Please locate " + file + ":", "Text files (*.txt)|*.txt", "", file)     
+        if not os.path.exists(file):
+            g.exit("Could not find '" + oldfile + "' or '" + file + "'.")
     f = open(file, 'r')
     f1 = f.read()
     f1 = f1.replace('b3/s23', 'B3/S23')
@@ -555,5 +565,15 @@ for i in range(len(comments)):
         comments2 += comments[i] + '\n'
 comments2 = comments2.replace(' #C', '\n#C')
 comments2 = '#N ' + comments2[3:].replace('#N', '#C') #comments file only has one #N, and it's at the very beginning
-g.note(comments2)
 show_message('Comments size: %s KB' % ((len(comments2)+500)//1000),0.5)
+# g.note("Click OK to copy comments to the clipboard.")
+# g.setclipstr(comments2)
+
+tempname = os.path.join(g.getdir("temp"),"oscillator.rle")
+g.save(tempname, "rle")
+with open(tempname,"r") as f:
+    allrle = f.read()
+with open(tempname,"w") as f:
+    f.write(comments2 + "\n")
+    f.write(allrle)
+g.open(tempname)  # this integrates the comments into the currently open pattern file
