@@ -1,6 +1,7 @@
 # b3s23osc.py version 1.1
 # version 1.0: David Raucci, 1/5/2021 ( https://conwaylife.com/forums/viewtopic.php?p=118160#p118160 )
 # version 1.1: Dave Greene,  1/5/2021 ( handle various possible error conditions, copy result to clipboard )
+# version 1.1.1: David Raucci, 1/6/2021 (add last two periods, remove delay for testing patterns)
 
 import time
 import golly as g
@@ -76,7 +77,7 @@ def print_grid(pattern): #shows pattern as a readable grid
 def run_pattern_in_golly(pattern, comments, extended):
     pattern_rle = pattern
     pattern = g.parse(pattern)
-    if len(pattern) % 2 == 1:
+    if len(pattern) % 2 == 1: #multistate rule for some reason
         g.warn(pattern_rle)
         g.warn(str(pattern))
     initial_pattern = pattern.copy()
@@ -93,7 +94,7 @@ def run_pattern_in_golly(pattern, comments, extended):
     for period in range(1, 100000 if extended else 1000): #maximum oscillator period
         pattern = g.evolve(pattern,1)
         if not pattern:
-            print('Not an oscillator, dies out completely: %s' % initial_pattern)
+            g.warn('Not an oscillator, dies out completely: %s' % initial_pattern)
             return
         xs = pattern[::2]
         ys = pattern[1::2]
@@ -106,7 +107,7 @@ def run_pattern_in_golly(pattern, comments, extended):
             #0: RLE. 1: period. 2, 3: maximum bounding box for x and y. 4, 5: Greatest negative for calculating offset.
         #if extended == 'file': #one at a time
         #    return pattern
-    print('Not an oscillator, maximum generations reached: %s' % initial_pattern)
+    g.warn('Not an oscillator, maximum generations reached: %s' % initial_pattern)
     return
 
 #these create the digits for labeling periods
@@ -229,7 +230,7 @@ def open_file2(file):
     while '\n\n\n' in f1:
         f1 = f1.replace('\n\n\n', '\n\n')
     f1 = f1.split('\n\n')
-    f1 = f1[:-2] #last two are larger than column width and will cause infinite loop; P2700 is just too high of a period
+    #f1 = f1[:-2] #last two are larger than column width and will cause infinite loop
     for i in f1:
         #try:
         #    i = i[i.index('x ='):]
@@ -245,7 +246,7 @@ data = [(0,1234567,0,0,0,0)] #this period 1234567 marks the end of the file
 count = 0
 for i in patterns:
     count += 1
-    show_message(str(count) + ' done, ' + str(int(time.time() - start_time)) + ' seconds',0.005)
+    show_message('%s of %s done, %s seconds ' % (count-1, len(patterns), int(time.time() - start_time)),0)
     try:
         data.append(run_pattern_in_golly(i[i.index('= B3/S23')+9:], i[:i.index('x =')], '%' in i)) #max period 1000 without %, 100000 with %
     except ValueError:
@@ -283,6 +284,8 @@ while len(set(j[1] for j in data)): #this allows repeating periods that couldn't
             data = [] #empties data to complete program
             break
         period = int(period)
+        if period == 15240: #does not fit normally
+            x -= 44 #aligns with beginning of number
         if y < period_y + 20 - spacing(period) and y > 0:
             y = period_y + 20 #so displayed digits don't conflict
         elif y > 0:
@@ -357,7 +360,7 @@ comments = '''#N Stamp collection
 #C incomplete and probably inaccurate, but I've decided to make it public
 #C anyway; if you find any errors or can fill in any of the blanks, please
 #C let me (David Raucci; Dean Hickerson is no longer updating) know. This
-#C file has since been updated in 2020
+#C file has since been updated in 2020 and 2021
 #C by David Raucci, converting it to a Python program that automatically updates
 #C based on a text file input and includes more oscillators that were not
 #C known in 1995.
@@ -378,7 +381,8 @@ comments = '''#N Stamp collection
 #C There are 4 periods for which oscillators
 #C are still unknown as of late 2020: 19, 34, 38, and 41.
 #C (For period 34, we could use a noninteracting combination of p2 and p17
-#C oscillators, but that's considered trivial.)
+#C oscillators, but that's considered trivial.) All known nontrivial period
+#C 39 oscillators are boring combinations of p3 and p13 oscillators.
 #C
 #C Building this collection would have been impossible without the help
 #C of many people.  In addition to those who found the oscillators, I'd
@@ -392,7 +396,7 @@ comments = '''#N Stamp collection
 #C 2/2/2000; last updated 9/16/2000. URLs corrected
 #C and list of missing periods updated on 5/8/2009.
 #C
-#C David Raucci, updated 1/1/2021.
+#C David Raucci, updated 1/8/2021.
 #C
 #C ----------------------------------------------------------------------
 #C
@@ -413,24 +417,16 @@ comments = '''#N Stamp collection
 #C is described later.
 #C
 #C Many oscillators were found by the following people or groups, so their
-#C names are abbreviated in this header, for the oscillators in the original
-#C DRH file (ones added in 2020 are unabbreviated):
+#C names are abbreviated in this header:
 #C 
-#C    AF  = Achim Flammenkamp
-#C    AWH = Alan Hensel
-#C    DIB = David Bell
-#C    DJB = David Buckingham
-#C    DRH = Dean Hickerson
-#C    HH  = Hartmut Holzwart
-#C    JHC = John Conway
-#C    MDN = Mark Niemiec
-#C    MM  = Matthias Merzenich
-#C    NB  = Nicolay Beluchenko
-#C    NDE = Noam Elkies
-#C    PC  = Paul Callahan
-#C    RCS = Rich Schroeppel
-#C    RTW = Robert Wainwright
-#C    RWG = Bill Gosper
+#C    AF  = Achim Flammenkamp            AWH = Alan Hensel
+#C    DIB = David Bell                   DJB = David Buckingham
+#C    DRH = Dean Hickerson               HH  = Hartmut Holzwart
+#C    JHC = John Conway                  KS  = Karel Suhajda
+#C    MDN = Mark Niemiec                 MM  = Matthias Merzenich
+#C    NB  = Nicolay Beluchenko           NDE = Noam Elkies
+#C    PC  = Paul Callahan                RCS = Rich Schroeppel
+#C    RTW = Robert Wainwright            RWG = Bill Gosper
 #C    SN  = Simon Norton
 #C    JHC group  = A group of people working with John Conway in the
 #C                 early 1970s, including Conway, S. R. Bourne,
@@ -529,6 +525,20 @@ comments = '''#N Stamp collection
 #C with larger periods.
 #C
 #C ----------------------------------------------------------------------
+#C
+#C To add an oscillator to oscillators.txt, all you need is the RLE and
+#C optional comments. Make sure that there is no more than one #N or #O,
+#C and #N comes before #O comes before #C. If the period is 1000 or more,
+#C put a percent sign after the exclamation point at the end of the RLE.
+#C While the file has oscillators sorted by period, the program will handle
+#C them correctly even if they are out of order. If a pattern is not a
+#C still life or oscillator, it will exclude it from the pattern, but it
+#C will take an extra half second to figure this out unless it completely
+#C dies first. Oscillators with width above 120 or period >= 100,000 are
+#C not supported unless the Python code is modified.
+#C
+#C ----------------------------------------------------------------------
+#C
 #C Period 1 oscillators are usually called "still-lifes".  Programs
 #C written by MDN and others have counted the still-lifes with N cells
 #C for small N; the results up to N=20 are shown here:
@@ -540,7 +550,12 @@ comments = '''#N Stamp collection
 #C some larger ones that either occur naturally in random soups, or are
 #C useful, or exemplify symmetry types.  I'm omitting the discoverers and
 #C dates for most of the small and naturally occurring ones, since they've
-#C been independently discovered many times.\n''' % (num_patterns, num_periods) + comments
+#C been independently discovered many times.
+#C
+#C Frequencies listed are for 16x16 soups on an infinite grid. Most objects
+#C are 10 percent more common on a large torus (AF 2004, 2048x2048), at the
+#C expense of the block, which is about 6 percent less common, and the ship,
+#C which goes from 1 in 20 to 1 in 90. \n''' % (num_patterns, num_periods) + comments
 comments = comments.replace(' #O', '\n#O')
 comments = comments.replace(' #C', '\n#C')
 comments = comments.split('\n')
