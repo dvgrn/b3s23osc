@@ -1,7 +1,8 @@
 # b3s23osc.py version 1.1
 # version 1.0: David Raucci, 1/5/2021 ( https://conwaylife.com/forums/viewtopic.php?p=118160#p118160 )
 # version 1.1: Dave Greene,  1/5/2021 ( handle various possible error conditions, copy result to clipboard )
-# version 1.1.1: David Raucci, 1/6/2021 (add last two periods, remove delay for testing patterns)
+# version 1.1.1: David Raucci, 1/6/2021 ( add last two periods, remove delay for testing patterns )
+# version 1.1.2: David Raucci, 3/1/2021 ( changes with spacing and with period > 1000)
 
 import time
 import golly as g
@@ -75,6 +76,11 @@ def print_grid(pattern): #shows pattern as a readable grid
         print('') #newline
 
 def run_pattern_in_golly(pattern, comments, extended):
+    if extended:
+        try:
+            extended = int(pattern[pattern.index('%')+1:])
+        except ValueError: #sometimes there's a % sign in the comments
+            extended = False
     pattern_rle = pattern
     pattern = g.parse(pattern)
     if len(pattern) % 2 == 1: #multistate rule for some reason
@@ -91,7 +97,9 @@ def run_pattern_in_golly(pattern, comments, extended):
     max_max_x = max_x
     min_min_y = min_y
     max_max_y = max_y
-    for period in range(1, 100000 if extended else 1000): #maximum oscillator period
+    for period in range(1, 1000): #maximum oscillator period
+        if period == 999 and extended:
+            pattern = g.evolve(pattern, extended - 999)
         pattern = g.evolve(pattern,1)
         if not pattern:
             g.warn('Not an oscillator, dies out completely: %s' % initial_pattern)
@@ -103,7 +111,10 @@ def run_pattern_in_golly(pattern, comments, extended):
         min_min_y = min(min_min_y, min(ys))
         max_max_y = max(max_max_y, max(ys))
         if pattern == initial_pattern:
-            return (comments + convert_grid_to_rle(pattern), period, max_max_x-min_min_x+1, max_max_y-min_min_y+1, -min_min_x, -min_min_y)
+            if extended:
+                return (comments + convert_grid_to_rle(pattern), extended, max_max_x-min_min_x+1, max_max_y-min_min_y+1, -min_min_x, -min_min_y)
+            else:
+                return (comments + convert_grid_to_rle(pattern), period, max_max_x-min_min_x+1, max_max_y-min_min_y+1, -min_min_x, -min_min_y)
             #0: RLE. 1: period. 2, 3: maximum bounding box for x and y. 4, 5: Greatest negative for calculating offset.
         #if extended == 'file': #one at a time
         #    return pattern
@@ -142,7 +153,7 @@ def digit_width(num):
     num = str(num)
     return 10*len(num) - 6*(num[0] == '1')
 
-def create_column(pattern_dict):
+def create_column(pattern_dict, width_change):
     global grid, comments
     current_period = min(pattern_dict[i][1] for i in pattern_dict)
     period_row = 0
@@ -159,9 +170,9 @@ def create_column(pattern_dict):
         for i in pattern_dict:
             pattern_dict_copy[(i[0], i[1]+i[3], i[2], i[3])] = pattern_dict[i] #spaces out patterns vertically
         pattern_dict = pattern_dict_copy.copy()
-    for x1 in range(-len(str(period))*10 + column_x, 120 + column_x): #negative numbers used for creating the digits
+    for x1 in range(-len(str(period))*10 + column_x + width_change, 120 + column_x + width_change): #negative numbers used for creating the digits
         for y1 in range(0, height-1):
-            grid[(x1,y1)] = 0 #fill everything with off scells
+            grid[(x1,y1)] = 0 #fill everything with off cells
     for i in pattern_dict:
         grid_form = convert_rle_to_grid(pattern_dict[i][0])
         if pattern_dict[i][1] > current_period:
@@ -176,7 +187,7 @@ def create_column(pattern_dict):
         grid_form = grid_form[0]
         for j in grid_form:
             if grid_form.get(j, 0) == 1:
-                grid[(j[0]+i[0], j[1]+i[1])] = 1 #paste patterns in
+                grid[(j[0]+i[0]+width_change, j[1]+i[1])] = 1 #paste patterns in
 
 def convert_grid_to_rle(grid1):
     if type(grid1) == list:
@@ -273,19 +284,19 @@ x = 0
 y = 0
 pattern_dict = {}
 pattern_list = [] #pattern_list empties into pattern_dict at the end of each row, column, and period
+starting_digit_width = 4 #digit_width(1)
+max_period = max((i[1] * (i[1] != 1234567)) for i in data)
 while len(set(j[1] for j in data)): #this allows repeating periods that couldn't fit due to end of a column
     x = column_x
     rows = 0
     for period in sorted(set(j[1] for j in data)): #lowest periods first; they get deleted as they're completed
         if period == 1234567: #end of file
             period_y = height + 100 #so that everything will be included
-            period = max((j[1] * (j[1] != 1234567)) for j in data) #so it doesn't try to place a 7-digit number
-            create_column(pattern_dict)
+            period = max_period #so it doesn't try to place a 7-digit number
+            create_column(pattern_dict, digit_width(period)-starting_digit_width)
             data = [] #empties data to complete program
             break
         period = int(period)
-        if period == 15240: #does not fit normally
-            x -= 44 #aligns with beginning of number
         if y < period_y + 20 - spacing(period) and y > 0:
             y = period_y + 20 #so displayed digits don't conflict
         elif y > 0:
@@ -299,6 +310,9 @@ while len(set(j[1] for j in data)): #this allows repeating periods that couldn't
             period_patterns.sort(key=lambda a:min(11,sum(i == 1 for i in convert_rle_to_grid(a[0])[0].values())))
         if period == 2: #p2 oscillators are sorted by size up to 14 bits
             period_patterns.sort(key=lambda a:min(15,sum(i == 1 for i in convert_rle_to_grid(a[0])[0].values())))
+        if 120 <= sum((i[2] + spacing(period)) for i in period_patterns) - spacing(period) < 120 + digit_width(period):
+            y += 16 #moves the patterns down a line if they all fit on one line if moved down
+            x = column_x - digit_width(period)
         period_patterns.append(('End of period', period, 0, period_patterns[-1][3], 0, 0))
         #prevents the last pattern going past the height limit
         for pattern in period_patterns:
@@ -306,9 +320,10 @@ while len(set(j[1] for j in data)): #this allows repeating periods that couldn't
                 break
             if x + pattern[2] >= 120 + column_x or y + pattern[3] >= height: #end of row or column
                 if y + pattern[3] + spacing(period) >= height: #end of column
-                    create_column(pattern_dict)
+                    create_column(pattern_dict, digit_width(period)-starting_digit_width)
                     column += 1
-                    column_x += 132 + digit_width(period)
+                    column_x += 132 + digit_width(period) + (digit_width(period)-starting_digit_width)
+                    starting_digit_width = digit_width(period)
                     y = -1 #-1 is used to break out of loop
                     period_y = 0
                     pattern_list = []
@@ -350,6 +365,8 @@ for i in grid:
         final_list.extend([i[0],i[1]])
 g.putcells(final_list)
 
+comments = comments.replace(' #O', '\n#O')
+comments = comments.replace(' #C', '\n#C')
 comments = '''#N Stamp collection
 #C A collection of %s oscillators of %s different periods from 1
 #C to 40894. 
@@ -534,8 +551,9 @@ comments = '''#N Stamp collection
 #C them correctly even if they are out of order. If a pattern is not a
 #C still life or oscillator, it will exclude it from the pattern, but it
 #C will take an extra half second to figure this out unless it completely
-#C dies first. Oscillators with width above 120 or period >= 100,000 are
-#C not supported unless the Python code is modified.
+#C dies first. Oscillators with width above 120 plus the digit width or
+#C period >= 1000 with max bounding box expanding after generation 1000
+#C are not supported unless the Python code is modified.
 #C
 #C ----------------------------------------------------------------------
 #C
@@ -556,8 +574,6 @@ comments = '''#N Stamp collection
 #C are 10 percent more common on a large torus (AF 2004, 2048x2048), at the
 #C expense of the block, which is about 6 percent less common, and the ship,
 #C which goes from 1 in 20 to 1 in 90. \n''' % (num_patterns, num_periods) + comments
-comments = comments.replace(' #O', '\n#O')
-comments = comments.replace(' #C', '\n#C')
 comments = comments.split('\n')
 comments2 = ''
 began = False
@@ -580,8 +596,12 @@ for i in range(len(comments)):
         pass
     else:
         comments2 += comments[i] + '\n'
-comments2 = comments2.replace(' #C', '\n#C')
-comments2 = '#N ' + comments2[3:].replace('#N', '#C') #comments file only has one #N, and it's at the very beginning
+comments2_intro = comments2[:comments2.index('1.0.0')]
+comments2_patterns = comments2[comments2.index('1.0.0'):]
+comments2_patterns = comments2_patterns.replace(' #C', '\n#C')
+comments2_patterns = '#N ' + comments2_patterns[3:].replace('#N', '#C') #comments file only has one #N, and it's at the very beginning
+comments2 = comments2_intro + comments2_patterns
+    
 show_message('Comments size: %s KB' % ((len(comments2)+500)//1000),0.5)
 
 tempname = os.path.join(g.getdir("temp"),"oscillators.rle")
