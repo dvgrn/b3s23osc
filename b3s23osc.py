@@ -2,7 +2,8 @@
 # version 1.0: David Raucci, 1/5/2021 ( https://conwaylife.com/forums/viewtopic.php?p=118160#p118160 )
 # version 1.1: Dave Greene,  1/5/2021 ( handle various possible error conditions, copy result to clipboard )
 # version 1.1.1: David Raucci, 1/6/2021 ( add last two periods, remove delay for testing patterns )
-# version 1.1.2: David Raucci, 3/1/2021 ( changes with spacing and with period > 1000)
+# version 1.1.2: David Raucci, 3/1/2021 ( changes with spacing and with period > 1000 )
+# version 1.1.3: David Raucci, 6/3/2021 ( fixed period spacing issues; added blocks to separate periods)
 
 import time
 import golly as g
@@ -132,6 +133,7 @@ six = 'x = 8, y = 14, rule = B3/S23\n2b2obo$2bob2o$2o$o$bo$2o$2b2obo$2bob2o$2o4b
 seven = 'x = 8, y = 14, rule = B3/S232bob2o$2b2obo$6b2o$7bo$6bo$6b2o$4b2o$5bo$4bo$4b2o$2b2o$3bo$2bo$2b2o!'
 eight = 'x = 8, y = 14, rule = B3/S23\n2b2obo$2bob2o$2o4b2o$o5bo$bo5bo$2o4b2o$2b2obo$2bob2o$2o4b2o$o5bo$bo5bo$2o4b2o$2b2obo$2bob2o!'
 nine = 'x = 8, y = 14, rule = B3/S23\n2b2obo$2bob2o$2o4b2o$o5bo$bo5bo$2o4b2o$2b2obo$2bob2o$6b2o$6bo$7bo$6b2o$2b2obo$2bob2o!'
+block = 'x = 2, y = 2, rule = B3/S23\n2o$2o!'
 
 num_dict = {'0':'zero','1':'one','2':'two','3':'three','4':'four','5':'five','6':'six','7':'seven','8':'eight','9':'nine'}
 
@@ -170,10 +172,12 @@ def create_column(pattern_dict, width_change):
         for i in pattern_dict:
             pattern_dict_copy[(i[0], i[1]+i[3], i[2], i[3])] = pattern_dict[i] #spaces out patterns vertically
         pattern_dict = pattern_dict_copy.copy()
-    for x1 in range(-len(str(period))*10 + column_x + width_change, 120 + column_x + width_change): #negative numbers used for creating the digits
+    for x1 in range(-digit_width(period) + column_x + width_change, 120 + column_x + width_change): #negative numbers used for creating the digits
         for y1 in range(0, height-1):
             grid[(x1,y1)] = 0 #fill everything with off cells
     for i in pattern_dict:
+        if i[3] == rows and pattern_dict[i][0] == block:
+            continue
         grid_form = convert_rle_to_grid(pattern_dict[i][0])
         if pattern_dict[i][1] > current_period:
             comments += '#C ----------------------------------------------------------------------\n'
@@ -297,14 +301,19 @@ while len(set(j[1] for j in data)): #this allows repeating periods that couldn't
             data = [] #empties data to complete program
             break
         period = int(period)
+        #if period == 4:
+        #    continue
         if y < period_y + 20 - spacing(period) and y > 0:
-            y = period_y + 20 #so displayed digits don't conflict
+            y = period_y + 20 - spacing(period) #so displayed digits don't conflict
         elif y > 0:
-            y += spacing(period)
+            y += 7 - spacing(period)
         period_y = y #becomes the y value at the beginning of the period
         period_str = str(period)
         for digit in range(len(period_str)): #creates displayed digits
             pattern_dict[-10*(len(period_str)-digit)+column_x, y, -1, rows] = (eval(num_dict[period_str[digit]]),1,14,8,0,0)
+        if y > 0:
+            for i in range(-digit_width(period),114,6):
+                pattern_dict[i+column_x, y-4, -1, rows] = (block,1,2,2,0,0)
         period_patterns = list(filter(lambda a:a[1]==period, data)) #only patterns of the correct period
         if period == 1: #still lifes are sorted by size up to 10 bits
             period_patterns.sort(key=lambda a:min(11,sum(i == 1 for i in convert_rle_to_grid(a[0])[0].values())))
@@ -319,10 +328,10 @@ while len(set(j[1] for j in data)): #this allows repeating periods that couldn't
             if pattern[0] == 'End of period' and y + pattern[3] < height:
                 break
             if x + pattern[2] >= 120 + column_x or y + pattern[3] >= height: #end of row or column
-                if y + pattern[3] + spacing(period) >= height: #end of column
+                if y + pattern[3] >= height: #end of column
                     create_column(pattern_dict, digit_width(period)-starting_digit_width)
                     column += 1
-                    column_x += 132 + digit_width(period) + (digit_width(period)-starting_digit_width)
+                    column_x += 123 + digit_width(period) + (digit_width(period)-starting_digit_width)
                     starting_digit_width = digit_width(period)
                     y = -1 #-1 is used to break out of loop
                     period_y = 0
@@ -396,10 +405,9 @@ comments = '''#N Stamp collection
 #C >=54, and guns of periods 54, 55, and 56. In addidion, the 2013 discovery
 #C of the Snark allowed all oscillators of all periods 43 and higher.
 #C There are 4 periods for which oscillators
-#C are still unknown as of late 2020: 19, 34, 38, and 41.
+#C are still unknown as of early 2021: 19, 34, 38, and 41.
 #C (For period 34, we could use a noninteracting combination of p2 and p17
-#C oscillators, but that's considered trivial.) All known nontrivial period
-#C 39 oscillators are boring combinations of p3 and p13 oscillators.
+#C oscillators, but that's considered trivial.)
 #C
 #C Building this collection would have been impossible without the help
 #C of many people.  In addition to those who found the oscillators, I'd
@@ -413,7 +421,7 @@ comments = '''#N Stamp collection
 #C 2/2/2000; last updated 9/16/2000. URLs corrected
 #C and list of missing periods updated on 5/8/2009.
 #C
-#C David Raucci, updated 1/8/2021.
+#C David Raucci, updated 6/3/2021.
 #C
 #C ----------------------------------------------------------------------
 #C
@@ -546,7 +554,8 @@ comments = '''#N Stamp collection
 #C To add an oscillator to oscillators.txt, all you need is the RLE and
 #C optional comments. Make sure that there is no more than one #N or #O,
 #C and #N comes before #O comes before #C. If the period is 1000 or more,
-#C put a percent sign after the exclamation point at the end of the RLE.
+#C put a percent sign after the exclamation point at the end of the RLE,
+#C and the period number after the percent sign.
 #C While the file has oscillators sorted by period, the program will handle
 #C them correctly even if they are out of order. If a pattern is not a
 #C still life or oscillator, it will exclude it from the pattern, but it
