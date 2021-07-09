@@ -1,9 +1,14 @@
-# b3s23osc.py version 1.1
+#C [[ LABELTARGET X Y D ]]
+#C [[ COLOR LABEL Orange LABELSIZE 30 LABELALPHA 0.70 ]]
+#C [[ LABEL 445 385 4 "6-engine\nMWSS Corderrake\nDavid Bell, 23 Sep 2006" ]]
+
+# b3s23osc.py version 1.1.4
 # version 1.0: David Raucci, 1/5/2021 ( https://conwaylife.com/forums/viewtopic.php?p=118160#p118160 )
 # version 1.1: Dave Greene,  1/5/2021 ( handle various possible error conditions, copy result to clipboard )
 # version 1.1.1: David Raucci, 1/6/2021 ( add last two periods, remove delay for testing patterns )
 # version 1.1.2: David Raucci, 3/1/2021 ( changes with spacing and with period > 1000 )
-# version 1.1.3: David Raucci, 6/3/2021 ( fixed period spacing issues; added blocks to separate periods)
+# version 1.1.3: David Raucci, 6/3/2021 ( fixed period spacing issues; added blocks to separate periods )
+# version 1.1.4: Dave Greene, 6/23/2021 ( add LifeViewer labels, rework header comments slightly )
 
 import time
 import golly as g
@@ -27,54 +32,18 @@ def convert_rle_to_grid(rle):
     else:
         show_message('"rule = B3/S23 not in RLE": ' + rle,0.5)
         return {}
-    x = 0
-    y = 0
     pattern = {}
-    num = '' #num keeps track of digits and then processes it when it hits a b, o, or $
-    while rle:
-        if rle[0] in '0123456789': #digit
-            num += rle[0]
-            rle = rle[1:] #remove leftmost character
-        elif rle[0] in ('o','b'):
-            if num == '': #no number: only one
-                num = 1
-            num = int(num)
-            for i in range(num):
-                pattern[(x,y)] = (1 if rle[0] == 'o' else 0)
-                x += 1
-            num = ''
-            rle = rle[1:] #remove leftmost character
-        elif rle[0] == '$':
-            if num == '':
-                num = 1
-            num = int(num)
-            for i in range(num):
-                y += 1
-            x = 0
-            num = ''
-            rle = rle[1:] #remove leftmost character
-        elif rle[0] == '!':
-            break
-        elif rle[0] in ' \n\t%': #percent sign is used to mark as period 1000+; just for this program, not typical RLE
-            rle = rle[1:] #remove leftmost character
-        else:
-            raise ValueError('Invalid RLE', rle)
-    max_x = max((-1000 if pattern[cell] == 0 else cell[0]) for cell in pattern)
-    max_y = max((-1000 if pattern[cell] == 0 else cell[1]) for cell in pattern)
+    rle_decoded = g.parse(rle)
+    for i in range(len(rle_decoded)):
+        if i % 2:
+            continue
+        pattern[(rle_decoded[i],rle_decoded[i+1])] = 1
+    max_x = max(rle_decoded[::2])
+    max_y = max(rle_decoded[1::2])
     for i in range(max_x+1):
         for j in range(max_y+1):
             pattern[(i,j)] = pattern.get((i,j), 0)
     return (pattern, comments)
-
-def print_grid(pattern): #shows pattern as a readable grid
-    min_x = min((1000 if pattern[cell] == 0 else cell[0]) for cell in pattern) #only reads cells that are on
-    max_x = max((-1000 if pattern[cell] == 0 else cell[0]) for cell in pattern)
-    min_y = min((1000 if pattern[cell] == 0 else cell[1]) for cell in pattern)
-    max_y = max((-1000 if pattern[cell] == 0 else cell[1]) for cell in pattern)
-    for y in range(min_y, max_y+1):
-        for x in range(min_x, max_x+1):
-            print(('o' if pattern[(x,y)] == 1 else '.'), end='')
-        print('') #newline
 
 def run_pattern_in_golly(pattern, comments, extended):
     if extended:
@@ -279,6 +248,7 @@ data.sort(key=lambda a:(a[1],a[3])) #first by period, then height
 
 num_periods = 0
 comments = ''
+lvcomments = ''
 grid = {}
 column = 1 #column number
 column_x = 0 #column x offset
@@ -380,23 +350,17 @@ comments = '''#N Stamp collection
 #C A collection of %s oscillators of %s different periods from 1
 #C to 40894. 
 #C
+#C Notes from Dean Hickerson:
 #C The oscillators included here were found/built by many people over
 #C many years.  I finished putting the collection together in August 1995,
 #C and have worked on this header file off and on since then.  It's still
-#C incomplete and probably inaccurate, but I've decided to make it public
-#C anyway; if you find any errors or can fill in any of the blanks, please
-#C let me (David Raucci; Dean Hickerson is no longer updating) know. This
-#C file has since been updated in 2020 and 2021
-#C by David Raucci, converting it to a Python program that automatically updates
-#C based on a text file input and includes more oscillators that were not
-#C known in 1995.
-#C
+#C incomplete and probably inaccurate, but I've decided to make it public anyway.
 #C Since this collection was built, many new oscillators have been found.
 #C Most notably, in 1996 David Buckingham showed how to create tracks
 #C built from still-lifes through which Herschels can move.  (See
-#C  http://www.radicaleye.com/lifepage/patterns/bhept/bhept.html
+#C  https://conwaylife.com/ref/lifepage/patterns/bhept/bhept.html
 #C for Buckingham's description of this, and
-#C  http://www.radicaleye.com/lifepage/patterns/p1/p1.html
+#C  https://conwaylife.com/ref/lifepage/patterns/p1/p1.html
 #C for Paul Callahan's discussion of using such conduits to build a stable
 #C glider reflector.)  Using Herschel tracks, Buckingham obtained glider
 #C guns of all periods >= 62 and oscillators of all periods >= 61.  Further
@@ -420,6 +384,14 @@ comments = '''#N Stamp collection
 #O Dean Hickerson, dean.hickerson@yahoo.com
 #C 2/2/2000; last updated 9/16/2000. URLs corrected
 #C and list of missing periods updated on 5/8/2009.
+#C
+#C Notes from David Raucci:
+#C If you find any errors or can fill in any of the blanks, please
+#C let me know. This file has been updated in 2020 and 2021, converting it
+#C to a Python program that automatically updates based on a text file input
+#C and includes more oscillators that were not known in 1995.
+#C
+#C See the GitHub repository at https://github.com/dvgrn/b3s23osc for more details.
 #C
 #C David Raucci, updated 6/3/2021.
 #C
@@ -585,6 +557,7 @@ comments = '''#N Stamp collection
 #C which goes from 1 in 20 to 1 in 90. \n''' % (num_patterns, num_periods) + comments
 comments = comments.split('\n')
 comments2 = ''
+lvcomments = ''
 began = False
 space_len = 0
 for i in range(len(comments)):
@@ -597,8 +570,10 @@ for i in range(len(comments)):
             space_len = len(comments[i])-1
     if not began: #if still introduction
         comments2 += comments[i] + '\n'
+        lvcomments += comments[i]
     elif i != len(comments)-1 and '#O' in comments[i+1]: #puts pattern discoverer on name line with brackets
         comments2 += comments[i] + ' [' + comments[i+1][3:] + ']\n'
+        lvcomments += comments[i] + "\n" + comments[i+1][3:]
     elif '#C' in comments[i] and '----' not in comments[i]: #spaces comment lines to match pattern number
         comments2 += '#C' + ' '*space_len*began + comments[i][3:] + '\n'
     elif '#O' in comments[i]: #discoverers are put on the previous line; this is so that they're not duplicated
