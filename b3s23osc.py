@@ -1,18 +1,18 @@
-#C [[ LABELTARGET X Y D ]]
-#C [[ COLOR LABEL Orange LABELSIZE 30 LABELALPHA 0.70 ]]
-#C [[ LABEL 445 385 4 "6-engine\nMWSS Corderrake\nDavid Bell, 23 Sep 2006" ]]
-
 # b3s23osc.py version 1.1.4
 # version 1.0: David Raucci, 1/5/2021 ( https://conwaylife.com/forums/viewtopic.php?p=118160#p118160 )
 # version 1.1: Dave Greene,  1/5/2021 ( handle various possible error conditions, copy result to clipboard )
 # version 1.1.1: David Raucci, 1/6/2021 ( add last two periods, remove delay for testing patterns )
 # version 1.1.2: David Raucci, 3/1/2021 ( changes with spacing and with period > 1000 )
 # version 1.1.3: David Raucci, 6/3/2021 ( fixed period spacing issues; added blocks to separate periods )
-# version 1.1.4: Dave Greene, 6/23/2021 ( add LifeViewer labels, rework header comments slightly )
+# version 1.1.4: Dave Greene, 6/23/2021 ( rework header comments slightly, define ROW_WIDTH and COL_HEIGHT )
 
 import time
 import golly as g
 import os
+
+ROW_WIDTH = 120
+COL_HEIGHT = 650  # note: if a single period is taller than height variable, it won't work properly
+SLOW_MSG = False
 
 start_time = time.time()
 g.setrule("B3/S23")
@@ -21,7 +21,7 @@ g.new("oscillators.rle")
 
 def show_message(message, time_):
     g.show(str(message))
-    time.sleep(time_)
+    if SLOW_MSG: time.sleep(time_)
 
 def convert_rle_to_grid(rle):
     comments = ''
@@ -108,8 +108,6 @@ num_dict = {'0':'zero','1':'one','2':'two','3':'three','4':'four','5':'five','6'
 
 digit_rles = [zero,one,two,three,four,five,six,seven,eight,nine]
 
-height = 650 #note: if a single period is taller than height variable, it won't work properly
-
 def spacing(period): #both for horizontal and vertical spacing
     if period == 1:
         return 3
@@ -134,15 +132,15 @@ def create_column(pattern_dict, width_change):
             del pattern_dict[i]
     max_y = max(i[1]+pattern_dict[i][3] for i in pattern_dict)
     rows = max(i[3] for i in pattern_dict)
-    while max(i[1]+pattern_dict[i][3]+rows for i in pattern_dict) <= height:
+    while max(i[1]+pattern_dict[i][3]+rows for i in pattern_dict) <= COL_HEIGHT:
         if max(i[1] for i in pattern_dict) < 30:
             break #prevent infinite loop on single line
         pattern_dict_copy = {}
         for i in pattern_dict:
             pattern_dict_copy[(i[0], i[1]+i[3], i[2], i[3])] = pattern_dict[i] #spaces out patterns vertically
         pattern_dict = pattern_dict_copy.copy()
-    for x1 in range(-digit_width(period) + column_x + width_change, 120 + column_x + width_change): #negative numbers used for creating the digits
-        for y1 in range(0, height-1):
+    for x1 in range(-digit_width(period) + column_x + width_change, ROW_WIDTH + column_x + width_change): #negative numbers used for creating the digits
+        for y1 in range(0, COL_HEIGHT-1):
             grid[(x1,y1)] = 0 #fill everything with off cells
     for i in pattern_dict:
         if i[3] == rows and pattern_dict[i][0] == block:
@@ -221,7 +219,7 @@ def open_file2(file):
         #except ValueError:
         #    print('No "x =": ' + i)
         patterns.append(i)
-        show_message(len(patterns),0.001)
+        show_message("Pass 1 of 3: processing pattern #" + str(len(patterns)),0.001)
     show_message('Total number of patterns: %s' % len(patterns),0.5)
 
 patterns = []
@@ -230,7 +228,7 @@ data = [(0,1234567,0,0,0,0)] #this period 1234567 marks the end of the file
 count = 0
 for i in patterns:
     count += 1
-    show_message('%s of %s done, %s seconds ' % (count-1, len(patterns), int(time.time() - start_time)),0)
+    show_message('Pass 2 of 3: %s of %s done, %s seconds ' % (count-1, len(patterns), int(time.time() - start_time)),0)
     try:
         data.append(run_pattern_in_golly(i[i.index('= B3/S23')+9:], i[:i.index('x =')], '%' in i)) #max period 1000 without %, 100000 with %
     except ValueError:
@@ -265,7 +263,7 @@ while len(set(j[1] for j in data)): #this allows repeating periods that couldn't
     rows = 0
     for period in sorted(set(j[1] for j in data)): #lowest periods first; they get deleted as they're completed
         if period == 1234567: #end of file
-            period_y = height + 100 #so that everything will be included
+            period_y = COL_HEIGHT + 100 #so that everything will be included
             period = max_period #so it doesn't try to place a 7-digit number
             create_column(pattern_dict, digit_width(period)-starting_digit_width)
             data = [] #empties data to complete program
@@ -289,16 +287,16 @@ while len(set(j[1] for j in data)): #this allows repeating periods that couldn't
             period_patterns.sort(key=lambda a:min(11,sum(i == 1 for i in convert_rle_to_grid(a[0])[0].values())))
         if period == 2: #p2 oscillators are sorted by size up to 14 bits
             period_patterns.sort(key=lambda a:min(15,sum(i == 1 for i in convert_rle_to_grid(a[0])[0].values())))
-        if 120 <= sum((i[2] + spacing(period)) for i in period_patterns) - spacing(period) < 120 + digit_width(period):
+        if ROW_WIDTH <= sum((i[2] + spacing(period)) for i in period_patterns) - spacing(period) < ROW_WIDTH + digit_width(period):
             y += 16 #moves the patterns down a line if they all fit on one line if moved down
             x = column_x - digit_width(period)
         period_patterns.append(('End of period', period, 0, period_patterns[-1][3], 0, 0))
         #prevents the last pattern going past the height limit
         for pattern in period_patterns:
-            if pattern[0] == 'End of period' and y + pattern[3] < height:
+            if pattern[0] == 'End of period' and y + pattern[3] < COL_HEIGHT:
                 break
-            if x + pattern[2] >= 120 + column_x or y + pattern[3] >= height: #end of row or column
-                if y + pattern[3] >= height: #end of column
+            if x + pattern[2] >= ROW_WIDTH + column_x or y + pattern[3] >= COL_HEIGHT: #end of row or column
+                if y + pattern[3] >= COL_HEIGHT: #end of column
                     create_column(pattern_dict, digit_width(period)-starting_digit_width)
                     column += 1
                     column_x += 123 + digit_width(period) + (digit_width(period)-starting_digit_width)
@@ -309,15 +307,15 @@ while len(set(j[1] for j in data)): #this allows repeating periods that couldn't
                     pattern_dict = {}
                     rows = 0
                     break
-                while x + len(pattern_list) <= 120 + column_x: #end of row
+                while x + len(pattern_list) <= ROW_WIDTH + column_x: #end of row
                     for i in pattern_list:
-                        i[1] += i[2] #i[2] is the pattern number in the row; this spaces the row out to fill the full 120 cells
+                        i[1] += i[2] #i[2] is the pattern number in the row; this spaces the row out to fill the full ROW_WIDTH cells
                     x += len(pattern_list)
                 for i in pattern_list:
                     pattern_dict[(i[1], y+i[0][5], i[2], rows)] = i[0] #puts the list into a dict
                 rows += 1
                 y += max(i[0][3] for i in pattern_list) + spacing(period) #maximum height
-                #will enter an infinite loop if a single pattern is more than 120 rows wide
+                #will enter an infinite loop if a single pattern is more than ROW_WIDTH rows wide
                 x = column_x - digit_width(period) * (y - 16 >= period_y) #moves left if the digit doesn't interfere
                 pattern_list = []
             pattern_list.append([pattern, x+pattern[4], len(pattern_list)])
@@ -326,9 +324,9 @@ while len(set(j[1] for j in data)): #this allows repeating periods that couldn't
             y = 0
             break
         data = list(filter(lambda a:a[1] > period, data)) #removes a period when it's done
-        show_message('Period done: ' + str(period),0.02)
+        show_message('Pass 3 of 3:  Periods complete up to ' + str(period),0.02)
         num_periods += 1
-        while x + len(pattern_list) <= 120 + column_x: #these lines are the same as the end-of-row lines
+        while x + len(pattern_list) <= ROW_WIDTH + column_x: #these lines are the same as the end-of-row lines
             for i in pattern_list:
                 i[1] += i[2]
             x += len(pattern_list)
