@@ -5,6 +5,7 @@
 # version 1.1.2: David Raucci, 3/1/2021 ( changes with spacing and with period > 1000 )
 # version 1.1.3: David Raucci, 6/3/2021 ( fixed period spacing issues; added blocks to separate periods )
 # version 1.1.4: Dave Greene, 6/23/2021 ( rework header comments slightly, define ROW_WIDTH and COL_HEIGHT )
+# version 1.1.5: David Raucci, 7/21/2021 ( fix missing objects )
 
 import time
 import golly as g
@@ -128,7 +129,7 @@ def create_column(pattern_dict, width_change):
     period_row = 0
     pattern_dict_copy = pattern_dict.copy()
     for i in pattern_dict_copy:
-        if i[1]+pattern_dict[i][3] >= period_y:
+        if i[1] >= period_y:
             del pattern_dict[i]
     max_y = max(i[1]+pattern_dict[i][3] for i in pattern_dict)
     rows = max(i[3] for i in pattern_dict)
