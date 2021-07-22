@@ -1,4 +1,4 @@
-# b3s23osc.py version 1.1.4
+# b3s23osc.py version 1.1.5
 # version 1.0: David Raucci, 1/5/2021 ( https://conwaylife.com/forums/viewtopic.php?p=118160#p118160 )
 # version 1.1: Dave Greene,  1/5/2021 ( handle various possible error conditions, copy result to clipboard )
 # version 1.1.1: David Raucci, 1/6/2021 ( add last two periods, remove delay for testing patterns )
