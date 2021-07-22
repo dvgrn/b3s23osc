@@ -10,10 +10,13 @@
 import time
 import golly as g
 import os
+from datetime import date
 
 ROW_WIDTH = 120
 COL_HEIGHT = 650  # note: if a single period is taller than height variable, it won't work properly
 SLOW_MSG = False
+
+today = date.today().strftime("%b %d, %Y")
 
 start_time = time.time()
 g.setrule("B3/S23")
@@ -345,7 +348,7 @@ g.putcells(final_list)
 
 comments = comments.replace(' #O', '\n#O')
 comments = comments.replace(' #C', '\n#C')
-comments = '''#N Stamp collection
+comments = "#N Oscillator stamp collection\n#O Dean Hickerson, David Raucci, et al., updated " + today + '''
 #C A collection of %s oscillators of %s different periods from 1
 #C to 40894. 
 #C
@@ -417,13 +420,15 @@ comments = '''#N Stamp collection
 #C 
 #C    AF  = Achim Flammenkamp            AWH = Alan Hensel
 #C    DIB = David Bell                   DJB = David Buckingham
-#C    DRH = Dean Hickerson               HH  = Hartmut Holzwart
-#C    JHC = John Conway                  KS  = Karel Suhajda
-#C    MDN = Mark Niemiec                 MM  = Matthias Merzenich
-#C    NB  = Nicolay Beluchenko           NDE = Noam Elkies
-#C    PC  = Paul Callahan                RCS = Rich Schroeppel
-#C    RTW = Robert Wainwright            RWG = Bill Gosper
-#C    SN  = Simon Norton
+#C    DRH = Dean Hickerson               DER = David Raucci
+#C    HH  = Hartmut Holzwart             JHC = John Conway       
+#C    KS  = Karel Suhajda		 MDN = Mark Niemiec      
+#C    MM  = Matthias Merzenich		 NB  = Nicolay Beluchenko
+#C    NDE = Noam Elkies			 PC  = Paul Callahan     
+#C    RCS = Rich Schroeppel		 RTW = Robert Wainwright 
+#C    RWG = Bill Gosper			 SN  = Simon Norton
+#C
+#C
 #C    JHC group  = A group of people working with John Conway in the
 #C                 early 1970s, including Conway, S. R. Bourne,
 #C                 M. J. T. Guy, and Simon Norton.
@@ -531,9 +536,10 @@ comments = '''#N Stamp collection
 #C them correctly even if they are out of order. If a pattern is not a
 #C still life or oscillator, it will exclude it from the pattern, but it
 #C will take an extra half second to figure this out unless it completely
-#C dies first. Oscillators with width above 120 plus the digit width or
-#C period >= 1000 with max bounding box expanding after generation 1000
-#C are not supported unless the Python code is modified.
+#C dies first. Oscillators with width above 120 plus the digit width
+#C or period >= 1000 with max bounding box expanding after generation 1000
+#C are not supported unless the Python code is modified. ROW_WIDTH can be
+#C changed at the top of the code to increase the allowed width above 120.
 #C
 #C ----------------------------------------------------------------------
 #C
@@ -553,7 +559,7 @@ comments = '''#N Stamp collection
 #C Frequencies listed are for 16x16 soups on an infinite grid. Most objects
 #C are 10 percent more common on a large torus (AF 2004, 2048x2048), at the
 #C expense of the block, which is about 6 percent less common, and the ship,
-#C which goes from 1 in 20 to 1 in 90. \n''' % (num_patterns, num_periods) + comments
+#C which goes from 1 in 20 to 1 in 90.\n''' % (num_patterns, num_periods) + comments
 comments = comments.split('\n')
 comments2 = ''
 lvcomments = ''
@@ -572,7 +578,7 @@ for i in range(len(comments)):
         lvcomments += comments[i]
     elif i != len(comments)-1 and '#O' in comments[i+1]: #puts pattern discoverer on name line with brackets
         comments2 += comments[i] + ' [' + comments[i+1][3:] + ']\n'
-        lvcomments += comments[i] + "\n" + comments[i+1][3:]
+        # lvcomments += comments[i] + "\n" + comments[i+1][3:] ######################
     elif '#C' in comments[i] and '----' not in comments[i]: #spaces comment lines to match pattern number
         comments2 += '#C' + ' '*space_len*began + comments[i][3:] + '\n'
     elif '#O' in comments[i]: #discoverers are put on the previous line; this is so that they're not duplicated
@@ -581,8 +587,8 @@ for i in range(len(comments)):
         comments2 += comments[i] + '\n'
 comments2_intro = comments2[:comments2.index('1.0.0')]
 comments2_patterns = comments2[comments2.index('1.0.0'):]
+comments2_patterns = comments2_patterns.replace("#N ","#C ") #comments file only has one #N, and it's at the very beginning
 comments2_patterns = comments2_patterns.replace(' #C', '\n#C')
-comments2_patterns = '#N ' + comments2_patterns[3:].replace('#N', '#C') #comments file only has one #N, and it's at the very beginning
 comments2 = comments2_intro + comments2_patterns
     
 show_message('Comments size: %s KB' % ((len(comments2)+500)//1000),0.5)

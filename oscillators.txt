@@ -6323,22 +6323,22 @@ o$13b3o3b3o$13b2o5b2o$2b2o27b2o$bobo27bobo$bo31bo$2o31b2o6$11b2o9b2o$
 #N P74 honey farm hassler
 #O DER 6/4/21
 #C Uses two Beluchenko's other p37s for stabilization
-x = 104, y = 73, rule = B3/S23
-85bo$83b3o$82bo$76b2o4b2o$75bo2bo$70b2o2b2obo$70b2o3b2o5$81bo6bo$80bob
-o4b2o$79bo17b2o$80bobo14b2o$68b2o11bo$69bo$75bo8bo13bo$57b2o17bo6bo2bo
-10b3o$44b2o12bo15bobo7b2o11bo2bo$45bo12bobo14bo22bobo$44bo14b2o8bobo
-27bo$44b2o2b2o18bo3bo17bo$47bobo19bobo17bobo$42b4obo22bo17bo3bo$42bo2b
-ob2o12bo27bobo8b2o$28bo21b3o7bobo22bo14bobo$26b3o20bo3bo6bo2bo11b2o7bo
-bo15bo$25bo22bo5bo6b3o10bo2bo6bo17b2o$19b2o4b2o21bo5bo7bo13bo8bo$18bo
-2bo26bo5bo36bo$13b2o2b2obo28bo3bo25bo11b2o$13b2o3b2o30b3o9b2o14bobo$
-62b2o17bo$72b2o4bobo$72bo6bo2$24bo6bo$23bobo4b2o$22bo17b2o$23bobo14b2o
-9b3o30b2o3b2o$11b2o11bo25bo3bo28bob2o2b2o$12bo36bo5bo26bo2bo$18bo8bo
-13bo7bo5bo21b2o4b2o$2o17bo6bo2bo10b3o6bo5bo22bo$bo15bobo7b2o11bo2bo6bo
-3bo20b3o$bobo14bo22bobo7b3o21bo$2b2o8bobo27bo12b2obo2bo$11bo3bo17bo22b
-ob4o$12bobo17bobo19bobo$13bo17bo3bo18b2o2b2o$4bo27bobo8b2o14bo$3bobo
-22bo14bobo12bo$3bo2bo11b2o7bobo15bo12b2o$4b3o10bo2bo6bo17b2o$5bo13bo8b
-o$34bo$22bo11b2o$5b2o14bobo$5b2o17bo$15b2o4bobo$15bo6bo5$27b2o3b2o$26b
-ob2o2b2o$25bo2bo$20b2o4b2o$21bo$18b3o$18bo!
+x = 73, y = 104, rule = B3/S23
+44bo$44b3o$47bo$46b2o4b2o$51bo2bo$52bob2o2b2o$53b2o3b2o5$41bo6bo$41b2o
+4bobo$31b2o17bo$31b2o14bobo$48bo11b2o$60bo$31bo13bo8bo$30b3o10bo2bo6bo
+17b2o$29bo2bo11b2o7bobo15bo$29bobo22bo14bobo$30bo27bobo8b2o$39bo17bo3b
+o$38bobo17bobo$37bo3bo17bo$28b2o8bobo27bo$27bobo14bo22bobo$27bo15bobo
+7b2o11bo2bo$26b2o17bo6bo2bo10b3o$44bo8bo13bo$38bo$37b2o11bo$49bobo14b
+2o$48bo17b2o$49bobo4b2o$50bo6bo5$39b2o3b2o$39b2o2b2obo$24b2o18bo2bo$
+24bo20b2o4b2o$19bob2obo26bo$19b2obob2o26b3o$54bo$23b3o$22bo2bo2b3o$22b
+2o3bo3bo10b3o$26bo5bo8bo3bo$26bo5bo7bo5bo$26bo5bo7bo5bo$27bo3bo8bo5bo$
+28b3o10bo3bo3b2o$42b3o2bo2bo$47b3o$18bo$18b3o26b2obob2o$21bo26bob2obo$
+20b2o4b2o20bo$25bo2bo18b2o$26bob2o2b2o$27b2o3b2o5$15bo6bo$15b2o4bobo$
+5b2o17bo$5b2o14bobo$22bo11b2o$34bo$5bo13bo8bo$4b3o10bo2bo6bo17b2o$3bo
+2bo11b2o7bobo15bo$3bobo22bo14bobo$4bo27bobo8b2o$13bo17bo3bo$12bobo17bo
+bo$11bo3bo17bo$2b2o8bobo27bo$bobo14bo22bobo$bo15bobo7b2o11bo2bo$2o17bo
+6bo2bo10b3o$18bo8bo13bo$12bo$11b2o11bo$23bobo14b2o$22bo17b2o$23bobo4b
+2o$24bo6bo5$13b2o3b2o$13b2o2b2obo$18bo2bo$19b2o4b2o$25bo$26b3o$28bo!
 
 #N 6 bits
 #O RTW 9/84
@@ -6350,7 +6350,7 @@ x = 37, y = 22, rule = B3/S23
 
 #N p76 pi hassler dimer
 #O DER 4/11/21
-#C One pi heptomino and its associated heavyweight emulator can be shifter one
+#C One pi heptomino and its associated heavyweight emulator can be shifted one
 #C or two cells in the correct direction, and it will still work.
 x = 37, y = 25, rule = B3/S23
 23b2o8b2o$23bo10bo$24b10o$21b3o2b6o2b3o$21bo2bo2b4o2bo2bo$22b2o10b2o5$
