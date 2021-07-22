@@ -1,4 +1,4 @@
-# b3s23osc.py version 1.1.5
+# b3s23osc.py version 1.1.6
 # version 1.0: David Raucci, 1/5/2021 ( https://conwaylife.com/forums/viewtopic.php?p=118160#p118160 )
 # version 1.1: Dave Greene,  1/5/2021 ( handle various possible error conditions, copy result to clipboard )
 # version 1.1.1: David Raucci, 1/6/2021 ( add last two periods, remove delay for testing patterns )
@@ -6,7 +6,7 @@
 # version 1.1.3: David Raucci, 6/3/2021 ( fixed period spacing issues; added blocks to separate periods )
 # version 1.1.4: Dave Greene, 6/23/2021 ( rework header comments slightly, define ROW_WIDTH and COL_HEIGHT )
 # version 1.1.5: David Raucci, 7/21/2021 ( fix missing objects )
-
+# version 1.1.6: Dave Greene, 7/22/2021 ( add LifeViewer labels )
 import time
 import golly as g
 import os
@@ -15,6 +15,8 @@ from datetime import date
 ROW_WIDTH = 120
 COL_HEIGHT = 650  # note: if a single period is taller than height variable, it won't work properly
 SLOW_MSG = False
+
+labellookup = [50]*20 + [40]*20 + [30]*20 + [20]*20 + [15]*20 + [10]*20 + [5]*100  # should be extended if ROW_WIDTH is increased
 
 today = date.today().strftime("%b %d, %Y")
 
@@ -127,7 +129,7 @@ def digit_width(num):
     return 10*len(num) - 6*(num[0] == '1')
 
 def create_column(pattern_dict, width_change):
-    global grid, comments
+    global grid, comments, lvcomments
     current_period = min(pattern_dict[i][1] for i in pattern_dict)
     period_row = 0
     pattern_dict_copy = pattern_dict.copy()
@@ -154,15 +156,34 @@ def create_column(pattern_dict, width_change):
             comments += '#C ----------------------------------------------------------------------\n'
             current_period = pattern_dict[i][1]
             period_row = i[3]
+        current_comment = ''
         if i[2] >= 0: #not a digit
             current_comment = grid_form[1]
             if '#N' not in current_comment:
                 current_comment = '#N\n' + current_comment
             comments += '#N %s.%s.%s ' % (pattern_dict[i][1], i[3]-period_row, i[2]) + current_comment[3:]
         grid_form = grid_form[0]
+        deltax, deltay = i[0]+width_change, i[1]
+        minx = min(j[0]+deltax for j in grid_form)
+        maxx = max(j[0]+deltax for j in grid_form)
+        miny = min(j[1]+deltay for j in grid_form)
+        maxy = max(j[1]+deltay for j in grid_form)
+        if not current_comment == '':
+            lvlabel = current_comment[3:]
+            lvlabel = lvlabel[:(lvlabel+"#C").find("#C")].strip()  # don't include #C comments in labels, they're usually too long
+            if lvlabel.find("\n#O "):
+              lvlabel = lvlabel.replace('\n#O ','\\n').replace("#O ","").replace('"',"'")
+            # couldn't get LABELTARGET to work immediately, so leaving it off --
+            #   #C [[ LABELTARGET ' + str(deltax) + ' ' + str(deltay) + ' 100 ]]\n
+            lvcomments += '#C [[ LABELTARGET ' + str((minx+maxx)//2-1588) + ' ' + str((miny+maxy)//2-323) + ' 20 '
+            g.show(str(maxx-minx))
+            # the first 4 is a fudge factor -- all labels were showing up 4 cells too far to the left;
+            # the second 4 is the minimum zoom level at which all labels should become visible
+            lbl = str(labellookup[maxx-minx])
+            lvcomments += 'LABEL ' + str((minx+maxx)//2 + 4) + ' ' + str((miny+maxy)//2) + ' ' + lbl + ' "' + lvlabel + '" ]]\n'        
         for j in grid_form:
             if grid_form.get(j, 0) == 1:
-                grid[(j[0]+i[0]+width_change, j[1]+i[1])] = 1 #paste patterns in
+                grid[(j[0]+deltax, j[1]+deltay)] = 1 #paste patterns in
 
 def convert_grid_to_rle(grid1):
     if type(grid1) == list:
@@ -250,7 +271,7 @@ data.sort(key=lambda a:(a[1],a[3])) #first by period, then height
 
 num_periods = 0
 comments = ''
-lvcomments = ''
+lvcomments = '#C [[ COLOR LABEL Orange LABELSIZE 30 LABELALPHA 0.70 ]]\n'
 grid = {}
 column = 1 #column number
 column_x = 0 #column x offset
@@ -422,11 +443,11 @@ comments = "#N Oscillator stamp collection\n#O Dean Hickerson, David Raucci, et 
 #C    DIB = David Bell                   DJB = David Buckingham
 #C    DRH = Dean Hickerson               DER = David Raucci
 #C    HH  = Hartmut Holzwart             JHC = John Conway       
-#C    KS  = Karel Suhajda		 MDN = Mark Niemiec      
-#C    MM  = Matthias Merzenich		 NB  = Nicolay Beluchenko
-#C    NDE = Noam Elkies			 PC  = Paul Callahan     
-#C    RCS = Rich Schroeppel		 RTW = Robert Wainwright 
-#C    RWG = Bill Gosper			 SN  = Simon Norton
+#C    KS  = Karel Suhajda                MDN = Mark Niemiec      
+#C    MM  = Matthias Merzenich           NB  = Nicolay Beluchenko
+#C    NDE = Noam Elkies                  PC  = Paul Callahan     
+#C    RCS = Rich Schroeppel              RTW = Robert Wainwright 
+#C    RWG = Bill Gosper                  SN  = Simon Norton
 #C
 #C
 #C    JHC group  = A group of people working with John Conway in the
@@ -562,7 +583,6 @@ comments = "#N Oscillator stamp collection\n#O Dean Hickerson, David Raucci, et 
 #C which goes from 1 in 20 to 1 in 90.\n''' % (num_patterns, num_periods) + comments
 comments = comments.split('\n')
 comments2 = ''
-lvcomments = ''
 began = False
 space_len = 0
 for i in range(len(comments)):
@@ -575,10 +595,8 @@ for i in range(len(comments)):
             space_len = len(comments[i])-1
     if not began: #if still introduction
         comments2 += comments[i] + '\n'
-        lvcomments += comments[i]
     elif i != len(comments)-1 and '#O' in comments[i+1]: #puts pattern discoverer on name line with brackets
         comments2 += comments[i] + ' [' + comments[i+1][3:] + ']\n'
-        # lvcomments += comments[i] + "\n" + comments[i+1][3:] ######################
     elif '#C' in comments[i] and '----' not in comments[i]: #spaces comment lines to match pattern number
         comments2 += '#C' + ' '*space_len*began + comments[i][3:] + '\n'
     elif '#O' in comments[i]: #discoverers are put on the previous line; this is so that they're not duplicated
@@ -591,8 +609,8 @@ comments2_patterns = comments2_patterns.replace("#N ","#C ") #comments file only
 comments2_patterns = comments2_patterns.replace(' #C', '\n#C')
 comments2 = comments2_intro + comments2_patterns
     
-show_message('Comments size: %s KB' % ((len(comments2)+500)//1000),0.5)
-
+# show_message('Comments size: %s KB' % ((len(comments2)+500)//1000),0.5)
+show_message('Comments size: %s KB text, %s KB LifeViewer labels' % ((len(comments2)+500)//1000, (len(lvcomments)+500)//1000),0)
 tempname = os.path.join(g.getdir("temp"),"oscillators.rle")
 g.save(tempname, "rle")
 with open(tempname,"r") as f:
@@ -603,4 +621,4 @@ g.open(tempname)  # this integrates the comments into the currently open pattern
                   # there still seem to be some issues with keeping the comments after re-saving the file,
                   # but I'll deal with that separately.  Meanwhile:
 g.note("Click OK to copy pattern with comments to the clipboard.")
-g.setclipstr(comments2 + "\n" + allrle)
+g.setclipstr(comments2 + "\n" + allrle + lvcomments)
