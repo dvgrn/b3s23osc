@@ -16,7 +16,7 @@ ROW_WIDTH = 120
 COL_HEIGHT = 650  # note: if a single period is taller than height variable, it won't work properly
 SLOW_MSG = False
 
-labellookup = [50]*20 + [40]*20 + [30]*20 + [20]*20 + [15]*20 + [10]*20 + [5]*100  # should be extended if ROW_WIDTH is increased
+labellookup = [50]*5 + [40]*15 + [30]*30 + [20]*30 + [15]*20 + [10]*20 + [5]*100  # should be extended if ROW_WIDTH is increased
 
 today = date.today().strftime("%b %d, %Y")
 
@@ -170,17 +170,18 @@ def create_column(pattern_dict, width_change):
         maxy = max(j[1]+deltay for j in grid_form)
         if not current_comment == '':
             lvlabel = current_comment[3:]
-            lvlabel = lvlabel[:(lvlabel+"#C").find("#C")].strip()  # don't include #C comments in labels, they're usually too long
-            if lvlabel.find("\n#O "):
-              lvlabel = lvlabel.replace('\n#O ','\\n').replace("#O ","").replace('"',"'")
-            # couldn't get LABELTARGET to work immediately, so leaving it off --
-            #   #C [[ LABELTARGET ' + str(deltax) + ' ' + str(deltay) + ' 100 ]]\n
+            lvlabel = lvlabel[:(lvlabel+"#C").find("#C")].strip().replace('"',"'")  # don't include #C comments in labels, they're usually too long
+            if lvlabel.find("\n#O ")>-1:
+              lvlabel = lvlabel.replace('\n#O ','\\n[')+"]"
+              lvlabel = lvlabel.replace('[]','')
+            if lvlabel.find("#O ")>-1:
+              lvlabel = lvlabel.replace('#O ','[')+"]"
+              lvlabel = lvlabel.replace('[]','')
             lvcomments += '#C [[ LABELTARGET ' + str((minx+maxx)//2-1588) + ' ' + str((miny+maxy)//2-323) + ' 20 '
-            g.show(str(maxx-minx))
-            # the first 4 is a fudge factor -- all labels were showing up 4 cells too far to the left;
-            # the second 4 is the minimum zoom level at which all labels should become visible
+            # the 4 is a fudge factor -- all labels were showing up 4 cells too far to the left;
+            # the 2 and the 64 are the zoom level range at which all labels should be visible
             lbl = str(labellookup[maxx-minx])
-            lvcomments += 'LABEL ' + str((minx+maxx)//2 + 4) + ' ' + str((miny+maxy)//2) + ' ' + lbl + ' "' + lvlabel + '" ]]\n'        
+            lvcomments += 'LABEL ' + str((minx+maxx)//2 + 4) + ' ' + str((miny+maxy)//2) + ' ' + lbl + ' 2 64 "' + lvlabel + '" ]]\n'        
         for j in grid_form:
             if grid_form.get(j, 0) == 1:
                 grid[(j[0]+deltax, j[1]+deltay)] = 1 #paste patterns in
@@ -271,7 +272,7 @@ data.sort(key=lambda a:(a[1],a[3])) #first by period, then height
 
 num_periods = 0
 comments = ''
-lvcomments = '#C [[ COLOR LABEL Orange LABELSIZE 30 LABELALPHA 0.70 ]]\n'
+lvcomments = '#C [[ COLOR LABEL Orange LABELSIZE 30 LABELALPHA .9 ]]\n'
 grid = {}
 column = 1 #column number
 column_x = 0 #column x offset
@@ -404,7 +405,7 @@ comments = "#N Oscillator stamp collection\n#O Dean Hickerson, David Raucci, et 
 #C for building and running Life patterns.  LifeLab's cross-platform
 #C successor, Golly, is available as freeware at http://golly.sf.net .
 #C
-#O Dean Hickerson, dean.hickerson@yahoo.com
+#C Dean Hickerson, dean.hickerson@yahoo.com
 #C 2/2/2000; last updated 9/16/2000. URLs corrected
 #C and list of missing periods updated on 5/8/2009.
 #C
