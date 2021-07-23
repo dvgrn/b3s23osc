@@ -7604,7 +7604,7 @@ x = 35, y = 20, rule = B3/S23
 7b3o$25b3o$25bo3$23b2o6b2o$22bo2bo4bo2bo$21b6o2b6o$22bo2bo4bo2bo$23b2o
 6b2o!
 
-#O Aforampere 5/13/21
+#O A for Ampere 5/13/21
 #C Two p486 R-pentomino hasslers undergo a period-doubling reaction.
 x = 104, y = 94, rule = B3/S23
 21bo9bo$19b3o9b3o$18bo5bo3bo5bo$17bob6o3b6obo$17bobo13bobo$16b2o4b3o3b

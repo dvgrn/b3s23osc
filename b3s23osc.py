@@ -405,7 +405,7 @@ comments = "#N Oscillator stamp collection\n#O Dean Hickerson, David Raucci, et 
 #C for building and running Life patterns.  LifeLab's cross-platform
 #C successor, Golly, is available as freeware at http://golly.sf.net .
 #C
-#C Dean Hickerson, dean.hickerson@yahoo.com
+#C Dean Hickerson, dean.hickerson@suddenlink.net
 #C 2/2/2000; last updated 9/16/2000. URLs corrected
 #C and list of missing periods updated on 5/8/2009.
 #C
@@ -466,8 +466,8 @@ comments = "#N Oscillator stamp collection\n#O Dean Hickerson, David Raucci, et 
 #C a more extensive glossary, see Stephen Silver's Life Lexicon, at
 #C  http://www.argentum.freeserve.co.uk/lex_home.htm 
 #C 
-#C The 'rotor' constists of all cells in an oscillator which change state.
-#C The 'stator' constists of all cells which are alive in all generations.
+#C The 'rotor' consists of all cells in an oscillator which change state.
+#C The 'stator' consists of all cells which are alive in all generations.
 #C (These terms were introduced by Allan Wechsler in 1994.)
 #C
 #C An oscillator whose stator is large is often called a 'billiard table';
