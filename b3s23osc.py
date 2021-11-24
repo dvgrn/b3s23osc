@@ -7,6 +7,7 @@
 # version 1.1.4: Dave Greene, 6/23/2021 ( rework header comments slightly, define ROW_WIDTH and COL_HEIGHT )
 # version 1.1.5: David Raucci, 7/21/2021 ( fix missing objects )
 # version 1.1.6: Dave Greene, 7/22/2021 ( add LifeViewer labels )
+# version 1.1.7: Dave Greene, 11/24/2021 ( remove deprecated LABELTARGET, use LABELVIEWDIST instead )
 import time
 import golly as g
 import os
@@ -16,7 +17,11 @@ ROW_WIDTH = 120
 COL_HEIGHT = 650  # note: if a single period is taller than height variable, it won't work properly
 SLOW_MSG = False
 
+# These are the zoom levels set for labels on objects with different widths
+# E.g., for objects of width 1 to width 5, the zoom level is set to 50
+# (because for small objects there's not a lot of room for a label)
 labellookup = [50]*5 + [40]*15 + [30]*30 + [20]*30 + [15]*20 + [10]*20 + [5]*100  # should be extended if ROW_WIDTH is increased
+labellookup = [20]*5 + [15]*5 + [14]*5 + [13]*5 + [12]*5 + [11]*5 + [10]*5 + [9]*5 + [8]*5 + [7]*5 + [6]*5 + [5]*1000  # last number just allows for increases to ROW_WIDTH
 
 today = date.today().strftime("%b %d, %Y")
 
@@ -177,11 +182,10 @@ def create_column(pattern_dict, width_change):
             if lvlabel.find("#O ")>-1:
               lvlabel = lvlabel.replace('#O ','[')+"]"
               lvlabel = lvlabel.replace('[]','')
-            lvcomments += '#C [[ LABELTARGET ' + str((minx+maxx)//2-1588) + ' ' + str((miny+maxy)//2-323) + ' 20 '
-            # the 4 is a fudge factor -- all labels were showing up 4 cells too far to the left;
-            # the 2 and the 64 are the zoom level range at which all labels should be visible
+            lvcomments += '#C [[ '
+            # the 4 is a fudge factor -- all labels were showing up 4 cells too far to the left
             lbl = str(labellookup[maxx-minx])
-            lvcomments += 'LABEL ' + str((minx+maxx)//2 + 4) + ' ' + str((miny+maxy)//2) + ' ' + lbl + ' 2 64 "' + lvlabel + '" ]]\n'        
+            lvcomments += 'LABEL ' + str((minx+maxx)//2 + 4) + ' ' + str((miny+maxy)//2) + ' ' + lbl + ' "' + lvlabel + '" ]]\n'        
         for j in grid_form:
             if grid_form.get(j, 0) == 1:
                 grid[(j[0]+deltax, j[1]+deltay)] = 1 #paste patterns in
@@ -272,7 +276,7 @@ data.sort(key=lambda a:(a[1],a[3])) #first by period, then height
 
 num_periods = 0
 comments = ''
-lvcomments = '#C [[ COLOR LABEL Orange LABELSIZE 30 LABELALPHA .9 ]]\n'
+lvcomments = '#C [[ COLOR LABEL Yellow LABELSIZE 30 LABELALPHA .75 LABELVIEWDIST 20 LABELZOOMRANGE 1 64 LABELANGLE 330 ]]\n'
 grid = {}
 column = 1 #column number
 column_x = 0 #column x offset
@@ -621,5 +625,5 @@ with open(tempname,"w") as f:
 g.open(tempname)  # this integrates the comments into the currently open pattern file
                   # there still seem to be some issues with keeping the comments after re-saving the file,
                   # but I'll deal with that separately.  Meanwhile:
-g.note("Click OK to copy pattern with comments to the clipboard.")
+g.note("Click OK to copy pattern to the clipboard, including comments at the beginning and LifeViewer commands at the end.")
 g.setclipstr(comments2 + "\n" + allrle + lvcomments)
