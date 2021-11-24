@@ -1,7 +1,8 @@
-#N Oscillator stamp collection
+#N oscillator-stamp-collection-24Nov2021.rle
 #O Dean Hickerson, David Raucci, et al., updated Nov 24, 2021
 #C A collection of 1064 oscillators of 138 different periods from 1
-#C to 40894. 
+#C to 40894. To see LifeViewer labels, run showinviewer.lua in Golly.
+#C To turn off labels in LifeViewer, press Alt+L.
 #C
 #C Notes from Dean Hickerson:
 #C The oscillators included here were found/built by many people over
@@ -19,12 +20,11 @@
 #C guns of all periods >= 62 and oscillators of all periods >= 61.  Further
 #C work on Herschel tracks has been done by Buckingham, Paul Callahan,
 #C Dieter Leithner, and me; such tracks now give oscillators of all periods
-#C >=54, and guns of periods 54, 55, and 56. In addidion, the 2013 discovery
+#C >=54, and guns of periods 54, 55, and 56. In addition, the 2013 discovery
 #C of the Snark allowed all oscillators of all periods 43 and higher.
-#C There are 4 periods for which oscillators
-#C are still unknown as of early 2021: 19, 34, 38, and 41.
-#C (For period 34, we could use a noninteracting combination of p2 and p17
-#C oscillators, but that's considered trivial.)
+#C There are 4 periods for which oscillators are still unknown as of
+#C late 2021: 19, 34, 38, and 41. (For period 34, we could use a noninteracting
+#C combination of p2 and p17 oscillators, but that's considered trivial.)
 #C
 #C Building this collection would have been impossible without the help
 #C of many people.  In addition to those who found the oscillators, I'd
@@ -44,7 +44,8 @@
 #C to a Python program that automatically updates based on a text file input
 #C and includes more oscillators that were not known in 1995.
 #C
-#C See the GitHub repository at https://github.com/dvgrn/b3s23osc for more details.
+#C See the GitHub repository at https://github.com/dvgrn/b3s23osc for more
+#C details.
 #C
 #C David Raucci, updated 6/3/2021.
 #C
