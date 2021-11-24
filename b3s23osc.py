@@ -1,4 +1,4 @@
-# b3s23osc.py version 1.1.6
+# b3s23osc.py version 1.1.7
 # version 1.0: David Raucci, 1/5/2021 ( https://conwaylife.com/forums/viewtopic.php?p=118160#p118160 )
 # version 1.1: Dave Greene,  1/5/2021 ( handle various possible error conditions, copy result to clipboard )
 # version 1.1.1: David Raucci, 1/6/2021 ( add last two periods, remove delay for testing patterns )
@@ -8,6 +8,7 @@
 # version 1.1.5: David Raucci, 7/21/2021 ( fix missing objects )
 # version 1.1.6: Dave Greene, 7/22/2021 ( add LifeViewer labels )
 # version 1.1.7: Dave Greene, 11/24/2021 ( remove deprecated LABELTARGET, use LABELVIEWDIST instead )
+
 import time
 import golly as g
 import os
@@ -20,7 +21,6 @@ SLOW_MSG = False
 # These are the zoom levels set for labels on objects with different widths
 # E.g., for objects of width 1 to width 5, the zoom level is set to 50
 # (because for small objects there's not a lot of room for a label)
-labellookup = [50]*5 + [40]*15 + [30]*30 + [20]*30 + [15]*20 + [10]*20 + [5]*100  # should be extended if ROW_WIDTH is increased
 labellookup = [20]*5 + [15]*5 + [14]*5 + [13]*5 + [12]*5 + [11]*5 + [10]*5 + [9]*5 + [8]*5 + [7]*5 + [6]*5 + [5]*1000  # last number just allows for increases to ROW_WIDTH
 
 today = date.today().strftime("%b %d, %Y")
@@ -394,12 +394,11 @@ comments = "#N Oscillator stamp collection\n#O Dean Hickerson, David Raucci, et 
 #C guns of all periods >= 62 and oscillators of all periods >= 61.  Further
 #C work on Herschel tracks has been done by Buckingham, Paul Callahan,
 #C Dieter Leithner, and me; such tracks now give oscillators of all periods
-#C >=54, and guns of periods 54, 55, and 56. In addidion, the 2013 discovery
+#C >=54, and guns of periods 54, 55, and 56. In addition, the 2013 discovery
 #C of the Snark allowed all oscillators of all periods 43 and higher.
-#C There are 4 periods for which oscillators
-#C are still unknown as of early 2021: 19, 34, 38, and 41.
-#C (For period 34, we could use a noninteracting combination of p2 and p17
-#C oscillators, but that's considered trivial.)
+#C There are 4 periods for which oscillators are still unknown as of
+#C late 2021: 19, 34, 38, and 41. (For period 34, we could use a noninteracting
+#C combination of p2 and p17 oscillators, but that's considered trivial.)
 #C
 #C Building this collection would have been impossible without the help
 #C of many people.  In addition to those who found the oscillators, I'd
@@ -419,7 +418,8 @@ comments = "#N Oscillator stamp collection\n#O Dean Hickerson, David Raucci, et 
 #C to a Python program that automatically updates based on a text file input
 #C and includes more oscillators that were not known in 1995.
 #C
-#C See the GitHub repository at https://github.com/dvgrn/b3s23osc for more details.
+#C See the GitHub repository at https://github.com/dvgrn/b3s23osc for more
+#C details.
 #C
 #C David Raucci, updated 6/3/2021.
 #C
