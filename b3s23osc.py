@@ -310,7 +310,7 @@ while len(set(j[1] for j in data)): #this allows repeating periods that couldn't
         for digit in range(len(period_str)): #creates displayed digits
             pattern_dict[-10*(len(period_str)-digit)+column_x, y, -1, rows] = (eval(num_dict[period_str[digit]]),1,14,8,0,0)
         if y > 0:
-            for i in range(-digit_width(period),114,6):
+            for i in range(-digit_width(period),ROW_WIDTH-6,6):
                 pattern_dict[i+column_x, y-4, -1, rows] = (block,1,2,2,0,0)
         period_patterns = list(filter(lambda a:a[1]==period, data)) #only patterns of the correct period
         if period == 1: #still lifes are sorted by size up to 10 bits
@@ -329,7 +329,7 @@ while len(set(j[1] for j in data)): #this allows repeating periods that couldn't
                 if y + pattern[3] >= COL_HEIGHT: #end of column
                     create_column(pattern_dict, digit_width(period)-starting_digit_width)
                     column += 1
-                    column_x += 123 + digit_width(period) + (digit_width(period)-starting_digit_width)
+                    column_x += ROW_WIDTH + 3 + digit_width(period) + (digit_width(period)-starting_digit_width)
                     starting_digit_width = digit_width(period)
                     y = -1 #-1 is used to break out of loop
                     period_y = 0
