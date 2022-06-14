@@ -14,7 +14,7 @@ import golly as g
 import os
 from datetime import date
 
-ROW_WIDTH = 120
+ROW_WIDTH = 150
 COL_HEIGHT = 650  # note: if a single period is taller than height variable, it won't work properly
 SLOW_MSG = False
 
