@@ -5418,7 +5418,7 @@ o$3b2o3bo5bo$4bo4bo3bo$2bo7b3o$2b2o45b2o$40b3o7bo$39bo3bo4bo$38bo5bo3b
 o5bo$19bo5bo$19bo5bo$20bo3bo$21b3o3$20bo$19bobob2o$20b2obo2bo$22bo2b2o
 $19bobo$19b2o!
 
-#C P26 honey farm glider shuttle
+#N P26 honey farm glider shuttle
 #O JP21 5/7/22
 x = 85, y = 85, rule = B3/S23
 51b3o2$51bo$50b2o$52bo$49bo$22bo26bo3bo$20b5o22b2o$19bo5bo19bo5b3o2b2o
