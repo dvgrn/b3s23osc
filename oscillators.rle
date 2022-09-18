@@ -2187,6 +2187,3213 @@
 #C        Without the fumarole, this is a period-21 domino sparker, although
 #C        with low clearance. A traffic light hassler, not in this collection,
 #C        can be made with the use of that spark.
+#C 42.2.2 p42 pi-heptomino hassler [iNoMed based on a partial by CC 7/29/22]
+#C        Can make the smallest p42 gun by bounding box.
+#C 42.3.0 p42 pipsquirter [CC 8/22/22]
+#C        Unfortunately, this pipsquirter has low clearance.
+#C 42.3.1 p42 pi-heptomino hassler [CC 9/11/22]
+#C        Emits complex sparks.
+#C 42.3.2 p42 R-pentomino hassler [mvr 7/23/22, reduced by wwei23 the same day]
+#C 42.4.0 p42 pi-heptomino hassler [LJK 8/30/22]
+#C 42.4.1 p42 honey farm hassler [DER 11/21/21]
+#C ----------------------------------------------------------------------
+#C 43.0.0 Period-43 glider gun [Nico Brown 9/11/22]
+#C        The only known period-43 oscillator or gun that doesn't rely
+#C        on Snark loops.
+#C 43.0.1 P43 Snark loop
+#C        Snarks can be used to make an oscillator of any period 43 or above.
+#C        The Snark was found by Mike Playle in 2013.
+#C        This particular loop can be made period 86, 172, or 344 by only
+#C        having 4, 2, or 1 glider present respectively.
+#C        Also see the period 54 section for the smallest 4-glider snark loop,
+#C        which has a smaller bounding box but only works for even periods >=54.
+#C ----------------------------------------------------------------------
+#C 44.0.0 p44 C2 pi-heptomino hassler [mvr 9/6/22]
+#C        The blinker suppresses a line of five. If this somehow had an
+#C        odd period, a tub would work.
+#C 44.0.1 P44 traffic light hassler
+#C        Uses the traffic jam reaction
+#C        There is a high-clearance version of this oscillator, which is
+#C        shown in the p44 R-pentomino hassler.
+#C 44.0.2 P44 pre-pulsar shuttle
+#C        See the P88 section for a period-doubling reaction
+#C 44.1.0 p44 pi-heptomino hassler [DJB 4/2/92, improved NDE 4/29/96, p2 catalyst found by iNoMed 5/10/22]
+#C        Also see P88, P132, and P264 sections, which are this oscillator
+#C        with period doubler, tripler, and sextupler, respectively.
+#C        A fully stable form also exists.
+#C        There is a p50 variant that uses 55P10 and a more complicated reaction.
+#C 44.1.1 P44 glider gun [DJB 1997]
+#C        This is not the smallest by bounding box, but it is the simplest.
+#C 44.1.2 p44 honey farm shuttle [JP21 2/22/22]
+#C        See the p40 section for a hybrid between this oscillator and a p36.
+#C 44.2.0 p44 R-pentomino hassler [DER 10/26/21]
+#C ----------------------------------------------------------------------
+#C 45.0.0 p45 pi-heptomino hassler #3 [LJK 8/10/22]
+#C        The smallest p45 oscillator by population, at 29 cells. A variant
+#C        forms the smallest p45 glider gun.
+#C        See the p32 section for another oscillator
+#C        of a different period that provides the same spark.
+#C 45.0.1 p45 pi-heptomino hassler #1 [DER 7/6/21]
+#C 45.0.2 P45 honey farm hassler
+#C 45.0.3 p45 pi-heptomino hassler #2 [praosylen 8/21/21]
+#C        Exists as both a dimer and a monomer; this is the monomer form
+#C        Has been made into a gun, but it's not the smallest of its period.
+#C 45.1.0 Period-45 glider gun [MM 4/29/10]
+#C        A true period 45 glider gun (stabilized) found by Matthias Merzenich in 2010
+#C        with improvements by Adam P. Goucher, Dave Greene and Tanner Jacobi.
+#C        The still life shown in three of the four ends is the
+#C        smallest way to create the P45 oscillator.
+#C        This is no longer the smallest period-45 glider gun; that belongs to
+#C        the engine listed as "p45 pi-heptomino hassler #3".
+#C 45.1.1 Period 45 glider shuttle
+#C        While it may look symmetric, its period is an odd number, so it can't be.
+#C        Can be extended to any period 45+120N.
+#C 45.1.2 p45 D2 honey farm hassler [LJK 9/6/22, reduced by DER the next day]
+#C 45.2.0 p45 pi-heptomino hassler #4 [mvr 8/25/22]
+#C 45.2.1 p45 LOM hassler [iNoMed 4/24/22 based on a partial by DER]
+#C ----------------------------------------------------------------------
+#C 46.0.0 Twin bees shuttle [RWG 1071]
+#C        The p46 shuttle, known as "twin bees", was discovered in
+#C        1971 by Bill Gosper.  Each end of the shuttle can be stabilized by
+#C        either 1 or 2 blocks. If only 1 block is used,
+#C        a large spark is produced which can reflect gliders and spaceships
+#C        in several ways. Also see periods 92, 138, 184, 230, 276, 690, and 40894.
+#C        
+#C        Note that DRH's original collection has more p46s. As many are
+#C        very similar, they have been trimmed down here.
+#C 46.0.1
+#C        A twin bees shuttle spark causes a double transparent beehive reaction.
+#C 46.1.0 [DRH 10/26/94]
+#C        2 shuttles push a beehive back and forth using 2 different reactions.
+#C 46.1.1 Single-engine p46 glider gun [iNoMed 12/21/21]
+#C        Uses a p2 catalyst found in 2021, turning the p46 gun from the
+#C        third-smallest gun into the second-smallest, behind p30.
+#C 46.1.2 P46 single-barrelled glider gun [RWG ???? {before 3/92}]
+#C 46.2.0 Tanner's p46 [Tanner Jacobi, 10/20/17]
+#C        Unrelated to the twin bees shuttle
+#C 46.2.1 P46 double-barrelled glider gun [RWG ???? {before 12/30/90}]
+#C 46.2.2 Tamale [iNoMed 5/2/22]
+#C        Does not use any twin bees shuttle or Tanner's p46.
+#C 46.3.0 p46 LWSS gun [RWG <=1992]
+#C        Based on a 135 degree glider -> LWSS reflection.
+#C 46.3.1 p46 MWSS gun
+#C        Based on a 135 degree glider -> MWSS reflection from a pair of p46 shuttles.
+#C 46.4.0 p46 honey farm hassler [Partial by DER on 6/8/21, completed by Martin Grant the same day]
+#C        Uses twin bees for stabilization
+#C 46.4.1 p46 LWSS loop [Peter Rott 11/93, PC 1994]
+#C        Based on a 90 degree LWSS reflection.
+#C ----------------------------------------------------------------------
+#C 47.0.0 p47 pre-pulsar shuttle [DJB#137 12/5/82]
+#C        Gives off corner dot sparks similar to 66P13 and one variant of
+#C        the p29 pre-pulsar shuttle. All three of these involve rephased blinkers.
+#C 47.0.1 p47 traffic light hassler [Stabilized by the p47 pre-pulsar shuttle.]
+#C 47.1.0 p47 B-heptomino hassler
+#C        Supported by four p47 pre-pulsar shuttles.
+#C ----------------------------------------------------------------------
+#C 48.0.0 69P48 [NDE, 2002.]
+#C        The top part has period 16. The bottom part has period 7,
+#C        but it skips a phase every 48 generations.
+#C 48.0.1 65P48 [MM]
+#C        The smallest known period-48 oscillator, found 9/13/14
+#C        It uses Coe's p8 to spark a billiard table that has a block on the edge.
+#C        It only does this every two times, making that segment period 16.
+#C        The billiard table is p3, making the entire oscillator p48.
+#C 48.0.2 p48 R-pentomino hassler [LJK 7/29/22]
+#C        At 45 cells, the smallest known non-boring p48 by population.
+#C 48.0.3 p48 pi-heptomino shuttle [LJK 9/2/22]
+#C 48.1.0 Period-48 glider gun [goldenratio 12/21/21, reduced by JP21 1/11/22]
+#C        The second-smallest gun by bounding box. The bounding box excludes
+#C        the eater that eats the glider.
+#C 48.1.1 p48 pi-heptomino shuttle [MM, June 2011]
+#C 48.1.2 p48 TL/R hassler [mvr 7/24/22]
+#C 48.1.3 p48 pre-pulsar shuttle [LJK 9/17/22]
+#C 48.2.0 p48 R-pentomino hassler [DER 4/24/22]
+#C        Uses two p24 domino sparkers.
+#C 48.2.1 p48 Z-hexomino hassler [CC 9/18/22]
+#C 48.2.2 p48 pulsar hassler [cvojan 9/17/22]
+#C 48.3.0 p48, type 2 toadflipper [RWG 12/11/94]
+#C        See discussion at period 60
+#C        Toadsuckers also exist, but it was omitted to save space.
+#C 48.3.1 [RTW 1995]
+#C        Sparks from 2 p12s move a pair of beehives.
+#C 48.3.2 [DER 5/18/21]
+#C        Period 48, using a period-6 domino sparker (64P6)
+#C        The object being hassled is this 6-cell traffic light predecessor:
+#C        oo..
+#C        o.oo
+#C        ...o
+#C 48.3.3 p48 pulsar hassler [mvr 8/21/22]
+#C 48.4.0 Six by eight [LJK 7/29/22]
+#C 48.4.1 P48 traffic light hassler
+#C 48.4.2 p48 century hassler [iNoMed 4/30/22 based on a partial by DER]
+#C        The sparker is the period-48 glider gun,
+#C        but not using the emitted gliders.
+#C 48.5.0 p48 pi-heptomino hassler [DER 12/30/21]
+#C 48.5.1 p48 traffic light hassler [DER]
+#C 48.6.0 p48 beehive hassler [DER]
+#C        This is a sparker, although not a standard one.
+#C 48.6.1 p48 octomino hassler [DER 2/27/22]
+#C        Diagonal flipper. The sparker is the same one as in one of the p30s.
+#C 48.7.0 p48 LOM hassler [mvr 8/27/22]
+#C        This uses the same four lumps of muck with the same spacing as
+#C        a p40, but since the 68P16s interact twice, it becomes p48.
+#C ----------------------------------------------------------------------
+#C 49.0.0 p49 R-pentomino hassler [LJK 8/9/22]
+#C        This oscillator with 34P7s instead of meatballs is the
+#C        smallest p49 oscillator by population.
+#C 49.0.1 P49 bumper loop [Entity Valkyrie, 2018]
+#C        Smaller than the P49 Snark loop
+#C ----------------------------------------------------------------------
+#C 50.0.0 P50 traffic jam [NDE 10/16/93]
+#C        Period 50/2, symmetry type "n-e".
+#C        Like all traffic jams, they can be used as sparkers.
+#C 50.0.1 p50 honey farm hassler [Partial by DER on 6/8/21, completed by Martin Grant the same day]
+#C        The p5 sparkers are custom to allow space for the blocks.
+#C 50.1.0 p50 honey farm hassler [mvr 8/24/22]
+#C 50.1.1 p50 LOM/R hassler [DER 9/3/21]
+#C 50.2.0 P50 pi-heptomino hassler
+#C        Uses two skewed 55P10s. Before it was discovered, the reaction still worked,
+#C        but it was much larger.
+#C        Can be period-multiplied to 100 using two molds as shown in the p88
+#C        section, or to 150 as shown in the p150 section.
+#C 50.2.1 P50 glider shuttle [DRH 3/19/92 (using early version of toaster); DER 10/23/21 in current form]
+#C        2-glider shuttle with period 50+40n.  See comments for P42 glider shuttle.
+#C 50.3.0 p50 lumps of muck hassler [DER 5/3/22]
+#C 50.3.1 p50 pi-heptomino hassler [LJK 8/31/22]
+#C ----------------------------------------------------------------------
+#C 51.0.0 Beluchenko's p51 [NB, 2/17/09]
+#C        Also see the p102 section, where two of these hassle a beehive.
+#C        Has appeared semi-naturally (i.e. from symmetric soup)
+#C ----------------------------------------------------------------------
+#C 52.0.0 Four eaters hassling lumps of muck [DJB#119 10/1/77]
+#C        Period 52/4, symmetry type "nrc".
+#C        Has appeared semi-naturally (i.e. from symmetric soup)
+#C 52.0.1 Four molds hassling eight blocks [NDE 2/21/95]
+#C        Period 52/4, symmetry type "nrk". One can also have two pulses
+#C        traveling around the loop separated by 16, 20, or 24 gens,
+#C        or three pulses separated by 16+16+20.
+#C 52.0.2 P52 R-pentomino hassler [NDE 3/19/96]
+#C 52.0.3 p52 century hassler [CC 8/26/22, reduced by Luka Okanishi the next day]
+#C 52.0.4 p52 honey farm hassler [EvinZL 7/29/22]
+#C        This is a pipsquirter; see another part of this section
+#C        and the p104 section for examples as sparkers.
+#C ----------------------------------------------------------------------
+#C 54.0.0 Two P54 shuttles hassling pentadecathlon [DJB before 5/91]
+#C 54.0.1 43P54 [mvr 7/12/22, monomerized by wwei23]
+#C        The smallest known p54 oscillator by population.
+#C        Initially found in a dimer forum using symmetric CatForce.
+#C 54.0.2 Capped period-54 glider gun based on honey farm [DER 9/16/21]
+#C        A massive reduction over the previous p54 gun, but a slightly
+#C        smaller one using a different mechanism was found later. The catalyst
+#C        is period-3 and was custom searched. The period-9 oscillator is snacker.
+#C        Also see the period 32, 55, and 117 guns, discovered by the same
+#C        person and using the same honey farm and eater 1 reaction.
+#C 54.1.0 P54 shuttle [DJB#62 <= 1976]
+#C        This is based on the twin bees shuttle
+#C        (period 46).  Also see centinal (period 100).
+#C 54.1.1 Capped period-54 glider gun based on 43P54 [DER 7/14/22]
+#C        The sixth-smallest gun with a unique period. Slightly smaller
+#C        than the honey farm p54 gun, but discovered later.
+#C 54.1.2 Two p18 LOM sparkers hassling loaf [DER 10/14/21]
+#C        If the sparkers are within 5 phases of each other, it's period 36.
+#C        If they are 6 to 8 phases apart, it fails. Only if they are in
+#C        opposite phases (9 apart) does it work as shown here at period 54.
+#C 54.2.0 P54 snark loop
+#C        Any snark loop with period under 54 requires 8 gliders instead of 4,
+#C        increasing its size. The 4-glider version of the snark loop only
+#C        works for even periods. For period 54 specifically, the eaters in the
+#C        center would react with each other, so a single still life combining
+#C        the four eaters is needed.
+#C        See 43.0.0 for the 8-glider snark loop.
+#C 54.2.1 p54 pi-heptomino hassler [LJK 8/31/22]
+#C ----------------------------------------------------------------------
+#C 55.0.0 P55 pre-pulsar hassler [DJB#162 1/26/86, smallest but periodic form by iNoMed 6/17/22]
+#C        The smallest form in both bounding box and population is
+#C        on the right. The left side is the smallest stable support.
+#C        This is not a shuttle, as it doesn't move to another location
+#C        as a pre-pulsar.
+#C 55.0.1 Capped period-55 glider gun [DER 9/16/21]
+#C        One of the few guns with a bounding box under 1,000 cells, and
+#C        the smallest odd-period gun.
+#C        All three sparkers are period 5, and two of the three are custom.
+#C        Also see the period 32, 54, and 117 guns, discovered by the same
+#C        person and using the same honey farm and eater 1 reaction.
+#C 55.0.2 p55 pre-pulsar shuttle [DER 9/18/22]
+#C        The previously known reaction on the left moves a pre-pulsar right
+#C        six cells in 29 generations, as seem in the p58 and p64 sections.
+#C        The reaction on the right, found by LJK the same day the p55 was
+#C        discovered, moves a pre-pulsar left six cells in 26 generations.
+#C ----------------------------------------------------------------------
+#C 56.0.0 p56 pi-heptomino shuttle [LJK 6/29/22]
+#C 56.0.1 P56 B-heptomino shuttle [DJB#162 1/26/86 (with Kok's Galaxy instead of blockers)]
+#C        LifeWiki says date of discovery unknown, so take the
+#C        date listed with a grain of salt
+#C        The smallest known period 56 oscillator
+#C 56.0.2 Nonstandard p56 toadsucker [RWG 10/25/94]
+#C        Toadflippers also exist, but it was omitted to save space.
+#C 56.0.3 p56 pi-heptomino shuttle [cvojan 9/10/22, reduced by Entity Valkyrie the next day]
+#C 56.1.0 p56 B+block hassler [CC 9/7/22]
+#C 56.1.1 p56 lumps of muck hassler [LJK 9/3/22]
+#C 56.1.2 p56 century shuttle [DER 5/5/22]
+#C 56.2.0 p56 lumps of muck hassler [CC 8/2/22]
+#C 56.2.1 p56 lumps of muck shuttle [CC 9/18/22]
+#C 56.2.2 P56 traffic light hassler
+#C 56.3.0 p56 honey farm hassler [LJK 7/28/22]
+#C ----------------------------------------------------------------------
+#C 57.0.0 P57 R-pentomino hassler [DER 4/15/21]
+#C        The blocks suppress Herschels. The Herschels can be used to create
+#C        a p114 glider gun easily or a p57 gun with more effort; the smallest
+#C        known p57 gun uses this engine initially.
+#C 57.0.1 P57 bumper loop [Entity Valkyrie, 2018]
+#C ----------------------------------------------------------------------
+#C 58.0.0 Pre-pulsar shuttle 58 [Tanner Jacobi, 2015]
+#C        Period-58 oscillator with a 50% smaller population
+#C        than the previous Snark-based record.
+#C 58.0.1 p58 LWSS gun [dani 6/26/22]
+#C        Interestingly, a LWSS gun based on the p58 pi-heptomino hassler
+#C        is simpler than a glider gun.
+#C 58.0.2 p58 D4_x pi-heptomino hassler [mvr 8/16/22]
+#C        Found using symmetric CatForce
+#C 58.1.0 p58 C2 pi-heptomino hassler [LJK 6/26/22]
+#C        Found via symmetric CatForce. It is a sparker, although not
+#C        a typical one.
+#C 58.1.1 p58 pentadecathlon hassler [iNoMed 6/30/22]
+#C 58.2.0 p58, type 3 toadsucker [RWG,MDN 10/25/94 (using larger p29s), DRH 12/13/94]
+#C ----------------------------------------------------------------------
+#C 59.0.0 108P59 [mvr 9/14/22]
+#C        The only known p59 oscillator not based on Herschel track
+#C        or glider loops.
+#C ----------------------------------------------------------------------
+#C 60.0.0 [AF 7/18/94]
+#C        2 p30 shuttles push a blinker up and down.
+#C 60.0.1 [<= 1971]
+#C        P60 glider shuttle
+#C 60.0.2 P60 boat-bit glider gun [1971?]
+#C        This demonstrates a reaction [???? 1971?] in which gliders
+#C        hitting a snake alternately create and destroy a boat.  This
+#C        can be used as a memory device (called a "boat-bit"); see 15240.0.0.
+#C 60.1.0 [NDE 5/30/98]
+#C        Pre-pulsar hassled by four caterers
+#C 60.1.1 p60, type -1 toadsucker
+#C        A "toad hassler" is an oscillator in which a toad is changed by a
+#C        pair of domino sparks above and below it.  It either moves 1 unit
+#C        sideways ("toadsucker") or changes its orientation ("toadflipper").
+#C        Amazingly, there are 5 different positions for the sparks which
+#C        work; I call them "type -1" through "type 3", depending on the
+#C        horizontal distance between the top and bottom sparks.  The odd types
+#C        are toadsuckers; the even ones are toadflippers.  Given a period N
+#C        oscillator which produces accessible domino sparks once per period,
+#C        the resulting toad hasslers have period 4N if N is odd, 2N if N is
+#C        even.  However, there are also some toad hasslers in which the period
+#C        is smaller, either because the sparks occur more than once per period
+#C        (see period 58) or because the interaction with the spark is more
+#C        complicated (see period 56). Any oscillator that mentions
+#C        "see period 60" uses this mechanism. Toad hassling was apparently
+#C        first discovered by RTW in 6/84, using sparks from PDs and snackers to
+#C        give p60 and p36 oscillators.
+#C 60.1.2
+#C        p60, type 0 toadflipper
+#C 60.1.3
+#C        p60, type 1 toadsucker
+#C 60.1.4
+#C        p60, type 2 toadflipper
+#C 60.1.5
+#C        p60, type 3 toadsucker
+#C 60.2.0 Twirling T-tetsons II [RTW 1989]
+#C        Period 60/4, symmetry type "nrk".
+#C 60.2.1 p60 traffic light hassler [NDE 12/2002]
+#C        Contains two copies of Karel's p15 and a heavyweight emulator (p4)
+#C 60.2.2 p60 doubly skewed pre-pulsar hassler [mvr 7/15/22]
+#C        Found using symmetric CatForce
+#C 60.2.3 p60 honey farm shuttle [DER 8/25/21]
+#C 60.3.0
+#C P60 glider gun [V. Everett Boyer & Doug Petrie <=1973]
+#C 60.3.1 p60 R-pentomino hassler [DER 12/29/21]
+#C 60.3.2 p60 honey farm shuttle [LJK 8/27/22]
+#C 60.4.0 Simkin's p60 [Michael Simkin, 2015]
+#C        The smallest known emu (Herschel tracks that are incapable of emitting gliders)
+#C 60.4.1 p60 TL+G hassler [DER 1/2/22]
+#C        The TL+G (short for traffic light + glider) sequence is a moderately
+#C        common sequence that has a two-glider synthesis.
+#C        The p5 sparker is the same one used in the period-55 glider gun.
+#C        It was chosen because p4 and p6 don't work and other p5s and the
+#C        pentadecathlon don't have enough side clearance.
+#C 60.4.2 p60 LOM hassler [iNoMed 9/23/21, based on a partial by DER the same day]
+#C 60.5.0 p60 lumps of muck hassler [CC 8/7/22]
+#C 60.5.1 p60 traffic light hassler [Adam P. Goucher 7/18/21, based on a partial by DER the same day]
+#C        There are ways to make it into a glider gun, but they're not obvious.
+#C        The glider eater are tub with tail eater, used for clearance purposes.
+#C 60.5.2 p60 teardrop shuttle [Hdjensofjfnen 5/17/22 based on a partial by DER]
+#C 60.6.0 p60 lumps of muck hassler [CC 9/18/22]
+#C 60.6.1 p60 honey farm hassler [DER 1/16/22]
+#C 60.7.0 p60 pulsar hassler [cvojan 9/17/22]
+#C 60.7.1 p60 B-heptomino hassler [JS and NDE in July 2003]
+#C 60.7.2 Metamorphosis II [RTW 12/13/94]
+#C        Illustrates a glider to
+#C        LWSS reflection from a pair of p30 shuttles [found by
+#C        Paul Rendell before 1/20/86, rediscovered by PC 12/9/94], and
+#C        a symmetric collision between 2 LWSSs which makes 2 gliders.
+#C 60.8.0 [NB 5/28/10]
+#C 60.8.1 p60 unnamed object shuttle [CC 8/24/22]
+#C ----------------------------------------------------------------------
+#C 62.0.0 Merzenich's p31 on fumarole [83bismuth38 10/12/21]
+#C        Period 62. The fumarole undergoes a phase change.
+#C 62.0.1 [cvojan 1/17/22]
+#C 62.0.2 p62 honey farm hassler [DER 4/3/22]
+#C ----------------------------------------------------------------------
+#C 63.0.0 p63 century hassler [LJK 9/7/22]
+#C 63.0.1 p63 lumps of muck hassler [LJK 9/14/22]
+#C 63.1.0 P63 traffic light hassler [DER 7/24/21]
+#C        The sparkers are 38P7.2 and a p7 thumb; the latter is not
+#C        in this collection.
+#C 63.1.1 p63 beehive hassler [DER 11/12/21]
+#C 63.1.2 P63 skewed pulsar hassler [DER 7/20/21]
+#C        The sparkers are 50P9 and the p21 honey farm hassler.
+#C 63.2.0 p63 pi-heptomino hassler [LJK 8/31/22]
+#C ----------------------------------------------------------------------
+#C 64.0.0 Merzenich's p64 [MM]
+#C        The smallest known period-64 oscillator.
+#C 64.0.1 p64 traffic light factory [DER 5/22/22]
+#C        Removing a block on the edge emits a traffic light.
+#C 64.0.2 P64 thunderbird hassler [carybe, 2018]
+#C        Was discovered via symmetric soup search
+#C 64.1.0 P64 pre-pulsar hassler
+#C        Contains two copies of Merzenich's p64 and half of 58.0.0.
+#C 64.1.1 p64 pi-heptomino hassler [DER 2/22/22]
+#C 64.1.2 p64 pi-heptomino hassler [LJK 8/29/22]
+#C 64.2.0 Four Merzenich's p64s hassling Octagon 2
+#C        Octagon 2 is period 5, but it skips a generation every time the p64s
+#C        give it sparks.
+#C 64.2.1 p64 lumps of muck hassler [LJK 9/13/22]
+#C 64.3.0 p64 honey farm hassler [DER 4/4/22]
+#C 64.3.1 P64 pi-heptomino hassler [DER 8/21/21]
+#C        The sparkers are 68P16 and a p8 T-nose used for clearance reasons.
+#C ----------------------------------------------------------------------
+#C 65.0.0 P65 pre-pulsar shuttle [Partial by DER, completed by MM and Dongook Lee independently]
+#C ----------------------------------------------------------------------
+#C 66.0.0 P66 R-pentomino hassler [DER 5/26/21]
+#C        Shown with two different possible stabilizations.
+#C ----------------------------------------------------------------------
+#C 68.0.0 p68 lumps of muck hassler [mvr 9/8/22]
+#C 68.0.1 p68 dependent reflector [DER 9/15/22 based on a partial by cvojan the same day]
+#C ----------------------------------------------------------------------
+#C 70.0.0 p70 D2 century hassler [mvr 7/10/22]
+#C        Found using symmetric CatForce
+#C 70.0.1 78P70 [KS, 6/17/07]
+#C 70.0.2 [David I. Bell 6/1/02, reduced by MM 7/18/21]
+#C 70.1.0 p70 pi-heptomino hassler [LJK 8/29/22]
+#C 70.1.1 p70 pulsar/B hassler [LJK 9/14/22]
+#C        55P10 also works in place of the 34P7s. Meatball, however, does not.
+#C 70.1.2 p70 honey farm hassler [mvr 7/24/22]
+#C 70.2.0 p70 pi-heptomino hassler [LJK 8/11/22]
+#C 70.2.1 p70 C4 century hassler [DER 4/29/21 (with p5 pipsquirter), GUYTU6J 4/29/21 in current form]
+#C ----------------------------------------------------------------------
+#C 71.0.0 p71 honey farm hassler [mvr 9/1/22]
+#C        One of the few known prime-period oscillators above period 37,
+#C        the others being 47, 83, 127, and 199.
+#C ----------------------------------------------------------------------
+#C 72.0.0 Two blockers hassling R-pentomino [RTW 1990]
+#C        Looks identical but flipped after a half-cycle.
+#C        A still life, also used in hooks (p5) and 28P7.2, along with two fishhooks,
+#C        can replace the blockers. The original form is shown here because
+#C        it's a stronger sparker.
+#C 72.0.1 p72 C2 lumps of muck hassler [CC 8/10/22]
+#C 72.0.2 p72 quasi-shuttle [Jason Summers, 2005]
+#C 72.1.0 p72 D4 lumps of muck hassler [CC 8/29/22]
+#C 72.1.1 p72 wing hassler [LJK 5/27/22, reduced by MM the next day]
+#C 72.1.2 p72 pi-heptomino hassler
+#C 72.2.0 p72 lumps of muck hassler [CC 9/18/22 based on a partial by mvr]
+#C 72.2.1 P72 traffic light hassler
+#C 72.2.2 [MM 11/28/19]
+#C 72.3.0 p72 century shuttle [DJB June 1996, reduced by DER 5/26/22]
+#C 72.3.1 p72 long bun hassler [LJK 8/8/22]
+#C        See the p30 section for the description of what a long bun is.
+#C 72.3.2 p72 honey farm hassler [LJK 8/23/22]
+#C ----------------------------------------------------------------------
+#C 74.0.0 Raucci's p74 [6/29/21]
+#C 74.0.1 p74 pi-heptomino hassler [Tanner Jacobi 7/8/22]
+#C        Found using symmetric CatForce. Contains a transparent fishhook.
+#C 74.1.0 P74 honey farm hassler [DER 6/4/21]
+#C        Previously used two Beluchenko's other p37s for stabilization
+#C ----------------------------------------------------------------------
+#C 75.0.0 p75 R-pentomino hassler [LJK 8/10/22]
+#C 75.0.1 6 bits [RTW 9/84]
+#C        P75 glider shuttle. Named 6 bits because there are three domino sparks
+#C        that reflect the gliders.
+#C 75.0.2 p75 LOM hassler [DER 9/6/21]
+#C        The pentadecathlon is the only essential spark. The modified
+#C        heavyweight volcano is only used to delete junk.
+#C ----------------------------------------------------------------------
+#C 76.0.0 p76 pi hassler monomer [cvojan 12/18/21]
+#C        The first monomer was found on the same day as the dimer, but this one is
+#C        the smallest period-76 oscillator by population.
+#C 76.0.1 p76 pi hassler dimer [DER 4/11/21]
+#C        One pi heptomino and its associated heavyweight emulator can be shifted one
+#C        or two cells in the correct direction, and it will still work.
+#C 76.0.2 p76 lumps of muck hassler [LJK 8/2/22]
+#C ----------------------------------------------------------------------
+#C 77.0.0
+#C ----------------------------------------------------------------------
+#C 78.0.0 L156 [DJB 8/7/96]
+#C        Four of the eaters are used to turn the gun into an oscillator.
+#C        With 1, 2, 3, 4, 6, and 8 Herschels, the period is 624, 312, 208,
+#C        156, 104, and 78 generations respectively. This one is period 78.
+#C ----------------------------------------------------------------------
+#C 80.0.0 Two Beluchenko's p40s hassling blinker
+#C 80.0.1 p80 Z-hexomino hassler [CC 8/28/22]
+#C 80.0.2 p80 R-pentomino shuttle [DER 6/4/22]
+#C 80.1.0 p80 century diagonal flipper [LJK 9/7/22]
+#C 80.1.1 p80 lumps of muck hassler [CC 9/18/22]
+#C ----------------------------------------------------------------------
+#C 82.0.0 p82 pi-heptomino hassler [Entity Valkyrie 7/25/22]
+#C        Surprisingly found by hand. Uses the first half of the
+#C        "speed tunnel" reaction found the previous day, which is a G-to-H
+#C        with repeat time 61. This is the smallest known p82 oscillator.
+#C ----------------------------------------------------------------------
+#C 83.0.0 62P83 [mvr 7/5/22]
+#C        One of the few known prime-period oscillators above period 37,
+#C        the others being 47, 71, 127, and 199.
+#C        R-pentomino hassler. Found using symmetric CatForce.
+#C ----------------------------------------------------------------------
+#C 84.0.0 52P84
+#C        Uses two unixes (P6) for stabilization.
+#C 84.0.1 p84 R-pentomino hassler [Nico Brown 8/26/22]
+#C 84.1.0 p84 R-pentomino shuttle [iNoMed 9/10/22 based on a partial by cvojan]
+#C 84.1.1 p84 honey farm hassler [mvr 5/11/22]
+#C        The smallest known p84 oscillator.
+#C        Found using a symmetric version of CatForce.
+#C 84.2.0 p84 pi-heptomino hassler [DER 6/1/21]
+#C 84.2.1 p84 pi-heptomino shuttle [DER 5/22/22, reduced by C28]
+#C 84.3.0 p84 interchange hassler [DER 7/22/21]
+#C        The sparkers are 34P14 and one form of a T-nosed p4.
+#C 84.3.1 p84 R-pentomino shuttle [mvr 9/5/22]
+#C ----------------------------------------------------------------------
+#C 85.0.0 p85 R-pentomino hassler [LJK 8/27/22]
+#C        The smallest known p85 oscillator by population.
+#C ----------------------------------------------------------------------
+#C 86.0.0 p86 pi-heptomino hassler [mvr 9/8/22]
+#C        The smallest known p86 oscillator by population.
+#C ----------------------------------------------------------------------
+#C 87.0.0 84P87 [Tanner Jacobi, 1/27/16]
+#C        The smallest known period-87 oscillator.
+#C ----------------------------------------------------------------------
+#C 88.0.0 P88 pi hassler
+#C 88.0.1 [Entity Valkyrie 7/12/21]
+#C 88.1.0 P88 pre-pulsar shuttle
+#C 88.1.1 [RDH 1994]
+#C        Based on P44
+#C        The same can be done with the similar p50 to create a p100, but
+#C        it is not shown here.
+#C 88.1.2 P88 wing shuttle
+#C ----------------------------------------------------------------------
+#C 90.0.0
+#C        P90 pre-pulsar shuttle
+#C 90.0.1
+#C        p90 glider shuttle using p6 thumbs
+#C        Extensible to 90+24N. These are the same numbers that the p42 unix
+#C        glider shuttle can have.
+#C 90.0.2 Diuresis
+#C 90.1.0 p90 honey farm hassler [LJK 7/29/22]
+#C 90.1.1 P90 glider gun [DRH]
+#C 90.2.0 p90 honey farm hassler [LJK 8/27/22]
+#C 90.2.1 [FWKnightship 12/29/20]
+#C        P90 pre-pulsar hassler
+#C 90.2.2 [DIB 11/30/93]
+#C        A glider shuttles between 2 pairs of p30
+#C        shuttles.  At each end it turns into a boat and then back
+#C        into a glider.  The spark that turns the glider into a boat
+#C        is symmetric, so this reaction can also be used to shift a
+#C        glider's path by 2 units without reversing its direction. 
+#C        Also see periods 184 and 276.
+#C 90.3.0
+#C        P90 glider shuttle
+#C 90.3.1 p90 R-pentomino hassler [DER 2/9/22]
+#C ----------------------------------------------------------------------
+#C 91.0.0 Period-91 glider gun [LJK 8/8/22]
+#C 91.0.1 p91 C2 R-pentomino hassler [CC 6/19/22 based on a partial by LJK the same day]
+#C ----------------------------------------------------------------------
+#C 92.0.0 [RTW 5/28/92]
+#C        2 p46 shuttles push a beehive back and forth.
+#C 92.0.1 [NDE 11/23/94]
+#C        2 p46 shuttles push a blinker back and forth.
+#C 92.1.0 [RTW 3/91]
+#C        2 p46 shuttles repeatedly convert blocks to gliders.
+#C 92.1.1 [DRH, NDE 1/15/95]
+#C        2 p46 shuttles repeatedly reverse a loaf.
+#C 92.2.0 P92 glider gun [DRH 1/7/91]
+#C        Made from 2 overlapping p46 guns.
+#C 92.2.1 [Entity Valkyrie]
+#C 92.2.2 P92 traffic light hassler
+#C ----------------------------------------------------------------------
+#C 94.0.0 P94 honey farm hassler
+#C 94.0.1 p94 pi-heptomino shuttle [Nico Brown 9/14/22]
+#C 94.0.2 p94 R-pentomino hassler [mvr 9/12/22]
+#C ----------------------------------------------------------------------
+#C 96.0.0 P96 honey farm hassler [DER 7/13/21, reduced by MM the same day]
+#C 96.0.1
+#C        P96 traffic light hassler
+#C 96.0.2 p96 honey farm hassler [LJK 8/30/22]
+#C        Somewhat similar to the p100 honey farm hassler in that it creates
+#C        two pulsars in the middle of its evolution.
+#C 96.1.0 P96 Hans Leo hassler [NDE 1/28/95]
+#C        A p12 sparker changes a traffic light into a B-heptomino; an
+#C        eater and a figure 8 change it back. Also see periods 132, 144, and 156.
+#C 96.1.1 P96 pi-heptomino shuttle [DER 11/4/21]
+#C        Uses an extremely robust sparker; other sparkers, even similar ones,
+#C        don't work. Unlike most oscillators found by DER, this one was found
+#C        manually by colliding a pi into a recently-discovered emulator.
+#C 96.1.2 p96 pi-heptomino hassler [LJK 8/29/22]
+#C ----------------------------------------------------------------------
+#C 98.0.0 P98 emu
+#C        Based on R49 conduit discovered by Luka Okasnishi in 2019
+#C        Can be made period 196 by having only one R-pentomino
+#C ----------------------------------------------------------------------
+#C 100.0.0 p100 honey farm hassler [LJK 7/29/22]
+#C         Somewhat similar to the p100 honey farm hassler in that it creates
+#C         two pulsars in the middle of its evolution.
+#C 100.0.1 p100 wing hassler [Dongook Lee 11/9/21 based on a partial by DER, since reduced]
+#C 100.1.0 p100 lumps of muck hassler [LJK 8/22/22, reduced by iNoMed]
+#C 100.1.1 p100 traffic light shuttle [C28]
+#C         Can be made p90 instead by changing the offset of the
+#C         p10 domino fountain. Also works in rotational symmetry.
+#C 100.1.2 p100 honey farm hassler [DER 7/9/21, reduced by JP21 the next day]
+#C         Uses two 55P10s shortened for bounding box optimization
+#C 100.2.0 P100 traffic jam [NDE 10/15/94]
+#C 100.2.1 Centinal [RWB before 9/87]
+#C         Based on P46 and P54 shuttles
+#C ----------------------------------------------------------------------
+#C 102.0.0 Raucci's p102 [DER 5/22/22]
+#C         Two different stabilizations are shown. The version with two
+#C         fishhooks is the smallest known p102 by population with 67 cells,
+#C         while replacing a fishhook with a unix produces a large spark.
+#C         The active region is coincidentally the 102nd in the list of
+#C         common evolutionary sequences.
+#C         ooo...
+#C         ......
+#C         ...oo.
+#C         ..o..o
+#C         ...oo.
+#C 102.0.1 Two Beluchenko's P51 hassling beehive
+#C ----------------------------------------------------------------------
+#C 104.0.0 B-52 bomber [NDS 3/21/96]
+#C         Period-104 glider gun, capped.
+#C 104.0.1 p104 LOM shuttle, reduced by DER the same day [CC 8/12/22]
+#C 104.1.0 p104 century flipper [mvr 8/26/22]
+#C 104.1.1 p104 R-pentomino hassler [Nico Brown 8/27/22]
+#C 104.2.0 p104 LOM hassler [LOM reaction by DER, p52 by EvinZL, combined by CC 7/29/22]
+#C         This was found as soon as the p52 was found.
+#C ----------------------------------------------------------------------
+#C 106.0.0 [Adam P. Goucher, March 2009]
+#C         Period 106
+#C         Minimum period oscillator possible with this stable reflector.
+#C ----------------------------------------------------------------------
+#C 108.0.0 P108, type 0 toadflipper
+#C         See discussion at period 60
+#C 108.0.1 P108, type 1 toadsucker [DJB before 5/92]
+#C         See discussion at period 60
+#C 108.0.2 p108 pi-heptomino shuttle [DER 6/3/22]
+#C ----------------------------------------------------------------------
+#C 110.0.0 P110 traffic jam [RWG 10/17/94]
+#C         There are also a P104 traffic jam with bounding box 594x132 and a 
+#C         P102 with bounding box 577x85 that require different stabilizations,
+#C         as fumarole and octagon 2 are P5. They are not shown here due to their large size.
+#C 110.0.1 p110 century shuttle [DER 2/17/22]
+#C         Uses four Jason's p22 for stabilization.
+#C 110.1.0 [KS 11/10/02]
+#C         Period 110, mod 55. Sparkers are period 5.
+#C ----------------------------------------------------------------------
+#C 111.0.0 p111 R-pentomino hassler [mvr 9/16/22]
+#C ----------------------------------------------------------------------
+#C 112.0.0 p112 R loop [LJK 9/9/22]
+#C 112.0.1 L112 [DJB 7/5/96]
+#C         Four of the eaters (the ones on the edge of the bounding box) are used to
+#C         eat gliders and are not part of the conduit; if they were excluded, it
+#C         would be a 4-barreled gun.
+#C         With 1, 2, 4, and 7 Herschels, the period is 448, 224, 112, and 64
+#C         generations respectively. This one is period 112.
+#C 112.0.2 p112 pi and loaf hassler [JP21 7/9/22 based on a partial by DER]
+#C         There are two common pi+loaf reactions. One is the object hassled
+#C         in Jason's p22. The other comes from this predecessor, with two
+#C         possibilities shown. The one on the left can be briefly seen in
+#C         lumps of muck, while the one on the right is found in this p112.
+#C         ooo......o..
+#C         ...o....ooo.
+#C         oo.o.......o
+#C         .oo.....ooo.
+#C ----------------------------------------------------------------------
+#C 114.0.0 Capped period-114 glider gun [DER 4/20/22]
+#C 114.0.1 p114 Iwona active region shuttle [DER 5/27/22]
+#C         Iwona is a methuselah; its initial 6-cell active region is this:
+#C         ooo.o
+#C         ...oo
+#C ----------------------------------------------------------------------
+#C 116.0.0 p116 L-hexomino shuttle [DER 5/16/22]
+#C         Four heavyweight emulators allow an L-hexomino to rotate. Mod 29.
+#C         The L-hexomino may be hard to see; it does exist, but there is
+#C         still fading junk when the hexomino itself is present.
+#C         By itself, the L-hexomino becomes two spaced-out blinkers.
+#C ----------------------------------------------------------------------
+#C 117.0.0 Capped p117 glider gun [DER 7/6/21]
+#C         Previously smallest known odd-period gun by bounding box.
+#C         Sparker is 50P9.
+#C         Also see the period 32, 54, and 55 guns, discovered by the same
+#C         person and using the same honey farm and eater 1 reaction.
+#C ----------------------------------------------------------------------
+#C 120.0.0 p120 C2 honey farm hassler [mvr 9/1/22]
+#C 120.0.1 P120 glider gun [DRH 1/13/91]
+#C         A blocker can convert a period 8n+4 glider gun to period 16n+8.
+#C 120.0.2 p120 loaf-flipping LCM [DER 10/31/21]
+#C         Beluchenko's p40 and a queen bee shuttle flip a loaf with period
+#C         LCM(30,40) = 120. Note that the two main oscillators share a block.
+#C         Also see 1368.0.0 for a much higher-period loaf flipper.
+#C 120.1.0 P120 pre-pulsar hassler
+#C 120.1.1 [DER 2/6/22]
+#C         A honey farm is catalyzed via a transparent beehive reaction and sparked
+#C         via a pentadecathlon to place a block. The resulting chaos is tamed into
+#C         a glider via a p24 domino sparker that hits the block and turns it back
+#C         into a honey farm.
+#C 120.1.2 p120 century shuttle [CC 8/12/22]
+#C 120.2.0 p120 D4 honey farm hassler [LJK 8/23/22]
+#C 120.2.1 P120 HWSS gun
+#C         HWSSes cannot be eaten by eaters. They require other ways, such as
+#C         killer toads shown here. They are also harder to create; a glider hitting
+#C         a pre-block can create a LWSS or MWSS, but not a HWSS.
+#C 120.3.0 P120 glider shuttle [MDN]
+#C 120.3.1 p120 C2 pi-heptomino hassler [DER 2/10/22, reduced by multiple people]
+#C 120.4.0 p120 R-pentomino loop [CC 8/12/22]
+#C 120.4.1 p120 Jason's p22 hassler [mvr 9/6/22]
+#C         This obviously doesn't hassle Jason's p22 itself; it hassles
+#C         the active region present in Jason's p22.
+#C 120.4.2 P120 C4 pi-heptomino hassler [Reaction by DER, stabilized by MathAndCode, both 4/24/21; reduced 11/6/21]
+#C 120.5.0 p120 C4 pi-heptomino hassler [CC 9/11/22]
+#C ----------------------------------------------------------------------
+#C 122.0.0 L122
+#C         With 1, 2, and 4 Herschels, the period is 488, 224, and 122
+#C         generations respectively. This one is period 122.
+#C         A stable version exists, but the P2 version (with toads) is much simpler.
+#C ----------------------------------------------------------------------
+#C 124.0.0 p124 lumps of muck hassler
+#C         This mechanism was known for years before a way was found to make it
+#C         work. The P4 oscillator has been improved from its original form,
+#C         taking up less space. Can be made into an agar.
+#C 124.0.1 p124 glider gun [EvinZL 4/24/22 based on a partial by DER]
+#C ----------------------------------------------------------------------
+#C 125.0.0 p125 pi-heptomino hassler [praosylen 8/20/21]
+#C         Related to the p128 pi-heptomino hassler, which was found
+#C         earlier the same day.
+#C         As 125 is odd, the automatic blinker deletion used in the p128
+#C         doesn't work, so a fishhook is used instead.
+#C ----------------------------------------------------------------------
+#C 126.0.0 p126 pi-heptomino shuttle [DER 12/15/21]
+#C 126.0.1 p126 pi-heptomino hassler [MM 8/23/21 based on a partial by DER 8/21/21]
+#C         The p21 honey farm hassler and the 64P6 are essential; the still life
+#C         and the p7 thumb clean up junk.
+#C ----------------------------------------------------------------------
+#C 127.0.0 74P127 [LJK 7/2/22]
+#C         One of the few known prime-period oscillators above period 37,
+#C         the others being 47, 71, 83, and 199.
+#C         Century hassler. Found using symmetric CatForce.
+#C ----------------------------------------------------------------------
+#C 128.0.0 p128 century shuttle [EvinZL 5/9/22 based on a partial by DER]
+#C 128.0.1 p128 wing shuttle [DER 8/24/21]
+#C 128.1.0 p128 pi-heptomino hassler [DER 8/20/21]
+#C         The sparkers are Rob's p16 and T-nosed p4.
+#C         Related to the p125 pi-heptomino hassler, which was found later
+#C         the same day.
+#C 128.1.1 p128 honey farm hassler [LJK 8/23/22]
+#C 128.1.2 [DJB before 11/91 (with p8 oscillators)]
+#C         2 B-heptominoes move around a track of length 256 gens formed from
+#C         blocks. Each set of four blocks is a R64 conduit. The p8 oscillators
+#C         delete the gliders early, allowing two B-heptominoes to move
+#C         at the same time.
+#C ----------------------------------------------------------------------
+#C 129.0.0 p129 R-pentomino hassler [Luka Okanishi 8/21/22 based on a partial by LJK the previous day]
+#C         The smallest known p129 oscillator by population
+#C ----------------------------------------------------------------------
+#C 130.0.0 P130 shuttle [David Eppstein, 2001]
+#C ----------------------------------------------------------------------
+#C 132.0.0 P132 Hans Leo hassler [NDE 1995]
+#C         A p12 sparker changes a traffic light into a B-heptomino; a unix changes
+#C         it back.  Also see periods 96, 144, and 156.
+#C 132.0.1 [DJB before 8/94]
+#C         P132, based on P44
+#C         Unlike the period doubler, this particular period tripler does not
+#C         work with the similar p50. The p150 section shows a different way
+#C         of tripling the period.
+#C 132.0.2 p132 U-turner shuttle [C28 11/9/21]
+#C ----------------------------------------------------------------------
+#C 133.0.0 p133 rectifier loop
+#C         Can be extended to 133+4N.
+#C ----------------------------------------------------------------------
+#C 135.0.0 [RWG 1989]
+#C         P135. A 2-glider shuttle, combining a rephaser and the
+#C         reflections from 75.0.0.  Also see period 150.
+#C ----------------------------------------------------------------------
+#C 138.0.0 Gabriel's p138 [Gabriel Nivasch, 2002]
+#C         Appears mirrored after a half-cycle.
+#C         In its simplest form, it consists of only four octominoes (but not
+#C         the one simply called "octomino"), excluding dying sparks.
+#C         Has appeared semi-naturally (i.e. from symmetric soup)
+#C 138.0.1 p138 lumps of muck hassler [DER 9/6/21]
+#C         The sparker is Tanner's p46.
+#C 138.1.0 P138 glider shuttle [RWG]
+#C         Glider loop based on a 'flawed' 180 degree
+#C         glider reflection.  The first reflection leaves behind a
+#C         pond, which the next deletes, so gliders must occur in
+#C         pairs. The length of the loop may be
+#C         anything of the form 138+184n.
+#C 138.1.1 P138 glider gun
+#C 138.1.2 p138 lumps of muck hassler [LJK 9/3/22]
+#C 138.2.0 p138 wing hassler [DER 5/15/22]
+#C         While both have 90-degree rotational symmetry, this oscillator has
+#C         even symmetry, while Gabriel's p138 has odd symmetry.
+#C         The p6 sparkers are optimized for bounding box at the expense
+#C         of higher population.
+#C ----------------------------------------------------------------------
+#C 140.0.0
+#C 140.0.1 p140 R-pentomino hassler [LJK 9/13/22]
+#C         Also an octomino hassler
+#C 140.0.2 p140 lumps of muck hassler [mvr 9/6/22]
+#C         The p7 sparkers spark the lumps of muck in an unusual way.
+#C ----------------------------------------------------------------------
+#C 143.0.0 p143 Bandersnatch loop [Sphenocorona, 2020 (with 66P13s), iNoMed 1/3/22 (stable)]
+#C ----------------------------------------------------------------------
+#C 144.0.0 Achim's p144 [AF 7/21/94, DIB 8/8/94]
+#C         Found by AF on a cylinder of
+#C         height 22 (without the outer blocks) and originally
+#C         stabilized using figure 8s.  The use of blocks (which
+#C         temporarily become loaves) was found by DIB.
+#C         Looks identical but flipped after a half-cycle.
+#C         Has appeared semi-naturally (i.e. from symmetric soup)
+#C 144.0.1 Period-144 production line [iNoMed 10/16/21]
+#C         A variation of Achim's p144 that releases a large spark.
+#C 144.0.2 P144 Hans Leo hassler [NDE 1/4/95]
+#C         A p12 sparker changes a traffic light into a B-heptomino; an eater changes
+#C         it back.  Also see periods 96, 132, and 156.
+#C 144.0.3 P144 glider gun
+#C 144.1.0 p144 lumps of muck hassler [LJK 8/11/22]
+#C ----------------------------------------------------------------------
+#C 146.0.0 p146 pi-heptomino hassler [mvr, LJK 7/6/22]
+#C         The smallest known p146 by population.
+#C         Found using symmetric CatForce, then monomerized.
+#C 146.0.1 p146 pi-heptomino shuttle [Tanner Jacobi 7/18/22]
+#C ----------------------------------------------------------------------
+#C 147.0.0 p147 R-pentomino hassler [EvinZL 7/2/22 based on a partial by DER the same day]
+#C         Can also be called a pi-heptomino hassler
+#C 147.0.1 p147 honey farm hassler [DER 7/16/21, reduced by EvinZL the same day]
+#C         Could just as easily be called a pre-pulsar or LOM hassler
+#C         The sparker is two copies of 37P7.1 welded together.
+#C ----------------------------------------------------------------------
+#C 150.0.0 [RTW <=1989]
+#C         A p150 2-glider shuttle, extensible to period 150+120N.  Also see 165.0.0.
+#C 150.0.1 p150 R-pentomino hassler glider gun [mvr 8/29/22 based on a partial by LJK the same day]
+#C         The blinker suppresses a line of five. Unlike some other 
+#C         oscillators, it does not get temporarily destroyed.
+#C 150.1.0 [DRH 1989]
+#C         Period 150
+#C 150.1.1 [DER 10/23/21]
+#C         A period-tripled version of the p50 pi-heptomino hassler.
+#C ----------------------------------------------------------------------
+#C 152.0.0 Two p76 pi-heptomino hasslers hassling loaf [DER 10/16/21]
+#C         If the hasslers are phased differently, it's period 76.
+#C         The loaf gets sparked and becomes a semi-common sequence of a pi plus
+#C         a loaf. The pi gets eaten, while the new loaf gets positioned so that
+#C         it can be flipped again. Unfortunately, there isn't enough clearance
+#C         to turn the extra pi into a glider and make a p76 or p152 gun.
+#C 152.0.1 p152 pi-heptomino shuttle [LJK 8/11/22]
+#C ----------------------------------------------------------------------
+#C 154.0.0 p154 octomino II hassler [DER 2/8/22]
+#C 154.0.1 p154 R-pentomino hassler [LJK 8/8/22]
+#C ----------------------------------------------------------------------
+#C 155.0.0 Capped p155 glider gun [mvr 8/29/22, monomerized by iNoMed the same day]
+#C ----------------------------------------------------------------------
+#C 156.0.0 p156 honey farm shuttle [Inferno 2/22/2022]
+#C 156.1.0 P156 Hans Leo hassler [NDE 1/4/95]
+#C         A p12 sparker changes a traffic light into a B-heptomino; an eater changes
+#C         it back.  Also see periods 96, 132, and 144.
+#C 156.1.1 Jason's p156 [Jason Summers, 10/31/04]
+#C         Oscillator, or actually an eight-barrelled glider gun,
+#C         discovered in a RandomAgar search. Also known as "92p156".
+#C 156.1.2 p156 pi-heptomino hassler [LJK 8/26/22]
+#C 156.2.0 p156 pi-heptomino hassler [MathAndCode 8/18/21 based on a partial by DER the same day]
+#C         The sparkers are a p6 domino fountain and Beluchenko's p13.
+#C ----------------------------------------------------------------------
+#C 160.0.0 p160 pi-heptomino diagonal flipper [mvr 8/16/22]
+#C         Found using symmetric CatForce
+#C 160.0.1 Four Beluchenko's p40 hassling blinker
+#C 160.0.2 p160 pi-heptomino shuttle [mvr 9/5/22]
+#C         The 55P10s undergo a bit of an unusual reaction.
+#C ----------------------------------------------------------------------
+#C 165.0.0 P165 glider shuttle [RTW <=1989]
+#C         A p165 2-glider shuttle, extensible to period 165+120N.
+#C ----------------------------------------------------------------------
+#C 166.0.0 p166 R-pentomino hassler [mvr 9/16/22]
+#C ----------------------------------------------------------------------
+#C 168.0.0 Pi orbital [NDE 8/22/95 with crowns, MM 4/6/10 with current oscillator]
+#C         Period 168, but can be made period 84 with two pi heptominoes
+#C 168.0.1 Elusive p168 [iNoMed 9/12/22 based on a partial by DER]
+#C         Named because it existed as a partial for so long and
+#C         no set of sparkers seemed to work for both pairs of sides.
+#C ----------------------------------------------------------------------
+#C 176.0.0 p176 R-pentomino loop [CC 9/9/22]
+#C ----------------------------------------------------------------------
+#C 177.0.0 Karel's p177 [KS, 2007]
+#C         Has appeared semi-naturally (i.e. from symmetric soup)
+#C         The highest-period known oscillator not made of multiple components
+#C ----------------------------------------------------------------------
+#C 180.0.0 p180 unnamed object shuttle [DER 7/22/22]
+#C         Active region #501 in census.rle. The combination of the two
+#C         queen bee shuttles is called Berger's p30, and it's complete luck
+#C         that it also cleanly destroys the outputted glider.
+#C         o..o..
+#C         o...o.
+#C         o....o
+#C         ...ooo
+#C ----------------------------------------------------------------------
+#C 182.0.0 p182 pi-heptomino shuttle [EvinZL 11/14/21]
+#C         182=14x13. The sparkers are an extended form of 66P13.
+#C ----------------------------------------------------------------------
+#C 183.0.0 p183 LOM hassler [iNoMed 7/10/22 based on a partial by mvr]
+#C         Found using symmetric CatForce
+#C ----------------------------------------------------------------------
+#C 184.0.0 Period 184 glider gun [David Buckingham, 07/96]
+#C         Output suppressed
+#C 184.0.1 P184 glider shuttle [DRH 1/24/92]
+#C         Glider shuttle based on 180 degree reflection: a
+#C         p46 spark turns the glider into a block; the next spark turns
+#C         it back into a glider.  The period can be anything of the
+#C         form 184+92n.  Also see period 276.
+#C ----------------------------------------------------------------------
+#C 186.0.0 p186 century shuttle [DER 9/9/22 based on a partial by cvojan]
+#C ----------------------------------------------------------------------
+#C 188.0.0 Pseudo p94 gun [DJB,RCS,PC 7/11/94]
+#C         A pre-honey farm
+#C         interacts with an eater and a block, emitting a glider,
+#C         creating a traffic light, and forming another pre-honey farm
+#C         47 gens later; this reaction is called "AK47".  The new
+#C         pre-h.f. interacts with another eater and block to recreate
+#C         the original configuration.  Unfortunately, the 2 traffic
+#C         lights must be suppressed in order to make the process repeat
+#C         every 94 gens.  This reaction was found independently by DJB
+#C         and RCS and was known for years before PC found a period 4
+#C         oscillator which could suppress the traffic lights.  (A true
+#C         p94 gun was built by DRH in 6/90, using 36 AK47s.)
+#C 188.0.1 P188 glider gun [RWG 10/16/94]
+#C ----------------------------------------------------------------------
+#C 190.0.0 p190 wing hassler [CC 8/28/22 based on a partial by mvr, reduced by iNoMed the same day]
+#C         Uses the p10 domino fountain.
+#C 190.0.1 R190 [DJB 7/7/96]
+#C         Four copies of R190 Herschel track. Repeat time 107 ticks.
+#C         With 1, 2, 4, and 5 Herschels, the period is 760, 380, 190, and 152
+#C         generations respectively. This one is period 190.
+#C ----------------------------------------------------------------------
+#C 192.0.0 CL48C [LJK 6/7/22]
+#C ----------------------------------------------------------------------
+#C 196.0.0 P196 pi-heptomino hassler [Partial by David Raucci 6/2/21, completed by praosylen the same day]
+#C         This oscillator clearly shows the reason why long boats are more
+#C         common than barges despite having an extra cell.
+#C ----------------------------------------------------------------------
+#C 199.0.0 84P199 [mvr, LJK 7/7/22, reduced by iNoMed the same day]
+#C         The smallest known p199 by population, and the highest prime period
+#C         oscillator not dependent on glider or signal loops.
+#C         One of the few known prime-period oscillators above period 37,
+#C         the others being 47, 71, 83, and 127.
+#C         Found using symmetric CatForce, then catalysts reduced.
+#C ----------------------------------------------------------------------
+#C 200.0.0 P200 traffic jam [RWG 10/16/94]
+#C ----------------------------------------------------------------------
+#C 217.0.0 Raucci's p217 [DER 5/5/21]
+#C         Consists of four U-turners (which were unnamed at the time) being
+#C         hassled by four Merzenich's p31s; 217/31=7.
+#C ----------------------------------------------------------------------
+#C 220.0.0 p220 honey farm shuttle [Nico Brown 8/4/22]
+#C ----------------------------------------------------------------------
+#C 225.0.0
+#C         Uses two boojum reflectors, 180 degree reflector found in 2001 by Dave Greene
+#C 225.0.1
+#C         Period 45 glider gun interacts with crystal; repeats every five gliders
+#C ----------------------------------------------------------------------
+#C 226.0.0 P226 glider shuttle
+#C         Uses two boojum reflectors
+#C ----------------------------------------------------------------------
+#C 230.0.0 Obnoxious P230 [RWG 5/28/92]
+#C         Sparks from a p46 shuttle interact 3 times with sparks from a p5 MW volcano; one
+#C         interaction makes a temporary blinker; another makes a temporary glider. 
+#C 230.0.1 P230 glider shuttle [DRH 3/19/92 (using early version of toaster); since reduced]
+#C         4-glider shuttle with period 230+40n.  See comments for P42 glider shuttle.
+#C 230.1.0 P230 glider gun [PC 6/28/94]
+#C         Based on 2 LWSS reflections from
+#C         p46 oscillators.  In one, the LWSS is turned 90 degrees; in
+#C         the other it becomes 2 parallel gliders.
+#C ----------------------------------------------------------------------
+#C 240.0.0 P240 glider shuttle
+#C ----------------------------------------------------------------------
+#C 246.0.0 P246 bookend shuttle
+#C         Related to the P246 glider gun
+#C         A blinker placed correctly can be rephased by two bookend shuttles.
+#C         However, this does not double the period, and it is not shown here.
+#C 246.0.1 P246 glider shuttle [DRH 11/89 (p270+24n), 4/92 (p246)]
+#C         2-glider shuttle with period 246+24n.  See comments for P42 glider shuttle.
+#C ----------------------------------------------------------------------
+#C 260.0.0 L130 [Entity Valkyrie]
+#C         It can be made P520 by including only one Herschel. It cannot be made
+#C         P130 though, as the blocks aren't destroyed quickly enough.
+#C ----------------------------------------------------------------------
+#C 264.0.0 Sextupled p44 pi-heptomino hassler [dani 7/26/22]
+#C         Despite this reaction working as soon as the p44 was discovered,
+#C         this period sextupler wasn't found until 2022. You can also see an
+#C         alternate stabilization of the p44, which works regardless of the
+#C         period multiplier if any. The sextupler also works with the p50
+#C         variant of this oscillator, forming a p300 (not shown).
+#C ----------------------------------------------------------------------
+#C 270.0.0 P270 glider shuttle [EvinZL 4/10/21]
+#C 270.0.1
+#C         Every 270 generations, a MWSS is created. However, it cannot
+#C         survive; the eater reaction is required for this to remain stable.
+#C         Without the glider eater at the bottom, it creates a cycle of 5 escaping,
+#C         4 destroyed, repeating.
+#C ----------------------------------------------------------------------
+#C 276.0.0 P276 glider shuttle [DRH 1/24/92]
+#C         Glider shuttle based on the same reflection as in period 184.  Also see period 90.
+#C 276.1.0 4-barrelled p276 glider gun [DJB before 11/92]
+#C 276.1.1 [NB, 11/9/10]
+#C         Contains two copies of Gabriel's p138
+#C         Is not the same halfway through the cycle, despite the period
+#C         being two P138 cycles.
+#C         The highest-period oscillator in this collection with volatility 1.
+#C 276.2.0 p276 TL+G shuttle [DIB and NDE 1/31/00]
+#C ----------------------------------------------------------------------
+#C 282.0.0 P282 glider shuttle [RWG 9/13/92]
+#C         Based on P47. See comments for P42 glider shuttle.
+#C ----------------------------------------------------------------------
+#C 300.0.0 Period 300 glider gun
+#C ----------------------------------------------------------------------
+#C 312.0.0 60P312 [Dave Greene, 2004]
+#C         Based on Jason's p156
+#C ----------------------------------------------------------------------
+#C 360.0.0 P360 2-barrelled glider gun [DJB before 10/92]
+#C ----------------------------------------------------------------------
+#C 400.0.0 P400 glider loop [RWG 1987]
+#C         A glider bounces between 4 centinals.  By expanding the loop and using more than one
+#C         glider, oscillators of period 100N can be built for any N.
+#C ----------------------------------------------------------------------
+#C 486.0.0 P486 R-pentomino hassler [DER 5/13/21]
+#C         Extremely similar to 576.0.0; see its entry for all the similarities.
+#C ----------------------------------------------------------------------
+#C 504.0.0 R126 loop
+#C ----------------------------------------------------------------------
+#C 552.0.0 [RWG ????, DRH 1/23/92 ]
+#C         Glider loop based on the same
+#C         reflection as in the p138 section.  Here the ponds are deleted by a
+#C         p8 blocker.  The period of the loop can be anything of the
+#C         form 138+184n, but the period of the oscillator is 4 times that.
+#C ----------------------------------------------------------------------
+#C 576.0.0 p576 R-pentomino hassler [DER 6/9/21]
+#C         Compare to the very similar 486.0.0. It's a very high period R-pentomino
+#C         hassler with period prime factorization containing only 2s and 3s, it's
+#C         a flipper with 180 degree symmetry, it has blocks as suppressors on the top and
+#C         bottom and sparkers on the left and right, and it was found by the same
+#C         person in the same year using the same search program.
+#C         Unrelated to the above: the blocks on the top and bottom are suppressing Herschels.
+#C         It can easily be made into a glider gun. Also, the blocks on the left
+#C         and right are optional, but if omitted, they'll form as the oscillator
+#C         completes its cycle.
+#C ----------------------------------------------------------------------
+#C 690.0.0 [DRH 1/3/91]
+#C         Sparks from a p46 shuttle interact 6 times with
+#C         sparks from a p15 pentadecathlon; one interaction makes a
+#C         temporary blinker.
+
+
+#N Oscillator stamp collection
+#O Dean Hickerson, David Raucci, et al., updated Sep 18, 2022
+#C A collection of 1354 oscillators of 157 different periods from 1
+#C to 40894. 
+#C
+#C Notes from Dean Hickerson:
+#C The oscillators included here were found/built by many people over
+#C many years.  I finished putting the collection together in August 1995,
+#C and have worked on this header file off and on since then.  It's still
+#C incomplete and probably inaccurate, but I've decided to make it public anyway.
+#C Since this collection was built, many new oscillators have been found.
+#C Most notably, in 1996 David Buckingham showed how to create tracks
+#C built from still-lifes through which Herschels can move.  (See
+#C   https://conwaylife.com/ref/lifepage/patterns/bhept/bhept.html
+#C for Buckingham's description of this, and
+#C   https://conwaylife.com/ref/lifepage/patterns/p1/p1.html
+#C for Paul Callahan's discussion of using such conduits to build a stable
+#C glider reflector.)  Using Herschel tracks, Buckingham obtained glider
+#C guns of all periods >= 62 and oscillators of all periods >= 61.  Further
+#C work on Herschel tracks has been done by Buckingham, Paul Callahan,
+#C Dieter Leithner, and me; such tracks now give oscillators of all periods
+#C >=54, and guns of periods 54, 55, and 56.
+#C
+#C Building this collection would have been impossible without the help
+#C of many people.  In addition to those who found the oscillators, I'd
+#C like to thank Alan Hensel, Bill Gosper, Robert Wainwright,
+#C Rich Schroeppel, and Jonathan Cooley for helpful suggestions, and
+#C Andrew Trevorrow for writing LifeLab, an excellent Macintosh program
+#C for building and running Life patterns.  LifeLab's cross-platform
+#C successor, Golly, is available as freeware at http://golly.sf.net .
+#C
+#C Dean Hickerson, dean.hickerson@suddenlink.net
+#C 2/2/2000; last updated 9/16/2000. URLs corrected
+#C and list of missing periods updated on 5/8/2009.
+#C
+#C Notes from David Raucci:
+#C The 2013 discovery of the Snark allowed oscillators of all periods
+#C 43 and higher. There are 4 periods for which oscillators are still
+#C unknown as of late 2021: 19, 34, 38, and 41. (For period 34,
+#C we could use a noninteracting combination of p2 and p17 oscillators,
+#C but that's considered trivial.)
+#C
+#C If you find any errors or can fill in any of the blanks, please
+#C let me know. This file has been updated in 2020 and 2021, converting it
+#C to a Python program that automatically updates based on a text file input
+#C and includes more oscillators that were not known in 1995.
+#C
+#C See the GitHub repository at https://github.com/dvgrn/b3s23osc for more
+#C details.
+#C
+#C David Raucci, updated 6/3/2021.
+#C
+#C ----------------------------------------------------------------------
+#C
+#C Most lines of this header describe particular oscillators.  Each entry
+#C begins with an identifying label, of the form "period.row.column";
+#C row and column numbers start at zero.  This is followed by the name of
+#C the oscillator (if any) in quotation marks, the discoverer and date of
+#C discovery (if known) in brackets, and perhaps a comment about the
+#C oscillator.  For example:
+#C
+#C     2.0.0   "blinker"  [JHC 3/70]  Example of "+c*c" symmetry.  This
+#C             often occurs in a group of 4, known as a "traffic light",
+#C             which arises, for example, from a T-tetromino. 
+#C
+#C This indicates that the leftmost oscillator in the top row of the period 2
+#C section is called a "blinker", and was found by John Conway in March 1970.
+#C The notation "+c*c" indicates the symmetry type of the oscillator, which
+#C is described later.
+#C
+#C Many oscillators were found by the following people or groups, so their
+#C names are abbreviated in this header:
+#C 
+#C    AF  = Achim Flammenkamp            AWH = Alan Hensel
+#C    DIB = David Bell                   DJB = David Buckingham
+#C    DRH = Dean Hickerson               DER = David Raucci
+#C    HH  = Hartmut Holzwart             JHC = John Conway       
+#C    KS  = Karel Suhajda                MDN = Mark Niemiec      
+#C    MM  = Matthias Merzenich           NB  = Nicolay Beluchenko
+#C    NDE = Noam Elkies                  PC  = Paul Callahan     
+#C    RCS = Rich Schroeppel              RTW = Robert Wainwright 
+#C    RWG = Bill Gosper                  SN  = Simon Norton
+#C
+#C
+#C    JHC group  = A group of people working with John Conway in the
+#C                 early 1970s, including Conway, S. R. Bourne,
+#C                 M. J. T. Guy, and Simon Norton.
+#C    MIT group  = A group of people at MIT during the early 1970s,
+#C                 including Robert April, Michael Beeler, Bill Gosper,
+#C                 Richard Howell, Rici Liknaitzky, Bill Mann,
+#C                 Rich Schroeppel, and Michael Speciner.
+#C 
+#C Also, many of the common oscillators were found independently by many
+#C people; this is indicated by an asterisk in the name field.
+#C
+#C Here are definitions of some terminology and notation used below; for
+#C a more extensive glossary, see Stephen Silver's Life Lexicon, at
+#C  http://www.argentum.freeserve.co.uk/lex_home.htm 
+#C 
+#C The 'rotor' consists of all cells in an oscillator which change state.
+#C The 'stator' consists of all cells which are alive in all generations.
+#C (These terms were introduced by Allan Wechsler in 1994.)
+#C
+#C An oscillator whose stator is large is often called a 'billiard table';
+#C such oscillators are somewhat easier to find than others, so many are
+#C included in this collection.
+#C
+#C The 'period' of an oscillator (or spaceship) is the smallest positive
+#C integer P for which generation P of the object is congruent to and in
+#C the same orientation as generation 0.  The 'mod' of an oscillator (or
+#C spaceship) is the smallest positive integer M for which generation M
+#C of the object is congruent to generation 0, but not necessarily in the
+#C same orientation.  The quotient q=P/M is always either 1, 2, or 4.  To
+#C specify both P and M, we often write "period P.M" or "period P/q".
+#C
+#C There are 43 types of symmetry that an oscillator can have, taking into
+#C account both the symmetry of a single generation and the change of
+#C orientation (if any) M generations later.  There are 16 types of
+#C symmetry that a pattern can have in a single generation.  Each of these
+#C is given a one or two character name, as follows:
+#C 
+#C    n   no symmetry
+#C 
+#C    -c  mirror symmetry across a horizontal axis through cell centers
+#C    -e  mirror symmetry across a horizontal axis through cell edges
+#C 
+#C    /   mirror symmetry across one diagonal
+#C 
+#C    .c  180 degree rotational symmetry about a cell center
+#C    .e  180 degree rotational symmetry about a cell edge
+#C    .k  180 degree rotational symmetry about a cell corner
+#C 
+#C    +c  mirror symmetry across horizontal and vertical axes meeting
+#C        at a cell center
+#C    +e  mirror symmetry across horizontal and vertical axes meeting
+#C        at a cell edge
+#C    +k  mirror symmetry across horizontal and vertical axes meeting
+#C        at a cell corner
+#C 
+#C    xc  mirror symmetry across 2 diagonals meeting at a cell center
+#C    xk  mirror symmetry across 2 diagonals meeting at a cell corner
+#C 
+#C    rc  90 degree rotational symmetry about a cell center
+#C    rk  90 degree rotational symmetry about a cell corner
+#C 
+#C    *c  8-fold symmetry about a cell center
+#C    *k  8-fold symmetry about a cell corner
+#C 
+#C For a period P/1 object, specifying the symmetry of generation 0 tells
+#C us all there is to know about the oscillator's symmetry.  For a period
+#C P/2 or P/4 object, we also need to know how gen M is related to gen 0.
+#C For the P/2 case, gen M can be either a mirror image of gen 0, a 180
+#C degree rotation of it, or a 90 degree rotation of it if the pattern
+#C has 180 degree rotational symmetry.  For the P/4 case gen M must be a
+#C 90 degree rotation of gen 0.  In any case, if we merge all gens which
+#C are multiples of M, the resulting pattern will have more symmetry than
+#C the original oscillator.  We describe the complete symmetry class of
+#C the oscillator by appending the one or two character description of
+#C the union's symmetry to that of gen 0's symmetry.  For example, if
+#C gen 0 has 180 degree rotational symmetry about a cell center, and
+#C gen M is obtained by reflecting gen 0 across a diagonal, then the
+#C union of gens 0 and M is symmetric across both diagonals, so its
+#C symmetry class is denoted ".cxc".
+#C 
+#C The 43 possible symmetry types are:
+#C 
+#C    period/mod = 1:  nn    -c-c  -e-e  //    .c.c  .e.e  .k.k  +c+c
+#C                     +e+e  +k+k  xcxc  xkxk  rcrc  rkrk  *c*c  *k*k
+#C 
+#C    period/mod = 2:  n-c   n-e   n/    n.c   n.e   n.k
+#C                     -c+c  -c+e  -e+e  -e+k
+#C                     /xc   /xk
+#C                     .c+c  .cxc  .crc  .e+e  .k+k  .kxk  .krk
+#C                     +c*c  +k*k  xc*c  xk*k  rc*c  rk*k
+#C 
+#C    period/mod = 4:  nrc   nrk
+#C 
+#C The collection includes examples of all of these with mod=1, and many
+#C with larger periods.
+#C
+#C ----------------------------------------------------------------------
+#C
+#C To add an oscillator to oscillators.txt, all you need is the RLE and
+#C optional comments. Make sure that there is no more than one #N or #O,
+#C and #N comes before #O comes before #C. If the period is 1000 or more,
+#C put a percent sign after the exclamation point at the end of the RLE,
+#C and the period number after the percent sign.
+#C While the file has oscillators sorted by period, the program will handle
+#C them correctly even if they are out of order. If a pattern is not a
+#C still life or oscillator, it will exclude it from the pattern, but it
+#C will take an extra half second to figure this out unless it completely
+#C dies first. Oscillators with width above 120 plus the digit width
+#C or period >= 1000 with max bounding box expanding after generation 1000
+#C are not supported unless the Python code is modified. ROW_WIDTH can be
+#C changed at the top of the code to increase the allowed width above 120.
+#C
+#C ----------------------------------------------------------------------
+#C
+#C Period 1 oscillators are usually called "still-lifes".  Programs
+#C written by MDN and others have counted the still-lifes with N cells
+#C for small N; the results up to N=20 are shown here:
+#C 
+#C N    4 5 6 7 8  9 10 11  12  13  14   15   16   17    18    19     20
+#C #    2 1 5 4 9 10 25 46 121 240 619 1353 3286 7773 19044 45759 112243
+#C 
+#C Those with up to 10 bits are included in the stamp collection.  So are
+#C some larger ones that either occur naturally in random soups, or are
+#C useful, or exemplify symmetry types.  I'm omitting the discoverers and
+#C dates for most of the small and naturally occurring ones, since they've
+#C been independently discovered many times.
+#C
+#C Frequencies listed are for 16x16 soups on an infinite grid. Most objects
+#C are 10 percent more common on a large torus (AF 2004, 2048x2048), at the
+#C expense of the block, which is about 6 percent less common, and the ship,
+#C which goes from 1 in 20 to 1 in 90.
+#N 1.0.0 Block [JHC group 1970]
+#C       Example of "*k" symmetry.
+#C       Used as an eater in many oscillators, too many to list. Also used as
+#C       a 'rephaser' in P135, 150, 230, and 240 oscillators. In 47.0.0, it acts as
+#C       an induction coil, preventing a line of 6 from growing new cells.
+#C       Still life frequency: 1 in 2; the most common object in 16x16 soups;
+#C       on a large torus, the blinker is slightly more common.
+#C 1.0.1 Tub [JHC group 1970]
+#C       Example of "*c" symmetry.
+#C       Used as an eater in most p29s, Eureka (P30), and 47.0.0.
+#C       A tub can stabilize an exposed line of five. This is usually done when reducing
+#C       population is the goal, but this collection is mainly optimized by bounding box,
+#C       where snakes are better.
+#C       Still life frequency: 1 in 65
+#C 1.0.2 Boat [JHC group 1970]
+#C       Example of "/" symmetry.
+#C       A glider that hits a snake in the correct position will produce a boat while
+#C       leaving the snake intact. See P60 section.
+#C       Still life frequency: 1 in 14
+#C 1.0.3 Ship [JHC group 1970]
+#C       Example of "xc" symmetry.  Used as an
+#C       eater of traffic lights in P24, 36, 44, 48, and 92 oscillators.
+#C       Still life frequency: 1 in 20 in 16x16 soups, but this is because
+#C       they form from Herschels. On a large torus, they are 1 in 90.
+#C 1.0.4 Beehive [JHC group 1970]
+#C       Example of "+e" symmetry.  This
+#C       often occurs in a group of 4, known as a "honey farm", which
+#C       arises, for example, from a beehive with an extra cell in one
+#C       of its corners.
+#C       A single beehive is also hassled in a P30 and P35 oscillator.
+#C       Still life frequency: 1 in 4
+#C 1.0.5 Aircraft carrier
+#C       Example of ".e" symmetry.
+#C       One of the 35 hexominoes becomes an aircraft carrier after one generation.
+#C       .o..
+#C       oooo
+#C       ..o.
+#C       Despite this, it's still quite rare for a 6-cell pattern, although not as
+#C       rare as the snake or the clock.
+#C       It's more common in HighLife (B36/S23), as the pi heptomino generates two of them.
+#C       Still life frequency: 1 in 8,000
+#C 1.0.6 Barge [JHC group 1970]
+#C       Example of "xk" symmetry.
+#C       Still life frequency: 1 in 1,000
+#C 1.0.7 Snake [JHC group 1970]
+#C       Example of ".k" symmetry.  Used in one P60 oscillator
+#C       and 15240.0.0 to convert a glider into a boat, which a
+#C       subsequent glider deletes.
+#C       Used as a rock in the conduit "Conduit 1" (aka BFx59H), as seen in
+#C       78.0.0, 98.0.0, and 190.0.0.
+#C       Still life frequency: 1 in 30,000; rarest 6-bit still life
+#C 1.0.8 Long snake
+#C       Also called a python, not to be confused with the programming language
+#C       Example of ".c" symmetry.
+#C       Rarest of the 7-bit still lifes in natural soups, at 1 in 700,000
+#C 1.0.9 Long boat [JHC group 1970]
+#C       Still life frequency: 1 in 200
+#C 1.0.10 Loaf [JHC group 1970]
+#C        Loaves can be flipped easily; this is part of how eater 3 works. See P8, 106,
+#C        and 133. Loaves can be flipped in other ways, too; see baker's dozen (P12),
+#C        loaflipflop (P15), one of the P20s, zweiback (P30), and popover (P32).
+#C        Still life frequency: 1 in 14
+#C 1.0.11 Eater 1 [* 1971]
+#C        Also called a fishhook
+#C        This is a very useful still-life,
+#C        because of its ability to eat gliders (see period 30 section), beehives
+#C        (see period 30 section), and lightweight and middleweight spaceships
+#C        (see period 46 section), and to modify many other things.  The term
+#C        "eater" also applies to other still-lifes (and occasionally
+#C        oscillators) that share this ability; the most useful of these
+#C        are the block, eater 2, and eater 3, but
+#C        many others are sometimes useful, including the tub,
+#C        ship, and snake.
+#C        Still life frequency: 1 in 5,000
+#C        Rarest object that can be the result of a 2-glider collision.
+#C 1.0.12 Long ship [JHC group 1970]
+#C        Still life frequency: 1 in 20,000
+#C 1.0.13 Very long snake
+#C        Still life frequency: 1 in 2M
+#C 1.0.14 Pond
+#C        Still life frequency: 1 in 70
+#C        Has a 4-cell predecessor
+#C        o..
+#C        .oo
+#C        .o.
+#C 1.0.15 Hook with tail
+#C        Still life frequency: 1 in 3M
+#C 1.0.16 Mango
+#C        Still life frequency: 1 in 2,750
+#C 1.0.17 Long barge [JHC group 1970]
+#C        Still life frequency: 1 in 7,000
+#C 1.0.18 Canoe
+#C        Also called sinking ship
+#C        Still life frequency: 1 in 200,000
+#C 1.0.19 Shillelagh [Charles L. Corderman & Hugh Thompson 1971]
+#C        Still life frequency: 1 in 30,000
+#C 1.0.20 Tub with tail [Charles L. Corderman & Hugh Thompson 1971]
+#C        Still life frequency: 1 in 125,000
+#C 1.1.0 Hat
+#C       Found in 1971. Example of "-c" symmetry.
+#C       Still life frequency: 1 in 80,000
+#C 1.1.1 Very long boat
+#C       Still life frequency: 1 in 100,000
+#C       Rarest still life with a 3-glider synthesis
+#C 1.1.2 Long^3 snake
+#C       Rarest 9-bit still life, at 1 in 35M
+#C 1.1.3 Integral sign
+#C       Still life frequency: 1 in 22,500
+#C       Anything with the same basic form as an eater can eat gliders, including the integral.
+#C 1.1.4 Trans-boat with tail
+#C       Trans- and cis- have the same meanings as they do in organic chemistry.
+#C       Still life frequency: 1 in 60,000, which is 17 times as
+#C       common as cis-boat with tail
+#C 1.1.5 Cis-boat with tail
+#C       Still life frequency: 1 in 1.1M
+#C 1.1.6 Long canoe
+#C       Still life frequency: 1 in 4M
+#C 1.1.7 Long shillelagh
+#C       Still life frequency: 1 in 2.5M
+#C 1.1.8 Tub with long tail
+#C       Still life frequency: 1 in 3M
+#C 1.1.9 Long hook with tail
+#C       Still life frequency: 1 in 17.5M
+#C 1.1.10 Very long ship
+#C        Still life frequency: 1 in 100,000
+#C 1.1.11 Integral with hook
+#C 1.1.12 Beehive with tail
+#C        Still life frequency: 1 in 500,000
+#C 1.1.13 Cis-barge with tail
+#C        Still life frequency: 1 in 20M
+#C 1.1.14 Claw with tail
+#C        Still life frequency: 1 in 4M
+#C 1.1.15 Cis-hook with tail
+#C 1.1.16 Loop
+#C        Still life frequency: 1 in 700,000
+#C 1.1.17 Block on table
+#C        Still life frequency: 1 in 350,000
+#C 1.2.0 Barge siamese loaf
+#C       Still life frequency: 1 in 20M
+#C 1.2.1 Very long barge
+#C       Still life frequency: 1 in 8M
+#C 1.2.2 Long^4 snake
+#C 1.2.3 Long integral
+#C       Still life frequency: 1 in 3M
+#C 1.2.4 Boat with long tail
+#C       Still life frequency: 1 in 2.25M
+#C 1.2.5 Cis-shillelagh
+#C       Unlike most objects called cis- or trans-, this still
+#C       life has two more cells than shillelagh
+#C       Still life frequency: 1 in 1.3M
+#C 1.2.6 Integral with tub
+#C       Also called prodigal; the name came from "prod" = product
+#C       in relation to integrals providing sums
+#C       Still life frequency: 1 in 1.7M
+#C 1.2.7 Trans-barge with tail
+#C       Still life frequency: 1 in 6M
+#C 1.2.8 Fuse with two tails
+#C 1.2.9 Boat-tie
+#C       Pun on bowtie
+#C       Still life frequency: 1 in 30,000
+#C 1.2.10 Very long canoe
+#C 1.2.11 Snake siamese snake
+#C 1.2.12 Carrier siamese snake
+#C        Also called broken snake
+#C        Still life frequency: 1 in 2M
+#C 1.2.13 Carrier siamese carrier
+#C        Still life frequency: 1 in 20M
+#C 1.2.14 Tub with very long tail
+#C 1.2.15 Very long shillelagh
+#C        Still life frequency: 1 in 18M
+#C 1.2.16 Very long hook with tail
+#C 1.2.17 Table and table
+#C        Still life frequency: 1 in 150,000
+#C        1 in 10,000 in D2 symmetry (reflection)
+#C 1.2.18 Moose antlers
+#C        Still life frequency: 1 in 300,000
+#C 1.3.0 Twin hat
+#C       Still life frequency: 1 in 600,000
+#C 1.3.1 Dead spark coil
+#C       Usually formed by two pi heptominoes facing each other three cells apart.
+#C       Still life frequency: 1 in 175,000
+#C       1 in 1,500 in D2 symmetry (reflection)
+#C 1.3.2 Fourteener
+#C       Still life frequency: 1 in 700,000
+#C 1.3.3
+#C       Example of "+c" symmetry
+#C 1.3.4 Honeycomb
+#C       Much more common in rules with S8, as a line of six becomes a honeycomb
+#C 1.3.5 Ship-tie
+#C       A "fleet" consists of 2 of these,
+#C       and arises, for example, from a ship with an extra bit added
+#C       at one end.
+#C       Still life frequency: 1 in 400 on a 16x16 soup; 1 in 500 on a large
+#C       torus; one of the few objects to be rarer on a torus.
+#C 1.3.6 Paperclip
+#C       Still life frequency: 1 in 14,000
+#C 1.3.7 Big S
+#C Still life frequency: 1 in 30,000 [MIT group 1971]
+#C 1.3.8 Boat-ship tie
+#C       While rare (1 in 75,000), it's the most common still life with an odd
+#C       number of cells that's greater than 10.
+#C 1.3.9 Block on dock
+#C       Still life frequency: 1 in 400,000
+#C 1.3.10 Scorpion
+#C        Occurs in gens 4760-5165 of "rabbits", this 9-bit
+#C        methuselah found by Andrew Trevorrow:
+#C        o...ooo
+#C        ooo..o.
+#C        .o.....
+#C        Still life frequency: 1 in 500,000
+#C 1.3.11 Cap and table
+#C        Example of "-e" symmetry
+#C 1.3.12 Half-bakery
+#C        As its name would suggest, they often appear in pairs.
+#C        Still life frequency: 1 in 1250
+#C 1.3.13 Bi-pond
+#C        While not common (1 in 35,000), when it does appear, it's often in pairs.
+#C        A 9-cell predecessor produces a pair of them.
+#C        ..o..
+#C        ...o.
+#C        oo..o
+#C        ..ooo
+#C        ...o.
+#C 1.3.14 Cis-mirrored R-bees
+#C        Can be modified by either flipping one of the halves
+#C        and/or by moving one of them two cells up or down.
+#C        Still life frequency: 1 in 250,000
+#C        1 in 4,000 in D2 symmetry (reflection)
+#C 1.3.15 Beehive on dock
+#C        Still life frequency: 1 in 300,000
+#C 1.3.16 Bookends
+#C        Like the R-bees, one side can be mirrored and/or
+#C        shifted two cells.
+#C        Still life frequency: 1 in 900,000
+#C        1 in 2,000 in D2 symmetry (reflection)
+#C 1.4.0 Spiral [RTW 1971]
+#C       Example of "rc" symmetry
+#C 1.4.1 Eater 2 [DJB]
+#C       See periods 13, 225, and 226.
+#C       There are other forms of this eater, as long as it has the block in the corner;
+#C       see period 190 for this.
+#C 1.4.2
+#C       Example of "+k" symmetry
+#C 1.4.3
+#C       Example of "rk" symmetry
+#C 1.4.4 7x9 eater
+#C       See P22, P25, and P94 sections.
+#C 1.4.5 31.4 [Mike Playle, 2013]
+#C       Used in the Snark, which is probably the most important discovery in the 2010s.
+#C 1.4.6 O quad loaf
+#C       Still life frequency: 1 in 27.5M; very common for 28 bits
+#C 1.4.7 Eater 3 [DJB 6/22/77]
+#C       Eater 3 is technically a pseudo-still life, as the loaf is not required for
+#C       stability. It is, however, required for it to work as an eater.
+#C       See the period 8, 52, 55, 106, and 133 sections for the eater 3 in action, plus
+#C       P42, 50, 230, 246, and 282 for glider shuttles involving the eater 3.
+#C 1.4.8 Eater 4 [DJB]
+#C       See the period 9, 11, 29, 30, and 58 sections for the eater 4 in action.
+#C 1.4.9 [DJB]
+#C       Unnamed eater
+#C ----------------------------------------------------------------------
+#C 2.0.0 Blinker [JHC 3/70]
+#C       Example of "+c*c" symmetry.  This
+#C       often occurs in a group of 4, known as a "traffic light",
+#C       which arises, for example, from a T-tetromino.
+#C       99.0% of oscillators from a random soup are blinkers.
+#C       Most common object on a large torus; barely behind the block in
+#C       a 16x16 soup if you count only surviving objects.
+#C       Blinkers can be rephased; see 66P13, P35 traffic light hassler, and 47.0.0;
+#C       since these numbers are odd, they would not work without rephasing.
+#C 2.0.1 Toad [SN 5/70]
+#C       Toads can be used as induction coils for rows that alternate 5 and 6 cells;
+#C       there are several examples in the P2 section.
+#C       See discussion of toad hasslers in the P60 section.
+#C       Oscillator frequency: 1 in 130, total frequency: 1 in 375,
+#C       although it might be a bit more common if
+#C       you count all created objects instead of just surviving ones.
+#C 2.0.2 Beacon [JHC 3/70]
+#C       See the P24 shuttle and one of the P26 oscillators.
+#C       Oscillator frequency: 1 in 400, total frequency: 1 in 1200
+#C 2.0.3 Clock [SN 5/70]
+#C       Example of ".kxk" symmetry.
+#C       Clocks are occasionally used in stabilizations;
+#C       see the P10, 14, 18, and 124 sections.
+#C       Oscillator frequency: 1 in 750,000; very rare despite its size.
+#C       However, this still gives it rank #6.
+#C 2.0.4 Bipole
+#C       Example of ".cxc" symmetry.
+#C       Oscillator frequency: 1 in 3M
+#C 2.0.5 Tripole
+#C       Example of "/xk" symmetry.
+#C       Oscillator frequency: 1 in 100M
+#C 2.0.6 Quadpole
+#C       Example of ".cxc" symmetry.
+#C       Oscillator frequency: 1 in 3.5M
+#C       More common than tripole, due to a reaction converting a ship into a quadpole.
+#C 2.0.7 Fox [DHB 7/77]
+#C       Smallest asymmetric P2
+#C 2.0.8 Phoenix 1 [MIT group 12/71]
+#C       Also known as flip-flops
+#C       Example of "rk*k" symmetry.
+#C 2.0.9 Lei
+#C       There are six 12-bit P2 oscillators: lei, fox, phoenix, hexapole,
+#C       and two variants of beacon on table.
+#C 2.0.10 By flops [RTW]
+#C        Example of "-c+e" symmetry.
+#C        There are only three 13-bit P2 oscillators: by flops, bipole tie boat,
+#C        and heptapole.
+#C 2.0.11 Test tube baby
+#C 2.0.12
+#C        There are 20 14-bit P2 oscillators. 7 include beacons, 7 include barber poles,
+#C        and the remaining 6 are eater plug, why not, test tube baby, and three unnamed.
+#C 2.0.13 Why not [DJB 7/77]
+#C 2.0.14
+#C 2.1.0 Eater plug [RTW 2/73]
+#C 2.1.1 Piston [* 1971]
+#C       Example of "-c+c" symmetry.
+#C 2.1.2
+#C       Example of "-c+c" symmetry.
+#C 2.1.3 Quad [Robert A. Kraus 4/71]
+#C       Example of "rk*k" symmetry.
+#C 2.1.4
+#C       Example of "-c+e" symmetry.
+#C       Has appeared semi-naturally (i.e. from symmetric soup)
+#C 2.1.5 Blinkers bit pole [RTW 6/77]
+#C       Example of "n.e" symmetry.
+#C 2.1.6 [DRH 5/20/93]
+#C       Example of "n.k" symmetry.
+#C 2.1.7 [DRH 5/20/93]
+#C       Example of "n.k" symmetry.
+#C 2.1.8 Washing machine [RTW before 6/72]
+#C       Example of "xc*c" symmetry.
+#C 2.1.9 Block on griddle [RTW 7/72]
+#C       Can be stabilized other ways
+#C       Example of "n-e" symmetry.
+#C 2.1.10 [DRH 5/20/93]
+#C        Example of "n-c" symmetry.
+#C 2.2.0 [DRH 5/20/93]
+#C       Example of "n/" symmetry.
+#C 2.2.1 Laputa [RCS 9/23/92]
+#C       Example of "n.e" symmetry.
+#C 2.2.2 [DRH 5/20/93]
+#C       Example of "n.c" symmetry.
+#C 2.2.3 Fore and back [AF 7/12/94]
+#C       Example of ".c+c" symmetry.
+#C 2.2.4 Snake pit [MDN, 1972]
+#C       A period 2 oscillator with the same rotor as fore and back.
+#C       Has appeared semi-naturally (i.e. from symmetric soup)
+#C 2.2.5 Skewed quad
+#C       A period 2 oscillator and muttering moat.
+#C 2.2.6 Spark coil [* 1971]
+#C       Usually formed by two pi heptominoes facing each other four cells apart.
+#C       Oscillator frequency: 1 in 15M
+#C 2.2.7 Four boats
+#C 2.2.8 [DRH 4/23/93]
+#C       Example of ".k+k" symmetry.
+#C 2.2.9 [DRH 1994]
+#C       Infinitely extensible
+#C 2.2.10 Light bulb [* 1971]
+#C 2.3.0
+#C       Variant of light bulb
+#C 2.3.1 Almosymmetric [* 1971]
+#C       Example of "n-e" symmetry.
+#C 2.3.2 [DRH 4/23/93]
+#C       Example of ".c+c" symmetry.
+#C 2.3.3 Example of ".cxc" symmetry.
+#C 2.3.4 [DRH 4/23/93]
+#C       Example of "/xc" symmetry.
+#C 2.3.5 [AWH 8/25/94]
+#C       Infinitely extensible
+#C 2.3.6
+#C       Example of ".kxk" symmetry.
+#C 2.3.7 [DRH 1973]
+#C       Example of "-e+e" symmetry.  Infinitely extensible.
+#C 2.3.8 [DRH 4/23/93, stator since improved]
+#C       Example of "-e+e" symmetry.
+#C 2.4.0 [DRH 4/23/93]
+#C       Example of "-e+e" symmetry.
+#C 2.4.1 [DRH 4/23/93]
+#C       Example of "-e+k" symmetry.
+#C 2.4.2 [DRH 1994]
+#C       Infinitely extensible
+#C 2.4.3 Scrubber [* 1971]
+#C       One of the most common results from a random soup on a 6x6 torus,
+#C       where the edges stabilize each other.
+#C 2.4.4 [DRH 4/23/93]
+#C       Example of ".crc" symmetry.
+#C 2.4.5 [AF 7/26/94]
+#C       Example of "rk*k" symmetry.  A muttering moat.
+#C 2.4.6
+#C       Example of ".e+e" symmetry.
+#C 2.4.7
+#C       Example of "+k*k" symmetry.
+#C 2.5.0 [DRH 4/23/93]
+#C       Example of "rc*c" symmetry.
+#C 2.5.1 [DRH 4/23/93]
+#C       Example of "xk*k" symmetry.
+#C 2.5.2 [DRH 1994]
+#C       Infinitely extensible
+#C 2.5.3
+#C       Example of "+k*k" symmetry.
+#C 2.5.4 [RTW <1990]
+#C       Infinitely extensible
+#C 2.5.5
+#C       Example of "xk*k" symmetry.
+#C 2.6.0
+#C       Example of ".krk" symmetry.
+#C 2.6.1 [RTW <1990]
+#C       Infinitely extensible
+#C 2.6.2 [bottom end: RTW <1990; top end: DRH 1995]
+#C       Infinitely extensible
+#C 2.6.3 [RTW <1990]
+#C       Infinitely extensible
+#C 2.6.4 [Agar found by Robert A. Kraus 1971, stabilized by ????]
+#C 2.6.5 [DRH 1994]
+#C       Infinitely extensible
+#C 2.7.0 Ring of fire [DRH 9/24/92]
+#C       A "muttering moat"; i.e. an oscillator whose rotor consists of a closed loop of cells,
+#C       each of which touches exactly 2 others.
+#C 2.7.1 Squaredance [Agar found by Don Woods, 1971, stabilized by DRH 3/25/93]
+#C 2.7.2 [Agar found by Robert A. Kraus 1971, stabilized by DRH 12/13/94]
+#C 2.7.3
+#C 2.8.0 Houndstooth agar [DRH 3/30/94]
+#C 2.8.1 Venetian blinds [DRH 9/12/92]
+#C       This uses diagonal edges for the agar.  A vertical edge is also known, along with a corner
+#C       joining it to the diagonal edge.  It's easy to prove that horizontal edges don't exist.
+#C 2.8.2 [DRH 12/4/94, improved by MDN 12/6/94]
+#C ----------------------------------------------------------------------
+#C 3.0.0 [DRH 8/89]
+#C       volatility 17/18
+#C 3.0.1 Candlefrobra [DRH 9/10/89]
+#C 3.0.2 Bent keys [DRH 8/89]
+#C 3.0.3 Short keys [DRH 8/89]
+#C 3.0.4 [AF 7/13/94]
+#C 3.0.5 Jam [AF 1988]
+#C       Used in another P3, a P18, and a P36 (don't confuse with mold).
+#C       Also don't confuse with traffic jams, which are completely unrelated.
+#C 3.0.6 Trice tongs [RTW 2/82]
+#C 3.0.7 [left side by DRH 8/89, right side by Charles Trawick 6/71]
+#C       2 related wicks.  The one on the right is Candelabra.  The wick
+#C       can also turn a corner.
+#C 3.1.0 [RTW 11/84]
+#C       DRH calls this Candlefrobra, which is now used to refer to a different
+#C       period-3 oscillator.
+#C 3.1.1 2 eaters [RWG 9/71]
+#C 3.1.2 Cuphook [RCS 10/70]
+#C 3.1.3 Stillater [RTW 9/85]
+#C 3.1.4 Six Ls
+#C       A period 3 oscillator that has the same rotor as loading dock.
+#C       Has appeared semi-naturally (i.e. from symmetric soup)
+#C 3.1.5
+#C 3.1.6 [NB, Dec 2012]
+#C 3.1.7 [NB, Dec 2012]
+#C 3.2.0 Caterer [DRH 8/4/89]
+#C       Provides a spark used in other oscillators
+#C 3.2.1 Pulsar quadrant [DJB#46 7/73]
+#C 3.2.2 1-2-3 [DJB#4 8/72]
+#C 3.2.3 [AF 8/22/94, stator since reduced]
+#C 3.2.4 Loading dock [DJB#3 9/72]
+#C       Has appeared semi-naturally (i.e. from symmetric soup)
+#C 3.2.5 Snake dance [RTW 5/72]
+#C       Has appeared semi-naturally (i.e. from symmetric soup)
+#C 3.2.6 New five [DRH 1/90]
+#C 3.2.7 [DJB#92 7/26/76]
+#C 3.2.8 Surprise [DJB#10 11/72]
+#C 3.3.0 [DRH 11/27/94]
+#C       Volatility -> 1 as length increases. (Volatility = number
+#C       of rotor cells divided by total number of cells in rotor and stator.)
+#C 3.3.1 Eaters plus [RTW 7/91]
+#C       Also called French kiss
+#C       Has appeared semi-naturally (i.e. from symmetric soup)
+#C 3.3.2 Two pulsar quadrants [DJB#47 7/73]
+#C 3.3.3 [RTW 4/82]
+#C 3.3.4 Germ [DJB#9 9/72]
+#C 3.3.5 Mini pressure cooker [RTW before 6/72]
+#C 3.3.6 Cross [RTW 10/89]
+#C       One of the few known oscillators in which one phase is a polyomino. 
+#C 3.4.0 Runny nose [83bismuth38, 2017]
+#C 3.4.1 [NB, Jan 2013]
+#C 3.4.2 [NB, Jan 2013]
+#C 3.4.3 Fire-spitting [NB, 09/2003]
+#C 3.4.4 [DJB#7 <=1976]
+#C       Same rotor as in "2 eaters".
+#C 3.4.5 [RTW 6/72]
+#C 3.4.6 Triple caterer [DRH 8/89]
+#C 3.4.7 [DRH 1/90]
+#C       Smallest known p3 (as of 1995) in which a corner of the
+#C       bounding box is active.
+#C 3.4.8 [NB, Jan 2013]
+#C 3.4.9 [NB, Jan 2013]
+#C 3.4.10 [NB, Jan 2013]
+#C 3.5.0 [NB, 2013?]
+#C 3.5.1 Snake pit 2
+#C       Has appeared semi-naturally (i.e. from symmetric soup)
+#C 3.5.2 Biting off more than they can chew [Peter Raynham 7/72]
+#C       Has appeared semi-naturally (i.e. from symmetric soup)
+#C 3.5.3 Pressure cooker [MIT group 9/71]
+#C 3.5.4 Hustler [RTW 6/71]
+#C 3.5.5 Double caterer [DRH 8/89]
+#C 3.5.6 P3 rumbling river [DRH 11/26/94]
+#C       The rotor is connected and contained in a strip of height 2.
+#C 3.6.0
+#C 3.6.1 [NB, Jan 2013]
+#C 3.6.2 Tubber [RTW before 6/72]
+#C       Rotor is confined to 2 parallel diagonals.
+#C 3.6.3 Diamond ring [DJB#2 1972]
+#C       Has appeared semi-naturally (i.e. from symmetric soup)
+#C 3.6.4 [RTW 8/89]
+#C 3.6.5 [AF 7/30/94 (symmetric form)]
+#C 3.6.6 Star [HH 2/16/93]
+#C       Another polyomino.
+#C 3.6.7 [HH 3/5/93]
+#C       Any of its four corners can be present or absent, and it will still work
+#C 3.7.0 [DRH 9/18/89]
+#C 3.7.1 [DRH 8/89]
+#C 3.7.2 [DRH 8/89]
+#C 3.7.3 2x3 cross [HH 2/26/93]
+#C       A larger version of Cross, which may be made any size.
+#C 3.7.4 Pulsar [JHC 3/70]
+#C       The first known, and most commonly occurring, p3 oscillator.
+#C       Oscillator frequency: 1 in 5,000; ranked #4 behind blinker, toad, and beacon
+#C       About 25 percent rarer on a large torus than a 16x16 soup.
+#C 3.7.5 [HH 3/5/93]
+#C 3.7.6 Trans-skewed pulsar quadrants
+#C 3.8.0 [DRH 1994]
+#C 3.8.1 [DJB#103 6/3/77]
+#C       Rotor has symmetry type "-c", but stator can't be made symmetric.
+#C 3.8.2 [DRH 10/89]
+#C 3.8.3 Double ewe [RTW before 9/71]
+#C 3.8.4 Skewed traffic light [RTW 8/89]
+#C       Uses two caterers and two jams, but could just as easily use four of either
+#C 3.8.5 [DRH 11/27/94]
+#C 3.9.0
+#C 3.9.1 [DJB#79 6/6/76]
+#C       (DJB found the smallest form of this, with
+#C       just 1 2x3 rectangle.  I don't know who found the wick.)
+#C 3.9.2 [DRH 11/27/94]
+#C 3.9.3 [RWG 9/22/94]
+#C 3.10.0 Statorless P3 [Jason Summers, 2012]
+#C        This oscillator was the first discovered P3 to have volatility 1
+#C 3.10.1 Quasar [RTW 8/71]
+#C 3.10.2 [DIB 3/7/93]
+#C 3.11.0
+#C        Period 3 agar
+#C 3.11.1
+#C        Period 3 agar
+#C ----------------------------------------------------------------------
+#C 4.0.0 Mold [AF 1988]
+#C       Period 4/2, symmetry type "n/". Supplies a 1-bit spark 
+#C       that's used, e.g., in several p28s and p32s and the p100 and p200 traffic light jams.
+#C       Most common natural p4 (1 in 20M), although still rare.
+#C 4.0.1 Lightweight emulator
+#C Has appeared semi-naturally (i.e. from symmetric soup) [RTW 6/80]
+#C 4.0.2 Monogram [DRH 8/11/89]
+#C       Period 4/2, symmetry type "+c*c".  Supplies a spark that's used in some P12s.
+#C 4.0.3 [DJB#15 <1973]
+#C       Babbling brook
+#C 4.0.4 [RTW 1989]
+#C 4.0.5 Middleweight emulator [RTW 6/80]
+#C       Supplies a 1-bit spark
+#C       Has appeared semi-naturally (i.e. from symmetric soup)
+#C 4.0.6 Heavyweight emulator [RTW 6/80]
+#C       Supplies a domino spark
+#C       Has appeared semi-naturally (i.e. from symmetric soup)
+#C 4.0.7 [JS]
+#C 4.1.0 Mazing [DJB#45 12/73]
+#C       Period 4/2, symmetry type "/xk".
+#C       Used in sixty-nine (P4) and popover (P32)
+#C       Oscillator frequency: 1 in 100M
+#C 4.1.1 Tempest [DRH 8/89]
+#C       Period 4/2, symmetry type "/xk".
+#C 4.1.2 20P4 [DRH before 4/92]
+#C 4.1.3 [DRH 9/89]
+#C 4.1.4 [DJB#104 6/3/77]
+#C       Babbling brook
+#C 4.1.5 [DRH 8/89]
+#C 4.1.6 [DJB#98 4/28/77]
+#C       Period 4/2, symmetry type "n-e".
+#C 4.2.0 [DRH 10/89]
+#C       Related to the P60 toad hasslers.
+#C 4.2.1 [DRH ????, DIB 12/11/94]
+#C 4.2.2
+#C 4.2.3 Achim's p4 [DJB#88 1976, AF 1988]
+#C       DJB found a larger form of this, using the same pieces that occur in siesta
+#C       (period 5) and sombreros (period 6).  AF found the smaller version.
+#C 4.3.0 [DRH 3/90]
+#C       Period 4/2, symmetry type "n/".
+#C 4.3.1 [DRH 3/90]
+#C       Period 4/2, symmetry type "n/".
+#C 4.3.2 [DRH 3/90]
+#C       Period 4/2, symmetry type "n/".
+#C 4.3.3 Jack [RTW 4/84]
+#C       Has appeared semi-naturally (i.e. from symmetric soup)
+#C 4.3.4 Ellison p4 HW emulator hybrid [Scot Ellison, April 2010]
+#C       A period 4 oscillator that produces a domino spark.
+#C 4.3.5 Eater/block frob [DJB#51 <=1976]
+#C 4.3.6 [DRH 11/10/94]
+#C       Babbling brook
+#C 4.3.7 [DRH 8/89]
+#C       Period 4/2, symmetry type "n-e".
+#C 4.3.8 [DRH 8/89]
+#C       Period 4/2, symmetry type "n-e".
+#C 4.4.0 Penny lane [DJB#123 1972]
+#C       Like any row of 5, replacing the tub with a snake reduces the bounding
+#C       box by 1 row but increases the population by 2.
+#C 4.4.1 [DJB#20 <1977]
+#C 4.4.2 [DRH 12/10/94]
+#C 4.4.3 [DRH 8/89, AF 1994]
+#C 4.4.4 Confused eaters [DJB#49 before 1973]
+#C       Period 4/2, symmetry type "n/".
+#C 4.4.5 [DJB#13 before 1973]
+#C       Babbling brook. Period 4/2, symmetry type "n/".
+#C 4.4.6 [AF 7/17/94 (symmetric form), RWG,AWH 11/20/94]
+#C 4.4.7 [RTW 11/90]
+#C 4.5.0
+#C 4.5.1 [12/6/94]
+#C 4.5.2 [???? 1971]
+#C 4.5.3 [RWG 9/17/94 (wick), 11/20/94 (ends)]
+#C       The repeating part of this wick may be attached to itself in 6 different ways.
+#C 4.5.4 [MM, Oct 2013 (using WLS)]
+#C       (possibly known earlier)
+#C 4.6.0 Purveyor [83bismuth38 1/26/22]
+#C       Provides a spark similar to caterer, but it's p4, not p3
+#C       An example of purveyor in action can be seen in the p28 section.
+#C 4.6.1 [DJB#23 <1973?]
+#C 4.6.2 Pinwheel [SN 4/70]
+#C       Period 4/4, symmetry type "nrk".
+#C 4.6.3 Clock II
+#C       Period 4/4, symmetry type "nrk".
+#C 4.6.4 T-nosed P4 [RTW 1989]
+#C       Featured prominently in several P36 oscillators, as well as P8, 16, 44, 52, and 56.
+#C 4.6.5 [DRH 8/89]
+#C       Period 4/2, symmetry type "n-C".
+#C 4.6.6 [DJB#21 <1973]
+#C 4.6.7 [DRH 12/10/94]
+#C 4.6.8 [DRH 7/14/94]
+#C 4.7.0 [DRH 4/6/92]
+#C 4.7.1
+#C       Lightweight variant, also exists in middleweight and heavyweight variants
+#C 4.7.2
+#C       A narrower but longer T-nosed p4
+#C 4.7.3 Wavefront [DJB#24 <= 1976]
+#C       Rotor is confined to 2 parallel diagonals. 
+#C 4.7.4 Gray counter [???? 1971]
+#C       Goes through Gray codes 0-3; Gray codes and Gray counters are not exclusive
+#C       to Conway's Game of Life
+#C       Has appeared semi-naturally (i.e. from symmetric soup)
+#C 4.7.5 [AF, AWH, DRH, 1994]
+#C       Only 3 cells are p4; the rest are p1 or p2.
+#C 4.7.6 [AF 8/31/94 (symmetric form)]
+#C 4.7.7 [DJB#69 <=1976]
+#C 4.7.8 [DRH 12/10/94]
+#C 4.8.0 Overweight emulator [RTW ????]
+#C 4.8.1 [AWH 2/10/95]
+#C 4.8.2 T-nosed P4 variant [Entity Valkyrie]
+#C 4.8.3 [DJB#28 before 1973?]
+#C       Rotor is p4/2, symmetry type "rk*k".
+#C 4.8.4 Boss [DJB#30 1972]
+#C 4.8.5 [DRH 12/10/94]
+#C 4.8.6 Butter [Entity Valkyrie]
+#C 4.8.7 [AF 8/23/94 (symmetric form)]
+#C 4.9.0 [DRH 12/10/94]
+#C 4.9.1
+#C 4.9.2 Fountain [DRH 11/28/94]
+#C       Supplies a spark that's used in some P24 and P124 oscillators.
+#C       It can also be used (not shown) to double the period of a period 4N+2 MWSS stream.
+#C 4.9.3 [RTW 9/89]
+#C 4.9.4 [AF 7/13/94]
+#C       May be compressed horizontally by 1 or 2 cells.
+#C 4.9.5 Octagon 4 [RTW 1/79]
+#C       An octagon of side 4. The edges can also be stabilized using eaters or toads.
+#C       This also works if a block is added in the center.
+#C       Has appeared semi-naturally (i.e. from symmetric soup)
+#C 4.10.0 [RTW 9/91]
+#C 4.10.1 [DRH 1/10/95]
+#C        Period 4/4, symmetry type "nrc".
+#C 4.10.2
+#C 4.11.0 Windmill [DRH 11/89]
+#C 4.11.1 [RTW ????, AF 8/7/94]
+#C        An octagon of side 2, showing 2 ways to stabilize the edge.
+#C 4.11.2 [MM, Jan 2011]
+#C        (based on a sparker by Noam Elkies)
+#C 4.11.3 [RTW before 10/92]
+#C        The molds can be replaced by middleweight emulators.
+#C 4.11.4 [DRH >=11/30/94]
+#C        Supplies a spark that's used in other oscillators.
+#C        It can also be used (not shown) to
+#C        double the period of a period 4N+2 HWSS stream.
+#C 4.11.5 [DRH 1/10/95]
+#C        Period 4/4, symmetry type "nrc".
+#C 4.11.6 [DRH 9/89]
+#C        An octagon of side 3, showing 4 ways to stabilize the edge.
+#C 4.12.0 [DRH,RTW 9/89, AF 8/7/94]
+#C        An octagon of side 5, showing 4 ways to stabilize the edge.
+#C 4.12.1 Sixty-nine [RTW 10/78]
+#C        Period 4/4, symmetry type "nrk".
+#C 4.12.2
+#C 4.12.3 [RTW 9/89 ]
+#C        Period 4/2, symmetry type ".crc".
+#C 4.12.4 [DRH 1994]
+#C 4.13.0 [DRH]
+#C        Period 4/2, symmetry type "+k*k".
+#C 4.13.1 [DIB,DRH 12/12/94]
+#C 4.13.2 [DRH 1994]
+#C 4.13.3 [DRH 9/16/92]
+#C        Stabilized p4 agar, made of several parallel lines.
+#C 4.13.4 [RTW 9/91, DRH 1/14/95]
+#C        First stabilization (not shown here) was found by RTW 9/91.
+#C 4.14.0 Strictly volatile p4 [Dongook Lee 11/18/21]
+#C ----------------------------------------------------------------------
+#C 5.0.0 Fumarole [DRH 9/3/89]
+#C       Supplies a domino spark that's used
+#C       in traffic jam oscillators such as those in period 25, 50, 100, 110, and 200.
+#C       (The domino spark in a HW volcano is more usable.)
+#C 5.0.1 Silver's p5 [Stephen Silver, February 2000]
+#C 5.0.2 Octagon 2 [Sol Goodman & Arthur C. Taber 1971]
+#C       Can be seen in one P25 and the P50 and P110 traffic jams.
+#C       Most common period 5 oscillator
+#C 5.0.3 Scot's p5 [Scot Ellison, 06/08]
+#C       Has appeared semi-naturally (i.e. from symmetric soup)
+#C 5.0.4 Elkies' p5 [NDE 1997]
+#C       Has appeared naturally in an asymmetric soup
+#C 5.0.5 5blink [Scot Ellison]
+#C 5.0.6 Heart [RTW 1/82, DJB#145 8/15/84]
+#C       One of the few P5s to occur naturally, with many stator variants
+#C 5.0.7 [DJB#163 2/19/87]
+#C 5.0.8 Hooks
+#C       Uses a catalyst that's also used in 28P7.2.
+#C       Related to pentant in a different way.
+#C 5.1.0 [DRH]
+#C       There are 6 adjacent columns with only 1 active cell each.
+#C 5.1.1 Swine [Scot Ellison]
+#C       extensible p5 oscillator; name short for Scot's p5 With INsErt.
+#C 5.1.2 Montana [Scot Ellison, June 2011]
+#C       http://www.conwaylife.com/wiki/Montana
+#C 5.1.3 Technician [DJB#33 1/73]
+#C 5.1.4 Mathematician [DJB#34 1972]
+#C 5.1.5 [DJB#160 1/6/87]
+#C 5.2.0 [DJB#101 5/2/77]
+#C 5.2.1 [DJB#44]
+#C 5.2.2 Pedestle [DJB#39 1973]
+#C       Contains two copies of the rotor in technician
+#C 5.2.3 Pseudo-barberpole [AF 8/22/94]
+#C       Has appeared semi-naturally (i.e. from symmetric soup)
+#C 5.2.4 [RTW 1/82 (DJB#146)]
+#C 5.2.5 Pentant [DJB#85 7/11/76]
+#C       Also see hooks, which is also period 5.
+#C 5.2.6 101 [AF 8/19/94]
+#C       Named because one phase looks like it says "101", and 5 is 101 in binary
+#C       Has appeared semi-naturally (i.e. from symmetric soup)
+#C 5.2.7 Siesta [DJB#57 1973]
+#C 5.3.0 [DJB#84 7/76?]
+#C 5.3.1 [AF 7/27/94]
+#C 5.3.2 aVerage [DJB#35 1973]
+#C 5.3.3 Middleweight volcano [DRH 4/6/92]
+#C       Supplies sparks that are used in some oscillators of
+#C       periods 20, 25, 30, 125, and 230.
+#C 5.3.4 Chemist [DJB#38 1973]
+#C 5.3.5 [DJB#87 7/15/76]
+#C 5.3.6 Pentoad [RWG 6/77]
+#C       Has appeared semi-naturally (i.e. from symmetric soup)
+#C 5.3.7
+#C       Based on the pseudo-barberpole
+#C 5.4.0
+#C       The basis of the P17 and P27 phase change oscillators.
+#C 5.4.1 P5 pipsquirter [Dongook Lee, 2018]
+#C       A pipsquirter is an oscillator that emits a 1x2 spark vertically.
+#C 5.4.2 [AF 7/13/94]
+#C 5.4.3 [DJB#158 2/25/85]
+#C 5.4.4 [DRH 1994]
+#C       2 fumaroles hassle a long barge.
+#C 5.4.5 [AF 8/7/94 (symmetric form), AWH 11/19/94]
+#C 5.4.6 Toaster [DRH 4/1/92]
+#C 5.4.7 [DJB#142 5/21/84]
+#C 5.5.0 Electric fence [HH 10/20/92, DRH 11/23/92, 2/21/93]
+#C       A stream of 'ants' moves leftward from the 'source' at the
+#C       right to the 'sink' at the left.
+#C 5.5.1 [Gabriel Nivasch 10/23/02]
+#C 5.5.2 [11/19/94]
+#C       Also works even if the right part is not shifted two cells
+#C 5.5.3 [DJB#151 9/29/84]
+#C       Optimized for bounding box, not for population
+#C 5.5.4 [DRH 10/4/89]
+#C 5.6.0 [DRH 1/26/95]
+#C       Another electric fence
+#C 5.6.1 [Dongook Lee 9/18/15]
+#C       Four p4s hassle each other to form a p5
+#C 5.6.2 [DJB#114 6/2/77]
+#C 5.6.3 [DJB#152 9/29/84]
+#C 5.6.4 Heavyweight volcano [Scot Ellison, 2007]
+#C       A period 5 oscillator that emits a rather isolated domino spark.
+#C 5.7.0 Harbor [DJB#122 9/17/78]
+#C       (so-named because gen 3 consists of 4 ships and 8 boats)
+#C       Has appeared semi-naturally (i.e. from symmetric soup)
+#C 5.7.1 Statorless p5 [Josh Ball]
+#C       Found in June 2016, using NB's version of WLS
+#C       Has volatility 1, meaning that no cell stays on for the entire period.
+#C 5.7.2 [DRH 12/2/94]
+#C 5.7.3 [DJB#93 7/26/76]
+#C 5.7.4 Three pentoads [RWG & Scott Kim]
+#C ----------------------------------------------------------------------
+#C 6.0.0 [NDE 7/3/97]
+#C 6.0.1 Unix [DJB#48 2/10/76]
+#C       Produces a 1-bit spark that's used in many oscillators.
+#C       Only nontrivial p6 to occur naturally, excluding stator variants.
+#C 6.0.2 [DJB#65 <=1976]
+#C 6.0.3 [DRH/89]
+#C       Period 6/2, symmetry type "n/".
+#C 6.0.4 Blonker [NB]
+#C       A blonk is a block or blinker; the blonker appears to have a block on
+#C       one end and a blinker on the other.
+#C 6.0.5 A for all [DRH 3/6/93]
+#C       Has appeared semi-naturally (i.e. from symmetric soup)
+#C 6.0.6 P6 thumb [David Eppstein 6/26/00]
+#C 6.0.7 Sombreros [DJB#56 1972]
+#C       Has appeared semi-naturally (i.e. from symmetric soup)
+#C 6.1.0 [DJB#33 11/16/80]
+#C 6.1.1 [DJB#58 <=1976]
+#C       Half of a sombrero supported by eaters
+#C 6.1.2 [DJB#59 <=1976]
+#C       Half of a p8 oscillator supported by eaters, making it period 6
+#C 6.1.3 [DJB#102 6/3/77]
+#C 6.1.4 [DJB#132 10/30/80, since reduced]
+#C 6.1.5 Jason's p6 [AF 7/25/94]
+#C       Has appeared semi-naturally (i.e. from symmetric soup)
+#C 6.1.6 $rats [DJB#36 1972]
+#C 6.1.7 Extremely impressive [DJB#78 8/76]
+#C 6.1.8 [DJB#100 5/21/77]
+#C 6.2.0 [AF 7/26/94]
+#C 6.2.1 [DRH 9/22/94]
+#C 6.2.2 30P6.1
+#C 6.2.3 [iNoMed 6/15/22]
+#C       Found via width-5 diagonal p6 search
+#C 6.2.4 [RTW 1989]
+#C 6.2.5 P6 shuttle [Nicolay Beluchenko, 02/2004]
+#C 6.2.6 p6 pipsquirter [NDE 11/15/97]
+#C 6.2.7 [AF 7/13/94]
+#C 6.3.0 p6 worker bee [RTW 1989]
+#C       Has "killer toads", which are useful for various purposes.
+#C 6.3.1 [DJB#117 9/1/77]
+#C 6.3.2 [DJB#121 3/4/78]
+#C 6.3.3 [DJB#110 6/19/77]
+#C 6.3.4 64P6 [Dongook Lee and Matthias Merzenich]
+#C       Domino sparker. Used in multiple higher-period oscillators, such as
+#C       18, 24, 36, 48, 54, 66, 84, 126, 132, and 156.
+#C 6.3.5 [DJB#99 5/12/77]
+#C 6.3.6 [DJB#157 10/14/84]
+#C 6.4.0
+#C       Found via symmetric soup search
+#C       Can also be skewed horizontally, vertically, or both
+#C 6.4.1 [DJB#141 4/25/84]
+#C       An alternate version of the p6 worker bee, found earlier.
+#C 6.4.2 T-nosed p6 [AF 9/12/94]
+#C       Has appeared semi-naturally (i.e. from symmetric soup)
+#C 6.4.3 Strictly volatile P6
+#C       Strictly volatile means that every cell oscillates at period 6
+#C 6.4.4 [DRH 8/89]
+#C       Period 6/2, symmetry type ".e+e".
+#C       Volatility 1, but not strictly volatile.
+#C 6.4.5 [DRH 8/89]
+#C       Period 6/2, symmetry type ".e+e".
+#C       Volatility 1, but not strictly volatile.
+#C 6.5.0 [right end:RTW 10/78, middle and left end:DRH 10/89]
+#C 6.6.0 [NDE 11/21/94]
+#C       The wick (left end) was found by AF (8/19/94);
+#C       NDE stabilized it; the variations are by DRH (11/22&27/94)
+#C 6.7.0 [wick by DJB 1973, ends by DRH 1995?]
+#C 6.7.1 [DRH 9/89]
+#C 6.7.2 Symmetric T-nosed p6 [AF 8/31/94]
+#C 6.8.0 [RTW 11/16/94]
+#C       4 unixes support a simple diagonal wick.
+#C ----------------------------------------------------------------------
+#C 7.0.0 28P7.1 [DRH, 11/1/98]
+#C       An unnamed period 7 oscillator that is tied as the smallest known.
+#C 7.0.1 Burloaferimater [DJB#40 1972]
+#C       Only known oscillator with heat less than 2, with 10/7 or ~1.4
+#C 7.0.2 37P7.1 [Scot Ellison]
+#C       A small period 7 sparker discovered in October, 2005
+#C       Occasionally used in higher-period oscillators;
+#C       see 147.0.0 for an example.
+#C 7.0.3 [DJB#77 <=1976, since reduced]
+#C 7.0.4 [DJB#106 6/6/77, since reduced]
+#C       Right half can also be turned upside-down and shifted up 2 units.
+#C 7.0.5 [DRH 9/22/94]
+#C 7.0.6 28P7.2 [DRH, 1998]
+#C       A period 7 oscillator that is tied with burloaferimeter and 28P7.1
+#C       as the smallest.
+#C       Related to hooks (period 5).
+#C 7.0.7 38P7.2 [NB 2/17/09]
+#C       Can hassle two blocks, as seen in the P21 section.
+#C       Also see P35, P56, and P63.
+#C       Has appeared semi-naturally (i.e. from symmetric soup)
+#C 7.1.0 Meatball [Charity Engine 5/28/22]
+#C       A period-7 lightweight sparker found via symmetric soup search.
+#C 7.1.1 [MM, 9/18/14 (using JLS)]
+#C 7.1.2 [10/1/94]
+#C 7.1.3 28P7.3 [Bullet51, 12/26/17]
+#C       Used in the period-21 glider gun
+#C       with a small modification for clearance.
+#C 7.1.4 Airforce [DJB#41 1972]
+#C       Rotor consists of 2 copies of the rotor in burloaferimeter.
+#C 7.1.5 41P7.2 [DRH, <=1998]
+#C       A period 7 oscillator with an isolated two-bit spark
+#C 7.1.6 [Josh Ball]
+#C 7.1.7 62P7 [Dongook Lee 11/20/21]
+#C 7.2.0 #DJB#113 9/7/81
+#C 7.2.1 44P7.2 [DJB#109 6/19/77]
+#C       Supplies a domino spark.
+#C 7.2.2 34P7 [Charity Engine 8/3/22]
+#C       Four cells smaller than meatball. Thinner but longer.
+#C 7.2.3 #DJB#113 6/21/77
+#C 7.2.4 132P7 [Dongook Lee 12/17/16]
+#C       Domino sparker
+#C 7.2.5 Hebdarole [NDE, November 1997]
+#C 7.2.6 P7 pipsquirter [Dongook Lee 11/20/19]
+#C 7.3.0 120P7
+#C ----------------------------------------------------------------------
+#C 8.0.0 Smiley [AF 7/17/94]
+#C       Has appeared naturally
+#C 8.0.1 Coe's p8 [Tim Coe, 08/97]
+#C       Has appeared naturally
+#C 8.0.2 Achim's p8 [AF 7/20/94]
+#C       Period 8/2, symmetry type ".cxc".
+#C       Has appeared naturally
+#C 8.0.3 Blocker [RTW]
+#C       Supplies a spark used in some P16, 24, 32, 40, 56, 72, 88,
+#C       104, 120, 144, and 360 oscillators.
+#C       A blocker can filter a P60 glider stream into a P120 glider stream, as shown
+#C       in the P120 section, or more generally, double 4+8N.
+#C       Second most common p8 oscillator (1 in 130M), and third most common P5+ oscillator.
+#C 8.0.4 Figure eight [SN 1970]
+#C       Supplies sparks used in many other oscillators, including other P8s.
+#C       Most common p8 oscillator (1 in 10M).
+#C 8.0.5 R2D2 [Peter Raynham early 1970s (with a different stator), rediscovered and named by NDE 8/14/94]
+#C 8.0.6 Tumbling T-tetson [RTW]
+#C 8.0.7 nonstandard type 1 p8 toad sucker [DJB]
+#C       See discussion at period 60
+#C 8.1.0 Cauldron [Don Woods, RTW 1971]
+#C       Also called crucible
+#C 8.1.1 Hertz oscillator [JHC group 1970]
+#C 8.1.2 [AF 8/26/94]
+#C       Supplies a domino spark, which might be usable when the one in figure 8 fails.
+#C 8.1.3 [DJB#90 7/16/76, minor reduction later]
+#C 8.1.4 nonstandard type 1 p8 toad flipper [DJB]
+#C       See discussion at period 60
+#C 8.1.5 [NDE 7/18/97]
+#C 8.1.6 Kok's galaxy [Jan Kok 1971]
+#C       Supplies a spark used in some P16, 24, 32, 40, 128, and 856 oscillators.
+#C       Has appeared semi-naturally (i.e. from symmetric soup)
+#C       Serves as Golly's logo
+#C 8.1.7 [DRH 11/16/94]
+#C       A p8 variant of the p4 emulators
+#C 8.2.0 Pyrotechnecium [DJB#42 1972]
+#C 8.2.1 Roteightor [RTW 1972]
+#C 8.2.2
+#C 8.2.3 Obscure P8
+#C 8.2.4 76P8 [MM, Sep 2013 (using JLS)]
+#C       Domino sparker
+#C 8.2.5 [RTW 1989]
+#C 8.2.6 Figure eights hassling long barge [RTW 9/84]
+#C 8.2.7 [DJB#80 6/30/76]
+#C       Honey farm hassler
+#C 8.2.8 [DJB#105 6/6/77]
+#C 8.3.0 [Josh Ball, 6/12/13]
+#C 8.3.1 [DJB#115 6/22/77]
+#C       Loaf flipper
+#C 8.3.2 [DJB#55 <=1976]
+#C 8.3.3 Bottle [AF 8/7/94]
+#C       Also see "ship in a bottle", in the period 16 section
+#C       Has appeared semi-naturally (i.e. from symmetric soup)
+#C 8.3.4
+#C       Found in a symmetric soup in a four-fold form
+#C 8.3.5
+#C       Toadflipper; see discussion in period 60 section
+#C 8.3.6 [RTW 9/89]
+#C       Period 8/2, symmetry type "/xk".
+#C 8.4.0 [KS 6/17/07]
+#C 8.4.1 180P8
+#C 8.4.2 Figure eights hassling tub [AF 8/31/94]
+#C 8.4.3 Multiple roteightors [DRH 1/90]
+#C       Can be infinitely extended
+#C ----------------------------------------------------------------------
+#C 9.0.0 50P9
+#C       P9 domino sparker; serves as the base of 104P9
+#C       Used by itself in some period-18, 63, and 117 oscillators.
+#C 9.0.1 29P9 [DRH 04/97]
+#C       The smallest known period 9 oscillator
+#C 9.0.2 Worker bee [DJB#52 1972]
+#C       Has appeared semi-naturally (i.e. from symmetric soup)
+#C 9.0.3 Two worker bees
+#C       Can be infinitely extended. In fact, an infinite single row of
+#C       six on cells followed by two off cells will be a period 9 oscillator
+#C       without any stabilization needed.
+#C 9.0.4 Snacker [MDN 1972]
+#C       Has appeared semi-naturally (i.e. from symmetric soup)
+#C 9.0.5 Two snackers
+#C 9.1.0 [DJB#43 1972??]
+#C 9.1.1 p9 thumb [DRH 1998]
+#C       Also called Thumb 1
+#C       Used in 94P27.1
+#C 9.1.2 [DJB#83 7/10/76]
+#C       Many variants have occurred semi-naturally.
+#C 9.1.3 P9 delayed domino sparker
+#C 9.1.4 P9 honey farm hassler [JP21 2/28/21]
+#C 9.1.5 [Charity Engine 5/25/22]
+#C       A period-9 sparker found via symmetric soup search.
+#C       Reduces the p27 gun.
+#C 9.1.6 68P9 [carybe, 2018]
+#C       Has appeared semi-naturally (i.e. from symmetric soup)
+#C 9.2.0
+#C       68P9 with worker bee
+#C 9.2.1 48P9
+#C       A monomerized form of 68P9
+#C 9.2.2 104P9 [wwei23, 11/15/20]
+#C       P9 domino sparker with high clearance.
+#C       Two copies can hassle an R-pentomino at P18; see P18 section.
+#C 9.2.3 [RWG 7/15/94]
+#C       Snackers hassling two blocks
+#C 9.2.4 Snackers jostling two blocks [RWG 7/15/94]
+#C 9.2.5 [DJB#155 10/9/84]
+#C       Stator is Eater 4. See P11 section for another example.
+#C 9.3.0 Spanner in the works
+#C       Found via symmetric soup search
+#C       Named during a discussion of trying to call a different p9 "seminatural p9",
+#C       and this oscillator prevented the other one from being named that.
+#C 9.3.1 p9 interchange hassler [DER 1/24/22]
+#C 9.3.2
+#C ----------------------------------------------------------------------
+#C 10.0.0 37P10.1 [DRH 1998]
+#C        Smallest known P10 by bounding box
+#C 10.0.1 24P10 [MM, 11/12/10]
+#C        Has appeared semi-naturally (i.e. from symmetric soup)
+#C 10.0.2 55P10 [Bullet51, 2018]
+#C        Hassles a traffic light in one p20
+#C        Also exists in a skewed variant; see the p50 section.
+#C        For a variant that's two rows shorter, see the p100 section.
+#C 10.0.3 [DRH, 2008 (using dr)]
+#C        Billiard table
+#C 10.0.4 42P10.3 [DJB#76 <=1976]
+#C 10.0.5 [DJB#161 1/21/86]
+#C 10.0.6 [DRH, 2008 (using dr)]
+#C        Billiard table
+#C 10.1.0 [DJB#153 9/30/84]
+#C 10.1.1 44P10 [MM 4/10/10]
+#C        Has appeared semi-naturally (i.e. from symmetric soup)
+#C 10.1.2 [DRH, 2008 (using dr)]
+#C        Billiard table
+#C 10.1.3 [DRH, 2008 (using dr)]
+#C        Billiard table
+#C 10.1.4 P10 traffic light hassler [DJB#139 5/1/83]
+#C        Has appeared semi-naturally (i.e. from symmetric soup)
+#C 10.1.5 [MM (using Nicolay's version of randagar)]
+#C        Billiard table; flipper
+#C 10.2.0 [NB 3/16/09]
+#C        The clocks are there to suppress births.
+#C 10.2.1 p10 traffic light hassler [DER 10/2/21]
+#C 10.2.2 p10 traffic light hassler [DER 6/15/21]
+#C 10.2.3 [DRH 2/16/95]
+#C        2 p5s hassle a blinker. DRH's 1995 file included a similar oscillator where
+#C        4 p5s hassled a blinker, but it was huge and removed from this file to save space.
+#C 10.2.4
+#C        p10 wick
+#C 10.3.0 128P10.2 [NB, 2009]
+#C        Has appeared semi-naturally (i.e. from symmetric soup)
+#C ----------------------------------------------------------------------
+#C 11.0.0 38P11.1 [DJB#112 6/20/77]
+#C        Has appeared semi-naturally (i.e. from symmetric soup)
+#C 11.0.1 [DRH, 2008]
+#C        Billiard table
+#C 11.0.2 [MM, Aug 2014]
+#C        Billiard table
+#C 11.0.3 p11 domino sparker [Martin Grant 6/17/21]
+#C        While it has extremely low clearance, it does have a few uses.
+#C 11.0.4 p11 thumb [Charity Engine 8/11/22]
+#C 11.0.5 Rattlesnake [DRH, 2016]
+#C        Named because rattlesnake has 11 letters and it contains a snake
+#C 11.0.6 [DRH, 2008]
+#C        Billiard table
+#C 11.1.0 [MM, Oct 2014]
+#C 11.1.1 [DRH, 2008]
+#C        Billiard table
+#C 11.1.2 [MM, Aug 2014]
+#C        Also works without the eater 2.
+#C 11.1.3 [MM, Sep 2014]
+#C        Billiard table
+#C 11.1.4 p11 traffic light hassler [DER 1/9/22]
+#C 11.2.0 p11 rattlesnake honey farm hassler [DER 6/6/21]
+#C 11.2.1 Merzenich's p11 [MM]
+#C 11.2.2 Achim's p11 [AF 8/4/94]
+#C        Has appeared semi-naturally (i.e. from symmetric soup)
+#C 11.2.3 p11 eater 4 honey farm hassler [DJB#156 10/9/84]
+#C        Stator is Eater 4. See P9 section for another example.
+#C 11.2.4 p11 hybrid honey farm hassler [MM 6/6/21]
+#C 11.3.0 P11 pinwheel [NB, May 2009]
+#C        Rotationally symmetric
+#C        Has appeared semi-naturally (i.e. from symmetric soup)
+#C 11.3.1 Jason's p11 [JS April 2003]
+#C        Has appeared semi-naturally (i.e. from symmetric soup)
+#C 11.3.2 [6/19/21, partial by JS, sparker by Martin Grant]
+#C ----------------------------------------------------------------------
+#C 12.0.0 Carnival shuttle
+#C        Supported by monograms; middleweight emulators work too
+#C 12.0.1
+#C 12.0.2 [RTW 9/84]
+#C 12.0.3 [NDE 10/15/98]
+#C 12.0.4
+#C        Billiard table
+#C 12.1.0
+#C 12.1.1 Dinner table [RTW 1972]
+#C        Period 12/4, symmetry type "nrc".
+#C 12.1.2 [NDE 7/18/97]
+#C 12.1.3
+#C        Billiard table
+#C 12.1.4
+#C        See also hooks (period 5).
+#C 12.2.0 [DJB <1980, RTW 1989]
+#C 12.2.1 35P12 [MM, 2015]
+#C 12.2.2 [DER 10/30/21]
+#C 12.3.0 Crown [NDE 1/93/95]
+#C        Supplies a spark used in other oscillators; see periods 132 and 156 for examples
+#C 12.3.1
+#C 12.3.2 Baker's dozen [RTW 8/89, since optimized for bounding box]
+#C 12.3.3 p12 LOM hassler
+#C 12.3.4 [83bismuth38 5/11/22]
+#C        A variant of crown, with a more accessible spark, smaller population,
+#C        but larger bounding box.
+#C 12.4.0 Eye of Sauron [NB 3/26/09]
+#C        Also known by its systematic name 44P12.3
+#C        An option to stabilize 168.0.0, although not shown since it
+#C        has a larger bounding box than what's shown there.
+#C        Has appeared semi-naturally (i.e. from symmetric soup)
+#C 12.4.1 [NDE 5/23/96]
+#C 12.4.2 [JS January 2004]
+#C 12.4.3 [DJB#159 1986?]
+#C        Billiard table
+#C 12.4.4 2c/3 signal
+#C        There is no known way to turn a 2c/3 signal, but if there is,
+#C        there would be a way to create any period above a certain number,
+#C        giving an example for the four remaining unknown periods 19, 34, 38, and 41.
+#C 12.5.0 [DJB#131 10/26/80]
+#C        4 baker's dozens, using only stable objects and each other for support.
+#C 12.5.1
+#C        P12 honey farm hassler
+#C 12.5.2
+#C 12.5.3 p12 honey farm sparker [mvr 8/24/22]
+#C        No uses have been found for this sparker yet.
+#C 12.6.0 [NDE 6/9/95, bounding box since reduced]
+#C        R-pentomino hassler
+#C 12.6.1 Period 12 toadflipper
+#C        Toadsuckers also exist, but it was omitted to save space.
+#C 12.6.2 Two Eyes of Sauron hassling unnamed object
+#C 12.6.3
+#C        Four P6 pipsquirters hassling block
+#C 12.7.0 Dinner table extension
+#C 12.7.1 [MDN, DRH >~2/20/95]
+#C        A wick based on Crown, using a p3 multiple caterer.
+#C 12.7.2 p12 traffic light hassler [DER 4/1/22]
+#C ----------------------------------------------------------------------
+#C 13.0.0 [Dongook Lee, Oct 2014]
+#C 13.0.1 53P13 [Bullet51, 2015]
+#C 13.0.2 [MM, Sep 2014]
+#C 13.0.3 Buckingham's p13 [DJB#96 7/31/76]
+#C 13.0.4 [MM, 9/15/14]
+#C 13.0.5 [DRH, 2008]
+#C 13.1.0 [MM, Sep 2014]
+#C 13.1.1 66P13 [Bullet51, 2019]
+#C 13.1.2
+#C 13.1.3 Beluchenko's p13 [NB, 2009]
+#C        The smallest known period 13 oscillator.
+#C        Has appeared semi-naturally (i.e. from symmetric soup)
+#C        Appears in one period-156 oscillator in this collection.
+#C 13.1.4 [MM, Aug 2014]
+#C 13.1.5 [MM, Aug 2014]
+#C 13.2.0 [MM, Oct 2014]
+#C 13.2.1 [MM, Sep 2014]
+#C 13.2.2 p13 honey farm hassler [JP21 1/12/22]
+#C 13.2.3 p13 honey farm hassler monomer [Reaction by DER, completion by JP21, both 5/31/21. Dimer (not shown) by wwei23.]
+#C 13.3.0 p13 honey farm hassler [JP21 1/29/22]
+#C ----------------------------------------------------------------------
+#C 14.0.0 Tumbler [George Collins, Jr. 1970]
+#C        Period 14/2, symmetry type "-c+c".
+#C        Only known p14 oscillator until 1997
+#C        Fourth most common oscillator with period above 8, after pentadecathlon
+#C        and two versions of queen bee shuttle.
+#C        It gives off extremely weak sparks; see the p28 and p70 sections.
+#C 14.0.1 44P14 [DRH, 4/21/97]
+#C        Billiard table
+#C 14.0.2 [MM, 9/19/14 (using JLS)]
+#C        Based on a phase shift reaction by Noam Elkies
+#C 14.0.3 34P14 shuttle [carybe, 2018]
+#C        Was found via symmetric soup search
+#C 14.0.4 Tetradecathlon
+#C        Sparks from the 34P14 shuttles make the pentadecathlon skip a generation.
+#C 14.1.0 p14 Thompson's methuselah hassler [mvr 9/17/22]
+#C 14.1.1 [DER 9/9/21]
+#C        Another p14 honey farm hassler
+#C 14.1.2 [MathAndCode 8/7/21]
+#C 14.1.3 [MM, Sep 2014 (using dr)]
+#C 14.1.4 [DER 11/21/21]
+#C        Another p14 honey farm hassler
+#C 14.2.0 [MM, 9/18/14 (using JLS)]
+#C        based on reactions by Dean Hickerson
+#C 14.2.1 [MM, Aug 2014 (using dr)]
+#C        Has occurred semi-naturally with loops replacing the hooks with tails.
+#C 14.2.2 [DER, reduced by MM 7/18/21]
+#C        Another p14 honey farm hassler
+#C        The sparker used is 37P7.1.
+#C 14.2.3 p14 honey farm hassler [JS 1/7/06]
+#C 14.2.4 p14 traffic light hassler [DER 3/27/22]
+#C 14.3.0 p14 honey farm hassler [JP21 1/27/22]
+#C ----------------------------------------------------------------------
+#C 15.0.0 Pentadecathlon [JHC 1970]
+#C        Frequently used in higher-period oscillators. See every multiple of
+#C        15 up to 165 (except 105, where there aren't any in this collection).
+#C        They can also have their phase changed; see P9, 14, 36, 54, and 58.
+#C        Oscillator frequency: 1 in 400,000; ranked #5
+#C        About 25 percent rarer on a large torus than in a 16x16 soup
+#C 15.0.1 [Luka Okanishi 12/28/21 based on a partial by DER the previous day]
+#C 15.0.2 Karel's p15 [KS 12/11/02]
+#C        Has appeared semi-naturally (i.e. from symmetric soup)
+#C 15.0.3 [MM, Sep 2014 (using dr)]
+#C 15.1.0 p15 blinker factory [DER 3/19/22]
+#C        By moving the pentadecathlons up one or two cells, different factory
+#C        types can be made. No p15 gun is known yet.
+#C 15.1.1 [MM, Aug 2014 (using dr)]
+#C 15.1.2 p15 lumps of muck hassler [praosylen 8/7/21, reduced by Luka Okanishi the next day]
+#C 15.1.3
+#C        P15 traffic light hassler
+#C 15.1.4 [RTW 10/78]
+#C        2 PDs hassle 2 blocks symmetrically.
+#C 15.2.0 Pentadecathlons jostling two blocks [RTW 11/84]
+#C        2 PDs hassle 2 blocks asymmetrically.
+#C 15.2.1 Two pentadecathlons hassling barge [DJB 7/73]
+#C 15.2.2 p15 pi-heptomino hassler [DER 12/27/21]
+#C 15.2.3 p15 honey farm hassler [JP21 1/27/22]
+#C 15.2.4
+#C        P15 traffic light hassler
+#C 15.3.0 p15 honey farm hassler [DER 5/25/21]
+#C        Also works with pentadecathlons instead of fumaroles
+#C 15.3.1 [DJB 3/73]
+#C        Four pentadecathlons hassling four blocks
+#C 15.3.2 p15 biblock hassler [DRH 2/21/95]
+#C        See p16 biblock hassler for an explanation.
+#C 15.3.3 112P15 [thunk, 4/4/16]
+#C        Discovered via symmetric soup
+#C 15.3.4 [KS 6/13/07]
+#C 15.4.0 [DER 11/28/21]
+#C 15.4.1 p15 traffic light hassler [MM 7/21/21 based on a partial by DER the same day]
+#C 15.4.2 Loaflipflop [RTW 1990]
+#C        4 pentadecathlons hassle a loaf.
+#C ----------------------------------------------------------------------
+#C 16.0.0
+#C 16.0.1 p16 biblock hassler [NDE 2/20/95]
+#C        2 1-bit sparks (from a blocker and a mold) hassle a pair of
+#C        blocks.  Sparks can also come from oscillators of period 5 (see p15),
+#C        6 (p18), 7 (p21), 12 (p24), 13 (p26), 29, 47, or 72 (not shown).
+#C        The biblock creates a 1-bit spark of its own in gen 13, so
+#C        it's possible to build a loop of 4 of them (see period 52) or use the
+#C        spark for the two pond and two block reaction (see periods 32 and 36).
+#C 16.0.2 Rob's p16 [Rob Liston, 2020]
+#C        Found via asymmetric soup search
+#C        It can be used as a sparker, but its application aren't obvious.
+#C 16.0.3 Rich's p16 [Rich Holmes, 7/5/16]
+#C        Found via symmetric soup search
+#C        Used in multiple higher-period oscillators, including 576.0.0.
+#C        Can filter a glider stream with period divisible by 8 but not 16,
+#C        doubling the period.
+#C        Also used as a sparker in many oscillators with period divisible
+#C        by 16. Sometimes the interactions are complex.
+#C 16.0.4
+#C 16.0.5 Achim's p16 [AF 7/27/94]
+#C        Period 16/2, symmetry type "rc*c".
+#C        Has appeared semi-naturally (i.e. from symmetric soup)
+#C 16.0.6 [MM 1/12/15]
+#C 16.1.0 Symmetric p16 biblock hassler [NDE 2/21/95]
+#C 16.1.1 Charity's p16 [Charity Engine 6/30/22]
+#C        Useful as a sparker. Sometimes the interactions are complex.
+#C 16.1.2 2 pre L hassler [RTW 7/83]
+#C        4 blockers hassle a pair of pre-loafs.  Period 16/2, symmetry type ".k+k".
+#C 16.1.3 Ship in a bottle [RWG 8/7/94]
+#C        Period 16/2, symmetry type "/xk".
+#C 16.1.4 p16 U-turner hassler [w33z8kqrqk8zzzw33 8/24/22]
+#C 16.2.0 Rich's p16 and Charity's p16 hassling R-pentomino [LJK 9/13/22]
+#C 16.2.1 68P16 [carybe, 2018]
+#C        Discovered via symmetric soup
+#C        Used in the p32 gun and a p64 oscillator
+#C 16.2.2
+#C        P16 honey farm hassler
+#C 16.2.3 P16 traffic light hassler [DER 6/15/21]
+#C 16.2.4 p16 honey farm hassler [DER 3/10/22]
+#C 16.3.0 p16 pi-heptomino hassler [CC 8/8/22]
+#C 16.3.1 Sailboat [RTW 6/84]
+#C        The 2 p8 oscillators (figure 8 and
+#C        Kok's galaxy) supply sparks which attack the boat in the
+#C        same way, but it's not possible to use 2 copies of either.
+#C 16.3.2 p16 century hassler [DER 10/12/21]
+#C 16.3.3
+#C        P16 honey farm hassler
+#C 16.4.0 p16 honey farm hassler [JP21 1/29/22]
+#C 16.4.1 p16 honey farm hassler [JP21 1/14/22]
+#C 16.4.2
+#C        An extension of Achim's p16
+#C 16.4.3 Achim's other p16 [AF 8/7/94 (on a 32x32 torus), RWG 8/17/94]
+#C        Has appeared semi-naturally (i.e. from symmetric soup)
+#C 16.5.0 p16 phi spark hassler [DER 10/2/21]
+#C ----------------------------------------------------------------------
+#C 17.0.0 54P17.1 [DRH]
+#C        The first period 17 oscillator to be found. Discovered on 4/27/97.
+#C 17.0.1 Honey thieves [MM]
+#C        The smallest known period 17 oscillator in terms of population
+#C        as of June 2021.
+#C 17.0.2
+#C        The center oscillates with period 5, but every 3 times, it is extended
+#C        two generations, making it period 17. Similarly, the outer portions would
+#C        oscillate with period 8 if they didn't interact with the center.
+#C        Also see the period 27 section.
+#C ----------------------------------------------------------------------
+#C 18.0.0 p18 biblock hassler [NDE 2/20/95]
+#D See p16 biblock hassler for an explanation.
+#C 18.0.1 Merzenich's p18 [MM, June 2011]
+#C        The first period 18 billiard-table oscillator
+#C 18.0.2 [MM 9/10/14]
+#C 18.0.3 P18 honey farm hassler
+#C 18.0.4
+#C        P18 lumps of muck hassler
+#C 18.1.0 p18 R-pentomino hassler [JS February 2004, reduced by iNoMed on 6/10/22]
+#C 18.1.1 P18 traffic light hassler [NDE 5/20/96]
+#C 18.1.2
+#C        A 10n-2 phase shift oscillator.
+#C 18.1.3 [DER 2020]
+#C        Period 18 R-pentomino hassler.
+#C 18.2.0
+#C        An 8n+2 phase shift oscillator.
+#C 18.2.1 [JS 4/10/01]
+#C 18.2.2 Four LOMs hassled by four short keys [Gabriel Nivasch 9/1/95 with jams]
+#C 18.2.3 p18 LOM sparker [DER 8/23/21]
+#C        Placing a block in the correct location rephases it to period 24.
+#C        Two can hassle a loaf; see the period 54 section for details,
+#C        which describes both the period-36 and period-54 versions
+#C        in the comments.
+#C 18.2.4 p18 interchange hassler [DER 10/3/21, reduced by MM the next day]
+#C 18.3.0 p18 pi-heptomino hassler [mvr 8/27/22, reduced by DER the same day]
+#C 18.3.1 113P18 [DJB before 5/91; since reduced]
+#C        Period 18/2, symmetry type "n.e".
+#C 18.3.2 Four eaters hassling four bookends [Jason Summers, 10/16/02]
+#C        Has appeared semi-naturally (i.e. from symmetric soup)
+#C 18.3.3 P18 beehive hassler
+#C 18.3.4 p18 B-heptomino hassler [JS 2/26/02]
+#C 18.4.0 P18 R-pentomino hassler [DER 8/7/21]
+#C        The sparkers are caterer and 50P9.
+#C 18.4.1 [DER 5/20/22]
+#C        The sparkers are 50P9.
+#C 18.4.2 [MM 12/29/20]
+#C 18.5.0 [DRH 1/1/95]
+#C        2-glider shuttle. See comments for P42 glider shuttle.
+#C ----------------------------------------------------------------------
+#C 20.0.0 [JS 12/02]
+#C 20.0.1 Dockyard
+#C 20.0.2 p20 century shuttle
+#C 20.0.3 [Martin Grant 2/12/20]
+#C 20.0.4 p20 R-pentomino hassler [DER 12/7/21, monomerized by iNoMed the same day]
+#C 20.1.0 p20 R-pentomino hassler [LJK 8/27/22]
+#C 20.1.1 [NDE 3/22/95]
+#C        A period 9+11 traffic light hassler.
+#C 20.1.2 [NDE 4/2/95]
+#C        A period 10+10 traffic light hassler.
+#C 20.1.3 p20 bookend shuttle [DER 8/23/21]
+#C 20.1.4 [NDE 6/29/95]
+#C        Sparks from some p4 and p5 oscillators hassle a loaf.
+#C 20.2.0
+#C 20.2.1 P20 pre-pulsar hassler
+#C 20.2.2 p20 lumps of muck shuttle [DER]
+#C 20.2.3 p20 traffic light hassler [praosylen 10/3/21, based on a partial by DER the same day]
+#C 20.3.0 p20 honey farm hassler [mvr 7/19/22]
+#C        Found using symmetric CatForce
+#C ----------------------------------------------------------------------
+#C 21.0.0 P21 honey farm hassler
+#C        A pipsquirter that is used in other higher-period oscillators,
+#C        such as periods 42, 63, and 126.
+#C 21.0.1
+#C        A 10n+1 phase shift oscillator.
+#C 21.0.2 [NDE 9/7/99]
+#C        Two ponds and two blocks in a particular configuration, when a pair of one-bit
+#C        sparks is applied to them, becomes the original configuration again.
+#C        This reaction is very versatile and is used in many oscillators. The minimum
+#C        repeat time is 20. Other oscillator periods using this reaction are
+#C        24, 26, 27, 30, 32, and 36. Two Jason's P22 can also hassle two ponds and
+#C        two blocks (not shown), but this doesn't increase its period.
+#C 21.0.3 32P21 [Charity Engine 2/11/22]
+#C        Discovered via symmetric soup search
+#C 21.1.0
+#C 21.1.1 p21 biblock hassler
+#C        See p16 biblock hassler for an explanation.
+#C 21.1.2 Monoicosathlon [iNoMed 1/2/22]
+#C        A domino sparker based on the pentadecathlon.
+#C 21.2.0 [RTW 2/21/95]
+#C        A period 10+11 traffic light hassler.
+#C 21.2.1 Period-21 glider gun [Tanner Jacobi, 8/1/21, based on an oscillator by DER, meatball added later]
+#C        The sparkers are 38P7.2, meatball, and a modification of one 28P7.3.
+#C 21.2.2 p21 traffic light hassler [LJK 9/17/22]
+#C        The p3 oscillator is a p3 variant of killer toads.
+#C 21.2.3 p21 LOM hassler [DER]
+#C 21.3.0 p21 I-heptomino hassler [DER]
+#C 21.3.1 p21 honey farm hassler [LJK 8/5/22]
+#C ----------------------------------------------------------------------
+#C 22.0.0 Champagne glass [DRH 4/19/97]
+#C 22.0.1 Jason's P22 [Jason Summers, 2000]
+#C        Can be used to make a P22 glider gun,
+#C        the third smallest true period known after 20 and 21.
+#C 22.0.2 [Jason Summers 9/8/05]
+#C 22.0.3 48P22.1 [NB, 2009]
+#C        Has appeared semi-naturally (i.e. from symmetric soup)
+#C 22.0.4 p22 century hassler [mvr 7/23/22]
+#C        Found using symmetric CatForce
+#C 22.1.0 P22 pre-teardrop hassler [Sphenocorona 6/23/21]
+#C 22.1.1 P22 honey farm hassler
+#C 22.1.2 168P22.1 [NDE, 1997]
+#C        First P22 to be found
+#C 22.1.3 P22 pre-pulsar hassler
+#C 22.1.4 p22 B-heptomino shuttle
+#C 22.2.0 R-pentomino restoring reaction [DER 7/31/21]
+#C        It can be any period except 20 (if the sparker doesn't get destroyed);
+#C        a period of 19 or less results in a period multiplier.
+#C 22.2.1 p22 B-heptomino hassler [DER 11/2/21]
+#C 22.2.2 True period 22 gun [David Eppstein, August 2000]
+#C        The first true period 22 gun constructed.
+#C        Contains two copies of 36P22
+#C 22.3.0 P22 lumps of muck hassler [praosylen, 2015]
+#C        Contains two copies of Jason's P22.
+#C ----------------------------------------------------------------------
+#C 23.0.0 p23 honey farm hassler [JP21 2/16/22]
+#C        The second known p23 and the smallest known.
+#C 23.0.1 David Hilbert [Luka Okanishi, 2019]
+#C        One of two known period-23 oscillators; this is the first to be found.
+#C ----------------------------------------------------------------------
+#C 24.0.0
+#C 24.0.1
+#C        A 17+7 generation traffic light hassler
+#C 24.0.2 Dueling banjos [Apple Bottom, 2019]
+#C        Was found via symmetric soup search in a four-fold form.
+#C        The four-fold form is surprisingly simple: it's one B-heptomino
+#C        and one block on table or table on table with 8-fold symmetry.
+#C        The smallest period-24 glider gun uses this oscillator.
+#C 24.0.3 p24 shuttle [KS, 10/17/02]
+#C        Has appeared semi-naturally (i.e. from symmetric soup)
+#C 24.1.0 Period 24 biblock hassler
+#C        See period 16 biblock hassler for an explanation.
+#C        Uses an Eye of Sauron (P12) and mold (P4)
+#C 24.1.1 p24 lumps of muck hassler [MM 12/27/20]
+#C        Uses two copies of Kok's galaxy
+#C 24.1.2 [NDE 11/20/94]
+#C 24.1.3 p24 honey farm hassler [CC 8/11/22]
+#C 24.2.0
+#C        See P21 section for discussion.
+#C 24.2.1 p24 beehive hassler [DER 11/4/21]
+#C        If the two emulators aren't in the same phase, it becomes p20.
+#C 24.2.2 p24 lumps of muck hassler [CC 9/18/22]
+#C 24.2.3 p24 traffic light hassler [MM 10/4/21, based on a dimer by DER the previous day]
+#C        The left side pushes it right in 13 generations,
+#C        and the right side pushes it left in 11.
+#C 24.2.4 p24 domino sparker [RTW 10/10/94]
+#C        Produces a domino spark that's used in p48 toad hasslers and in one p120.
+#C        The ships can be replaced with sparkers such as mold if clearance requires it.
+#C 24.3.0 [RWG 11/29/94]
+#C 24.3.1 [RWG 11/29/94]
+#C        Can be used as a dot sparker, but not reliably.
+#C 24.3.2 p24 R-pentomino hassler [JS 5/8/07]
+#C        Supported by four unices.
+#C 24.3.3 p24 LOM sparker [Aforampere 8/23/21]
+#C        A rephased version of the p18 LOM sparker, which is simply done
+#C        a single block
+#C 24.3.4 p24 skewed pre-pulsar hassler [mvr, noticed by a human 9/5/22]
+#C 24.4.0 p24 single honey farm hassler [JP21 2/23/22]
+#C 24.4.1 [JS 6/19/05]
+#C        Hassles two unnamed objects that would become blinkers by themselves.
+#C 24.4.2 Period-24 glider gun
+#C        Based on dueling banjos
+#C 24.5.0 p24 single honey farm hassler [JP21 2/23/22]
+#C 24.5.1 p24 single honey farm hassler [JP21 1/16/22 based on a partial by DER; reduced by Luka Okanishi the same day]
+#C 24.5.2 p24 pond hassler [DER 11/4/21, reduced by iNoMed the next day]
+#C 24.5.3 p24 honey farm hassler [DER 4/11/22]
+#C 24.6.0 p24 honey farm hassler [DER 4/4/22]
+#C 24.6.1 p24 pi-heptomino hassler [DER 8/18/21]
+#C 24.6.2 p24 century hassler [mvr 8/27/22, reduced by DER the same day]
+#C 24.6.3 p24 double honey farm hassler
+#C 24.7.0 p24 blonk-tie hassler [DER 11/21/21]
+#C 24.7.1 p24 pi-heptomino hassler [mvr 8/27/22, reduced by DER the same day]
+#C 24.7.2 p24 double beehive hassler [IgnacyJ 3/16/22 based on a partial by DER the same day]
+#C ----------------------------------------------------------------------
+#C 25.0.0 36P25 [mvr 9/17/22, reduced the same day by iNoMed]
+#C        Hassles an octomino II, or rather, a polyplet related to it.
+#C        The second smallest known period-25 oscillator, behind only 30P25.
+#C 25.0.1 [NDE 11/5/94]
+#C        Another 14+11 traffic light hassler.
+#C 25.0.2 30P25 [Charity Engine 5/18/22]
+#C        Found via symmetric soup search. The active region is not one of the
+#C        common ones. Its sparks are strong enough for LCMs but not hasslers.
+#C 25.0.3 P25 pre-pulsar shuttle [Current form (83 cells) by iNoMed on 7/9/21]
+#C        Has existed in larger forms previously. Current form is the smallest
+#C        known period-25 oscillator by population.
+#C 25.1.0 [NDE 9/23/94 (with toasters instead of eaters), DRH 10/19/94]
+#C        Based on pushing 2 or more traffic light
+#C        predecessors 3 units in 14 gens and pushing them back in 11 gens.
+#C 25.1.1 88P25 [MM 1/10/16]
+#C        p25 honey farm hassler
+#C 25.1.2 [MDN 1/9/96; heavyweight volcano since improved]
+#C 25.1.3
+#C        p25 honey farm hassler
+#C 25.2.0 p25 honey farm hassler [mvr 8/30/22]
+#C 25.2.1 p25 lumps of muck hassler [LJK 9/13/22]
+#C 25.2.2 p25 pre-pulsar hassler [DJB 10/96 (left half), NDE 12/13/97 (right half)]
+#C 25.3.0 p25 century hassler [DER 10/5/21]
+#C 25.3.1 p25 wing and block hassler
+#C ----------------------------------------------------------------------
+#C 26.0.0 P26 biblock hassler
+#C        See P16 for discussion of biblock hasslers.
+#C 26.0.1
+#C        See P21 section for discussion.
+#C 26.0.2 P26 queen bee shuttle [JP21 2/8/21]
+#C        Optimized for bounding box. There are other variants with lower
+#C        population but a larger bounding box.
+#C 26.1.0 p26 pre-pulsar shuttle [DJB#140 1/18/83]
+#C        14 (outside) plus 12 (inside).
+#C 26.1.1 P26 honey farm glider shuttle
+#C        Unlike most glider shuttles, this one requires a glider to remain stable;
+#C        the reaction fails without a glider every cycle.
+#C 26.2.0 P26 honey farm glider shuttle [JP21 5/7/22]
+#C ----------------------------------------------------------------------
+#C 27.0.0
+#C        The bottom right corner has the P7 burloaferimeter rotor, but every four
+#C        times, it skips a generation, making it P27.
+#C 27.0.1
+#C        p27 traffic light hassler
+#C 27.0.2 Two p9 thumbs hassling two ponds and two blocks [JS 2005]
+#C        Typically called 94P27.1, but the descriptive name is more useful.
+#C        See P21 section for discussion.
+#C 27.0.3 p27 honey farm hassler [LJK 8/9/22]
+#C 27.1.0
+#C        The center oscillates with period 5, but every 5 times, it is extended
+#C        two generations, making it period 27.
+#C        Also see the period 17 section.
+#C 27.1.1 56P27 [NB, 5/11/10]
+#C        Has appeared semi-naturally (i.e. from symmetric soup)
+#C 27.1.2 p27 century hassler [CC 8/15/22]
+#C        This is an R-pentomino factory, but not much can be done with it
+#C        at such a low period.
+#C 27.2.0 Period-27 glider gun [DER 1/29/22 based on a partial by goldenratio the previous day, reduced later]
+#C        Uses two of a p9 found by Charity Engine and two of a custom p3.
+#C        Originally used two 56P27s with a block missing each.
+#C 27.2.1 p27 traffic light hassler [DER 10/3/21]
+#C        Uses two 56P27s and two 50P9s. The 50P9s are in different positions
+#C        to show that it works in both.
+#C ----------------------------------------------------------------------
+#C 28.0.0 [Gustone and iNoMed 2/17/22]
+#C 28.0.1 [thunk, 2016]
+#C 28.0.2 P28 type 1 toadsucker
+#C        See P60 section for toadsucker/flipper explanation
+#C        Toadflippers also exist, but it was omitted to save space.
+#C 28.0.3
+#C        Most known p29 oscillators and some p28s are "pre-pulsar hasslers".
+#C        Consider a pair of hollow 3x3 squares, with 3 empty columns between them:
+#C           ooo...ooo
+#C           o.o...o.o
+#C           ooo...ooo
+#C        After 15 generations, this becomes 4 hollow squares:
+#C           ooo...ooo
+#C           o.o...o.o
+#C           ooo...ooo
+#C           .........
+#C           .........
+#C           .........
+#C           ooo...ooo
+#C           o.o...o.o
+#C           ooo...ooo
+#C        (This goes on to become a p3 "pulsar" in gen 20.)  By repeatedly
+#C        suppressing 2 of the hollow squares, we obtain oscillators of
+#C        periods 30 and 60.
+#C        
+#C        It's also possible to suppress 2 of the squares in such a way that
+#C        the other 2 form in gen 14 instead of 15; this leads to oscillators
+#C        with periods 28 and 29.  Originally this required 8 pairs of squares
+#C        supporting each other; DJB found the first p28 ("newshuttle", not
+#C        included in this collection) in 1973.  Later, several methods were
+#C        found which use either 1, 2, or 4 mutually supporting pairs.
+#C        
+#C        Note that DRH's original collection has more p29s. As many are
+#C        very similar, they have been trimmed down here.
+#C 28.1.0 [RWG 7/31/94]
+#C 28.1.1 Oscillator based on p28 glider gun
+#C        The oscillator is simpler than the gun.
+#C 28.1.2
+#C        This is a 9n+1 phase shift oscillator.
+#C 28.1.3 p28 traffic light predecessor hassler [DER 2/1/22]
+#C        This is the same traffic light predecessor used in the bumper and
+#C        in one of the p48s.
+#C        It is a duoplet sparker, but with low clearance.
+#C 28.1.4 p28 gourmet
+#C 28.2.0 p28 LOM hassler [mvr 7/30/22]
+#C        Found using symmetric CatForce
+#C 28.2.1 P28 R-pentomino shuttle
+#C        Uses two tetradecathlons supported by four 34P14s
+#C 28.2.2 Karel's p28 [KS 6/12/07]
+#C        Has appeared semi-naturally (i.e. from symmetric soup)
+#C 28.3.0 [DER 8/25/21]
+#C        A period-agnostic loaf flipping reaction. This one is period 28.
+#C 28.3.1 p28 B-heptomino hassler [DER 10/28/21]
+#C        Two ways of sparking it on the top and bottom are shown. The tumbler
+#C        is the minimum population form, while the T-nosed p4 provides more
+#C        clearance for the obo spark it gives. The molds simply suppress births.
+#C 28.3.2 p28 honey farm shuttle [JP21 2/11/22]
+#C 28.4.0 p28 lumps of muck hassler [LJK 9/18/22]
+#C 28.4.1 P28 glider shuttle
+#C        Uses four 34P14 shuttles
+#C 28.4.2 T-nosed p28 [CC 9/11/22]
+#C        A pi-heptomino hassler.
+#C 28.5.0 p28 pulsar farm hassler [mvr 9/10/22]
+#C        Similar to the p29 traffic farm hassler.
+#C 28.5.1 p28 pi-heptomino hassler [CC 8/22/22]
+#C        The sparkers are 34P7. Meatball doesn't work due to clearance.
+#C ----------------------------------------------------------------------
+#C 29.0.0
+#C        15+14
+#C 29.0.1 p29 traffic farm hassler [Ian Fomichev 1/2/15]
+#C        The first p29 discovered not to be based on the pre-pulsar
+#C 29.0.2 p29 pentadecathlon hassler [RWG ????, DRH 12/13/94]
+#C        Pentacdecathlon phase changer. Supplies a 2-bit spark that's used in a P58.
+#C 29.1.0
+#C        15+14
+#C 29.1.1 p29 R-pentomino hassler
+#C 29.1.2 p29 honey farm hassler [DER 6/4/21 (base reaction), MM 6/5/21 (sparker supports)]
+#C        Uses pre-pulsar hasslers for stabilization
+#C ----------------------------------------------------------------------
+#C 30.0.0 Queen bee shuttle [RWG 1970]
+#C        The central part (the shuttle) reappears, reflected across a vertical
+#C        line, in 15 gens, but a beehive is also produced, which
+#C        would destroy the shuttle.  The beehive can be destroyed
+#C        by a block, as shown here, or by an eater in one of two
+#C        different positions.
+#C        Also see periods 60, 90, 120, 180, 210, and 300. There's also a P26 queen bee
+#C        shuttle that skips a few generations.
+#C        The second most common oscillator with period greater than 8,
+#C        after pentadecathlon. Has cis and trans versions.
+#C 30.0.1
+#C        2 p30 shuttles push a beehive back and forth.  This also
+#C        demonstrates the 2 positions of an eater that stabilize
+#C        the shuttle.
+#C 30.0.2 [RTW]
+#C        2 p30 shuttles repeatedly convert blocks to gliders.
+#C 30.1.0 [DIB 9/1/92]
+#C        2 p30 shuttles repeatedly reverse a loaf.
+#C 30.1.1
+#C        Two pentadecathlons hassling traffic lights
+#C 30.1.2 Gosper glider gun
+#C        The first infinite growth pattern found in all of Life.
+#C 30.1.3 [NDE 10/30/94]
+#C        2 p30 shuttles repeatedly change the phase of a blinker.
+#C 30.2.0 p30 R-pentomino hassler [LJK 6/17/22]
+#C        Found via symmetric CatForce. The top left has a snake, which is
+#C        smaller in population, but the fishhook on the bottom right
+#C        gives one of the sparks slightly more clearace.
+#C        This oscillator can reflect gliders 90 degrees while changing colour.
+#C 30.2.1 Eureka [DJB#130 8/16/80]
+#C        The simplest pulsar hassler.
+#C        Can also be skewed, by moving one half up 2 units.
+#C        Has appeared semi-naturally (i.e. from symmetric soup)
+#C 30.2.2 Zweiback [MDN 2/13/95, since improved]
+#C 30.2.3 Single-engine p30 glider gun [Charity Engine 2/15/22 (in tetramer form)]
+#C 30.3.0
+#C        Honey farm hassler
+#C 30.3.1 p30 B-heptomino shuttle [LJK 8/12/22]
+#C 30.3.2 [DRH 2/14/95, since improved]
+#C        4 p5s hassle a beehive.
+#C 30.3.3 Four pentadecathlons hassling four ships
+#C 30.4.0
+#C        Two Karel's p15s hassling two ponds and two blocks
+#C        See P21 section for discussion.
+#C 30.4.1 p30 pre-pulsar hassler [JP21 10/7/21 based on a partial by DER the same day]
+#C        Not a shuttle; the two halves separate.
+#C 30.4.2 p30 pi-based QB-less gun [iNoMed 4/1/22 based on an April Fools' troll by DER, reduced 5/30/22]
+#C 30.5.0 p30 pi-heptomino hassler [LJK 9/2/22]
+#C 30.5.1 p30 traffic light hassler [DER 11/22/21 based on a partial by Gustone]
+#C 30.5.2 p30 long bun hassler [mvr 7/10/22]
+#C        Found using symmetric CatForce
+#C        A long bun is an object that goes through the same evolutionary
+#C        sequence as the object shown below, even if it doesn't go through
+#C        the exact phase shown. Jason's p33 hassles the same object, and
+#C        there is a p72 long bun hassler.
+#C        oooo.
+#C        o...o
+#C        .ooo.
+#C 30.5.3 p30 century hassler [DER 10/11/21]
+#C 30.6.0 p30 pi factory [DER 3/1/22]
+#C        Capped. The pi-heptominoes can be turned into gliders with a pentadecathlon
+#C        using the same reaction as the period-45 glider gun.
+#C 30.6.1 Traffic light hassler [DER 7/19/21]
+#C        Pentadecathlons and fumaroles are interchangeable here
+#C 30.6.2 Pulshuttle V [RTW 5/85]
+#C 30.7.0 P30 LWSS gun
+#C 30.7.1
+#C        Honey farm hassler
+#C 30.7.2 p30 LOM hassler [mvr 7/23/22]
+#C 30.8.0 Hectic [RTW 9/84]
+#C        Period 30/2, symmetry type ".crc".
+#C 30.8.1
+#C        6 gliders in a 180 gen loop.  This use of a queen bee
+#C        as a reflector is called a "buckaroo".
+#C 30.8.2 p30 unnamed object hassler [CC 8/24/22, reduced by DER the same day]
+#C 30.9.0 p30 honey whirlpool [DER 8/25/21]
+#C        The two queen bees reacting to form a domino spark is called Berger's p30.
+#C 30.9.1 p30 honey farm hassler [CC 8/15/22]
+#C ----------------------------------------------------------------------
+#C 31.0.0 Merzenich's p31 [MM 11/5/10]
+#C        The first known period-31 oscillator
+#C        Has appeared semi-naturally (i.e. from symmetric soup)
+#C 31.0.1 Two Merzenich's p31s hassling two R-pentominoes [DER 4/3/21]
+#C 31.0.2 p31 traffic light hassler [mvr 8/5/22]
+#C 31.1.0 P31 glider shuttle
+#C        Note that this oscillator only has 180 degree rotational symmetry, not 90 degree.
+#C        Unlike most glider shuttles, this one requires a glider to remain stable;
+#C        the reaction fails without a glider every cycle.
+#C ----------------------------------------------------------------------
+#C 32.0.0 p32 honey farm hassler [DER 9/9/21]
+#C        The smallest period-32 oscillator by population. Not a flipper.
+#C 32.0.1 Gourmet [DJB 3/4/78]
+#C        Period 32/4, symmetry type "nrk".
+#C 32.0.2 p32 LOM hassler [yujh 12/27/20]
+#C 32.0.3 [RTW 5/85]
+#C        Period 32/2, symmetry type "n.c".  Two gourmets overlap, sharing a loaf.
+#C        It's possible to build an arbitrarily large agar this way.
+#C 32.1.0 68P32 [MM, 12/31/09]
+#C        Has appeared semi-naturally (i.e. from symmetric soup)
+#C        Can filter a stream of gliders with period divisible by 16 but not 32,
+#C        doubling the period.
+#C 32.1.1 Pi portraiter [RTW 1984 or 1985]
+#C        Period 32/4, symmetry type "nrk".
+#C 32.1.2 P32 blinker hassler [NDE, 2010]
+#C        Hassled by a blocker and a blocked p4-3.
+#C 32.1.3 [NDE 1/26/95]
+#C        Traffic light hassler
+#C        Period 32/2, symmetry type "-c+e".
+#C 32.1.4
+#C        Traffic light hassler using a blocked P4-3
+#C 32.2.0 p32 unnamed object hassler [CC 9/7/22]
+#C        ..ooo
+#C        o.oo.
+#C        o.o..
+#C        .o...
+#C 32.2.1 p32 honey farm hassler [DER 1/16/22]
+#C        The toads in this oscillator are "killer toads", which eat
+#C        three quarters of a traffic light.
+#C 32.2.2 p32 arrow shuttle [DER 5/16/22]
+#C        The "arrow", which is named for a generation that never appears in
+#C        this oscillator because it gets perturbed first, becomes a blinker
+#C        by itself. The sparkers are 180P8.
+#C 32.3.0 p32 twin bees shuttle sparker [LJK 8/10/22]
+#C        Gives off the same spark as the single-block form of one half
+#C        of the twin bees shuttle (see p46 section).
+#C 32.3.1 p32 honey farm rotator [LJK 8/24/22, reduced by JP21 the next day]
+#C        Amazingly, the middleweight emulators also act as eater 1s.
+#C 32.3.2 p32 century hassler [DER 10/12/21, reduced by MM on 10/15/21]
+#C 32.3.3 Popover [RTW August 1984]
+#C        Period 32/4, symmetry type "nrk".
+#C 32.4.0 p32 pi-heptomino hassler [LJK 8/29/22]
+#C        Quite sparky; the spark is the same as one of the p45s.
+#C 32.4.1 Two p16 biblock hasslers hassling two ponds and two blocks
+#C        See P21 section for discussion.
+#C 32.4.2 p32 LOM/paperclip hassler [CC 8/28/22]
+#C 32.5.0 p32 honey farm double shuttle [JP21 1/31/22 based on a partial by DER]
+#C        The sparkers are 68P16.
+#C 32.5.1 p32 Z-hexomino hassler [CC 9/18/22]
+#C 32.5.2 Capped period-32 glider gun [DER 9/15/21]
+#C        The second period-32 glider gun to be found, and formerly
+#C        the smallest known.
+#C        The period-16 sparkers are 68P16; the period-4 sparkers are custom.
+#C        Also see the period 54, 55, and 117 guns, discovered by the same
+#C        person and using the same honey farm and eater 1 reaction.
+#C 32.6.0 p32 procrastinator hassler [DER 12/6/21]
+#C 32.6.1 p32 century hassler [DER 10/5/21]
+#C        Uses 68P16s and 76P8s. Unusually, the 76P8 interacts with the
+#C        active region twice; it would produce an unwanted B-heptomino
+#C        if it interacted just once.
+#C 32.6.2 p32 pi-heptomino hassler [DER]
+#C        Originally used 209P8 instead of Charity's p16.
+#C ----------------------------------------------------------------------
+#C 33.0.0 5n+3 phase shift oscillator [MM 8/13/21]
+#C        Works at any period 5n+3 where a suitable sparker exists.
+#C        This one is period 33.
+#C 33.0.1 Jason's P33 [Jason Summers, 2000]
+#C        Can be used to make a P33 glider gun
+#C 33.0.2 p33 traffic light hassler [Nico Brown 9/16/22]
+#C ----------------------------------------------------------------------
+#C 34.0.0 74P34 [mvr 7/6/22]
+#C        The first period-34 oscillator to be found, and the third to last
+#C        period to be found. Found using symmetric CatForce.
+#C 34.0.1 p34 pi-heptomino hassler [mvr 9/13/22]
+#C        The second known p34 oscillator.
+#C ----------------------------------------------------------------------
+#C 35.0.0 p35 traffic light hassler [DER 3/13/22]
+#C        Looks similar to 22P36, but has a completely different mechanism.
+#C        Can be made into a wick.
+#C 35.0.1 p35 C2 pi-heptomino hassler [mvr 8/16/22]
+#C        Found using symmetric CatForce
+#C 35.0.2 p35 R-pentomino hassler [mvr 8/5/22]
+#C 35.0.3 P35 honey farm hassler [Dongook Lee]
+#C        Found on 1/9/16, with a hacked version of ptbsearch
+#C 35.1.0 p35 pre-pulsar shuttle [MM 9/10/21]
+#C        Uses a custom 14-generation push (14-generation pushes can be done
+#C        in many ways) and a recently discovered 21-generation push.
+#C        It was found as a result of the 21-generation push along with
+#C        the related p36 pre-pulsar shuttle.
+#C 35.1.1 50P35 [Jason Summers, 2002]
+#C 35.1.2 P35 traffic light hassler
+#C 35.1.3 P35 beehive hassler [DRH, 2/14/95, since improved]
+#C        The first known period 35 oscillator
+#C 35.2.0 P35 R-pentomino hassler [DER 8/3/21]
+#C        The sparkers are both in this collection; one is 38P7.2,
+#C        and the other is an unnamed p7.
+#C 35.2.1 p35 C4 pi-heptomino hassler [LJK 9/2/22]
+#C ----------------------------------------------------------------------
+#C 36.0.0 22P36 [NDE 1/29/95]
+#C        P36 traffic light hassler
+#C        The smallest known oscillator over period 30 by population, with 22 cells
+#C        Has appeared semi-naturally (i.e. from symmetric soup)
+#C 36.0.1 p36 pre-pulsar shuttle [DER 9/10/21, reduced by EvinZL the same day]
+#C        Uses a long-known 15-generation push and a recently discovered
+#C        21-generation push. The only pre-pulsar shuttle known to have
+#C        its 3x3 square phase solid instead of hollow.
+#C        Also see the p35 pre-pulsar shuttle, which was found immediately
+#C        after as 21+14.
+#C 36.0.2 Jason's p36 [JS 7/23/04 (without phase changing oscillator)]
+#C        P36 B-heptomino hassler; phase-changing oscillator is optional
+#C 36.1.0 P36 lumps of muck hassler [JS January 2004 (with p36 sparker), reduced by LJK 8/2/22]
+#C 36.1.1 [DER 4/25/22]
+#C        p6 sparker found by JP21.
+#C 36.1.2 P36 honey farm shuttle
+#C        This reaction was known for a long time, but in a larger form.
+#C 36.1.3 P36 traffic jam [RWG 10/14/95]
+#C 36.2.0 Hexatriacontathlon [DER 1/2/22]
+#C        A non-exposed form was created by NDE on 11/23/94.
+#C 36.2.1 p36 I-heptomino hassler [CC 9/6/22]
+#C 36.2.2 p36 honey farm shuttle [JP21 9/15/22]
+#C 36.3.0 p36, type 0 toadflipper
+#C        See discussion in period 60 section
+#C        Toadsuckers also exist, but it was omitted to save space.
+#C 36.3.1 p36 traffic light hassler
+#C 36.3.2 Two P18 biblock hasslers hassling two ponds and two blocks
+#C        See P16 section for biblock hasslers and P21 section for two pond and
+#C        two block hasslers.
+#C 36.3.3 p36 honey farm hassler [DER 3/27/22]
+#C 36.4.0 P36 shuttle [carybe, 2018]
+#C        Found via symmetric soup search
+#C 36.4.1 P36 honey farm shuttle
+#C 36.4.2 p36 honey farm hassler [DER 10/15/21]
+#C 36.5.0
+#C        This oscillator shows how a ship can eat half of a traffic light.
+#C 36.5.1 p36 honey farm hassler [DER 6/12/21 ]
+#C 36.5.2 p36 wing hassler [mvr 8/27/22]
+#C 36.6.0 p36 century hassler [DER 6/29/22]
+#C        Uses an alternative to 50P9 with a different side profile that was
+#C        lost and then found in the forum archives.
+#C        The century-hassling partial was found several months earlier.
+#C 36.6.1 p36 honey farm hassler [DER 9/15/21]
+#C        The sparkers are 104P9 and a variant of 64P6 optimized for bounding box.
+#C ----------------------------------------------------------------------
+#C 37.0.0 58P37 [LJK 6/24/22]
+#C        Found via symmetric CatForce. The smallest known p37 oscillator and
+#C        one of only four known with that period.
+#C 37.0.1 p37 traffic light hassler [mvr 8/3/22]
+#C        Used as a sparker for the p74 honey farm hassler.
+#C 37.0.2 Beluchenko's P37 [NB, 4/14/09]
+#C        The first period 37 oscillator to be found.  Also called 124P37.
+#C        Has appeared semi-naturally (i.e. from symmetric soup).
+#C 37.0.3 Beluchenko's other p37 [NB, 3/21/10]
+#C        The second unique p37 oscillator to be found.
+#C        Unrelated to the other p37.
+#C ----------------------------------------------------------------------
+#C 38.0.0 44P38 [DER 1/12/22, base reaction JS 8/31/00]
+#C        The first p38 oscillator to be found. All known p38 oscillators are
+#C        based on this one. It uses the 3/4 traffic light catalyst.
+#C 38.0.1 p38 C2 honey farm hassler [JP21 1/13/22 based on a partial by DER]
+#C 38.1.0 p38 interchange hassler [cvojan 4/20/22 based on a partial by DER]
+#C 38.1.1 p38 R-pentomino hassler [DER 1/12/22]
+#C 38.1.2 p38 D8 honey farm hassler [Nico Brown 9/10/22]
+#C        The first known p38 not based on 44P38.
+#C ----------------------------------------------------------------------
+#C 39.0.0 p39 pi-heptomino hassler [iNoMed 1/17/22, based on a partial by goldenratio the same day]
+#C        The only known p39 that is not an LCM or glider loop.
+#C        It can be dimerized to create an oscillator with only stable supports.
+#C 39.0.1 P13-assisted P39 glider shuttle
+#C ----------------------------------------------------------------------
+#C 40.0.0 Beluchenko's p40 [NB 3/4/09]
+#C        Has appeared semi-naturally (i.e. from symmetric soup)
+#C        Two or four can hassle a blinker, for P80 and P160 respectively.
+#C 40.0.1 p40 century hassler [mvr 8/26/22]
+#C 40.0.2 p40 pre-pulsar shuttle [DRH 11/4/94]
+#C        Period 40/2, symmetry type "-c+e".
+#C 40.0.3 p40 B-heptomino shuttle [DJB before 5/91]
+#C 40.1.0 p40 pi-heptomino hassler [mvr 8/16/22]
+#C        Found using symmetric CatForce
+#C 40.1.1 p40 moose [mvr 7/26/22]
+#C        The moose antlers shorten and lengthen in its catalysis.
+#C        Found using symmetric CatForce
+#C 40.1.2 p40 traffic jam [NDE 10/14/94]
+#C 40.1.3 p40 R-pentomino shuttle [cvojan 9/10/22]
+#C 40.2.0 p40 R-pentomino hassler [goldenratio 1/17/22]
+#C 40.2.1 p40 B-heptomino hassler [mvr 9/5/22]
+#C 40.2.2 P40 honey farm hassler #1 [DER 10/22/21]
+#C        Figure eights are simpler than middleweight emulators, but middleweight
+#C        emulators have a smaller bounding box.
+#C 40.3.0 P40 honey farm shuttle
+#C 40.3.1 p40 pi-heptomino hassler [LJK 8/29/22]
+#C        The sparker is a variant of toaster (p5).
+#C 40.3.2 P40 honey farm hassler #2 [DER 11/7/21]
+#C 40.4.0 [JP21 1/14/22, reduced by iNoMed the same day]
+#C 40.4.1 p40 hybrid honey farm shuttle [JP21 2/22/22]
+#C        The only known honey farm shuttle with two pushes that take different
+#C        numbers of generations, 18 and 22 in this case.
+#C 40.4.2 p40 lumps of muck hassler [DER 5/11/22]
+#C        There's a p48 using the same four lumps of muck with the same
+#C        spacing but with 68P16s that cause an additional perturbation.
+#C        The sparkers are 55P10 optimized for bounding box.
+#C 40.5.0 [praosylen 12/16/20 based on a partial by Tanner Jacobi the same day]
+#C        Two Beluchenko's p40 hassling an I-heptomino and two blocks
+#C 40.5.1 Four Beluchenko's p40 hassling traffic lights [A for awesome 7/18/21, based on a partial by DER the same day]
+#C        If the traffic lights are spaced (6,10) or (7,10) apart, it still works;
+#C        a temporary ship (6) or beehive (7) is created.
+#C 40.5.2 p40 B-heptomino hassler [CC 9/18/22 based on a partial by LJK]
+#C 40.6.0 p40 unnamed object hassler [DER]
+#C        This oscillator was found by going down the list of common
+#C        evolutionary sequences; this one was #183. It originally used four
+#C        180P8s; when the p10 domino fountain got reduced, this oscillator
+#C        did too.
+#C        ..o.
+#C        ...o
+#C        o..o
+#C        o..o
+#C        ooo
+#C 40.7.0 p40 honey farm hassler [DER]
+#C        Partial was found earlier; was completed when the
+#C        p10 domino fountain was found.
+#C ----------------------------------------------------------------------
+#C 42.0.0 p42 R-pentomino hassler [EvinZL 8/5/21, based on a partial by DER the same day; monomerized 9/4/21]
+#C        Could also be called a pre-honeyfarm or queen bee hassler
+#C        (but not a queen bee shuttle)
+#C        Emits sparks, but no oscillators utilizing it have been found yet.
+#C 42.0.1 [MM, Oct 2014 (using JLS)]
+#C        (based on a period-doubling reaction by Dean Hickerson)
+#C 42.1.0 P42 pulsar hassler
+#C        Contains two copies of the P21 honey farm hassler
+#C        Unlike pre-pulsar hasslers, this one becomes a full pulsar during
+#C        part of the cycle.
+#C 42.1.1 P42 glider shuttle [RTW 9/84, MDN ??/94]
+#C        A 2-glider shuttle, using a reaction
+#C        in which an eater3 and sparks from 2 unixes reflect a pair of
+#C        gliders.  RTW found a period 66+24n version of this; MDN
+#C        noticed that period 42 could be achieved by rearranging the
+#C        unixes.  The unixes can also be replaced by period 5 or 47
+#C        oscillators, giving periods 50+40n (see P50 section) and 282+376n
+#C        (see 282.0.0), or by a larger p6 oscillator, giving period
+#C        18 (see P18 section).  Also, by a lucky coincidence, the spacing
+#C        between the gliders allows 2 pairs of gliders to cross using
+#C        rephasers, giving periods 246+24n (see period 246), 230+40n
+#C        (see period 230), and 846+376n (not shown).
+#C 42.1.2 P42 pre-pulsar shuttle
+#C        Has been reduced from the original form by using custom p3 sparkers.
+#C        A version further reduced by 8 cells exists, but it has a larger
+#C        bounding box, so it's not shown here.
+#C 42.2.0 P42 honey farm hassler
+#C        The custom sparker is period 6.
+#C 42.2.1 p42 fumarole hassler [83bismuth38 10/12/21]
+#C        Uses the same phase shift as 62.0.0.
+#C        Without the fumarole, this is a period-21 domino sparker, although
+#C        with low clearance. A traffic light hassler, not in this collection,
+#C        can be made with the use of that spark.
 #C 42.2.2 p42 pi-heptomino hassler [CC and iNoMed 7/29/22]
 #C        Can make the smallest p42 gun by bounding box.
 #C 42.3.0 p42 pipsquirter [CC 8/22/22]
@@ -3203,8 +6410,6 @@
 #C         Sparks from a p46 shuttle interact 6 times with
 #C         sparks from a p15 pentadecathlon; one interaction makes a
 #C         temporary blinker.
-
-
 x = 5553, y = 649, rule = B3/S23
 6b2o2b2o4bo4b2o4b2o5b2o4b2o6bo5b2o3b2o6b2o6b2o4b2o5b2o5b2o8b2o4bobo6b
 2o6bo6b2o6b2o5bo12b2o4b2o4bobo8b2obo2bob2o24bo26b2o18bo19b2o17b2o24b2o
@@ -10142,7 +13347,7 @@ o2bo$4907bo2b2o2bo521b2o6b2o$4907bo2b2o2bo$4909b4o$4907bobo2bobo$4907b
 #C [[ LABEL 2178 450 9 "P42 pre-pulsar shuttle" ]]
 #C [[ LABEL 2056 495 9 "P42 honey farm hassler" ]]
 #C [[ LABEL 2115 495 8 "p42 fumarole hassler\n[83bismuth38 10/12/21]" ]]
-#C [[ LABEL 2172 498 10 "p42 pi-heptomino hassler\n[CC and iNoMed 7/29/22]" ]]
+#C [[ LABEL 2172 498 10 "p42 pi-heptomino hassler\n[iNoMed based on a partial by CC 7/29/22]" ]]
 #C [[ LABEL 2057 549 9 "p42 pipsquirter\n[CC 8/22/22]" ]]
 #C [[ LABEL 2114 550 7 "p42 pi-heptomino hassler\n[CC 9/11/22]" ]]
 #C [[ LABEL 2173 551 8 "p42 R-pentomino hassler\n[mvr 7/23/22, reduced by wwei23 the same day]" ]]
@@ -10318,7 +13523,7 @@ o2bo$4907bo2b2o2bo521b2o6b2o$4907bo2b2o2bo$4909b4o$4907bobo2bobo$4907b
 #C [[ LABEL 3275 71 7 "p72 D4 lumps of muck hassler\n[CC 8/29/22]" ]]
 #C [[ LABEL 3335 72 8 "p72 wing hassler\n[LJK 5/27/22, reduced by MM the next day]" ]]
 #C [[ LABEL 3387 72 9 "p72 pi-heptomino hassler" ]]
-#C [[ LABEL 3270 129 9 "p72 lumps of muck hassler\n[CC 9/18/22]" ]]
+#C [[ LABEL 3270 129 9 "p72 lumps of muck hassler\n[CC 9/18/22 based on a partial by mvr]" ]]
 #C [[ LABEL 3324 130 9 "P72 traffic light hassler" ]]
 #C [[ LABEL 3380 132 7 "[MM 11/28/19]" ]]
 #C [[ LABEL 3272 194 7 "p72 century shuttle\n[DJB June 1996, reduced by DER 5/26/22]" ]]
@@ -10499,7 +13704,7 @@ o2bo$4907bo2b2o2bo521b2o6b2o$4907bo2b2o2bo$4909b4o$4907bobo2bobo$4907b
 #C [[ LABEL 4887 257 7 "p186 century shuttle\n[DER 9/9/22 based on a partial by cvojan]" ]]
 #C [[ LABEL 4886 311 7 "Pseudo p94 gun\n[DJB,RCS,PC 7/11/94]" ]]
 #C [[ LABEL 4961 317 5 "P188 glider gun\n[RWG 10/16/94]" ]]
-#C [[ LABEL 4892 367 5 "p190 wing hassler\n[CC 8/28/22, reduced by iNoMed the same day]" ]]
+#C [[ LABEL 4892 367 5 "p190 wing hassler\n[CC 8/28/22 based on a partial by mvr, reduced by iNoMed the same day]" ]]
 #C [[ LABEL 4969 384 5 "R190\n[DJB 7/7/96]" ]]
 #C [[ LABEL 4883 451 9 "CL48C\n[LJK 6/7/22]" ]]
 #C [[ LABEL 4880 495 10 "P196 pi-heptomino hassler\n[Partial by David Raucci 6/2/21, completed by praosylen the same day]" ]]
