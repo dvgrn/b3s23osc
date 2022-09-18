@@ -7431,7 +7431,7 @@ ob2o20b2obobobo$7bobob2o2bo20bo2b2obobo$7bo5bo24bo5bo$8b6obo20bob6o$
 10bo3bobo18bobo3bo$13bo2bo18bo2bo$14b2o20b2o!
 
 #N p42 pi-heptomino hassler
-#O CC and iNoMed 7/29/22
+#O iNoMed based on a partial by CC 7/29/22
 #C Can make the smallest p42 gun by bounding box.
 x = 33, y = 39, rule = B3/S23
 14bo$14b3o$11bo5bo$11b6obo6b2o$16bobo5bo2bo$11b2o2bo2b2o7bo$11bobo2b2o
@@ -9442,7 +9442,7 @@ o$2b2obo18bo3bobo$2bob2o17bo3bobo$3b3obo15bo4bo$24b4o$5bo2$16b3o$14b2o
 12b2o$12b2o!
 
 #N p72 D4 lumps of muck hassler
-#O CC 8/29/22
+#O CC 8/29/22 based on a partial by mvr
 x = 50, y = 38, rule = B3/S23
 15bo18bo$14b3o16b3o$13b3obo14bob3o$14bo3bo12bo3bo$15bo3bo10bo3bo$16bo
 b3o8b3obo$bob2ob2o9b3o10b3o9b2ob2obo$2ob2o2b2o9bo12bo9b2o2b2ob2o$o48b
@@ -11582,7 +11582,7 @@ $28b2o26bo$28bobo23b3o$30bo9bo12bo$30b3o5b3o12b2o$33bo3bo$32b2o3b2o3$
 bo3b3o$37b2ob4o2bo$43bo$37b2ob3o$36bo2b2o$36b2o!
 
 #N p190 wing hassler
-#O CC 8/28/22, reduced by iNoMed the same day
+#O CC 8/28/22 based on a partial by mvr, reduced by iNoMed the same day
 #C Uses the p10 domino fountain.
 x = 58, y = 47, rule = B3/S23
 29bo4b2ob2o2bo2bob2o4bo$28bobo2bobob2o2b4obobo2bobo$27bo2bo2bobo10bobo
@@ -12011,134 +12011,3 @@ x = 35, y = 20, rule = B3/S23
 17bo$2o15b2o8b2o$2o16b2o7b2o$13b2o2b2o4$13b2o2b2o$2o16b2o$2o15b2o$17bo
 7b3o$25b3o$25bo3$23b2o6b2o$22bo2bo4bo2bo$21b6o2b6o$22bo2bo4bo2bo$23b2o
 6b2o!
-
-#O Aforampere 5/13/21
-#C Two p486 R-pentomino hasslers undergo a period-doubling reaction.
-x = 104, y = 94, rule = B3/S23
-21bo9bo$19b3o9b3o$18bo5bo3bo5bo$17bob6o3b6obo$17bobo13bobo$16b2o4b3o3b
-2o2bo2b2o$18bo2bo2bo3bo2b2obo$18bob4o8bobo$19b3o11bo$o51bo$3o47b3o$3bo
-45bo$2b2o45b2o13$19b2o$20b2obo$21bo5$72bo9bo$70b3o9b3o$31bo37bo5bo3bo
-5bo$29bob2o35bob6o3b6obo$32b2o34bobo13bobo$67b2o4b3o3b2o2bo2b2o$69bo2b
-o2bo3bo2b2obo$69bob4o8bobo$70b3o11bo$103bo$101b3o$100bo$100b2o5$2b2o$
-3bo$3o$o$19bo11b3o$18bobo8b4obo$18bob2o2bo3bo2bo2bo$16b2o2bo2b2o3b3o4b
-2o$17bobo13bobo34b2o$17bob6o3b6obo35b2obo$18bo5bo3bo5bo37bo$19b3o9b3o$
-21bo9bo5$82bo$80bob2o$83b2o13$53b2o45b2o$54bo45bo$51b3o47b3o$51bo51bo$
-70bo11b3o$69bobo8b4obo$69bob2o2bo3bo2bo2bo$67b2o2bo2b2o3b3o4b2o$68bobo
-13bobo$68bob6o3b6obo$69bo5bo3bo5bo$70b3o9b3o$72bo9bo!
-
-#N p1368 LCM loaf flipper
-#O DER 11/1/21
-#C On the left is two blockers hassling R-pentomino (p72), and on the
-#C right is the p76 pi-heptomino hassler. The LCM of these is 1368.
-#C Also see the period 120 section for the same loaf-flipping reaction
-#C in a different form.
-x = 48, y = 32, rule = B3/S23
-2b2o$bobo$3o18b2o10b2o$2o18bo2bo2b4o2bo2bo$3b2o15b3o2b6o2b3o$2b3o18b
-10o$22bo10bo$9bob3o8b2o8b2o$2b2o2b2obobo2bo$2b2o7bo$6b2o3b4o$10bobo$
-11bo$41b3o$27b3o$13b2o14bo9bo5bo$27b3o9bo5bo$10b2ob2o24bo5bo$10b3o2$2b
-2o$2bobo3b2o34b2o$3b3o2b2o34bo$4b2o39b3o$b2o14b2o28bo$b3o12bo2bo$17bob
-o$18bo$2b2o10b2o7b2o$2b2o11bo7bo$12b3o9b3o$12bo13bo!
-%1368
-
-#N p1380 crystallization and decay gun
-#O Entity Valkyrie 5/1/21
-#C A Tanner's p46 and a twin bees shuttle create a p92 glider gun.
-#C The crystallization and decay releases a glider for every 15 input gliders.
-x = 60, y = 43, rule = B3/S23
-4b2o14bo$5bo13bobo$5bobo11bobo$6b2o2b2o5b3ob2o$10b2o4bo$17b3ob2o$19bob
-2o$35b3o$33bo3bo$32bo4bo6bo$32bo3bo7b3o$o46bo$3o4bobo22bo3bo7b3o$3bo3b
-obo5bobo3bo10bo4bo6bo$2bobo2b3o6bo3bobo10bo3bo$2b2o15bo3bo11b3o$20bo2b
-o$2b2o$2bo$3bo12b2o$2b2o12bobo$8b2o8bo27b2o3bo$9bo8b2o27bo2bobo$6b3o
-11bo24bo4bobo$6bo11b3o24b5obo$17bo31bo$17b2o16bo9b2o3bo$36bo8b2o4bo$
-34b3o13b2o3$58b2o$17b2o39bo$16bobo37bobo$16bo39b2o$15b2o34bo$50bobo$
-51bo$56b2o$56bobo$58bo$43b2o13b2o$43b2o!%1380
-
-#N p2700 crystallization and decay oscillator
-#O DRH 3/27/90
-#C Extensible to period 2700+1950N.  A p150 gun shoots gliders
-#C toward a pair of PDs.  The first is reflected 180 degrees
-#C and hits the second, forming a honey farm.  Subsequent
-#C gliders grow a crystal back toward the gun; every 11
-#C gliders add another pair of beehives to the crystal.
-#C Eventually, an eater stops the growth and the crystal
-#C begins to decay: two successive gliders delete one pair of
-#C beehives.  (This is based on an earlier pattern found and
-#C lost by RWG, using a p46 gun.)
-x = 77, y = 91, rule = B3/S23
-5b2o$5b2o3$5bo$4bobo$3bo3bo$3b5o16b2o$2b2o3b2o15bobo$3b5o11b2o6bo11bob
-o$4b3o8b2obo2bo2bo2bo10bo2bo4bo$5bo9b2o2b2o6bo9b2o5b2o$24bobo8b2o3bo8b
-2o$24b2o11b2o10b2o$29bo8bo2bo$4bo22b2o10bobo$6b2o20b2o$5b3o$5b2o$6bo$
-5bobo$6b2o$20bobo$20b2o$2obob2o14bo2$o5bo6bo$14b2o$b2ob2o7b2o$3bo3$35b
-o$33b3o$3b2o15bobo9bo$3b2o16b2o9b2o$21bo6$20b2o$20bo$21b3o$23bo25$66b
-2o6b2o$58bo6bo2bo4bo2bo$59b2o4bo2bo4bo2bo$58b2o5bo2bo4bo2bo$66b2o6b2o
-7$60bo$60bo$59bobo$60bo$60bo$60bo$60bo$59bobo$60bo$60bo!%2700
-
-#N p120-based PRNG
-#O DRH 3/21/92
-#C Pseudo random number generator,
-#C based on an earlier pattern by RWG (a larger
-#C version of 40894.0.0).  Produces a sequence of bits b[n],
-#C represented by gliders, satisfying the recurrence
-#C b[n] = b[n-1] XOR b[n-7].  The sequence has period 127,
-#C so the period of the pattern is 120*127.  Increasing the
-#C separation between the NW and SE parts by 15N units
-#C diagonally changes the 7 above to K=7+N  (N >= -4).  The
-#C period of the sequence depends rather erratically on K:
-#C 
-#C K | 2 3  4  5  6   7  8  9  10   11   12   13    14    15
-#C P | 3 7 15 21 63 127 63 73 889 1533 3255 7905 11811 32767
-#C 
-#C K |  16  17     18     19     20   21      22      23
-#C P | 255 273 253921 413385 761763 5461 4194303 2088705
-#C 
-#C K |      24       25     26        27       28        29
-#C P | 2097151 10961685 298935 125829105 17895697 402653181
-#C 
-#C K |       30      31   32   33
-#C P | 10845877 2097151 1023 1057
-#C 
-#C Also see 40894.0.0.  (In 1996, DRH built a p30-based PRNG.)
-#C This uses a "boat-bit", a reaction in which gliders hitting
-#C a snake alternately create and destroy a boat. 
-x = 139, y = 126, rule = B3/S23
-115bo$115bobo$118b2o6b2o$104b2o12b2o4bo3bo$104b2o12b2o3bo5bo$115bobo4b
-2obo3bo$115bo7bo5bo$124bo3bo$126b2o6$126b2o$126bobo5b3o$126bo6bo3bo$
-132bo5bo$132bo5bo2$132bo$132b2o$132b2o$131b2o2bo$132bobo$133b2o3$130b
-2o3b2o$130b2o3b2o2$132b3o$132b3o$133bo6$132b2o$132b2o9$37b2o$37b2o6$
-19b2o$19b2o2$19bo$18bobo13b2o3b2o$18bobo$19bo15bo3bo$36b3o$36b3o$16b2o
-bob2o$16bo5bo$17bo3bo$18b3o2$33bo5bo$32bo5b3o$32b3o3b3o2$36b2o3b2o$21b
-o14b2o3b2o$22bo$20b3o4$36b2o$15b5o17bo$14bob3obo13b3o$15bo3bo14bo$16b
-3o$17bo4$17b2o17bo$17b2o18bo$35b3o2$58b2o$57bobo$56b3o$56b2o$59b2o$58b
-3o$45b3o$47bo$46bo11b2o$58b2o2$50bo$49bobobob2o$38b2o10b2ob2obo$37bobo
-4b2o$39bo3b2o$45bo4$19b2o$17bo3bo5bo2b3o19bo$16bo5bo9bo3bo14b2o$15bo2b
-o3bo8bo4bobo12bobo8bobo$22bo16b2o19bo3bo$13bo3bo3bo17b2o7b2o10bo12b2o$
-12bob2o3b2o18b2o7bo2bo7bo4bo8b2o$12bo23bobo4b2o7bo7bo$2b2o7b2o23bo5bo
-2bo6bo7bo3bo$bobo39b2o7bo9bobo$bo46bo2bo$2o46b2o!%15240
-
-#N p46-based PRNG
-#C RWG ????, DRH 1/10/95
-#C Pseudo random LWSS generator. Produces a sequence of bits b[n],
-#C represented by LWSSs, satisfying the recurrence
-#C b[n] = b[n-1] EQV b[n-10].  The sequence has period 889,
-#C so the period of the pattern is 46*889. Moving the bottom
-#C right gun and the reflector at the right edge 46N units
-#C farther right changes the 10 above to  K=10+4N  (N>=0).
-#C The period of the sequence depends on K as indicated in
-#C the description of 15240.0.0.
-x = 156, y = 75, rule = B3/S23
-146b2o5b2o$146b2o5b2o8$147bo5bo$146b3o3b3o$145b2obo3bob2o3$148bo3bo$
-148bo3bo5$147bo$146bobo$33bo111b2ob2o$32b2o8b2o101bo3bo$18b2o11b3obo5b
-o2bo99b3ob3o$18b2o10b2o8b2ob3o99bo3bo$31b2o8b2obo100bo3bo$32bo10bo102b
-obo4b2o$147bo5b2o$32bo$31b2o$18b2o10b2o13b2o30b2o$18b2o11b3obo9b2o30b
-2o$b2o29b2o$b2o30bo3$41bo2bo$19b4o22bo19b4o$18bo3bo18bo3bo18bo3bo58b2o
-$22bo19b4o22bo59b2o$18bo2bo42bo2bo59bo24b2o$b3o3b3o142bobo$o2bo3bo2bo
-143bo$2obo3bob2o69bo73b2o$57bo5bo5b2o8b2o15b2o$21b2o19bob2o11bo5bo5b2o
-7b2o16b2o$20b2o14b2o3bo2b2o2b3o28b2o2b2o$22bo13b2o3bo6b2o3b2o11b2o$41b
-2o3b3o$43bo3bo9bo5bo52bo$57bo5bo15b2o2b2o31b2o$43bo3bo21b2o7b2o16b2o
-17bobo$41b2o3b3o20b2o8b2o15b2o$36b2o3bo6b2o13b2o15bo$36b2o3bo2b2o2b3o
-12b2o$42bob2o$33bo$32b2o58b2o$32bobo17bo38bo$b2o5b2o41b2o25b2o10bo2b2o
-$b2o5b2o40b3obo9b2o12b2o10bo2bo18bo$30b2o17b2o13b2o24bobo11b2o4bo2bo$
-32bo17b2o39b2o12b2o3b5o10b2o$17b2o10b2o2bo17bo52bo5b3ob2o9b2o$17b2o11b
-o2bo57b2o18b2obo$31bobo17bo38bobo19b2o$31b2o17b2o26b2o10bo2bo$49b2o13b
-2o12b2o10bo2b2o17b2o$31b2o17b3obo9b2o25bo19b2obo$31bobo17b2o39b2o16b3o
-b2o9b2o$17b2o11bo2bo18bo57b5o10b2o$17b2o10b2o2bo76bo2bo$32bo79bo$30b2o!%40894
