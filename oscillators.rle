@@ -2599,10 +2599,10 @@
 #C        it's a stronger sparker.
 #C 72.0.1 p72 C2 lumps of muck hassler [CC 8/10/22]
 #C 72.0.2 p72 quasi-shuttle [Jason Summers, 2005]
-#C 72.1.0 p72 D4 lumps of muck hassler [CC 8/29/22]
+#C 72.1.0 p72 D4 lumps of muck hassler [CC 8/29/22 based on a partial by mvr]
 #C 72.1.1 p72 wing hassler [LJK 5/27/22, reduced by MM the next day]
 #C 72.1.2 p72 pi-heptomino hassler
-#C 72.2.0 p72 lumps of muck hassler [CC 9/18/22 based on a partial by mvr]
+#C 72.2.0 p72 lumps of muck hassler [CC 9/18/22]
 #C 72.2.1 P72 traffic light hassler
 #C 72.2.2 [MM 11/28/19]
 #C 72.3.0 p72 century shuttle [DJB June 1996, reduced by DER 5/26/22]
@@ -5394,7 +5394,7 @@
 #C        Without the fumarole, this is a period-21 domino sparker, although
 #C        with low clearance. A traffic light hassler, not in this collection,
 #C        can be made with the use of that spark.
-#C 42.2.2 p42 pi-heptomino hassler [CC and iNoMed 7/29/22]
+#C 42.2.2 p42 pi-heptomino hassler [iNoMed based on a partial by CC 7/29/22]
 #C        Can make the smallest p42 gun by bounding box.
 #C 42.3.0 p42 pipsquirter [CC 8/22/22]
 #C        Unfortunately, this pipsquirter has low clearance.
@@ -5809,7 +5809,7 @@
 #C 72.1.0 p72 D4 lumps of muck hassler [CC 8/29/22]
 #C 72.1.1 p72 wing hassler [LJK 5/27/22, reduced by MM the next day]
 #C 72.1.2 p72 pi-heptomino hassler
-#C 72.2.0 p72 lumps of muck hassler [CC 9/18/22]
+#C 72.2.0 p72 lumps of muck hassler [CC 9/18/22 based on a partial by mvr]
 #C 72.2.1 P72 traffic light hassler
 #C 72.2.2 [MM 11/28/19]
 #C 72.3.0 p72 century shuttle [DJB June 1996, reduced by DER 5/26/22]
@@ -6287,7 +6287,7 @@
 #C         p94 gun was built by DRH in 6/90, using 36 AK47s.)
 #C 188.0.1 P188 glider gun [RWG 10/16/94]
 #C ----------------------------------------------------------------------
-#C 190.0.0 p190 wing hassler [CC 8/28/22, reduced by iNoMed the same day]
+#C 190.0.0 p190 wing hassler [CC 8/28/22 based on a partial by mvr, reduced by iNoMed the same day]
 #C         Uses the p10 domino fountain.
 #C 190.0.1 R190 [DJB 7/7/96]
 #C         Four copies of R190 Herschel track. Repeat time 107 ticks.
@@ -13520,10 +13520,10 @@ o2bo$4907bo2b2o2bo521b2o6b2o$4907bo2b2o2bo$4909b4o$4907bobo2bobo$4907b
 #C [[ LABEL 3279 14 14 "Two blockers hassling R-pentomino\n[RTW 1990]" ]]
 #C [[ LABEL 3329 15 10 "p72 C2 lumps of muck hassler\n[CC 8/10/22]" ]]
 #C [[ LABEL 3382 18 12 "p72 quasi-shuttle\n[Jason Summers, 2005]" ]]
-#C [[ LABEL 3275 71 7 "p72 D4 lumps of muck hassler\n[CC 8/29/22]" ]]
+#C [[ LABEL 3275 71 7 "p72 D4 lumps of muck hassler\n[CC 8/29/22 based on a partial by mvr]" ]]
 #C [[ LABEL 3335 72 8 "p72 wing hassler\n[LJK 5/27/22, reduced by MM the next day]" ]]
 #C [[ LABEL 3387 72 9 "p72 pi-heptomino hassler" ]]
-#C [[ LABEL 3270 129 9 "p72 lumps of muck hassler\n[CC 9/18/22 based on a partial by mvr]" ]]
+#C [[ LABEL 3270 129 9 "p72 lumps of muck hassler\n[CC 9/18/22]" ]]
 #C [[ LABEL 3324 130 9 "P72 traffic light hassler" ]]
 #C [[ LABEL 3380 132 7 "[MM 11/28/19]" ]]
 #C [[ LABEL 3272 194 7 "p72 century shuttle\n[DJB June 1996, reduced by DER 5/26/22]" ]]
