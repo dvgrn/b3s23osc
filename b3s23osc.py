@@ -406,24 +406,22 @@ comments = "#N Oscillator stamp collection\n#O Dean Hickerson, David Raucci, et 
 #C
 #C Dean Hickerson, dean.hickerson@suddenlink.net
 #C 2/2/2000; last updated 9/16/2000. URLs corrected
-#C and list of missing periods updated on 5/8/2009.
+#C and list of missing periods updated on 10/23/2022.
 #C
 #C Notes from David Raucci:
 #C The 2013 discovery of the Snark allowed oscillators of all periods
-#C 43 and higher. There are 4 periods for which oscillators are still
-#C unknown as of late 2021: 19, 34, 38, and 41. (For period 34,
-#C we could use a noninteracting combination of p2 and p17 oscillators,
-#C but that's considered trivial.)
+#C 43 and higher. There are 2 periods for which oscillators are still
+#C unknown as of late 2022: 19 and 41.
 #C
 #C If you find any errors or can fill in any of the blanks, please
-#C let me know. This file has been updated in 2020 and 2021, converting it
+#C let me know. This file has been updated from 2020 to 2022, converting it
 #C to a Python program that automatically updates based on a text file input
 #C and includes more oscillators that were not known in 1995.
 #C
 #C See the GitHub repository at https://github.com/dvgrn/b3s23osc for more
 #C details.
 #C
-#C David Raucci, updated 6/3/2021.
+#C David Raucci, updated 10/23/22.
 #C
 #C ----------------------------------------------------------------------
 #C
@@ -447,14 +445,16 @@ comments = "#N Oscillator stamp collection\n#O Dean Hickerson, David Raucci, et 
 #C names are abbreviated in this header:
 #C 
 #C    AF  = Achim Flammenkamp            AWH = Alan Hensel
-#C    DIB = David Bell                   DJB = David Buckingham
-#C    DRH = Dean Hickerson               DER = David Raucci
-#C    HH  = Hartmut Holzwart             JHC = John Conway       
-#C    KS  = Karel Suhajda                MDN = Mark Niemiec      
-#C    MM  = Matthias Merzenich           NB  = Nicolay Beluchenko
-#C    NDE = Noam Elkies                  PC  = Paul Callahan     
-#C    RCS = Rich Schroeppel              RTW = Robert Wainwright 
-#C    RWG = Bill Gosper                  SN  = Simon Norton
+#C    CC  = Carson Cheng                 DIB = David Bell 
+#C    DJB = David Buckingham             DRH = Dean Hickerson
+#C    DER = David Raucci                 HH  = Hartmut Holzwart
+#C    JHC = John Conway                  LJK = Luke Kiernan
+#C    KS  = Karel Suhajda                MDN = Mark Niemiec     
+#C    MM  = Matthias Merzenich           mvr = Mitchell Riley        
+#C    NB  = Nicolay Beluchenko           NDE = Noam Elkies
+#C    PC  = Paul Callahan                RCS = Rich Schroeppel 
+#C    RTW = Robert Wainwright            RWG = Bill Gosper
+#C    SN  = Simon Norton
 #C
 #C
 #C    JHC group  = A group of people working with John Conway in the
