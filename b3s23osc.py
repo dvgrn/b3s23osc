@@ -15,7 +15,7 @@ import os
 from datetime import date
 
 ROW_WIDTH = 150
-COL_HEIGHT = 650  # note: if a single period is taller than height variable, it won't work properly
+COL_HEIGHT = 1300  # note: if a single period is taller than height variable, it won't work properly
 SLOW_MSG = False
 
 # These are the zoom levels set for labels on objects with different widths
