@@ -28,7 +28,7 @@ today = date.today().strftime("%b %d, %Y")
 start_time = time.time()
 g.setrule("B3/S23")
 # clear the universe before starting to build stamp collection
-g.new("oscillators.rle")
+g.new("/Users/davidraucci/Conway's Game of Life/oscillators.rle")
 
 def show_message(message, time_):
     g.show(str(message))
@@ -253,7 +253,7 @@ def open_file2(file):
     show_message('Total number of patterns: %s' % len(patterns),0.5)
 
 patterns = []
-open_file2('oscillators.txt')
+open_file2("/Users/davidraucci/Conway's Game of Life/oscillators.txt")
 data = [(0,1234567,0,0,0,0)] #this period 1234567 marks the end of the file
 count = 0
 for i in patterns:
@@ -406,22 +406,22 @@ comments = "#N Oscillator stamp collection\n#O Dean Hickerson, David Raucci, et 
 #C
 #C Dean Hickerson, dean.hickerson@suddenlink.net
 #C 2/2/2000; last updated 9/16/2000. URLs corrected
-#C and list of missing periods updated on 10/23/2022.
+#C and list of missing periods updated on 8/4/2023.
 #C
 #C Notes from David Raucci:
 #C The 2013 discovery of the Snark allowed oscillators of all periods
-#C 43 and higher. There are 2 periods for which oscillators are still
-#C unknown as of late 2022: 19 and 41.
+#C 43 and higher. As of 7/21/23, all periods have been found, with
+#C 41 being the last.
 #C
 #C If you find any errors or can fill in any of the blanks, please
-#C let me know. This file has been updated from 2020 to 2022, converting it
+#C let me know. This file has been updated from 2020 to 2023, converting it
 #C to a Python program that automatically updates based on a text file input
 #C and includes more oscillators that were not known in 1995.
 #C
 #C See the GitHub repository at https://github.com/dvgrn/b3s23osc for more
 #C details.
 #C
-#C David Raucci, updated 10/23/22.
+#C David Raucci, updated 8/4/23.
 #C
 #C ----------------------------------------------------------------------
 #C
@@ -564,10 +564,10 @@ comments = "#N Oscillator stamp collection\n#O Dean Hickerson, David Raucci, et 
 #C them correctly even if they are out of order. If a pattern is not a
 #C still life or oscillator, it will exclude it from the pattern, but it
 #C will take an extra half second to figure this out unless it completely
-#C dies first. Oscillators with width above 120 plus the digit width
+#C dies first. Oscillators with width above 150 plus the digit width
 #C or period >= 1000 with max bounding box expanding after generation 1000
 #C are not supported unless the Python code is modified. ROW_WIDTH can be
-#C changed at the top of the code to increase the allowed width above 120.
+#C changed at the top of the code to increase the allowed width above 150.
 #C
 #C ----------------------------------------------------------------------
 #C
