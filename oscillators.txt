@@ -3225,6 +3225,22 @@ x = 22, y = 25, rule = B3/S23
 2bo$10bo4bo3b2o$14b5o$13bo4bo$12b2o2b2o$11bobobo$8bo2bobobo$8b4ob2o$
 12bo$10bobo$10b2o!
 
+#O Charity Engine 3/28/24
+x = 24, y = 24, rule = B3/S23
+11bo$10bobo$10bobo$13bo$10b2o$10bobo$7bo3bo$7b2o4bo2b2o$9bo4bobo$8bo6b
+o$3bo3bo10b2ob2o$b2o2bo11bobo3bo$o3bobo11bo2b2o$b2ob2o10bo3bo$8bo6bo$
+7bobo4bo$6b2o2bo4b2o$12bo3bo$11bobo$12b2o$10bo$11bobo$11bobo$12bo!
+
+#N Tumbling T-tetson supported by rephasing p5 sparkers
+#O P1GG 8/5/24
+#C The sparkers are 5n+3, which can also be seen in the p33 section.
+#C There is a much simpler version using figure eights, but this
+#C version is also interesting.
+x = 19, y = 16, rule = B3/S23
+12b2obo$12bob2o$7bob2obo3b2o$7b2obo2b3o2bo$11bo3bobo$13b2o2b2o$14bobo$
+3bo4b3o3bobo$2bobo3b3o4bo$2bobo4bo$2o2bob2o$bobo$o2b2obobob2o$b2o3bob
+2obo$3b2obo$3bob2o!
+
 #N Snacker
 #O MDN 1972
 #C Has appeared semi-naturally (i.e. from symmetric soup)
@@ -4368,7 +4384,7 @@ x = 24, y = 22, rule = B3/S23
 #N p15 blinker factory
 #O DER 3/19/22
 #C By moving the pentadecathlons up one or two cells, different factory
-#C types can be made. No p15 gun is known yet.
+#C types can be made.
 x = 39, y = 18, rule = B3/S23
 14bo$14b3o$17bo$16b2o2$18b3o$17bo3bo$17bo3bo$4bobo2bobo5bo3bo5bobo2bob
 o$2obo2bo2bo2bob2o2b3o2b2obo2bo2bo2bob2o$4bobo2bobo15bobo2bobo2$17bo$
@@ -4379,6 +4395,29 @@ o$2obo2bo2bo2bob2o2b3o2b2obo2bo2bo2bob2o$4bobo2bobo15bobo2bobo2$17bo$
 x = 32, y = 11, rule = B3/S23
 2o13b2o13b2o$bo13b2o13bo$bobo24bobo$2b2o24b2o$15b2o$5b6o3b4o3b6o$15b2o
 $2b2o24b2o$bobo24bobo$bo13b2o13bo$2o13b2o13b2o!
+
+#N Capped p15 glider gun
+#O P1GG 3/1/24
+#C The smallest known period for a true-period glider gun.
+#C Found only five hours after a p16 gun by the same discoverer, which
+#C was the first true-period gun under period 20.
+x = 29, y = 31, rule = B3/S23
+27bo$27bo$19b3o$27bo$18bo3bo3bobo$2b2o15b3o$2bobo8bo12b3o$3bobob3o2bob
+o$4b2obobo3bo$5b3o18b3o$b3o6b2o7b3o$7bob3o6bo3bo3bobo$6bob3o16bo$7b2o
+4bo5b3o$2o11bo2b2o9bo$bo10bo5bo8bo$bobo9bobo2b2o$2b3ob3o4bo3b2o$4b3o3b
+o4b3o3bobo$4b2o2bobo11b2o$4b2o5bo10bo$2b3ob2o2bo$bobo6bo4b2o8b2o$bo11b
+3obo7bo$2o10b3obo9b3o$12b2o6b3o5bo$16b3o$10bo3bobob2o$9bobo2b3obobo$
+10bo8bobo$20b2o!
+
+#N Capped p16 glider gun
+#O P1GG 2/29/24
+#C The first known true-period gun with period under 20.
+x = 35, y = 25, rule = B3/S23
+24bo$11b2o9b3o$11b2o8bo$21b2o$5bo$4b3o4b2o5b3o$3bob3o3bobo6bo$2bo3bo6b
+o5bo$bo3bo4bo2bo$3obo23b2o$b3o5bo2bo15bobo$2bo6bobo6b2o5b2obobo$10bo5b
+2o2bo4bobobo$19bo7bo$15bo9bo2bo$15bo12bo$14b3obobo3bo3bo$15b2o2b3o6bo
+2bo$16b5o4bobo2bobo$17b3o6b2o3bo$16b3o8bo4b2o$15b2o9b6obo$16bo9bo7bo$
+13b3o11b3ob3o$13bo15bobo!
 
 #N Achim's p16
 #O AF 7/27/94
@@ -4502,13 +4541,6 @@ x = 13, y = 11, rule = B3/S23
 5bobo$6bo!
 
 #C P16 honey farm hassler
-x = 32, y = 28, rule = B3/S23
-14b2o$13bo2bo$12bobobo$12bo2bo$11bo18b2o$12bobo14bobo$27b3o$16bo9bo3bo
-$15bobo4b5o2b2o$15bo2bo2b3ob2o$11bo3bobo4b5o2b2o$11bo4bo9bo3bo$27b3o$
-2o27bobo$obo27b2o$2b3o$bo3bo9bo4bo$b2o2b5o4bobo3bo$5b2ob3o2bo2bo$b2o2b
-5o4bobo$bo3bo9bo$2b3o$obo14bobo$2o18bo$16bo2bo$15bobobo$15bo2bo$16b2o!
-
-#C P16 honey farm hassler
 x = 20, y = 22, rule = B3/S23
 4bo7bo$3bobo4b3o$4bo4bo$9b2o2$6b3o$2o3bo3bo$2o2bo5bo$5bo3bo$6b3o3$11b
 3o$10bo3bo$9bo5bo2b2o$10bo3bo3b2o$11b3o2$9b2o$10bo4bo$7b3o4bobo$7bo7bo!
@@ -4535,39 +4567,6 @@ o3b3o23b3o3bo$3o5bobo11b2o6bobo5b3o$2bob3ob2obo9bo2bo4bob2ob3obo$4b2o
 2obo4bo2bo9bob2ob3obo$3o5bobo6b2o11bobo5b3o$2bo3b3o23b3o3bo$2b3ob2o25b
 2ob3o$3b4o8b3o3b3o10b4o$4b2o29b2o$13b2o3bobo3b2o$13bo4bobo4bo$12bo5bob
 o5bo$13bo4bobo4bo$14b3o5b3o2$17b2ob2o$16bobobobo$17bo3bo!
-
-#N p16 century hassler
-#O DER 10/12/21
-x = 20, y = 26, rule = B3/S23
-4b2o10b2o$3bo2bo8bo2bo$3b3o10b3o$6b10o$5bo2b6o2bo$5b2o2b4o2b2o$b2o$b2o
-$b2o$bo8b2o$obo6b2o6b2o$ob2o6bobo4b2o$11b2obo$5bob2o$b2o4bobo6b2obo$b
-2o6b2o6bobo$8b2o8bo$17b2o$17b2o$17b2o$3b2o2b4o2b2o$3bo2b6o2bo$4b10o$b
-3o10b3o$bo2bo8bo2bo$2b2o10b2o!
-
-#N p16 honey farm hassler
-#O JP21 1/14/22
-x = 24, y = 27, rule = B3/S23
-2b2ob2obo$b2o2b2ob2o$9bo$b2o$b2o5b2o10bo$8b2o8b3o$bo15bo$b2ob2o2b2o7b
-2o$2bob2ob2o3$13bobo$14bob2o$13bobo$2o3bo14b2o$4bob2o12bobo$5b3o14bo$b
-o6bo13b2o$obobobo2bo$b2obob3o6b2o$15b2obo$b2obob3o10bo$obobobo2bo6bo$b
-o6bo8bob2o$5b3o11b2o$4bob2o$2o3bo!
-
-#N p16 honey farm hassler
-#O JP21 1/29/22
-x = 35, y = 25, rule = B3/S23
-25bo3bo$24bobobobo$23bo2bobo2bo$22b2ob2ob2ob2o$15bo5bo3bo3bo3bo$13bobo
-4bo2bob2ob2obo2bo$14bobo6bo7bo$14bo10b2ob2o$20bo5bobo5bo$10bo5b3o2b2ob
-2o3b2ob2o$9bobo3bo3bo$10bo3bo5bo$14bo5bo$14bo5bo3bo$15bo3bo3bobo$b2ob
-2o3b2ob2o2b3o5bo$o5bobo5bo$5b2ob2o10bo$3bo7bo6bobo$o2bob2ob2obo2bo4bob
-o$bo3bo3bo3bo5bo$2b2ob2ob2ob2o$3bo2bobo2bo$4bobobobo$5bo3bo!
-
-#N p16 honey farm hassler
-#O DER 3/10/22
-x = 26, y = 21, rule = B3/S23
-11b2o7b2o$11bo9bo$12b9o$9b3o2b5o2b3o$9bo2bo2b3o2bo2bo$10b2o9b2o2$15b3o
-$14bo3bo$13bo5bo$2b4o7bo5bo$bo4bob2o3bo5bo$bo4bo3bo3bo3bo$4b2o4bo4b3o$
-b2o4bo2bo8b2obo$o2bo3bo2bo9bob3o$o2bo4b2o8bobo4bo$o4b2o10bob2o3b2o$o3b
-o4bo7bo$b2obo4bo6b2o$5b4o!
 
 #N p16 pi-heptomino hassler
 #O CC 8/8/22
@@ -4633,9 +4632,18 @@ x = 20, y = 17, rule = B3/S23
 #N p16 century shuttle
 #O NMB 9/21/23
 #C The second-smallest known p16 by population, behind only Rob's p16.
+#C This reaction can also be seen in 86P118.
 x = 13, y = 13, rule = B3/S23
 7bo$bo4bobo$o2bo3bo$o2bo$2bo3bo$5b3o$4bo2bo$4b2o$10bo$9bo2bo$5bo3bo2bo
 $4bobo4bo$5bo!
+
+#N p16 B-heptomino hassler
+#O NMB 3/4/24
+x = 21, y = 24, rule = B3/S23
+10bo$8b3o$7bo5bob2o$7b2o4b2obo2$11b5o$11bo4bo2b2o$4b3o7bo2bo2bo$3bo2bo
+7b2obobo$3b2obo4bo5bob2o$10bobo4bo$10bo2bo2b2o$11b2o$7b3o$9bo6b2o$7bob
+ob2obo2bo$7b2o3bob2obob2o$12bo2bobo2bo$2b2o9b2o2b2o$3bo10bobo$3o6b2o3b
+obo$o9bo4bo$7b3o$7bo!
 
 #N 54P17.1
 #O DRH
@@ -4677,6 +4685,34 @@ x = 25, y = 25, rule = B3/S23
 bo2bo$20bo2b2o3$16bo$4b2o10b2o3b2o$3bobo9b2o5bo$3bo17bo$2obo9bo8b3o$o
 2bobo5b3o10bo$bo2bo7bo$2b2o2bo$4b4o$4bo3bo$2bobob2o4bobo$2b2o2bo5b2ob
 o$6bobo6bo$7b2o6b2o!
+
+#N p17 sixteenfold honey farm hassler
+#O iNoMed 3/30/23 based on a partial by CC the same day
+#C One of JP21's partials can be attached to it to make a
+#C corner dot sparker similar to 66P13.
+#C No, the gliders can't escape.
+x = 82, y = 82, rule = B3/S23
+28b2o22b2o$29bo22bo$29bobo18bobo$30b2o18b2o2$34b2o10b2o$26b2o5b2o12b2o
+5b2o$27bo7bo10bo7bo$27bobo22bobo$28b2o22b2o$34b3o8b3o$31bob2obo8bob2ob
+o$22b2o10bo12bo10b2o$22bo36bo$19b2obo36bob2o$18bobob2o5b2o20b2o5b2obob
+o$17bo6bo4b2o20b2o4bo6bo$16bo4b3o10b2o10b2o10b3o4bo$15bo4bo2bobo8b2o
+10b2o8bobo2bo4bo$14bo4bobo38bobo4bo$14b2o2bobo40bobo2b2o$17bobo10bo20b
+o10bobo$12b4obo10bob2obo14bob2obo10bob4o$12bo2bob2o9b3o20b3o9b2obo2bo$
+16bo18b2o8b2o18bo$18bo16bobo6bobo16bo$6bo20bo9bo6bo9bo20bo$6b3o17bo10b
+2o4b2o10bo17b3o$o8bo12b2o34b2o12bo8bo$3o5b2o5b2o6bo34bo6b2o5b2o5b3o$3b
+o11b2o4b3o34b3o4b2o11bo$2b2o7bo10bo36bo10bo7b2o2$6bo4bo10bo36bo10bo4bo
+$5b2o3b3o4b2o44b2o4b3o3b2o$5bobo2bo6b2o5b2o30b2o5b2o6bo2bobo$10b2o12bo
+32bo12b2o$25b3o26b3o$27bo26bo5$27bo26bo$25b3o26b3o$10b2o12bo32bo12b2o$
+5bobo2bo6b2o5b2o30b2o5b2o6bo2bobo$5b2o3b3o4b2o44b2o4b3o3b2o$6bo4bo10bo
+36bo10bo4bo2$2b2o7bo10bo36bo10bo7b2o$3bo11b2o4b3o34b3o4b2o11bo$3o5b2o
+5b2o6bo34bo6b2o5b2o5b3o$o8bo12b2o34b2o12bo8bo$6b3o17bo10b2o4b2o10bo17b
+3o$6bo20bo9bo6bo9bo20bo$18bo16bobo6bobo16bo$16bo18b2o8b2o18bo$12bo2bob
+2o9b3o20b3o9b2obo2bo$12b4obo10bob2obo14bob2obo10bob4o$17bobo10bo20bo
+10bobo$14b2o2bobo40bobo2b2o$14bo4bobo38bobo4bo$15bo4bo2bobo8b2o10b2o8b
+obo2bo4bo$16bo4b3o10b2o10b2o10b3o4bo$17bo6bo4b2o20b2o4bo6bo$18bobob2o
+5b2o20b2o5b2obobo$19b2obo36bob2o$22bo36bo$22b2o10bo12bo10b2o$31bob2obo
+8bob2obo$34b3o8b3o$28b2o22b2o$27bobo22bobo$27bo7bo10bo7bo$26b2o5b2o12b
+2o5b2o$34b2o10b2o2$30b2o18b2o$29bobo18bobo$29bo22bo$28b2o22b2o!
 
 #N 99P18
 #O DJB before 5/91; since reduced
@@ -4827,16 +4863,6 @@ x = 15, y = 17, rule = B3/S23
 7bobo$2bob5obobo$b2obo5bob2o$2bobob5obo$2bobo7bo$2o2bobobobo2b2o$bobo
 2bo4bobo$bo2b3ob3o2bo$2o5bo5b2o$6bo2b2o$7b2obo!
 
-#N P18 R-pentomino hassler
-#O DER 8/7/21, reduced 8/29/23
-#C The sparkers are caterer and 42P9, originally caterer and 50P9.
-x = 26, y = 37, rule = B3/S23
-11bo$10bobo2b2o$10bobo3bo$8b2obob3o$7bobo3bo$6bo2bobo$7b4obo$12bo2b2o$
-7b2obobo2b2o$5bo2bob2o11b2o$5b2obo13bo$8bo16bo$8b2o11bo3bo$18b4o3bo$
-23bo$14bo$12b3o$13bo2$12bo$11b3o$11bo$2bo$o3b4o$o3bo11b2o$o16bo$3bo13b
-ob2o$b2o11b2obo2bo$9b2o2bobob2o$9b2o2bo$13bob4o$14bobo2bo$12bo3bobo$
-10b3obob2o$9bo3bobo$9b2o2bobo$14bo!
-
 #N p18 LOM sparker
 #O DER 8/23/21
 #C Placing a block in the correct location rephases it to period 24.
@@ -4947,7 +4973,7 @@ x = 20, y = 16, rule = B3/S23
 
 #N Cribbage
 #O mvr 7/14/23
-#C The first and so far only period-19 oscillator. It is the second
+#C The first known period-19 oscillator. It is the second
 #C to last known oscillator period, with 41 being found a week later.
 #C The name "cribbage" is from 19 being the fewest number of points
 #C that is impossible to get in a single round of the card game.
@@ -4956,6 +4982,19 @@ x = 32, y = 21, rule = B3/S23
 3bo11bo3bo6b2o$3b2o5b3o4bo5bo4bobo$3bo5bo3bo4bo3bo5bo$bobo4bo5bo4b3o5b
 2o$b2o6bo3bo11bo3b2o$10b3o12b4o2bo$29bobo$13b2o10b4obo$13bo11bo2bo$14b
 3o9b2o2bo$16bo10bob2o$27bo$26b2o!
+
+#N 134P19
+#O P1GG 2/24/24
+#C The second known p19 to be discovered.
+#C Two days before its discovery, a period-doubled version with
+#C the ship-tie/half-bakery reaction was found.
+x = 33, y = 32, rule = B3/S23
+10b2o$10bobo$13bo2b2o$11b2obo2bo$10bobob2o$11bo$21b2o$21bo$6bo5b3o4bob
+o$5bobo3bo3bo3b2o4bo$5b2o3bo5bo7bobo$3b2o5bo5bo7bobo$2bo2b2o3bo5bo6b2o
+b3o$bobo2bo4bo3bo13bo$o2b2o7b3o8b2ob3o$2o21b2obo$6bob2o21b2o$4b3ob2o8b
+3o7b2o2bo$3bo13bo3bo4bo2bobo$4b3ob2o6bo5bo3b2o2bo$6bobo7bo5bo5b2o$6bob
+o7bo5bo3b2o$7bo4b2o3bo3bo3bobo$11bobo4b3o5bo$11bo$10b2o$21bo$17b2obobo
+$15bo2bob2o$15b2o2bo$20bobo$21b2o!
 
 #O NDE 3/22/95
 #C A period 9+11 traffic light hassler.
@@ -5033,17 +5072,6 @@ x = 17, y = 23, rule = B3/S23
 6b2o$7b2o$13b2o$13bobo$15bo$15b2o$6b4o$5b6o$5bo4bo$6bo2bo$4bobo2bobo$
 4b2o4b2o!
 
-#N p20 traffic light hassler
-#O praosylen 10/3/21, based on a partial by DER the same day, since reduced
-x = 44, y = 36, rule = B3/S23
-29b2o$25b2o2bo$24bo2bobo$20b2obobobob2o$20bob2obobobo$25b3o3bo$5bo2b3o
-10b4obob3obo$6bob2o10bo11bo$2bo4b3o11b3obobob3o$7bobo3bo9b2obob2o$o6bo
-2b4o$11b3o$6bo2b3o20b2o$2o3bobo4bo19bo$2b2o2bo6bo16bobo$30b2o$5bo19b3o
-6bo2bo$5bo5bo4b3o6bobo9bo$6bo9bobo6b3o4bo5bo$6bo2bo6b3o19bo$12b2o$11bo
-bo16bo6bo2b2o$11bo19bo4bobo3b2o$10b2o20b3o2bo$30b3o$30b4o2bo6bo$14b2ob
-ob2o9bo3bobo$12b3obobob3o11b3o4bo$11bo11bo10b2obo$11bob3obob4o10b3o2bo
-$12bo3b3o$14bobobob2obo$13b2obobobob2o$14bobo2bo$14bo2b2o$13b2o!
-
 #N p20 R-pentomino hassler
 #O DER 12/7/21, monomerized by iNoMed the same day
 x = 24, y = 18, rule = B3/S23
@@ -5068,15 +5096,6 @@ x = 36, y = 36, rule = B3/S23
 o11bo$7b2o7bob2o8b3o$17b2o8bo$27b2o4$2o8bo14b2o$2o7b3o12bo2bo$8bo2bo
 12b3o7b2o$9b2o14bo8b2o4$7b2o$8bo8b2o$5b3o8b2obo7b2o$5bo11bobo7bo$9b2o
 7bo4b2o3b3o$8bobo12bobo4bo$8bo16bo$7b2o16b2o4$16b2o$16b2o!
-
-#N p20 R-pentomino hassler
-#O LJK 8/27/22
-x = 36, y = 19, rule = B3/S23
-24b2o$24bo$6b2o14bobo$5bo2bo13b2o$o2bo2bobo19bo2b2o$5obob2o8bo8bobo2bo
-$6b2o3bo5b3o7bobobo$2b3o2b2o10bo6b2obob2o$bobo2bobo3bo11bo3b2o3bo$bob
-2o2b2o18b2o2b2obo$2bo3b2o3bo11bo3bobo2bobo$3b2obob2o6bo10b2o2b3o$4bobo
-bo7b3o5bo3b2o$3bo2bobo8bo8b2obob5o$3b2o2bo19bobo2bo2bo$12b2o13bo2bo$
-11bobo14b2o$11bo$10b2o!
 
 #N p20 wing hassler supported by T-nosed p20s
 #O T-nosed p20: CC 9/28/22; wing hassler known earlier but reduced
@@ -5212,19 +5231,6 @@ x = 34, y = 34, rule = B3/S23
 obo6b2o2b2o12b2o$5b2o8bo2bo$15b2o5$18b2o$18bobo$19b2o2$16b2o$17bo$14b
 3o$14bo!
 
-#N p21 LOM hassler
-#O DER
-x = 43, y = 38, rule = B3/S23
-16b2o12b2o$16bobo4b2o4bobo$18bo3bo2bo3bo$18b2o3b2o3b2o$20bo6bo$18b3o6b
-3o$17bo12bo$2ob2o10bo2b2ob6ob2o2bo$bobo11b2obobo6bobob2o$o4bobo8bobo
-10bobo6b2ob2o$b4o2bo8bo6b2o6bo7bobo$6b2o9b2o10b2o4bobo4bo$3bo31bo2b4o$
-2bobo4b2o24b2o$2b2o5b2o28bo$32b2o4bobo$8b4o20b2o5b2o$7bo4bo8b3o$7bo4bo
-6b2o2bo7b4o$8b4o7bo2b2o6bo4bo$19b3o8bo4bo$2b2o5b2o20b4o$2bobo4b2o$3bo
-28b2o5b2o$6b2o24b2o4bobo$b4o2bo31bo$o4bobo4b2o10b2o9b2o$bobo7bo6b2o6bo
-8bo2b4o$2ob2o6bobo10bobo8bobo4bo$10b2obobo6bobob2o11bobo$10bo2b2ob6ob
-2o2bo10b2ob2o$12bo12bo$13b3o6b3o$15bo6bo$13b2o3b2o3b2o$13bo3bo2bo3bo$
-11bobo4b2o4bobo$11b2o12b2o!
-
 #N Monoicosathlon
 #O iNoMed 1/2/22
 #C A domino sparker based on the pentadecathlon.
@@ -5243,19 +5249,6 @@ obo$b2o2bob2obo32bob2obo2b2o$2bobo4bo34bo4bobo$2bo3b3o36b3o3bo$3b2obo
 x = 16, y = 18, rule = B3/S23
 5b2o$5b2o2$bo$obo$bo2$5b3ob2o$4bo3bo2bo$4bo2bo3bo$5b2ob3o2$14bo$13bobo
 $14bo2$9b2o$9b2o!
-
-#N p21 honey farm hassler
-#O LJK 8/5/22
-x = 46, y = 50, rule = B3/S23
-10bo$9bobo3b2o$8bo2bo3bo$8bobob2obo$9b2o3bo$12bo$9b5o$9bo$10b2o$5bo2bo
-bob4o$5b4obob3obo$10b3o3bo$7b3o4bobob2o$7bo2bobobob2obo$10bo4bo$11b3o
-3b2o$13bobobo2bo$14b3o2b2o$3bo$2bob2ob2o$2bo5b2o$b2obo2bo2bo5b3o19bo$o
-3b3o3bo4bo3bo7b3o7bob2ob2o$o9bo3bo5bo5bo3bo6bo5b2o$o3b3o3bo3bo5bo4bo5b
-o4b2obo2bo2bo$o2bo2bob2o4bo5bo4bo5bo3bo3b3o3bo$b2o5bo6bo3bo5bo5bo3bo9b
-o$2b2ob2obo7b3o7bo3bo4bo3b3o3bo$7bo19b3o5bo2bo2bob2o$36b2o5bo$37b2ob2o
-bo$42bo$25b2o2b3o$25bo2bobobo$27b2o3b3o$30bo4bo$26bob2obobobo2bo$26b2o
-bobo4b3o$29bo3b3o$29bob3obob4o$30b4obobo2bo$34b2o$36bo$32b5o$33bo$31bo
-3b2o$30bob2obobo$30bo3bo2bo$29b2o3bobo$35bo!
 
 #N p21 traffic light hassler
 #O LJK 9/17/22
@@ -5289,21 +5282,19 @@ x = 16, y = 16, rule = B3/S23
 
 #N Jason's P22
 #O Jason Summers, 2000
-#C Can be used to make a P22 glider gun,
-#C the third smallest true period known after 20 and 21.
+#C Can be used to make a P22 glider gun.
 x = 27, y = 10, rule = B3/S23
 2o25b$bo25b$bobo13b3o7b$2b2o3bo8bo3bo6b$6bob2o6bo4bo5b$5bo4bo6b2obo6b$
 6bo3bo8bo3b2o2b$7b3o13bobob$25bob$25b2o!
 
 #N P22 lumps of muck hassler
-#O praosylen, 2015
-#C Contains two copies of Jason's P22.
-x = 31, y = 49, rule = B3/S23
-9bo$7b3o$6bo$6b2o3$3b2o$2bob2o$2bo4bo$3b2o4bo$4bo3bo3$b2o4b2o2$13b2o$b
-o3bo7bobo$o4b2o7bo$2bo4bo$4b2obo$5b2o2$29bo$2b2o23b3o$3bo12b2o8bo$3o
-10b2o11b2o$o13bob2o$15bo4b2o$19bo2bo$19bob2ob2o$20b2o4b2o$15bo11bo$14b
-obo5bo3b2o$15b2o6b3o4$24b3o$22b2o3bo$22bo$22b2o4b2o$24b2ob2obo$27bo2bo
-$28b2o2$22b2o$23bo$20b3o$20bo!
+#O praosylen, 2015, reduced by LJK 12/8/23
+#C The original form contained two copies of Jason's P22. It was then
+#C reduced to a stable form.
+x = 29, y = 18, rule = B3/S23
+7b2o$7b2o$22bo$7b4o9b3o$6bo3bo8bo$6b2o11b2o3b2o$25bo$6b2o4b3o10bob2o$
+2b2obobo2b2o2bo7b2obo2bo$o2bob2o3bo2b2o6bobob2o$2obo6b3o8b2o$3bo$3b2o
+3b2o11b2o$9bo8bo3bo$6b3o9b4o$6bo$20b2o$20b2o!
 
 #N 168P22.1
 #O NDE, 1997
@@ -5377,15 +5368,6 @@ $9bobo$10b2o$3bo14bo2bo$2bobo13bo2b3o$2bobo14bo4bo$b2ob2o2bo3b2obo2b2o
 b3o$3bo3b3o2bob2o3bobo$3bob3ob2o8bobo$4bo4bo10bo$5b4o2$5b2o$5bo$6bo$5b
 2o!
 
-#N p22 B-heptomino hassler
-#O DER 11/2/21, reduced by CC 11/23/22
-x = 38, y = 29, rule = B3/S23
-9bo$7b3o$6bo10bo19bo$6b2o9b3o15b3o$20bo13bo$19b2o13b2o$3b2o$2bob2o$2bo
-4bo23b2o$3b2o4bo20bob2o$4bo3bo21bo4bo$31b2o4bo$20bob2o8bo3bo$b2o4b2o
-11b3o$16bo4bo$15b3o11b2o4b2o$bo3bo8b2obo$o4b2o$2bo4bo21bo3bo$4b2obo20b
-o4b2o$5b2o23bo4bo$32b2obo$33b2o$2b2o13b2o$3bo13bo$3o15b3o9b2o$o19bo10b
-o$28b3o$28bo!
-
 #N p22 century hassler
 #O mvr 7/23/22
 #C Found using symmetric CatForce
@@ -5447,13 +5429,15 @@ x = 30, y = 18, rule = B3/S23
 3b2o14b3o3b2o$3b2o3b3o14b2o$8bobo$8bobo$26b2o$14b2o4b2o4bo$7b2o5bo5b2o
 5b3o$8bo6b3o11bo$5b3o9bo$5bo!
 
-#N 55P23
-#O NMB 11/6/22
+#N 54P23
+#O NMB 11/6/22 as 55P23, reduced by P1GG 3/4/24
 #C The smallest known p23 oscillator currently.
+#C Originally 55P23, where the transparent blinker in the 54P23 form
+#C was a block.
 x = 20, y = 20, rule = B3/S23
-4bo$4b3o4b2o$7bo3b2o$6b2o2$18b2o$2b2o14bo$2bo7b3o3bobo$4bo4bo3bo2b2o$
-3b2o3bo5bo$2bo5bo5bo$bob2o3bo5bo$o2bobo3bo3bo$2o2bo5b3o2$15b2o$8b2o5bo
-bo$9bo7bo$6b3o8b2o$6bo!
+4bo$4b3o$7bo3b3o$6b2o2$18b2o$2b2o14bo$2bo7b3o3bobo$4bo4bo3bo2b2o$3b2o
+3bo5bo$2bo5bo5bo$bob2o3bo5bo$o2bobo3bo3bo$2o2bo5b3o2$15b2o$8b2o5bobo$
+9bo7bo$6b3o8b2o$6bo!
 
 #N p23 R-pentomino hassler
 #O NMB 11/11/22
@@ -5463,6 +5447,15 @@ x = 30, y = 31, rule = B3/S23
 $bobo22bobo$bo15b2o7b2o$2o14bo2bo$8b2o5b2ob2o$9bo7bo$6b3o$6bo$24b2o$14b
 2o2b2o4bo$14bo2bo2bo4b3o$15b3obobo5bo$21bo$15b5ob3o$15bo4bo3bo$18bobo
 2b2o$18b2o!
+
+#N p23 honey farm hassler
+#O mvr 7/31/24
+x = 35, y = 26, rule = B3/S23
+12b2o$13bo$13bob2o3b2o$14bobo4bo$16bob3o$15b2obo$11b3o$10bo3bo$9bo5bo
+16bo$2o7bo5bo15bobo$o2bo5bo5bo15bo2bo$b3o6bo3bo14b2obobo$4b2o5b3o14bo
+3b2o$b2o3bo14b3o5b2o$obob2o14bo3bo6b3o$o2bo15bo5bo5bo2bo$bobo15bo5bo7b
+2o$2bo16bo5bo$20bo3bo$21b3o$16bob2o$14b3obo$13bo4bobo$13b2o3b2obo$21bo
+$21b2o!
 
 #N p24 domino sparker
 #O RTW 10/10/94
@@ -5519,15 +5512,6 @@ x = 40, y = 31, rule = B3/S23
 2o$5bobobo22bo$4bobob2o13bo$4bobo6b2ob2o6b2o$5b2o4b3obob3o3b2o$10bo4bo
 4bo$9bobob2o2b2obo$9bobo3b2o2bo$8b2obob2o2b2o10b2o$6bo2bobo4bo12bobo$
 6b2o2b2ob4o14bo$12bo18b2o$12bobo$13b2o!
-
-#N p24 double honey farm hassler
-x = 39, y = 34, rule = B3/S23
-12b2ob6o$12b2ob6o$12b2o$12b2o5b2o$12b2o5b2o$12b2o5b2o$19b2o$12b6ob2o$
-12b6ob2o$30b2o$4bo21b2o2b2o2b2o$2o2b2ob3o16bobo2bo2b2o$2o4b4o17b3o$4b
-2o22b2o$15bo$14bob2o3bo$14bo3bobob2o$15b2obobo3bo$17bo3b2obo$23bo$9b2o
-22b2o$9b3o17b4o4b2o$3b2o2bo2bobo16b3ob2o2b2o$3b2o2b2o2b2o21bo$7b2o$18b
-2ob6o$18b2ob6o$18b2o$18b2o5b2o$18b2o5b2o$18b2o5b2o$25b2o$18b6ob2o$18b
-6ob2o!
 
 #N p24 single honey farm hassler
 #O JP21 1/16/22 based on a partial by DER; reduced by Luka Okanishi the same day
@@ -5654,17 +5638,6 @@ o$17b6o$10b2o3bo2b4o2bo3b2o$10bobob4o4b4obobo$8bobob2o5b2o5b2obobo$7bo
 bob2o6b2o6b2obobo$7bobo20bobo$8bobob2o12b2obobo$10bobo14bobo$10bobo14b
 obo$11bo16bo!
 
-#N p24 double beehive hassler
-#O IgnacyJ 3/16/22 based on a partial by DER the same day
-x = 24, y = 42, rule = B3/S23
-5b2o10b2o$b2obobo10bobob2o$2bobo14bobo$2bobo14bobo$b2o3bob2ob2ob2obo3b
-2o$o3b4obob2obob4o3bo$b3o3bo8bo3b3o$4b4ob6ob4o$b2obo14bob2o$obo2bo2b8o
-2bo2bobo$o3bo3bo6bo3bo3bo$b3o6b4o6b3o$3bob4obo2bob4obo$4b6o4b6o$5b4o6b
-4o3$7bo8bo$6bobo6bobo$6bobo6bobo$7b2o6b2o7$5b4o6b4o$4b6o4b6o$3bob4obo
-2bob4obo$b3o6b4o6b3o$o3bo3bo6bo3bo3bo$obo2bo2b8o2bo2bobo$b2obo14bob2o$
-4b4ob6ob4o$b3o3bo8bo3b3o$o3b4obob2obob4o3bo$b2o3bob2ob2ob2obo3b2o$2bob
-o14bobo$2bobo14bobo$b2obobo10bobob2o$5b2o10b2o!
-
 #N p24 honey farm hassler
 #O CC 8/11/22
 x = 29, y = 23, rule = B3/S23
@@ -5705,15 +5678,6 @@ ob2o$bo3bobo9b3o4b3o3b2obo$bob2o2b3o14b2o5bobo$2obo3b3o15b3o3bob2o$bob
 o5b2o14b3o2b2obo$bob2o3b3o4b3o9bobo3bo$2obo5b2o4bobo10bob3o$3bo3b3o5b
 3o6b2obobo$3b2o2b3o14b2obob2o$5bobo19bo2bo$b4obo20b2o$bo3bobob2o$4b2ob
 ob2o$4bo2bo10b2o$6b2o10bo$19b3o$21bo!
-
-#N p24 lumps of muck hassler
-#O CC 9/18/22
-x = 34, y = 25, rule = B3/S23
-23b2o$23b3o$17b2o2bo2bobo$3b2o12b2o2b2o2b2o$3bo17b2o$2b2o2b3o$2bo3bob
-3o$2b2obo4bo$4bobo$o4bob2o7b3o$3obo3bo6bo3bo$2b3o2b2o6b2ob2o6b2o$7bo6b
-o4bo6bo$6b2o6b2ob2o6b2o2b3o$14bo3bo6bo3bob3o$15b3o7b2obo4bo$27bobo$23b
-o4bob2o$23b3obo3bo$25b3o2b2o$11b2o17bo$7b2o2b2o2b2o12b2o$7bobo2bo2b2o$
-8b3o$9b2o!
 
 #N Capped period-24 glider gun
 #O cvojan and vivi 10/2/22, reduced by JP21 the next day
@@ -5844,18 +5808,6 @@ x = 21, y = 22, rule = B3/S23
 2o$2b2obo7bo4b2o4$2b2obo7bo$o2bob2o5b2o$2obo9bo$3bo13b2o$3b2o12bobo$b
 2o2bobo11bo$o2bo2b2o2b2o7b2o$b2o8bo$5bob4o$5b2obo!
 
-#N p25 century hassler
-#O DER 10/5/21
-x = 41, y = 41, rule = B3/S23
-16b2o3b2o$16b2o3b2o$16b2o3b2o$16b2o3b2o$12b2o3b2ob2o3b2o$12bo2bobo3bob
-o2bo$b2o10bob2o5b2obo$2bo11bo9bo$bo13b4ob4o$b2o6b2o6bobobo$3bo4bo2bo$b
-4o13b3o$o$2o4bo3bobo25b2o$6b4obo26bo$18b2o19bo$10b2o6bobo9b2o6b2o$10b
-2o3bo4bo8bo2bo4bo$15bo3b2o15b4o$6b4obo28bo$2o4bo3bobo15bobo3bo4b2o$o
-28bob4o$b4o15b2o3bo$3bo4bo2bo8bo4bo3b2o$b2o6b2o9bobo6b2o$bo19b2o$2bo
-26bob4o$b2o25bobo3bo4b2o$40bo$20b3o13b4o$29bo2bo4bo$19bobobo6b2o6b2o$
-17b4ob4o13bo$16bo9bo11bo$15bob2o5b2obo10b2o$14bo2bobo3bobo2bo$14b2o3b
-2ob2o3b2o$18b2o3b2o$18b2o3b2o$18b2o3b2o$18b2o3b2o!
-
 #N 30P25
 #O Charity Engine 5/18/22
 #C Found via symmetric soup search. The active region is not one of the
@@ -5863,17 +5815,6 @@ o2bo$b2o10bob2o5b2obo$2bo11bo9bo$bo13b4ob4o$b2o6b2o6bobobo$3bo4bo2bo$b
 x = 20, y = 20, rule = B3/S23
 o$3o$3bo$2b2o2$6b2o$6bobo$5bob2o$4bo2bo$4bobo7bo$5bo7bobo$12bo2bo$11b
 2obo$11bobo$12b2o2$16b2o$16bo$17b3o$19bo!
-
-#N p25 lumps of muck hassler
-#O LJK 9/13/22
-x = 41, y = 32, rule = B3/S23
-22b2o$21bobo$15b2o3bo2bob2o$15bo4bobobobo$12b2obo3bo4bo$13bob2o2b4obo$
-12bo3bo2bo3bo$13b3ob2ob3o$6b2o7bo4bo$5bo2bo$o2bo2bobo7bo2bo$5obob2o23b
-o2b2o$6bo2bo22bobo2bo$2b4o2bo23bobobo$bo3b2o2bo9bo11b2obob2o$bob3o2bo
-10b2o10bo2bo3bo$2bo3bo2bo10b2o10bo2b3obo$3b2obob2o11bo9bo2b2o3bo$4bobo
-bo23bo2b4o$3bo2bobo22bo2bo$3b2o2bo23b2obob5o$21bo2bo7bobo2bo2bo$32bo2b
-o$20bo4bo7b2o$18b3ob2ob3o$17bo3bo2bo3bo$16bob4o2b2obo$16bo4bo3bob2o$
-14bobobobo4bo$14b2obo2bo3b2o$17bobo$17b2o!
 
 #N 36P25
 #O mvr 9/17/22, reduced the same day by iNoMed
@@ -5887,7 +5828,7 @@ x = 24, y = 12, rule = B3/S23
 #N 45P25
 #O CC 9/26/22
 #C Traffic light and blinker hassler. The fumarole undergoes an unusual
-#C catalysis. The active region is the same as in Raucci's p102.
+#C catalysis. The active region is the same as in Raucci's p102 and 44P49.
 x = 24, y = 13, rule = B3/S23
 22b2o$19b2o2bo$19bob2o$18bo$18bo$2o17bob2o$o2b2o8b2o4b2o2bo$b2obo8b2o
 7b2o$5bo7b2o$5bo$b2obo5b3o$o2b2o$2o!
@@ -5912,16 +5853,6 @@ x = 39, y = 41, rule = B3/S23
 2o19b2o2b2o$8bobo11b2o9b2o$10bo9b2obo$10b2o8bo$20b3o2bo6b2o$25bo5bo2bo
 $30bo2b2o2b2o$28b2o2b3o2b2o$27bo$28b3obo$29b2o3$28b2o$27bobo$27b2o2$
 30b2o$30bo$31b3o$33bo!
-
-#N p25 honey farm hassler
-#O CC 10/12/22
-x = 46, y = 21, rule = B3/S23
-21bo$21b3o$24bo$2b2o3b2o14b2o$bo2bobo2bo26b2o$bob2ob2obo25bob3o$2o2bob
-o2b2o15bo8bo4bo$2bo3bobo16bobo6b2ob2ob3o$2bobobob3obo6bo4bo3bo3bo3b2ob
-o3bo$2o4bo2bo8bobo3bo3bo6bo5bo2bo$bob3o4bo3bo2bo3bo2bo3bo2bo3bo4b3obo$
-bo2bo5bo6bo3bo3bobo8bo2bo4b2o$2bo3bob2o3bo3bo3bo4bo6bob3obobobo$3b3ob
-2ob2o6bobo16bobo3bo$5bo4bo8bo15b2o2bobo2b2o$6b3obo25bob2ob2obo$8b2o26b
-o2bobo2bo$21b2o14b2o3b2o$21bo$22b3o$24bo!
 
 #N p25 unnamed region hassler
 #O mvr 10/17/22
@@ -5965,18 +5896,6 @@ o2b2o$2b3o2b3o28bobo2bo$bo4b4o7b3o18bobobo$bob2o2b3o6bo3bo16b2obob2o$
 3o7b4o4bo$3bo2bobo28b3o2b3o$3b2o2bo29bo2bo$18b2o17b2obob5o$16b2o2b2o
 16bobo2bo2bo$16bo4bo6bo2bo6bo2bo$17bo2bo5bo2b2o2bo5b2o$15bobo2bobo3bo
 2b2o2bo$15b2o4b2o5b4o$26bobo2bobo$26b2o4b2o!
-
-#N p25 lumps of muck hassler
-#O mvr 4/20/23
-x = 47, y = 32, rule = B3/S23
-7b2o6b2o$bob2obobo6bobob2obo$b2obobo10bobob2o$7bo8bo$6b2o8b2o$6b4o4b4o
-$9bo4bo$9b6o2$4b2o12b2o$4b2ob2o6b2ob2o3b2o4b2o$8b8o8bo4bobo4b2o3b2o$9b
-6o9bob2obo2bo3bobobobo$10b4o9b2obobob2o6bobo2b2o$21bo4bobobo5bobob2obo
-$21bob2o5bo5bobo2bobo$5b2o8bobo2b2o2b3o4b2ob4o2b2ob2o$5bobo8bo3b3o5b2o
-4bo6bobo2bo$6b2o12b3o6b2o12bob2o$2b2o16b2o2b3o3b5o4bobobo$bobo8b3o6bob
-2o4bo5bo3bo3bo$bo10bobo6bo4bobob5o5b3o$2o10bo2bo7b2obob2o8bobo$13bobo
-8bob2o3b2o5b2o$13b3o8bo4b2obo$7bob2o6b2obo4b3obo$5b3ob2o6b2ob3o4bobo$
-4bo18bo4bo$5b3ob2o6b2ob3o$7bobo8bobo$7bobo8bobo$8bo10bo!
 
 #N p25 pi and block hassler
 #O mvr 4/23/23
@@ -6081,6 +6000,15 @@ x = 39, y = 10, rule = B3/S23
 5b2o2b2o9b2o2b2o5bobo$bo6bobo17bobo6bo$2o6bo21bo6b2o$6b3o21b3o$5bo10b
 2o3b2o10bo$5b2o9b2o3b2o9b2o!
 
+#N p26 century hassler
+#O NMB 3/1/24
+x = 35, y = 26, rule = B3/S23
+20bo$19bobo$19bobo$5b2o5b2o4b2ob2o$5bo6bo$7bob2obo5b2ob4ob2o$6b2obobo
+6b2obo2bobobo$6bo3bo17bo2b2o$4bobo20b2obobo$3bobo24bo$3bo7b2o14b4o$2ob
+2o5bobo14bo3b2o$o2bo5b3o16b3o2bo$bo2b3o16b3o5bo2bo$2b2o3bo14bobo5b2ob
+2o$4b4o14b2o7bo$4bo24bobo$2bobob2o20bobo$2b2o2bo17bo3bo$6bobobo2bob2o
+6bobob2o$7b2ob4ob2o5bob2obo$22bo6bo$12b2ob2o4b2o5b2o$13bobo$13bobo$14bo!
+
 #C p27 traffic light hassler
 x = 28, y = 18, rule = B3/S23
 4b2o$5bo14b2o$5bobo12bobo$6b2o14bo2b2o$22bobobo$22bobo$3b2o5b3o7bobobo
@@ -6118,8 +6046,6 @@ x = 30, y = 30, rule = B3/S23
 
 #N p27 traffic light hassler
 #O DER 10/3/21
-#C Uses two 56P27s and two 50P9s. The 50P9s are in different positions
-#C to show that it works in both.
 x = 47, y = 70, rule = B3/S23
 13b2o$13b2o4$15bo$14bobo$13b2obo$15bo$9b2o7b3o$9b2o7b3o$9b2o2$6b2o14bo
 5b2o$5bo2bo13b2o4b2o$2o4b2o13bo2bo$2o5bo14b2o2$19b2o$9b3o7b2o$9b3o7b2o
@@ -6184,20 +6110,6 @@ o3bo6bob3obo$2bobo10bo3b2o12bo2bo3bo3bo2bob2o3bo4bobo$2bobo28b2o7b2obo
 bobobo3b4o2bo$3bo39bobobo2b2o6bobo$41bobobobo8b2o2b2o$41b2o3bo10bobo$
 57bobo$58bo2$34b2o$34bo$35b3o$37bo!
 
-#N p27 lumps of muck hassler
-#O LJK 9/29/22
-x = 45, y = 56, rule = B3/S23
-14bob2o4b2obo$14b2o2bo2bo2b2o$12b2o3bo4bo3b2o$11bo3b2ob4ob2o3bo$12b3ob
-obo2bobob3o$14bobobo2bobobo$17bo4bo$18bo2bo$18bo2bo2$15b2o6b2o$15bo8bo
-$16b2o4b2o$18bo2bo$14b12o$13bo12bo6b3o$14b4o4b4o7bobo$32b3o$14b3o6b3o
-17b2o$13bo2bo6bo2bo4b2o10bo$13b2o2b6o2b2o5bo2bo4b2obo$33b3o6bo$34bo3bo
-$37bo3bo$9b3o22bo3bo$9bobo21b3o6bo$10b3o7b3o9bo2bo4b2obo$2o18bo2b2o6b
-2o10bo$bo10b2o6b2o2bo18b2o$bob2o4bo2bo9b3o7b3o$2bo6b3o21bobo$6bo3bo22b
-3o$3bo3bo$6bo3bo$2bo6b3o$bob2o4bo2bo5b2o2b6o2b2o$bo10b2o4bo2bo6bo2bo$
-2o17b3o6b3o$10b3o$9bobo7b4o4b4o$9b3o6bo12bo$19b12o$23bo2bo$21b2o4b2o$
-20bo8bo$20b2o6b2o2$23bo2bo$23bo2bo$22bo4bo$19bobobo2bobobo$17b3obobo2b
-obob3o$16bo3b2ob4ob2o3bo$17b2o3bo4bo3b2o$19b2o2bo2bo2b2o$19bob2o4b2obo!
-
 #N p27 wing/B hassler
 #O DER 3/14/23, reduced 8/29/23 with the discovery of 42P9
 #C Used 50P9 before 42P9 was discovered; both are domino sparkers.
@@ -6252,6 +6164,18 @@ o18bo$3bo4bo3bo4bo16bo2bo$3bo3bo5bo3bo19bo$5b2o7b2o16b2o2bo2b2o$30b2o
 2bo16bo4bo3bo4bo$5bo18bobobobo3bobobobo$2b2o2bo2b2o13b2o3bobobobo3b2o$
 bobo7b2o$bo8b3o$2o9b2o18b3o$11b2o18b3o$8bo2bo18b5o$9b2o18b2o3b2o$30bo
 3bo$27b3o5b3o$27bo9bo!
+
+#N p27 procrastinator hassler
+#O mvr 7/30/24
+#C See the p80 section for what a procrastinator is.
+x = 39, y = 39, rule = B3/S23
+28b2o$23b2o3bo$22bob3obo$20b3o4bob2o$19bo4b2obo3bo$20b3obobob3o$22bo3b
+obo$4bo19bobobo$3bobo17b2ob2o$o2bobo6bo$3o2b3o3bobo$3b2o3bo3bo15bo$2bo
+2b4o18bobo$2bobo16b3o4bo$b2ob2ob2o10b2o$bo6bo4bobo3b2ob2o$2b2ob2o6bobo
+$3bobo7bo$3bobo8b2o$4bo9b2o7b2o9bo$23b2o8bobo$25bo7bobo$23bobo6b2ob2o$
+15b2ob2o3bobo4bo6bo$18b2o10b2ob2ob2o$10bo4b3o16bobo$9bobo18b4o2bo$10bo
+15bo3bo3b2o$25bobo3b3o2b3o$26bo6bobo2bo$11b2ob2o17bobo$10bobobo19bo$
+10bobo3bo$8b3obobob3o$7bo3bob2o4bo$8b2obo4b3o$10bob3obo$10bo3b2o$9b2o!
 
 #C Most known p29 oscillators and some p28s are "pre-pulsar hasslers".
 #C Consider a pair of hollow 3x3 squares, with 3 empty columns between them:
@@ -6479,42 +6403,6 @@ o$4b2o18bo3bo18b2o$24bo3bo2$26bo$25bobo$20b2o4bo4b2o$20bo11bo$21bo9bo$
 18b3o11b3o$18bo2b2o7b2o2bo$19bo5bobo5bo$16b3o4bobobobo4b3o$16bo5bo2bob
 o2bo5bo$22b3o3b3o$25b3o$24bo3bo$24b2ob2o!
 
-#N p28 lumps of muck hassler
-#O LJK 9/18/22
-x = 41, y = 34, rule = B3/S23
-7b2o7bo$7bobo5b2o15b2o$8b2o3b2obo15bo$4b2o7b2o15bobo$3bobo15b2o7b2o$3b
-o15bob2o3b2o$2b2o15b2o5bobo$19bo7b2o2$33b2ob2o$38bo$31b2o3bobo$31bo4bo
-b2o$31b2ob3o3bo$3b2ob2o23b3o3b3o$8bo10b2o9bo3b3ob2o$b2o3bobo10bobo9b2o
-bo4bo$bo4bob2o9bobo10bobo3b2o$b2ob3o3bo9b2o10bo$b3o3b3o23b2ob2o$o3b3ob
-2o$b2obo4bo$2bobo3b2o$2bo$3b2ob2o2$12b2o7bo$12bobo5b2o15b2o$13b2o3b2ob
-o15bo$9b2o7b2o15bobo$8bobo15b2o7b2o$8bo15bob2o3b2o$7b2o15b2o5bobo$24bo
-7b2o!
-
-#N p28 honey farm hassler
-#O CC 10/17/22
-x = 48, y = 46, rule = B3/S23
-8b2o12b2o$8bobo4b2o4bobo$10bo3bo2bo3bo$10b2o3b2o3b2o$12bo6bo$10b3ob4ob
-3o$9bo12bo$7bo2bo10bo2bo$7b2obo10bob2o$8bob12obo$8bobo10bobo$9bo12bo2$
-39b2o$37b3o6b2o$7b2o27bo4bo5bo$2o6b3o26b4obob3o$o5bo4bo5b3o20bobobo$b
-3obob4o5bo3bo16bobobo2bo$3bobobo7bo5bo14bo3bo$3bo2bobobo4bo5bo14bo4bo
-3bo$7bo3bo3bo5bo14bo4bo2bobo$2bo3bo4bo4bo3bo7b3o5bo4bo2bobo$bobo2bo4bo
-5b3o7bo3bo4bo4bo3bo$bobo2bo4bo14bo5bo3bo3bo$2bo3bo4bo14bo5bo4bobobo2bo
-$7bo3bo14bo5bo7bobobo$3bo2bobobo16bo3bo5b4obob3o$3bobobo20b3o5bo4bo5bo
-$b3obob4o26b3o6b2o$o5bo4bo27b2o$2o6b3o$7b2o2$25bo12bo$24bobo10bobo$24b
-ob12obo$23b2obo10bob2o$23bo2bo10bo2bo$25bo12bo$26b3ob4ob3o$28bo6bo$26b
-2o3b2o3b2o$26bo3bo2bo3bo$24bobo4b2o4bobo$24b2o12b2o!
-
-#N p28 honey farm hassler
-#O CC 10/16/22
-x = 35, y = 37, rule = B3/S23
-14b2o10b2o$13bo2bo8bo2bo$13b3o10b3o$16b10o$15bo2b6o2bo3b2o$15b2o2b4o2b
-2o3b2o2$28b6o$27bo3bo2bo$3b2o23b2o3b2o$3b2o24bo$29bobo$b6o5b2o15bobo$o
-2bo3bo4b2o14bo$2o3b2o21bo4b2o$5bo7bo7bo6bo5bo$3bobo6bobo5bobo5bo4bo$3b
-obo5bo3bo3bo3bo4bo4b2o$6bo4bo3bo3bo3bo4bo$2o4bo4bo3bo3bo3bo5bobo$bo4bo
-5bobo5bobo6bobo$o5bo6bo7bo7bo$2o4bo21b2o3b2o$6bo14b2o4bo3bo2bo$3bobo
-15b2o5b6o$3bobo$5bo24b2o$2o3b2o23b2o$o2bo3bo$b6o2$3b2o3b2o2b4o2b2o$3b
-2o3bo2b6o2bo$9b10o$6b3o10b3o$6bo2bo8bo2bo$7b2o10b2o!
-
 #N p28 pi-heptomino hassler
 #O NMB 10/28/22
 #C Uses stable catalysts, not sparkers.
@@ -6579,15 +6467,20 @@ x = 26, y = 24, rule = B3/S23
 bo$17b3o5$11bo$10bobo$11bo7bo$18bobo$19bo!
 
 #N p29 pentadecathlon hassler
-#O RWG ????, DRH 12/13/94
+#O RWG ????, DRH 12/13/94, clearance increased by iNoMed 6/6/24
 #C Pentacdecathlon phase changer. Supplies a 2-bit spark that's used in a P58.
-x = 58, y = 22, rule = B3/S23
-10bo7bo20bo7bo$9bobo5bobo18bobo5bobo$10bo7bo20bo7bo4$25b8o$25bob4obo$
-3b2o20b8o20b2o$3bo6b3o3b3o20b3o3b3o6bo$2obo6bobo3bobo20bobo3bobo6bob2o
-$o2b2o5b3o3b3o20b3o3b3o5b2o2bo$b2o4bo13b2o12b2o13bo4b2o$3b5o13bobo10bo
-bo13b5o$3bo4b2o13bo10bo13b2o4bo$4b2o2bo7b2o5b2o8b2o5b2o7bo2b2o$6bobo7b
-2o22b2o7bobo$6bobobo2bo30bo2bobobo$7b2ob4o30b4ob2o$9bo38bo$9bobo34bobo
-$10b2o34b2o!
+#C Before 2024, it had low clearance. This form can still be seen in
+#C the p58 section. The new version was enabled by the "long boat spin",
+#C found on 6/6/24, that allows a blinker to be converted into
+#C a middleweight spark.
+x = 50, y = 30, rule = B3/S23
+24b2o$13b2o7bo4bo7b2o$13b2o6bo6bo6b2o$20bo8bo$20bo8bo$10b2o8bo8bo8b2o$
+10bobo8bo6bo8bobo$11bobo8bo4bo8bobo$12bo11b2o11bo$16b2o14b2o$10b3o3bob
+o12bobo3b3o$2bo15bo12bo15bo$bobo4bo5bo3b2o10b2o3bo5bo4bobo$2bo5bo32bo
+5bo$8bo32bo$10b3o3bo16bo3b3o$14b2obo14bob2o$8b3o6bo14bo6b3o$2o4bo5bo4b
+2o12b2o4bo5bo4b2o$2o4bo5bo24bo5bo4b2o$6bo5bo24bo5bo$11bo6b2o10b2o6bo$
+8bo2bo3b2o2bo10bo2b2o3bo2bo$11bo2bob3o12b3obo2bo$11b4o20b4o$8bo6b4o12b
+4o6bo$8b6obo2bo12bo2bob6o$12bobo20bobo$10bo28bo$10b2o26b2o!
 
 #N p29 R-pentomino hassler
 x = 53, y = 53, rule = B3/S23
@@ -6871,15 +6764,6 @@ x = 30, y = 24, rule = B3/S23
 2ob2o$4bobo7bo3bo$5bo8bo3bo$15bobo$16bo$26b2o$26bobo$28bo$28b2o2$14b8o
 $14bob4obo$14b8o!
 
-#N p30 pi-heptomino hassler
-#O LJK 9/2/22
-x = 41, y = 28, rule = B3/S23
-3bo33bo$2bobo31bobo$2bobo31bobo$b2ob2o29b2ob2o2$b2ob2o29b2ob2o$2bob2o
-29b2obo$o39bo$2o37b2o$10b2ob2o11b2ob2o$10bo3bo11bo3bo$11b3o13b3o6$9b5o
-13b5o$7b3obob3o9b3obob3o$6bo4bo4bo7bo4bo4bo$5bob2obo2b2obo7bob2o2bob2o
-bo$5bobo3b2o2bo9bo2b2o3bobo$2b2obobo2bo2b2o11b2o2bo2bobob2o$2b2obobo4b
-o15bo4bobob2o$6b2ob4o15b4ob2o$8bo23bo$8bobo19bobo$9b2o19b2o!
-
 #N p30 R-pentomino hassler
 #O LJK 6/17/22
 #C Found via symmetric CatForce. The top left has a snake, which is
@@ -6905,16 +6789,6 @@ x = 17, y = 25, rule = B3/S23
 4b2o$2bo4bo$bo6bo$o8bo$o8bo$o8bo$bo6bo$2bo4bo$4b2o2$9b2o$2o6b2ob2o$2o
 7bo2bo2b2o$9bo2bo2b2o$10b2o2$11b2o$9bo4bo$8bo6bo$7bo8bo$7bo8bo$7bo8bo$
 8bo6bo$9bo4bo$11b2o!
-
-#N p30 honey farm hassler
-#O CC 8/15/22
-x = 41, y = 41, rule = B3/S23
-29b2o$29bo2bo3$29bob2o$24b2o2bobo$24bo4bo$28bo$bo2bo20bo2bo$4bo18bo$o
-4bo16bobo$2o2bobo14bo3bo$5bob2o12bo3bo$21bo3bo$22bobo$5bo2bo2b3o9bo$5b
-2o3bo3bo$9bo5bo$10bo3bo$11b3o2$27b3o$26bo3bo$25bo5bo$26bo3bo3b2o$17bo
-9b3o2bo2bo$16bobo$15bo3bo$15bo3bo12b2obo$15bo3bo14bobo2b2o$16bobo16bo
-4bo$17bo18bo$12bo2bo20bo2bo$12bo$11bo4bo$10bobo2b2o$8b2obo3$8bo2bo$10b
-2o!
 
 #N p30 unnamed object hassler
 #O CC 8/24/22, reduced by DER the same day
@@ -6950,8 +6824,9 @@ x = 27, y = 20, rule = B3/S23
 #N p30 duoplet sparker
 #O CC 10/8/22, noticed by a human (iNoMed) on 10/10/22
 #C Unnamed region hassler.
-#C This sparker is used in the smallest known pseudo-period-15
-#C glider gun by bounding box.
+#C This sparker was used in the smallest known pseudo-period-15
+#C glider gun by bounding box before the true period-15
+#C glider gun was found.
 x = 18, y = 16, rule = B3/S23
 8o$ob4obo$8o2$16b2o$13b2o2bo$13bob2o$12bo$7bobo2bo$6bo2bo3bob2o$7bo5b
 2o2bo$2b2ob2o9b2o$bo4bo$6bo$o3bo$bo!
@@ -7155,35 +7030,6 @@ o3b2o2bobo2b2o3bo2bo3bobo$2bo6bo5b3o3b3o5bo6bo$6bo2bo2b2o11b2o2bo2bo$
 obo5bo7b2o$bo4bobo4bo$2b3o5b3o13b2o$26bobo$5b2ob2o18bo$4bobobobo17b2o$
 5bo3bo!
 
-#N p32 century hassler
-#O DER 10/5/21
-#C Uses 68P16s and 76P8s. Unusually, the 76P8 interacts with the
-#C active region twice; it would produce an unwanted B-heptomino
-#C if it interacted just once.
-x = 56, y = 47, rule = B3/S23
-24bo10bo$23bobo2bo2bo2bobo$24b2o2b4o2b2o2$24b2ob2o2b2ob2o$25bob2o2b2ob
-o$24bo2bob2obo2bo$24bobo2b2o2bobo$3b2o3b2o13b2obo6bob2o$3b2o3b2o16bob
-4obo$13b2o8b2obo6bob2o$13b2o3b2o4bobobo2bobobo$4b2o7bobo2b2o4bobobo2bo
-bobo$2b2obo3b2o3b2o9bo3b2o3bo$2b3o4b2o2$18b2o$5b2o6b2o3b2o$2o3b2o6b2o$
-2o30b2o5b2o3b2o$30bo2bo5b2o3b2o$9b2o4b3o12b3o16b2o$4b2o3b2o3bob2o13bo
-17b2o3b2o$2o2bobo7b2o24b2o7bobo2b2o$2o3b2o17bo13b2obo3b2o3b2o$5b2o16b
-3o12b3o4b2o$10b2o3b2o5bo2bo$10b2o3b2o5b2o30b2o$41b2o6b2o3b2o$36b2o3b2o
-6b2o$36b2o2$45b2o4b3o$21bo3b2o3bo9b2o3b2o3bob2o$20bobobo2bobobo4b2o2bo
-bo7b2o$20bobobo2bobobo4b2o3b2o$19b2obo6bob2o8b2o$22bob4obo16b2o3b2o$
-19b2obo6bob2o13b2o3b2o$20bobo2b2o2bobo$20bo2bob2obo2bo$21bob2o2b2obo$
-20b2ob2o2b2ob2o2$20b2o2b4o2b2o$19bobo2bo2bo2bobo$20bo10bo!
-
-#N p32 century hassler
-#O DER 10/12/21, reduced by MM on 10/15/21
-x = 34, y = 31, rule = B3/S23
-6b2o4b2o17bo$5bobo4b2o8b2o5b2obo$5bo14bobo4b2obobo$2b2ob2o2b2o6b2obo4b
-ob2obob2o$2b2obo17bob4obobo$5bob4o6bobobobobo3b2obo$5bobo3b6o3b2o2b3o
-4bo$6bo15bo3bo$22bob2o$3bo19bobobo$18b2o6b2o$bob3o14bo$3b2obo$3bob2o
-12b2o$4b3obo11bo6bo2$6bo6bo11bob3o$13b2o12b2obo$27bob2o$13bo14b3obo$6b
-2o6b2o$6bobobo19bo$8b2obo$7bo3bo15bo$2bo4b3o2b2o3b6o3bobo$bob2o3bobobo
-bobo6b4obo$bobob4obo17bob2o$2obob2obo4bob2o6b2o2b2ob2o$bobob2o4bobo14b
-o$bob2o5b2o8b2o4bobo$2bo17b2o4b2o!
-
 #N p32 procrastinator hassler
 #O DER 12/6/21
 #C See the p80 section for what a procrastinator is.
@@ -7193,22 +7039,6 @@ x = 31, y = 42, rule = B3/S23
 12b3o$12bo3$18bo$16b3o$15bo$15b3o$25bo2$23bob3o$25b2obo$25bob2o$26b3ob
 o$15bo3bo$13b2obobob2o6bo$12bo3bobo3bo$11bo3b2ob2o3bo$11bobo7bobo$12bo
 9bo2$15b2ob2o$14bobobobo$15bo3bo!
-
-#N p32 honey farm double shuttle
-#O JP21 1/31/22 based on a partial by DER
-#C The sparkers are 68P16.
-x = 51, y = 37, rule = B3/S23
-3b2o3b2o31b2o3b2o$3b2o3b2o31b2o3b2o$3b2o8b2o21b2o8b2o$3b3o6bo2b5o11b5o
-2bo6b3o$3bobo7bo2b4o11b4o2bo7bobo$2bo2bo3b2o3b3o17b3o3b2o3bo2bo$2bobo
-4b2o29b2o4bobo$3bo43bo$18b2o11b2o$5b2o6b2o3b2o11b2o3b2o6b2o$2o3b2o6b2o
-12b2o7b2o6b2o3b2o$2o24bobo20b2o$16bo7b3o7bo$9b2o4bobo5bo3bo5bobo4b2o$
-3b3o3b2o3bo2bo5b2ob2o5bo2bo3b2o3b3o$4o2bo7bobo17bobo7bo2b4o$5o2bo6b3o
-17b3o6bo2b5o$5b2o8b2o17b2o8b2o$10b2o3b2o17b2o3b2o$10b2o3b2o5bo5bo5b2o
-3b2o$21b2o5b2o$21bobo3bobo$22bo5bo2$12b2o23b2o$12bob2o19b2obo$13bo2bo
-17bo2bo$8bo4bo2bo17bo2bo4bo$7bobo3bo2bo4bo7bo4bo2bo3bobo$8b2o3b3o4bo9b
-o4b3o3b2o$20bo9bo$8b2o3b3o7b2ob2o7b3o3b2o$7bobo3bo2bo6bo3bo6bo2bo3bobo
-$8bo4bo2bo7b3o7bo2bo4bo$13bo2bo9bobo5bo2bo$12bob2o11b2o6b2obo$12b2o23b
-2o!
 
 #N p32 honey farm hassler
 #O DER 1/16/22
@@ -7230,18 +7060,6 @@ x = 38, y = 12, rule = B3/S23
 28bo3bo$5bo3bo17bobobobo$4bobobobo17b2ob2o$5b2ob2o$25b3o5b3o$2b3o5b3o
 11bo4bobo4bo$bo4bobo4bo9bo5bobo5bo$o5bobo5bo9bo4bobo4bo$bo4bobo4bo10b
 2o3bobo3b2o$b2o3bobo3b2o2b3o$15bo3bo6b3o3b3o$3b3o3b3o3b5o!
-
-#N p32 pi-heptomino hassler
-#O DER
-#C Originally used 209P8 instead of Charity's p16.
-x = 54, y = 49, rule = B3/S23
-20b2o4b2o$19bobo4b2o$19bo13b2o$16b2ob2o11bo2bo$16b2obobo11b3o$19bob12o
-$19bobob8o2bo$20bo5b4o2b2o5$3bo7bo$2b2o6bobo$bob2o6bo$3o2bo8bo10b2o$2b
-obobo5bo3bo7bobo$3bobobo4bo11bo$4bo2b3o2bo3bo7bobo$5b2obo16b2o$6b2o$6b
-o$12b2o$12b2o2$40b2o$40b2o$47bo$46b2o$27b2o16bob2o$27bobo7bo3bo2b3o2bo
-$29bo11bo4bobobo$27bobo7bo3bo5bobobo$27b2o10bo8bo2b3o$42bo6b2obo$41bob
-o6b2o$42bo7bo5$20b2o2b4o5bo$20bo2b8obobo$21b12obo$18b3o11bobob2o$18bo
-2bo11b2ob2o$19b2o13bo$26b2o4bobo$26b2o4b2o!
 
 #N p32 twin bees shuttle sparker
 #O LJK 8/10/22
@@ -7442,7 +7260,7 @@ o12b4o$31b2o8bo15bo$32bob2o4b2o$32bo2bo5b2o$33b2o11b2o$47bo$37bo6b3o$
 
 #O NMB 7/6/23
 #C It's somewhat like a dependent reflector, only it's entirely
-#C active rather than an objecting being reflected. The oscillator
+#C active rather than an object being reflected. The oscillator
 #C is mod 17. While one phase looks like it has a pair of MWSSes,
 #C it doesn't act like them.
 x = 35, y = 35, rule = B3/S23
@@ -7546,36 +7364,6 @@ x = 28, y = 22, rule = B3/S23
 15b2ob2o$bobo13bo3bo$2b2o14b3o$7b3o14b2o$6bo3bo13bobo$6b2ob2o15bo$2o
 24b2o$o20b2o$b3o17bo$3bo18b3o$b2o21bo$bo9b2o$3bo7b2o$2b2o!
 
-#N p35 C4 pi-heptomino hassler
-#O LJK 9/2/22
-x = 63, y = 63, rule = B3/S23
-27bo$26bobo3b2o$25bo2bo3bo$25bobob2obo$26b2obobo2$26b5o$26bo4bo$27b5o$
-22bo2bobob4o$22b4obo5bo$27bo2bo2bo$24b3o2bobobob2o$24bo2b5ob2obo$27bo
-4bo$28b3obob2o$30bobobo2bo$36b2o4b2o$31b3o8bo$17bo22bobo$17b3o20b2o$
-20bo6bo$19b2o6bo24b2o$52bo$31b2ob2o13b2obo$16b2o13bo3bo14bob2o5b2o$12b
-2o3bo14b3o15bo4b2obo2bo$12bo2bo8b2o14b2o6b2ob4obob2o2bo$13bob2o7bobo
-20bobo4bobo3b2o$bo8b4o4bo7bo20bob2o2b2obob2o$b3o5bo4b3obo5bobo19b2obob
-ob2obo2bo$4bo2b3o2b2o4bo5b2o11b2o5bo4b2o2b3o2bo$3bo2bob2obobob2o19bobo
-5bob3o4bo5b3o$3b2obob2o2b2obo20bo7bo4b4o8bo$b2o3bobo4bobo20bobo7b2obo$
-o2b2obob4ob2o6b2o14b2o8bo2bo$bo2bob2o4bo15b3o14bo3b2o$2b2o5b2obo14bo3b
-o13b2o$10bob2o13b2ob2o$10bo$9b2o24bo6b2o$35bo6bo$21b2o20b3o$20bobo22bo
-$20bo8b3o$19b2o4b2o$25bo2bobobo$27b2obob3o$30bo4bo$26bob2ob5o2bo$26b2o
-bobobo2b3o$29bo2bo2bo$29bo5bob4o$30b4obobo2bo$31b5o$31bo4bo$32b5o2$31b
-obob2o$30bob2obobo$30bo3bo2bo$29b2o3bobo$35bo!
-
-#N p35 lumps of muck hassler
-#O 9/16/22
-x = 49, y = 36, rule = B3/S23
-21b2o$17b2o2bo$16bo2bobo$12b2obo2bo2b2o$12bob2obobobo$17b3o3bo$13b4obo
-b3obo$12bo3bo3bo3bo$13b3o5b3o$8b2o5bob3obo$6b3obo5b5o7bobo$5bo4bo6b3o
-8b2o$3b3ob2ob2o16b2o$2bo3bobo2bo28b2o3b2o$bo2bo5b2o27bo2bobo2bo$bob9o
-27bob2ob2obo$2o4bobo2bo10b3o13b2o2bobo2b2o$2b2ob2obob2o10bo2b2o10bo2bo
-bo3bo$2bo3bobo2bo10b2o2bo10b2obob2ob2o$2o2bobo2b2o13b3o10bo2bobo4b2o$b
-ob2ob2obo27b9obo$bo2bobo2bo27b2o5bo2bo$2b2o3b2o28bo2bobo3bo$19b2o16b2o
-b2ob3o$19b2o8b3o6bo4bo$18bobo7b5o5bob3o$27bob3obo5b2o$25b3o5b3o$24bo3b
-o3bo3bo$24bob3obob4o$25bo3b3o$27bobobob2obo$26b2o2bo2bob2o$27bobo2bo$
-27bo2b2o$26b2o!
-
 #N p35 lumps of muck hassler
 #O CC 10/2/22
 #C The sparker is called 120P7. It uses a complicated interaction here.
@@ -7633,18 +7421,6 @@ $2b2o$22b2o16b2o$11b3o8b2o16bo$10bo3bo17b3o3bobo$9bo5bo15bo3bo2b2o$9bo
 o$19bo5bo13bo2bobo$19bo5bo14b2o2b2o$7b2o10bo5bo15bobo$8bo11bo3bo11b2o
 3bobo$8bobo10b3o13bo4bo$9b2o23b3o$15bo8b2o8bo$13b3o8bo$12bo12b3o$10b3o
 b2o11bo$9bo3b2o2bo$10b2o4b2o$12b4o$12bo2bo!
-
-#N p35 D2_x pi-heptomino hassler
-#O NMB 5/13/23, reduced by MM the next day
-#C The sparkers are toaster and 5blink.
-x = 45, y = 45, rule = B3/S23
-14b2o$14bobo3bo4bo$15bobobobo2bobo$21bo3bo$14b2obob2obo$14bo4b3obo$14b
-o4bo21b2o$18bo4bo18bo$19b2o18b3o$15bo22bo3b3o$15b3o19bobobo2bo$18bo18b
-obo3bo$17b2o17b2obob2o$34bo3b3o$2o2b3o17b3o10bo$obobo4b2o12bo3bo9bo$bo
-8bo12b2ob2o6bo3b2o$2bobo5bobo23b2ob3o$7bo3b2o24bo4bo$2bob3obo15bo12bob
-3o$bo2b2o2bo14b2o13b2o$2b2obo17bo$4bo19bo$5bobo7b2o3b2o$2bo11bobo2b2ob
-o$bobo10bo$2bo11bobo$15b2o7$13bo2bo2$12bo4bo$10b3ob2ob3o$9bo3bo2bo3bo$
-8bob4o2b2ob2o$8bo4bo3bobo$6bobobobo4bobo$6b2obo2bo5bo$9bobo$9b2o!
 
 #N 22P36
 #O NDE 1/29/95
@@ -7730,30 +7506,6 @@ x = 34, y = 24, rule = B3/S23
 bo$3bobob2o6bo3bo8bobo$b2obobo2bo4bo5bo7b2o$o3bobob3o3bo5bo$b3ob2o2bo
 4bo5bo$3bobob2o6bo3bo4b2o$5bo10b3o5bobo$4bo21bo$6bo7b2o10b2o$3bo2bo8bo
 $2bob2o6b3o$2bo9bo$b2o!
-
-#N p36 honey farm hassler
-#O DER 6/12/21 
-x = 29, y = 41, rule = B3/S23
-b2o10b2o$o2bo8bo2bo$3o10b3o$3b10o$2bo2b6o2bo$2b2o2b4o2b2o6$8b3o$7bo3bo
-$6bo5bo$6bo5bo$6bo5bo$2b2o3bo3bo12bo$bobo4b3o11b3o$bo19bo$2o19b2o$6b2o
-19b2o$7bo19bo$4b3o11b3o4bobo$4bo12bo3bo3b2o$16bo5bo$16bo5bo$16bo5bo$
-17bo3bo$18b3o6$15b2o2b4o2b2o$15bo2b6o2bo$16b10o$13b3o10b3o$13bo2bo8bo
-2bo$14b2o10b2o!
-
-#N p36 honey farm hassler
-#O DER 9/15/21, reduced 1/14/23
-#C Uses Charity's p18 as a sparker.
-x = 47, y = 34, rule = B3/S23
-11b2o2b2o9b2o$11bo2bo2bo7bo2bo$12bob3o2b5o2b3o$11b2o4b2o5b2o$7b2o3bo3b
-o9bo$7bo2bo5b2obo3bob2o$9b3o9bo7b2o$5b4o20bo$5bo3bo11b3o3bobo14b2o$8bo
-11bo3bo2b2o15bo$8b2o3b3o3bo5bo15b2obo$12bo3bo2bo5bo8bo5bob2o$4b2o6b2o
-5bo5bo8bobo4bo$3bobo6b2ob2o3bo3bo8bobo5bo$3bobob2o12b3o11bo4b2o$b2obob
-o3bo3bo23b2obobo$o3bobobobo2b3o20bo6b3o$b3o6bo20b3o2bobobobo3bo$3bobob
-2o23bo3bo3bobob2o$5b2o4bo11b3o12b2obobo$5bo5bobo8bo3bo3b2ob2o6bobo$5bo
-4bobo8bo5bo5b2o6b2o$3b2obo5bo8bo5bo2bo3bo$2bob2o15bo5bo3b3o3b2o$2bo15b
-2o2bo3bo11bo$b2o14bobo3b3o11bo3bo$17bo20b4o$16b2o7bo9b3o$20b2obo3bob2o
-5bo2bo$20bo9bo3bo3b2o$21b2o5b2o4b2o$18b3o2b5o2b3obo$18bo2bo7bo2bo2bo$
-19b2o9b2o2b2o!
 
 #N p36 honey farm hassler
 #O DER 10/15/21
@@ -7890,7 +7642,7 @@ x = 59, y = 25, rule = B3/S23
 
 #N p36 glider/pi hassler
 #O CC 8/14/23
-#C Glider-to-pi reaction by user "Period1GliderGun".
+#C Glider-to-pi reaction by P1GG.
 x = 21, y = 14, rule = B3/S23
 4bo$2b2obo6b2o3b2o$bo10bobobobo$obo2bo8bobo2b2o$o2bo9b2ob2obo$b2o14bob
 o$9bo3b4o2b2o$7bobo3bo2bobo$8b2o6bobo$4b2o11bo$3bobo$3bo$2b2o5b2o$9b2o!
@@ -8073,6 +7825,16 @@ x = 47, y = 27, rule = B3/S23
 o6bo$9b3obobobob2o12bo6bo$8bo3b2obob2obo19b2o$9b2o3bo15b2o$11b3o16b2o
 2b2o$11bo22bobo$36bo$36b2o!
 
+#N p38 pi-heptomino hassler
+#O Base reaction by oregan0, completed by DER 2/6/24, reduced by iNoMed
+x = 42, y = 34, rule = B3/S23
+26bo$26b3o$29bo$28b2o2$7bobo21b2o$7b2obo3b2o14bobo$10bo3bo15b2o$7b3ob
+2obo10b2o11b2o$6bo2bobobo11b2o11bo$3b2o2bo4bo23bobo$b3ob2o29b2o$o$b3ob
+2o$3bob2o$11bobo$11bobo14b3o$11b3o14bobo$28bobo$35b2obo$35b2ob3o$41bo$
+4b2o29b2ob3o$3bobo23bo4bo2b2o$3bo11b2o11bobobo2bo$2b2o11b2o10bob2ob3o$
+10b2o15bo3bo$9bobo14b2o3bob2o$9b2o21bobo2$12b2o$12bo$13b3o$15bo!
+
+
 #N P13-assisted P39 glider shuttle
 x = 59, y = 59, rule = B3/S23
 32bobobobo$31bob2ob2obo$29b3o7b3o$28bo4b2ob2o4bo$28bo2b2obobob2o2bo$
@@ -8138,13 +7900,13 @@ x = 31, y = 25, rule = B3/S23
 #O iNoMed 5/15/23 based on a partial by mvr
 x = 48, y = 37, rule = B3/S23
 32bo$26b2o3bobo$27bo3bo2bo$27bob2obobo$28bobobobob2o$32bobo2bo$31bobob
-o$31bobob2o$18bo13b2obo2bo$18b3o16b2o2b2o$12bo8bo19bobo$12b3o5b2o21bo$
-15bo23b4ob2o$5b2o7b2o13b3o7bo2bobo$6bo21bo3bo13bo$4bo22bo5bo11b2o$2b4o
-21bo5bo5b2o3bo$bo14b3o8bo5bo5b2o2bob2o$o2bo11bo3bo8bo3bo11bo2bo$b2obo
-2b2o5bo5bo8b3o14bo$3bo3b2o5bo5bo21b4o$b2o11bo5bo22bo$bo13bo3bo21bo$3bo
-bo2bo7b3o13b2o7b2o$2b2ob4o23bo$4bo21b2o5b3o$4bobo19bo8bo$5b2o2b2o16b3o
-$9bo2bob2o13bo$11b2obobo$12bobobo$10bo2bobo$10b2obobobobo$13bobob2obo$
-13bo2bo3bo$14bobo3b2o$15bo!
+o$31bobob2o$18bo13b2obo2bo$18b3o16b2o2b2o$12bo8bo19bo$12b3o5b2o21bo$
+15bo23b4obob2o$5b2o7b2o13b3o7bo2bob2obo$6bo21bo3bo$bo2bo22bo5bo$b5o21b
+o5bo5b2o3b2o$16b3o8bo5bo5b2o2bobo$3bo11bo3bo8bo3bo11bo$2bobo2b2o5bo5bo
+8b3o$2b2o3b2o5bo5bo21b5o$14bo5bo22bo2bo$15bo3bo21bo$ob2obo2bo7b3o13b2o
+7b2o$2obob4o23bo$4bo21b2o5b3o$6bo19bo8bo$5b2o2b2o16b3o$9bo2bob2o13bo$
+11b2obobo$12bobobo$10bo2bobo$10b2obobobobo$13bobob2obo$13bo2bo3bo$14bo
+bo3b2o$15bo!
 
 #N p40 B-heptomino shuttle
 #O DJB before 5/91
@@ -8189,7 +7951,7 @@ x = 37, y = 39, rule = B3/S23
 o6b2o$20bo5b2o2bo$20bo8b2o$21bo4b2o$26bo!
 
 #N Four Beluchenko's p40 hassling traffic lights
-#O A for awesome 7/18/21, based on a partial by DER the same day
+#O praosylen 7/18/21, based on a partial by DER the same day
 #C If the traffic lights are spaced (6,10) or (7,10) apart, it still works;
 #C a temporary ship (6) or beehive (7) is created.
 x = 50, y = 41, rule = B3/S23
@@ -8208,27 +7970,7 @@ o2bo5bo6bo$8bo2bo5bo6bo4b2o$8bo2bo5bo6b2obobo$12bo3bo8bo3bo$o12b3o10b
 2o$o$o4b2o$2obobo$bo3bo6b3o$2b2o11bo7b2o$11bo3bo3b4o4b2o$10bobo2bo3b3o
 b2o2b2o$8bo2bobo10bo$8bo3bo$8bo$9b3o!
 
-#N P40 honey farm hassler #1
-#O DER 10/22/21
-#C Figure eights are simpler than middleweight emulators, but middleweight
-#C emulators have a smaller bounding box.
-x = 38, y = 31, rule = B3/S23
-7b2o9b2o$6bo2bo7bo2bo$6b3o2b5o2b3o$b2o6b2o5b2o$b2o5bo9bo$8b2obo3bob2o$
-13bo$2o$2obo25bo$3bo23b3o$3bo8b3o11bo$o2bo7bo3bo10b2o$b2o7bo5bo$10bo5b
-o$10bo5bo6b3o$11bo3bo6bo3bo$12b3o6bo5bo$21bo5bo$21bo5bo7b2o$10b2o10bo
-3bo7bo2bo$11bo11b3o8bo$8b3o23bo$8bo25bob2o$36b2o$24bo$19b2obo3bob2o$
-19bo9bo5b2o$20b2o5b2o6b2o$17b3o2b5o2b3o$17bo2bo7bo2bo$18b2o9b2o!
-
-#N P40 honey farm hassler #2
-#O DER 11/7/21
-x = 54, y = 31, rule = B3/S23
-25b3o$28bo$24bo3bo$23bobo2bo$21bo2bobo$15b2o4bo3bo$15b2o4bo$6bobo13b3o
-$5b2ob3o26bo$4b3o28b3o$34bo$20b3o11b2o$19bo3bo28b2o$18bo5bo6b3o18b2o$
-10b3o5bo5bo5bo3bo8bobo$6b3ob2o6bo5bo4bo5bo6b2ob3o$8bobo8bo3bo5bo5bo5b
-3o$2o18b3o6bo5bo$2o28bo3bo$18b2o11b3o$19bo$16b3o28b3o$16bo26b3ob2o$29b
-3o13bobo$32bo4b2o$28bo3bo4b2o$27bobo2bo$25bo2bobo$25bo3bo$25bo$26b3o!
-
-#N p40 honey farm hassler #3
+#N p40 honey farm hassler
 #O 11/21/22
 x = 23, y = 20, rule = B3/S23
 4bo$3bobo$4bo$17b3o$9b3o5b3obo$8bo3bo5bobobo$7bo5bo5bo2bo$7bo5bo6b2o$
@@ -8364,18 +8106,6 @@ x = 23, y = 26, rule = B3/S23
 2bo$bobo$o3bo$bo3bo10bo$2bo3bo4b3ob2o2b2o$3bo3bo3b4o4b2o$4bobo8b2o$5bo
 4$10bo$9b3o$9bo3$15b2o2$6bo6bo3bo$b3ob2o2b2o2bo4bo$b4o4b2o4bobobo$5b2o
 9bobobo$17bo4bo$18bo3bo2$19b2o!
-
-#N p40 B-heptomino hassler
-#O CC 9/18/22 based on a partial by LJK
-x = 40, y = 47, rule = B3/S23
-4b2o$4bo$6b2o$2b4ob2o$bo3bo$o2bo2bo$b5o$6bo$3b2o3b2o$b3o2bobo$o4bobo$
-5o2bo$3bo3bo$2ob2ob2o4b2o$bobo3bo3b2o$bobob2o5bo24b2o$2obobo3bobo25bo$
-3bobo3bobo26bo$3bob2o5bo16b2o6b2o$2obo3bo3b2o7bo7bo2bo4bo$2ob2ob2o4b2o
-5b3o13b4o$3bo3bo11bob2o16bo$5o2bo19bobo3bo4b2o$o4bobo20bob4o$b3o2bobo
-7b2o$3b2o3b2o7b3o8b2o$6bo10b3o8b2o$b5o$o2bo2bo21bob4o$bo3bo21bobo3bo4b
-2o$2b4ob2o4bobo4b3o16bo$6b2o4bo6bobobo11b4o$4bo7bo3bobo4bo4bo2bo4bo$4b
-2o7bob2o4b2o6b2o6b2o$18bo19bo$17bo2bo16bo$16b3o18b2o$17bo$15b3o$13b2ob
-o2bob2o$14bobob2obo$12bobobo2bobobo$12b2o2bo2bo2b2o$16b4o2$18b2o$18b2o!
 
 #N p40 century hassler
 #O mvr 8/6/22 (dimer), cvojan 10/2/22 (monomer)
@@ -8900,6 +8630,17 @@ obob2o15bobo$bobobo12b2obobo$3bo14bobobo$2b2o16bo$b3o6b2o7b2o$b3o6bo7b
 15b2obobo$b2o4b2o7b2o3bobo$7bo9bo3b2o$8b9o$5b3o2b5o2b3o$5bo2bo2b3o2bo
 2bo$6b2o9b2o!
 
+#O iNoMed 8/1/24
+x = 58, y = 31, rule = B3/S23
+25b2o3b2o$22b2o2bo3bo3b2o10b2o$22bo3bobobo3bo10bo2bo$23b3obobob2obo10b
+obobo$25bobobobobo12bo2bo$26b2ob2o19bo$43bo3bobo$34bo8bo$34bo8bo$34bo
+3bobo10b3o$37bo3bo3b3o$2o7b2o19b3o3bo3bo9bo3bo$o2b2ob2o2bo26bobo3bo6bo
+3bo$b2obobob2o24bo8bo$2bobobobo25bo8bo6bo3bo$2bo5bo16bo8bo14bob3obo$3b
+o3bo41bo5bo$4b3o41b2obobob2o$23bo5bo17bo2b2ob2o2bo$5bo6bobo8bo3b3o17b
+2o7b2o$4b3o7bo8bo5bo$14bo$12bo12b3o2$8bo$7bob2o16b2ob2o$11bo12bobobobo
+bo$7bo2bobo10bob2obobob3o$9bo2bo10bo3bobobo3bo$10b2o10b2o3bo3bo2b2o$
+26b2o3b2o!
+
 #N P45 honey farm hassler
 x = 33, y = 32, rule = B3/S23
 25b2o$25bobo$27bo2b2o$11b2o13b2obobo$12bo16bo$12bobo11b4o$13b2o11bo3b
@@ -9305,7 +9046,7 @@ o3bo6bobo2b2o$5bo2b2o4bo5bo7bo3bo$5b2obo6bo3bo4b4ob3o$8bo7b3o5bo2bobo$
 o7bo5bo4b2o2bo$2b2o2bobo6bo3bo7b2o$7b2o7b3o4b4o$22bo3bo$14b2o7b2obobo$
 15bo8bo2b2o$12b3o7bobo$12bo9b2o!
 
-#N p47 pi-heptomino hassler
+#N p47 C2 pi-heptomino hassler
 #O mvr 8/4/23
 #C A sparker, but no uses have been found yet.
 x = 32, y = 34, rule = B3/S23
@@ -9313,6 +9054,20 @@ x = 32, y = 34, rule = B3/S23
 8b2obo4bobo$7bo2bo7bo$7b2o7bobo$16b2o$27b2o$27bobo$o28bo$3o25bo$3bo25b
 3o$2bo28bo$2bobo$3b2o$14b2o$13bobo7b2o$13bo7bo2bo$13bobo4bob2o$3b2o9b
 2o5bo$2bobo17b2o$2bo20bo$b2o20bobo$24b2o$18b2o$18bo$19b3o$21bo!
+
+#N p47 D4_x pi-heptomino hassler
+#O NMB 3/6/24
+#C No, the glider can't escape.
+#C It may look like there's a pair of unices in one generation.
+#C Unfortunately, this is not the case; the blocks are one cell off.
+x = 53, y = 53, rule = B3/S23
+26b2o$26bo3b2o$23b2obo3bo$23bobob2obo4bo$25bobobo3b3o$24bobo5bo$25bo6b
+2o6$27b2o$21b2o3bobo$21b2o3bo$26bobo$27b2o$48b2o$48bo$46bobo$46b2o$13b
+2o36bo$13b2o34b3o$2b2o44bo$2bo2bo30b2ob2o8bo$3b2obo29bo3bo7b2o2bo$3o2b
+o7b3o21b3o7bo2b3o$o2b2o7bo3bo29bob2o$3bo8b2ob2o30bo2bo$4bo44b2o$b3o34b
+2o$bo36b2o$5b2o$4bobo$4bo$3b2o$24b2o$24bobo$26bo3b2o$24bobo3b2o$24b2o
+6$19b2o6bo$20bo5bobo$17b3o3bobobo$17bo4bob2obobo$22bo3bob2o$21b2o3bo$
+25b2o!
 
 #O RTW 1995
 #C Sparks from 2 p12s move a pair of beehives.
@@ -9687,7 +9442,7 @@ $8bo2bo22bobo$9bobo22bo2bo$10bo24b2o2$18bo$3b2obo9bobo8b2o10b2o$2bo4bo
 
 #N p49 R-pentomino hassler
 #O LJK 8/9/22
-#C This oscillator with 34P7s instead of meatballs is the
+#C This oscillator with 34P7s instead of meatballs was previously the
 #C smallest p49 oscillator by population.
 x = 49, y = 29, rule = B3/S23
 16b4o$15bo4bo$13b3o4b2o$12bo6bobo$13bob2obo$13bo2bobo2bo$16bob2obo23bo
@@ -9738,7 +9493,6 @@ x = 43, y = 30, rule = B3/S23
 bo$30bo$31b3o$18bo14bo$17b2o$2o14b2o$2o14bo$28b2o$28bobo$29bo$13bo$12b
 obo$13b2o$26bo14b2o$25b2o14b2o$24b2o$9bo14bo$9b3o$12bo$11bobo19b2obo$
 12bo20b2ob3o$24b2o13bo$25bo7b2ob3o$13b2o7b3o7bo2b2o$13b2o7bo9b2o!
-
 
 #N p49 century hassler
 #O 11/21/22
@@ -9800,6 +9554,14 @@ x = 38, y = 27, rule = B3/S23
 4bo2bo8bobo5bobo$2b2o2bo18bo5b2obob2o$bo2bobob2o24bo2bo$o4b2o2b2o4bo
 15b3obo$6b2obobo2bo16bo3b2o$9bo2b2o17bobobo$o2bo4bo19bob2o3bo$2b2o5bo
 17bobobob2o$25b3obo2bo$24bo5bobo$24b2o5bo!
+
+#N 44P49
+#O mvr 11/13/23
+#C The smallest known p49 by population.
+#C The active region is the same as that in Raucci's p102 and 45P25.
+x = 39, y = 13, rule = B3/S23
+o18b2o$3o16b2o$3bo$2b2o$26b2o$14bo12bo6b2o$3b2o8b3o7b3o8b2o$3b2o6bo12b
+o$11b2o$35b2o$35bo$18b2o16b3o$18b2o18bo!
 
 #N P50 traffic jam
 #O NDE 10/16/93
@@ -10167,6 +9929,24 @@ bo$o7b3o$bo6b3o$15b2o$16bo$9b2o5bob2o$8bo2bob2obo2bo$14bob2o13b2o$14bo
 7b2o7bobo$10bo2b2o8bo9bo$9bo10b3o10b2o$7bobob4o5bo$5b3o2bo3bo$4bo3bobo
 2bo$4b2o2b2o3b2o!
 
+#N Capped period-53 glider gun
+#O iNoMed 1/22/24
+#C The smallest p53 glider gun by bounding box. The first known
+#C p53 gun was a very similar but larger one found earlier
+#C the same day.
+x = 58, y = 46, rule = B3/S23
+44bo$44b3o$47bo6b2o$46b2o5bobo$53bo$40b2o10b2o$40bobo$41b2o3b2o4b2o$
+37b2o7b2o3bobo$23b2o3b2o6bobo13bo$24bo2bobo6bo16b3o$23bo3bo2b2ob2obo
+18bo$17bo5b4obobob2obo$3b2o10b3o8bob2o$4bo9bo8b2o$4bobo7b2o7bo19b3o$5b
+2o13b2obo18bo3bo$18bo2bob2o2b2o12bo5bo$18b2obo5b2o12bo5bo$10bo10bo19bo
+5bo$2bo6bobo9b2o8bo10bo3bo$2bo9bo16b3o11b3o$o8bo18b3o$12b2o13bo2bo15b
+2o6b2o$3o9bo15b2o4b2o10bo7bo$o8b2obo16bo3bo2bo10b3o5b3o$2ob2o2bo2bo2bo
+18b2o15bo7bo$o5bobob2o16b2obobo5bo$6b2o18bo2bo2bo2b2ob2o$3bo2bo3bo16bo
+b2o8bo$4b2o4b2o15bo9b3o$9bo2bo13b2o$9b3o18bo8bo$8b3o16bo9bo$8bo8b2o9bo
+bo6bo$18bo10bo$11b2o5bob2o$11b2o2b2obo2bo$16bob2o13b2o$16bo7b2o7bobo$
+15b2o8bo9bo$10b2obo8b3o10b2o$6b2obobob4o5bo$6bob2o2bo3bo$10bobo2bo$10b
+2o3b2o!
+
 #N P54 shuttle
 #O DJB#62 <= 1976
 #C This is based on the twin bees shuttle
@@ -10226,19 +10006,6 @@ x = 26, y = 19, rule = B3/S23
 5bo$5b3o7b2o$8bo6b2o$7b2o2$2o22b2o$bo22bo$bobo10b3o5bobo$2b2o10bo7b2o$
 14b2o4$21bo$21b2o$5b2o14b2o$5bo16bo$6bo$5b2o!
 
-#N p54 pi-heptomino hassler
-#O LJK 8/31/22
-x = 40, y = 54, rule = B3/S23
-26bo9bo$26b3o5b3o$29bo3bo$28b2o3b2o$8bo$8b3o$2b2o7bo$bo2bob3o2bo18b3o$
-o2b2obo2bobob2o14bo3bo$b2o2bo3bobo2bo8b2o3bo5bo3b2o$3b2o3bo3bo10bobo2b
-o5bo2bobo$3bo2bob4o13b2ob2o3b2ob2o$4bobo2bo14b5o5b5o$b4obo4b3o11b3o7b
-3o$o4bob5o2bo12bo7bo$b3o2bo6bo$3bobob2ob3o$4b7o3$37b2o$37bo$35bobo$35b
-2o2$12b2ob2o$12bo3bo7b3o$13b3o7bo3bo$23b2ob2o2$3b2o$2bobo$2bo$b2o3$29b
-7o$27b3ob2obobo$26bo6bo2b3o$4bo7bo12bo2b5obo4bo$2b3o7b3o11b3o4bob4o$b
-5o5b5o14bo2bobo$2b2ob2o3b2ob2o13b4obo2bo$obo2bo5bo2bobo10bo3bo3b2o$2o
-3bo5bo3b2o8bo2bobo3bo2b2o$6bo3bo14b2obobo2bob2o2bo$7b3o18bo2b3obo2bo$
-28bo7b2o$29b3o$31bo$5b2o3b2o$6bo3bo$3b3o5b3o$3bo9bo!
-
 #N p54 honey farm rotator
 #O NMB 9/17/22
 x = 32, y = 32, rule = B3/S23
@@ -10295,17 +10062,6 @@ bo$5bo22bo$28bo$2b2o3b2o7b2o$3bo3bo6bo4bo5b2o3b2o$3o5b3o15bo3bo$o9bo2b
 o6bo2b3o5b3o$11b3obob2ob4o9bo$15bo3bo$11b5o2b2obob3o$10bo5bo2bob2o2bo$
 10bo2bob5o4bo$9b2obobo5b4o$9bo2bobo3b2o$11b2ob2obobob3o$18bo2bo2bo$19b
 obobo$17bobob2o$17b2o!
-
-#N p54 pi-heptomino hassler
-#O MM 3/9/23 based on a partial by mvr the same day
-x = 60, y = 36, rule = B3/S23
-12bo$12b3o$15bo$14b2o$6b2o$7bo$7bobo$8b3ob2o$10b2obo$5b2o3b2o28b2o$5b
-2o4bobo26bobo$12b2o6b2ob2o17bo$6bo13bo3bo16b2ob2obo3b2o$5bobo13b3o20bo
-b2o3bobo$2o2bo2bo36bo7b3o$2obo6b2o31b2o8b2o$4b2o3b4o38bobo$8bo2bobo32b
-2o2bobo$7bobo2b2o32bobo2bo$6bobo38b4o3b2o$5b2o8b2o31b2o6bob2o$5b3o7bo
-36bo2bo2b2o$6bobo3b2obo20b3o13bobo$7b2o3bob2ob2o16bo3bo13bo$17bo17b2ob
-2o6b2o$17bobo26bobo4b2o$18b2o28b2o3b2o$46bob2o$46b2ob3o$50bobo$52bo$
-52b2o$44b2o$44bo$45b3o$47bo!
 
 #N p54 pi-heptomino hassler
 #O iNoMed 5/5/23 based on a partial by mvr
@@ -10432,20 +10188,6 @@ x = 50, y = 40, rule = B3/S23
 o4bo5bo6bobo$3bo4bo5bo$3b3o$b2o3bo$o2b4o$2obo9b2o$3bob2o6bo6b3o5b2o$3b
 obo8b3o4b2o5bo$2b2obobo8bo12b3o$6b2o23bo!
 
-#N p55 dependent reflector loop
-#O CC 7/1/23
-#C A modification to CatForce was created on 6/28/23 and found
-#C several dependent reflector loops within just
-#C a few days, including this one.
-x = 67, y = 70, rule = B3/S23
-17bo$16bobo$16bob3o$13b2obo4bo$13bobobobobo$15bobob2o4b2o$14bobo8bo$
-15bo7bobo$23b2o$12b3o$11bo3bo$10bo5bo$10bo5bo$10bo5bo$11bo3bo$12b3o2$o
-b2o$2obo23bobo$15b2o11b2o$15bo12bo$16b3o$10b2o6bo$9b2o$11bo7$42bo$43bo
-$41b3o3$23b3o$23bo$24bo7$55bo$56b2o$48bo6b2o$48b3o$38bo12bo$37b2o11b2o
-$37bobo23bob2o$63b2obo2$52b3o$51bo3bo$50bo5bo$50bo5bo$50bo5bo$51bo3bo$
-52b3o$42b2o$41bobo7bo$41bo8bobo$40b2o4b2obobo$45bobobobobo$45bo4bob2o$
-46b3obo$48bobo$49bo!
-
 #N p55 century hassler
 #O CC 7/29/23
 x = 31, y = 34, rule = B3/S23
@@ -10454,6 +10196,15 @@ x = 31, y = 34, rule = B3/S23
 2o$29b2o$29bo$27bobo$22b2o3b2o$8bo11bo2bo$7bobo10bobo$8bo11b3o$11bobo$
 10bo$8b2obo$7bo2b2o2bo8b2o$8bob3obo8bo$13bo10b3o$8bobo15bo$7bo$6bobobo
 $6b2o2b3o!
+
+#N p55 traffic light hassler
+#O CC 3/29/24, reduced by Entity Valkyrie the same day
+#C The smallest known "interesting" p55 by population.
+x = 23, y = 28, rule = B3/S23
+10b2o6bo$10bo5b3o$2bob2ob2obo4bo$2b2obobobo5b2o$2o6bo$bo$bobo$2b2o$12b
+o$11bobo7b2o$6b2o2bo3bo5bobo$6b2o3bobo7bo$12bo3$12bo$6b2o3bobo7bo$6b2o
+2bo3bo5bobo$11bobo7b2o$12bo$2b2o$bobo$bo$2o6bo$2b2obobobo5b2o$2bob2ob
+2obo4bo$10bo5b3o$10b2o6bo!
 
 #N P56 traffic light hassler
 x = 46, y = 44, rule = B3/S23
@@ -10594,33 +10345,6 @@ o$14b3o$14bobo5b3o$b3o10b3o5bobo6b3o$o21b3o5bo$o3bo25bo3bo$o2bobo24bo
 9bobo10bo11bobo$8bo3bo5bo3bo12bo$7bo3bo5bobo2bo$6bo3bo4bo2bobo$5bo3bo
 5bo3bo$6bobo6bo$7bo8b3o!
 
-#N p56 C2 honey farm hassler
-#O CC 1/26/23
-x = 44, y = 39, rule = B3/S23
-11b2o2$9bo3bo$9bo4bo$11bobobo$12bobobo$13bo4bo$14bo3bo10b6ob2o$3b2o24b
-6ob2o$7bo7b2o19b2o$2b2o2bobo20b2o5b2o$bo2b3obobo18b2o5b2o$2b6o2bo18b2o
-5b2o$3b2ob2o10b3o8b2o$o2b6o8bo3bo7b2ob6o$obob3o2bo6bo5bo6b2ob6o$2bobo
-2b2o7bo5bo$3bo12bo5bo$6b2o9bo3bo$18b3o2b3o$22bo3bo9b2o$21bo5bo12bo$21b
-o5bo7b2o2bobo$6b6ob2o6bo5bo6bo2b3obobo$6b6ob2o7bo3bo8b6o2bo$13b2o8b3o
-10b2ob2o$6b2o5b2o18bo2b6o$6b2o5b2o18bobob3o2bo$6b2o5b2o20bobo2b2o$6b2o
-19b2o7bo$6b2ob6o24b2o$6b2ob6o10bo3bo$25bo4bo$27bobobo$28bobobo$29bo4bo
-$30bo3bo2$31b2o!
-
-#N p56 lumps of muck shuttle
-#O DER 2/28/23
-x = 79, y = 24, rule = B3/S23
-34bo7bo17b2o$34b3o3b2o14b2obo2bo3bo2bo2bo$37bo4b2o13bob3obo2b7o$36b2o
-3bo12b3o6bo13b2o$17b2o35bo2b6ob11o2bo$6bo2bo2bo3bo2bob2o32bo4bobobo5bo
-4bobo$6b7o2bob3obo16b3o17b2o3bo3b2o4bobob2o$2o13bo6b3o13bobo4bob5o8b2o
-4bo2bo2bo5bo$bo2b11ob6o2bo12bo2bo11b2obo3b2o5bo6b2ob2o$bobo2bo5bo3bo5b
-o14bobo4bo9bo2bo8bo7bobo$2ob3o3b2o3b2o2b4o8b2o5b3o4bo9bo2bo8bo7bobo$o
-4bo2bo2bo6b3o7bo2bo20b2obo3b2o5bo6b2ob2o$b2ob2o2bo17b3o16bob5o8b2o4bo
-2bo2bo5bo$2bobo3bo13b2obo2bob2o26b2o3bo3b2o4bobob2o$2bobo3bo13b2obo2bo
-b2o23bo4bobobo5bo4bobo$b2ob2o2bo17b3o25bo2b6ob11o2bo$o4bo2bo2bo6b3o7bo
-2bo22b3o6bo13b2o$2ob3o3b2o3b2o2b4o8b2o25bob3obo2b7o$bobo2bo5bo3bo5bo
-33b2obo2bo3bo2bo2bo$bo2b11ob6o2bo35b2o$2o13bo6b3o12bo3b2o$6b7o2bob3obo
-13b2o4bo$6bo2bo2bo3bo2bob2o14b2o3b3o$17b2o17bo7bo!
-
 #N p56 wing shuttle
 #O DER 3/10/23
 x = 33, y = 46, rule = B3/S23
@@ -10638,6 +10362,18 @@ x = 32, y = 26, rule = B3/S23
 14b2o$14bo$15bo$14b2o7bo$21bo2bo$21bo2bo$22bo2$31bo$2b2o25b3o$2bobo23b
 o$3bo24b2o$17b2o$17bobo$2b2o15bo8bo$3bo13bobo7bobo$3o14b2o9b2o$o2$9bo$
 7bo2bo$7bo2bo$8bo7b2o$16bo$17bo$16b2o!
+
+#N p56 phi sparker
+#O P1GG 3/9/24 based on a partial by cvojan
+#C An extremely high clearance phi sparker. The clearance can be
+#C made even greater by replacing 34P14 with a Kok's galaxy.
+#C It has been used to complete two of DER's p56 partials.
+x = 42, y = 35, rule = B3/S23
+16bo$16bo3$25b2o$2o11b2ob3o5bobo$bo17bo4b2o$bobo15b2o7b2o$2b2o7b2o15bo
+bo$6b2o4bo17bo$5bobo5b3ob2o11b2o$5b2o$26bo3b2o5b2o$24b3o3b2o5b2o$15bo
+7bo$15bo7b2o$18b2o$17bo12b2o5b2o$18bobo8bo2bo3bo2bo$18b3o7bo3bo3bo3bo$
+18bo13b2ob2o$17bo2bo6bo5bobo5bo$18b2o8bo3bo3bo3bo$32bo3bo$29bo9bo$29bo
+2bo3bo2bo$30b2o5b2o3$21bo$20b3o$19bobobo$19bobobo$20b3o$21bo!
 
 #N P57 bumper loop
 #O Entity Valkyrie, 2018
@@ -10691,7 +10427,7 @@ o5bo7bo$4b2obo6b3o3b3o20b3o3b3o6bob2o$4bo2b2o5b3o3b3o20b3o3b3o5b2o2bo$
 o$8b2o2bo7b2o5b2o8b2o5b2o7bo2b2o$10bobo7b2o22b2o7bobo$10bobobo2bo30bo
 2bobobo$11b2ob4o30b4ob2o$13bo38bo$13bobo34bobo$14b2o34b2o!
 
-#N Pre-pulsar shuttle 58
+#N p58 pre-pulsar shuttle
 #O Tanner Jacobi, 2015
 #C Period-58 oscillator with a 50% smaller population
 #C than the previous Snark-based record.
@@ -10755,6 +10491,15 @@ x = 34, y = 30, rule = B3/S23
 12b2o$12b2o5$11b2o$10b3o$9bo$8b2o14b2o$7b3o14b2o$8b2o2$2b2o28b2o$bobo
 28bo$bo28bobo$2o28b2o2$24b2o$8b2o14b3o$8b2o14b2o$24bo$21b3o$21b2o5$20b
 2o$20b2o!
+
+#N p58 honey farm hassler
+#O mvr 10/25/23
+x = 31, y = 31, rule = B3/S23
+15b2o$12b2o2bo$10b3ob2o4bo$9bo9b2o$10b3ob2o3b2o4b2o$12bob2o3bo5b2o2$
+16b3o$15bo3bo7bo$3bo10bo5bo5bobo$2bobo9bo5bo6bo$2bobo9bo5bo7b3o$b2ob2o
+9bo3bo10bo$bo14b3o$2bob2o3b3o$obob2o2bo3bo$2o5bo5bo8bo$7bo5bo7bo2bo$7b
+o5bo7bo2bo$3b3o2bo3bo10bo$2b3o4b3o$17b2o$16bo$19bo$17b2o$4b2o$4b2o3bo$
+8bobo$9bobo$11bo$11b2o!
 
 #N 92P59
 #O mvr 9/14/22
@@ -10957,7 +10702,7 @@ ob2o$21bob2ob2o2bobo2b2ob2obo$26bo3bobo3bo$22b2ob2obobobobob2ob2o$22bo
 #N p60 traffic light hassler
 #O Adam P. Goucher 7/18/21, based on a partial by DER the same day
 #C There are ways to make it into a glider gun, but they're not obvious.
-#C The glider eater are tub with tail eater, used for clearance purposes.
+#C The glider eater is tub with tail eater, used for clearance purposes.
 x = 32, y = 34, rule = B3/S23
 10bo6bo$9b2o6b2o$8b3o6b3o$9b2o6b2o$bo8bo6bo$b3o$4bo$3bobo$4bo4b3o$9bo$
 10bo$5b2o$5b2o$25b2o$25b2o$bo10b3o11bo$o3b3o5bobo2b3o4b5obo$bob5o4b3o
@@ -11035,14 +10780,6 @@ x = 53, y = 53, rule = B3/S23
 4b3o17b3o3bo2bo3b2o$5o4b5o25b5o4b5o$2o3bo2bo3b3o17b3o4b2o3bo2bo3b2o$
 32b3o$16bo15b3o$33b2o$33b2o$23b3o$21b5o$21b5o2$29bo2$27bo$25b3o$25b3o$
 26bo$26bo$26bo$25bobo3$25bobo$26bo$26bo$26bo$25b3o$25b3o!
-
-#N p60 honey farm shuttle
-#O LJK 8/27/22
-x = 49, y = 26, rule = B3/S23
-12b2o21b2o$13bo21bo$13bobo4b3o10bobo$14b2o3bo3bo9b2o$18bo5bo$18bo5bo$
-18bo5bo$19bo3bo$2b2o6b2o8b3o14b2o6b2o$o4bo2bo4bo21bo4bo2bo4bo$o4bo2bo
-4bo21bo4bo2bo4bo$o4bo2bo4bo21bo4bo2bo4bo$2b2o6b2o11b3o11b2o6b2o2$22bo
-3bo$22bo3bo2$23b3o3$23b3o2$22bo3bo$22bo3bo2$23b3o!
 
 #N p60 pulsar hassler
 #O cvojan 9/17/22
@@ -11184,23 +10921,6 @@ o9b2ob2o$22b3o$17b2o4bo$17b2o13bo9bo$31bobo7bobo$b2o7b2o19bo2bo5bo2bo$
 b2o7b2o20b2o7b2o$31bo11bo$17b2o$18bo$15b3o13bo11bo$15bo16b2o7b2o$31bo
 2bo5bo2bo$31bobo7bobo$32bo9bo5$32b2o7b2o$32b2o7b2o!
 
-#N p62 honey farm hassler
-#O DER 4/3/22
-x = 55, y = 60, rule = B3/S23
-18b2ob2ob2o$17bo3b2o3bo$15b2o4b2o4b2o$10b2o4bob2o4b2obo4b2o$10b2o5b2o
-6b2o5b2o$18bo6bo$18b2o4b2o$17bobo4bobo2$17bobo4bobo$18b2o4b2o$18bo6bo$
-10b2o5b2o6b2o5b2o$10b2o4bob2o4b2obo4b2o$15b2o4b2o4b2o$17bo3b2o3bo$18b
-2ob2ob2o$41b2o7b2o$41b2o7b2o$3b2o7b2o$3b2o7b2o2$40bo11bo$39bobo2b2ob2o
-2bobo$2bo11bo27bo7bo$bobo2b2ob2o2bobo23b3ob2o3b2ob3o$4bo7bo25b3o3bo3bo
-3b3o$b3ob2o3b2ob3o23bo4bo3bo4bo$3o3bo3bo3b3o5b2o7bo7bo13bo$bo4bo3bo4bo
-6bobo5bobo6bo13bo$bo13bo6bobo5bobo6bo4bo3bo4bo$bo13bo7bo7b2o5b3o3bo3bo
-3b3o$bo4bo3bo4bo23b3ob2o3b2ob3o$3o3bo3bo3b3o25bo7bo$b3ob2o3b2ob3o23bob
-o2b2ob2o2bobo$4bo7bo27bo11bo$bobo2b2ob2o2bobo$2bo11bo2$41b2o7b2o$41b2o
-7b2o$3b2o7b2o$3b2o7b2o$29b2ob2ob2o$28bo3b2o3bo$26b2o4b2o4b2o$21b2o4bob
-2o4b2obo4b2o$21b2o5b2o6b2o5b2o$29bo6bo$29b2o4b2o$28bobo4bobo2$28bobo4b
-obo$29b2o4b2o$29bo6bo$21b2o5b2o6b2o5b2o$21b2o4bob2o4b2obo4b2o$26b2o4b
-2o4b2o$28bo3b2o3bo$29b2ob2ob2o!
-
 #N p62 lumps of muck hassler
 #O mvr 4/4/23
 x = 42, y = 37, rule = B3/S23
@@ -11252,42 +10972,6 @@ o4b3o33b3o4bo$b3obo37bob3o$3bobo37bobo$5b3o33b3o$4bo2bo33bo2bo$4b2o6bo
 2bo3b2o6bo$5bo4bo4bo17bo4bo4bo$4b2o5b4o19b4o5b2o2$11b4o19b4o$10bo4bo
 17bo4bo$11b2o3bo2b2o7b2o2bo3b2o$16bo2b2o7b2o2bo$11bob3o17b3obo$12bo23bo!
 
-#N p63 beehive hassler
-#O DER 11/12/21
-x = 59, y = 52, rule = B3/S23
-27b2o6bo$27bo6bobo$19b2o3b2obo7bo$19bo4bobo$20b3obo16b2o$22bob2o14bo2b
-o$39b2ob2o$28bo11bobo$27bobo11bo$26b2ob2o$26bo2bo14b2obo$27b2o16bob3o$
-43bobo4bo$3bo30bo7bob2o3b2o$2bobo28bobo6bo$2bobo10bo3b2o13bo6b2o$2o2b
-2o8bobobobo$bobo6b2o2bobobo$o2b3o4bobobobob2o$obo3bo5bobobo2bo$bob3obo
-4bo2b2ob2o$3bo3b2o6b2ob2o5b2o28bo$3bo3b2o6b2ob2o4bo2bo26bobo$bob3obo4b
-o2b2ob2o5b2o11b2o3bo10bobo$obo3bo5bobobo2bo18bobobobo8b2o2b2o$o2b3o4bo
-bobobob2o20bobobo2b2o6bobo$bobo6b2o2bobobo20b2obobobobo4b3o2bo$2o2b2o
-8bobobobo18bo2bobobo5bo3bobo$2bobo10bo3b2o11b2o5b2ob2o2bo4bob3obo$2bob
-o26bo2bo4b2ob2o6b2o3bo$3bo28b2o5b2ob2o6b2o3bo$39b2ob2o2bo4bob3obo$39bo
-2bobobo5bo3bobo$39b2obobobobo4b3o2bo$40bobobo2b2o6bobo$38bobobobo8b2o
-2b2o$16b2o6bo13b2o3bo10bobo$16bo6bobo28bobo$8b2o3b2obo7bo30bo$8bo4bobo
-$9b3obo16b2o$11bob2o14bo2bo$28b2ob2o$17bo11bobo$16bobo11bo$15b2ob2o$
-15bo2bo14b2obo$16b2o16bob3o$32bobo4bo$23bo7bob2o3b2o$22bobo6bo$23bo6b
-2o!
-
-#N p63 pi-heptomino hassler
-#O LJK 8/31/22
-x = 59, y = 58, rule = B3/S23
-19bob2o4b2obo$19b2o2bo2bo2b2o$17b2o3bo4bo3b2o$16bo3b2ob4ob2o3bo$17b3ob
-obo2bobob3o$19bobob4obobo$21bo2b2o2bo$22b2o2b2o3$20b2o6b2o$20bobo4bobo
-$21b2o4b2o$24b2o$19b5o2b5o$18bo12bo$19b3o6b3o$22bo4bo$3b2o5bo8b3ob4ob
-3o8bo$bo2bo4bo8bo2bo6bo2bo5b3o$10bo2b2o3b2o10b2o4bo13bo4b2o$7b2obobo2b
-o6bo4bo8b2o10bobo4bobo$bo4b2o2b2o4bo7b2o20bo2bo6b3o$2bo2bobob2o34b3obo
-bo5b2o$3b2o2bo36b2o3b4o3b2o$8bo4bo2bo26b2o5bobob3o$7bo5b2o28b3o6bo2bo$
-23b2ob2o16bobo4bobo$23bo3bo4b3o10b2o4bo$7bo4b2o10b3o4bo3bo$5bobo4bobo
-16b2ob2o$3bo2bo6b3o28b2o5bo$2b3obobo5b2o26bo2bo4bo$b2o3b4o3b2o36bo2b2o
-$2o5bobob3o34b2obobo2bo$3o6bo2bo20b2o7bo4b2o2b2o4bo$bobo4bobo10b2o8bo
-4bo6bo2bobob2o$2b2o4bo13bo4b2o10b2o3b2o2bo$19b3o5bo2bo6bo2bo8bo4bo2bo$
-19bo8b3ob4ob3o8bo5b2o$31bo4bo$28b3o6b3o$27bo12bo$28b5o2b5o$33b2o$30b2o
-4b2o$29bobo4bobo$29b2o6b2o3$31b2o2b2o$30bo2b2o2bo$28bobob4obobo$26b3ob
-obo2bobob3o$25bo3b2ob4ob2o3bo$26b2o3bo4bo3b2o$28b2o2bo2bo2b2o$28bob2o
-4b2obo!
-
 #N p63 century hassler
 #O LJK 9/7/22
 #C This is a phi sparker.
@@ -11297,21 +10981,6 @@ x = 47, y = 34, rule = B3/S23
 10bo2bo$2b2o10b3o$15bo3$31bo$30b3o10b2o$29bo2bo10bobo$29b2o14bo$45b2o$
 21b2o16b2o$22bo16bo$13b2o7bobo12bobo$13bo9b2o12b2o$14b3o11bo4bo$16bo9b
 2ob4ob2o$28bo4bo$23b2o12b2o$22bobo12bobo$22bo16bo$21b2o16b2o!
-
-#N p63 lumps of muck hassler
-#O LJK 9/14/22
-#C The sparkers are 120P7, p7 pipsquirter, and 48P9.
-x = 61, y = 36, rule = B3/S23
-6b3o5b3o$5b5o3b5o$4b2o4bobo4b2o$4b3obobobobob3o$2b2obo2b2o3b2o2bob2o$b
-4o3b2o3b2o3b4o$2obo3b3o3b3o3bob2o$2o4bob2o3b2obo4b2o$2ob5obo3bob5ob2o$
-bo2b5o5b5o2bo$2b2o15b2o2$2b2o15b2o$bo2b5o5b5o2bo$2ob5obo3bob5ob2o$2o4b
-ob2o3b2obo4b2o7b3o$2obo3b3o3b3o3bob2o7bo2b2o3bo11b2o$b4o3b2o3b2o3b4o8b
-2o2bo3bo10bo2bo$2b2obo2b2o3b2o2bob2o11b3o13b2o$4b3obobobobob3o29b2o9b
-2o$4b2o4bobo4b2o29b3o8bo$5b5o3b5o20b3o2bo4b2o7bobo$6b3o5b3o20bo5bo6b2o
-2bo2b2o$36b3o16bo$37b3obo10bo2bo$11b2o7b2o16b3o14bo$10bo2bob2obo2bo2b
-5o10bo10b2o2bo2b2o$10bobo3bob2o2b3obob3o17b2o7bobo$11bob2obo3b2o4bo4bo
-16b3o8bo$13bob2ob2o2b4ob2ob2o16b2o9b2o$13bobo4b2obobobo20b2o$12b2ob4ob
-o2bobobo21bo2bo$13bobo2bob4obob2o21b2o$13bo2bo2bo4bo$14b2o5b3o$20b2o!
 
 #N p63 pi-heptomino hassler
 #O NMB 9/27/22
@@ -11400,18 +11069,6 @@ x = 30, y = 30, rule = B3/S23
 6bobo$11b2o4b2o$9bobo6bobo$9b2o8b2o7$9b2o8b2o$9bobo6bobo$11b2o4b2o$9bo
 bo6bobo$9b2o8b2o2$3b3o18b3o$3b3o18b3o$3b3o18b3o$3o24b3o$3o24b3o$3o24b
 3o!
-
-#N p64 pi-heptomino hassler
-#O LJK 8/29/22
-x = 52, y = 39, rule = B3/S23
-4bo5bo21bo$4bo5bo21b2o$2b4o3b4o18b2obo$b2o9b2o16bo2b3o$3o2b2ob2o2b3o
-14bobobo$2o3b2ob2o3b2o13bobobo$b3obo3bob3o12b3o2bo$2b2o7b2o14bob2o$3b
-3o3b3o16b2o$5b2ob2o19bo$4bobobobo$5bo3bo3$36bo$35bo$21b3o10b3o$20bo3bo
-11b3o$20b2ob2o11bo2bo3b2o$7b2o4b2o22b2o4b2o$7b2o3bo2bo11b2ob2o$13b3o
-11bo3bo$15b3o10b3o$16bo$15bo3$42bo3bo$41bobobobo$22bo19b2ob2o$22b2o16b
-3o3b3o$21b2obo14b2o7b2o$20bo2b3o12b3obo3bob3o$19bobobo13b2o3b2ob2o3b2o
-$18bobobo14b3o2b2ob2o2b3o$16b3o2bo16b2o9b2o$17bob2o18b4o3b4o$18b2o21bo
-5bo$19bo21bo5bo!
 
 #N p64 pi-heptomino shuttle
 #O DER 9/16/22 based on a partial by cvojan
@@ -11549,13 +11206,12 @@ o$18bo3bo18b2o$19b3o2$17b2o$18bo$15b3o$15bo8b2o$24b2o!
 #O mvr 7/14/23
 x = 43, y = 43, rule = B3/S23
 15bo$14bobo3b2o$13bo2bo3bo$13bobob2obo$10b2obobobobo$10bo2bobo$12bobob
-o$11b2obobo$9bo2bob2o$5b2o2b2o$4bobo$4bo$2b2ob4o$3bobo2bo7b3o$bo13bo3b
-o$b2o11bo5bo$3bo3b2o5bo5bo11b2o$b2obo2b2o5bo5bo11bo$o2bo11bo3bo10bobo$
-bo14b3o11b2o4b2o$2b4o30bo$4bo33bo$6bo30b4o$5b2o4b2o11b3o14bo$10bobo10b
-o3bo11bo2bo$10bo11bo5bo5b2o2bob2o$9b2o11bo5bo5b2o3bo$22bo5bo11b2o$23bo
-3bo13bo$24b3o7bo2bobo$34b4ob2o$38bo$36bobo$32b2o2b2o$27b2obo2bo$26bobo
-b2o$26bobobo$27bobo2bo$23bobobobob2o$22bob2obobo$22bo3bo2bo$21b2o3bobo
-$27bo!
+o$11b2obobo$9bo2bob2o$5b2o2b2o$6bo$4bo$2obob4o$ob2obo2bo7b3o$15bo3bo$
+14bo5bo$2b2o3b2o5bo5bo11b2o$2bobo2b2o5bo5bo11bo$3bo11bo3bo10bobo$16b3o
+11b2o4b2o$b5o30bo$bo2bo33bo2bo$6bo30b5o$5b2o4b2o11b3o$10bobo10bo3bo11b
+o$10bo11bo5bo5b2o2bobo$9b2o11bo5bo5b2o3b2o$22bo5bo$23bo3bo$24b3o7bo2bo
+b2obo$34b4obob2o$38bo$36bo$32b2o2b2o$27b2obo2bo$26bobob2o$26bobobo$27b
+obo2bo$23bobobobob2o$22bob2obobo$22bo3bo2bo$21b2o3bobo$27bo!
 
 #N p65 pi-heptomino hassler
 #O MM 3/15/23 based on a partial by mvr the previous day
@@ -11683,35 +11339,6 @@ o$4bo18b3o$3bobo17bobo10bo$4bo18bo2bo6bobobo$b3o20bobo6b2o2bo$bo22b3o
 10b2o3$7b2o$8bo$5b3o$5bo9b2o9bo$14bobo9bo$14bo$13b2o16b2o$31bobo$33bo$
 33b2o!
 
-#N p66 honey farm hassler
-#O CC 5/23/23
-x = 42, y = 45, rule = B3/S23
-18b2o$18b2o$18b2o$19bo$18bobo$13b3obobo$13b4obo16bo4b2o$17bo16bobo2bob
-o$34bob4o$31bo2bobo2bobo$31bo3bo4b2o$30bo3bo$29b2o$21b3o5b2obo$13bo6bo
-3bo3b2o2b3o$11bo2bo4bo5bo2b3obo$14bo4bo5bo2b3obo$11bo7bo5bo2b2o2b3o$
-20bo3bo4b2obo$2o4bo14b3o5b2o$obo2bobo22bo3bo$2b4obo7bobo13bo3bo4b2o$ob
-o2bobo2bo5bo8bo5bo2bobo2bobo$2o4bo3bo13bobo7bob4o$7bo3bo22bobo2bobo$
-11b2o5b3o14bo4b2o$9bob2o4bo3bo$7b3o2b2o2bo5bo7bo$9bob3o2bo5bo4bo$9bob
-3o2bo5bo4bo2bo$7b3o2b2o3bo3bo6bo$9bob2o5b3o$11b2o$7bo3bo$2o4bo3bo$obo
-2bobo2bo$2b4obo$obo2bobo16bo$2o4bo16bob4o$22bobob3o$21bobo$22bo$22b2o$
-22b2o$22b2o!
-
-#N p66 dependent reflector loop
-#O NMB 6/28/23
-#C A modification to CatForce was created on 6/28/23 and found
-#C several dependent reflector loops within just
-#C a few days, including this one.
-x = 63, y = 63, rule = B3/S23
-42b2o$42b2o3$52b2o$28b2o22bo$28b2o16bo3bobo$45bobo2b2o$44bo3bo$32b2o
-10bo3bo$31bobo10bo3bo$33bo11bobo$46bo3$48b2o$4bo43bo$4b3o42b3o$7bo9b2o
-32bo$6b2o9bo$15bobo28bobo$15b2o30b2o7b2o$47bo6b2o2bo$6b3o44bo4bo$5b4o
-44bo4bo$4bo47b2o2b2o$2obo2bob2o5b3o35bob2o$2o2bobob3o6bo36b2o$8b3o5bo
-2$9bo$9bo43bo$53bo2$46bo5b3o$7b2o36bo6b3obobo2b2o$6b2obo35b3o5b2obo2bo
-b2o$5b2o2b2o47bo$4bo4bo44b4o$4bo4bo44b3o$4bo2b2o6bo$5b2o7b2o30b2o$14bo
-bo28bobo$45bo9b2o$11bo32b2o9bo$11b3o42b3o$14bo43bo$13b2o3$16bo$15bobo
-11bo$14bo3bo10bobo$14bo3bo10b2o$14bo3bo$11b2o2bobo$10bobo3bo16b2o$10bo
-22b2o$9b2o3$19b2o$19b2o!
-
 #N p67 B-heptomino hassler
 #O NMB 4/21/23
 #C The only known p67 engine.
@@ -11737,6 +11364,15 @@ x = 41, y = 39, rule = B3/S23
 12b3o7b3o12b2o$22b2o2bo5bo6b2o$22bo2b2o3b2o$22b3o2$4b2o$4b2o3$21bo$20b
 obo10bo$19bo2bo9bobo$20b2o11bo2$14bob2o$12b3ob2o3b2o$11bo9b2o$12b3ob2o
 $14b2o2bo$17b2o!
+
+#N p68 lumps of muck hassler
+#O NMB 11/13/23
+#C A version with stable supports exists with only two more cells.
+x = 31, y = 38, rule = B3/S23
+8b2o$8bobo2$2bob2o$2b2obo4b2o$10b2o11b2o$23bo$bo19bobo$o2bo17b2o$o2bo$
+2bo2$2bo$bobo$2bo6b3o$9bobo$8bo2bo15bo$8bobo15bobo$8b3o16b2o$2b2o16b3o
+$2bobo15bobo$3bo15bo2bo$19bobo$19b3o6bo$27bobo$28bo2$28bo$27bo2bo$8b2o
+17bo2bo$7bobo19bo$7bo$6b2o11b2o$19b2o4bob2o$25b2obo2$20bobo$21b2o!
 
 #N p68 dependent reflector loop
 #O DER 9/15/22 based on a partial by cvojan the same day
@@ -11835,7 +11471,6 @@ x = 66, y = 37, rule = B3/S23
 11b2o14bobo$3bo11b2obo25b2obo$18bo24b3o$18b2o22bo2bo$43b2o$52b2o$52b2o
 2$47b2o$47bo$48b3o$50bo!
 
-
 #N p69 seven blinkers hassler
 #O mvr 1/16/23
 #C "Seven blinkers" is this region, which becomes a TL and a 3/4 TL:
@@ -11867,26 +11502,6 @@ ob2obo9bobo$b2o5b3obo10bo$2b2obo2b2o11bobo$3bobob3o2bo8b2o$bobo5bo27b
 2o$obobob2obob2o24bo$bo2bobo2bo28b3o$2b2o4bobo29bo$8bo4b2o$6b2o4bobo$
 12bo9b2o$8bo2b2o9b2o$3b2obobo$3b2ob2o$6bob3o9b2o$6bobobo5b2obobo$5b2ob
 2o6bob2obobo$4bo2bo14b2o$5bobo$6bo!
-
-#N p69 dependent reflector loop
-#O CC 7/1/23
-#C A modification to CatForce was created on 6/28/23 and found
-#C several dependent reflector loops within just
-#C a few days, including this one.
-x = 103, y = 103, rule = B3/S23
-48bo$47bobo$45b3obo$44bo4bob2o$44bobobobobo$39b2o4b2obobo$40bo8bobo$
-40bobo7bo$41b2o$51b3o$50bo3bo$49bo5bo$49bo5bo$49bo5bo$50bo3bo$51b3o8b
-2o$62bobo$62bo4$34bo$32b2o$33b2o$57b2o$57bo$44b2o6b2o4b3o$45bo6bo7bo$
-42b3o8b3o$42bo12bo3$80bo$79b2o$79bobo4$16bo$15bo81bo$15b3o77b3o$94bo$
-26b2o45b2o19b2o$26bo47bo$24bobo47bobo21b2o$24b2o49b2o20bo2bo$97b2obo$
-11b3o14b2o70b2o$10bo3bo13bo68b2o3bo$9bo5bo10bobo60b3o4bo2b3o$3b2o4bo5b
-o10b2o60bo3bo2bob2o$3bo2bo2bo5bo71bo5bo2bo2bo$4b2obo2bo3bo60b2o10bo5bo
-4b2o$b3o2bo4b3o60bobo10bo5bo$o3b2o68bo13bo3bo$b2o70b2o14b3o$2bob2o$2bo
-2bo20b2o49b2o$3b2o21bobo47bobo$28bo47bo$7b2o19b2o45b2o$8bo$5b3o77b3o$
-5bo81bo$86bo4$21bobo$22b2o$22bo3$47bo12bo$47b3o8b3o$42bo7bo6bo$42b3o4b
-2o6b2o$45bo$44b2o$68b2o$69b2o$68bo4$40bo$38bobo$39b2o8b3o$48bo3bo$47bo
-5bo$47bo5bo$47bo5bo$48bo3bo$49b3o$60b2o$52bo7bobo$51bobo8bo$52bobob2o
-4b2o$50bobobobobo$50b2obo4bo$53bob3o$53bobo$54bo!
 
 #N p69 honey farm hassler
 #O iNoMed 7/28/23 based on a partial by CC the same day
@@ -12067,17 +11682,6 @@ bo2bobo3bo9bo3bo4bo3bobo2bobo$2b3o2b2o14b3o9b2o2b3o$6b2o3bo20bo3b2o$5o
 bob2o7bo8bo7b2obob5o$o2bo2bobo7bobo6bobo7bobo2bo2bo$5bo2bo3b2obobo8bob
 ob2o3bo2bo$6b2o3bobobobobo4bobobobobo3b2o$11bo4bobobo2bobobo4bo$12b3ob
 obobo2bobobob3o$14b2o3bo4bo3b2o!
-
-#N p70 lumps of muck hassler
-#O mvr 1/10/23, reduced by iNoMed the same day
-x = 51, y = 36, rule = B3/S23
-45bo$28b2o2bo10b3o$28bo2bo10bo$28bob2o10b2o$10bo8b2o$8b3o9bo7bob2o7b3o
-$7bo12bob2o4bo2bo7bobo$7b2o12bobo4b2o2bo7b2o2$4b3o$4bobo$5b2o39bo$42b
-2o2bo$37bo4b2o$35b3ob2o3b2o2bo$11bo24bob3o3bo3bo$7b2o2bo13b3o9bo3bo3b
-3obo$2bo4b2o14b2o2bo9bo2b2o3b2ob3o$3ob2o3b2o2bo9bo2b2o14b2o4bo$bob3o3b
-o3bo9b3o13bo2b2o$2bo3bo3b3obo24bo$2bo2b2o3b2ob3o$7b2o4bo$4bo2b2o$4bo
-39b2o$44bobo$44b3o2$9b2o7bo2b2o4bobo12b2o$9bobo7bo2bo4b2obo12bo$9b3o7b
-2obo7bo9b3o$30b2o8bo$7b2o10b2obo$8bo10bo2bo$5b3o10bo2b2o$5bo!
 
 #N Capped period-70 glider gun
 #O CC 1/17/23
@@ -12272,17 +11876,6 @@ o2bo2b2o15b2o2bo2bo$4bobobo21bobobo$2b2obobo23bobob2o$2bo2bo27bo2bo$4b
 2o27b2o2$14b2o7b2o$15bo7bo$12b3o9b3o$12bo13bo!
 
 #N p72 lumps of muck hassler
-#O CC 9/18/22
-x = 39, y = 40, rule = B3/S23
-2b2ob2o10b2ob2o$2bo3bo10bo3bo10bo$3b3o12b3o10b2o$30b2o$29bo$3b3o12b3o
-7bob4o$2bo3bo10bo3bo5bobo4bo$3b4o10b4o5b2obob2obo2b2o$4bo14bo5b2o2bob
-2obob2o$9b6o14bo4bobo$6b2o8b2o12b4obo$6b2o8b2o16bo$7bo8bo15b2o$31b2o$
-11b2o18bo4$17b3o$17bo2b2o$17b2o2bo$19b3o4$7bo18b2o$6b2o$5b2o15bo8bo$4b
-o16b2o8b2o$3bob4o12b2o8b2o$2bobo4bo14b6o$b2obob2obo2b2o5bo14bo$2o2bob
-2obob2o5b4o10b4o$4bo4bobo5bo3bo10bo3bo$5b4obo7b3o12b3o$9bo$7b2o$6b2o
-10b3o12b3o$6bo10bo3bo10bo3bo$17b2ob2o10b2ob2o!
-
-#N p72 lumps of muck hassler
 #O mvr 1/29/23
 #C Provides some sparks, but not really that useful because none of them
 #C stick out more than the other sparks.
@@ -12293,21 +11886,6 @@ bo$7bobob2o7b3o7b2o$4b3o2bobo$4bo4bobo$10bo3$30bo$29bobo4bo$29bobo2b3o
 $9b2o7b3o7b2obobo$8bobo7bobo5bo4bo2b3o$8bo9bo2bo7b3obo2bo$7b2o10bobo3b
 o6b2o$19b3o3bo3bo3bo2bo2b2o$29bobobobobo2bo$26bo3b4ob2ob2o$28b2o4bo$
 29bob2obob4o$29bo2bobobo2bo$30b2o3bo!
-
-#N p72 honey farm hassler
-#O CC 10/13/22
-#C This technically qualifies as a pipsquirter due to the maximum
-#C extent of the honey farm, but the block that forms immediately
-#C afterwards limits its use.
-x = 42, y = 40, rule = B3/S23
-22bo18bo$21bobo10bo4b3o$20bo3bo8bobo2bo$19bo3bo8bo2b4ob2o$18bo3bo10b2o
-4bobo$17bo3bo14b2o$18bobo12b3obob2o$19bo12bo8bo$32bobo3b4o$31b2obobobo
-$31bo2bobob4o$32bobo2b2o2bo$17b3o12bobobobo$16bo3bo11bobobo3bo$15bo5bo
-10bobobobo$15bo5bo9bo4bob2o$15bo5bo9b2obo2bo$16bo3bo11bob2obo$17b3o12b
-o2bob2o$33b2o$7b2o$3b2obo2bo12b3o$4bob2obo11bo3bo$4bo2bob2o9bo5bo$2b2o
-bo4bo9bo5bo$3bobobobo10bo5bo$bo3bobobo11bo3bo$3bobobobo12b3o$o2b2o2bob
-o$4obobo2bo$3bobobob2o$4o3bobo$o8bo13bo$b2obob3o13bobo$4b2o15bo3bo$obo
-4b2o13bo3bo$2ob4o2bo13bo3bo$3bo2bobo15bo3bo$3o4bo17bobo$o25bo!
 
 #N p72 lumps of muck hassler
 #O CC 10/18/22, reduced by iNoMed the same day, since reduced
@@ -12323,20 +11901,6 @@ bobo17b3o$b3o2bo33bo$2bob2o$3b2o7bobo$4bo6bo14bo$12bo2bo10bo$12bobobo$
 13bo2bo8bobo$14b2o7b2obobo$20b2o3bobo$19bob5o2b3o$19bo2bo3b2o2bo$20bo
 3b2o2b2o$17b3o5bobo$17bo7bobo$26bo!
 
-#N p72 lumps of muck hassler
-#O CC 1/26/23
-#C The p6 domino sparker here is optimized for bounding box,
-#C not population.
-x = 45, y = 37, rule = B3/S23
-17b2o$15bo2bo3$15b2obo17b2o$17bobo2b2o11bo2bob2o$18bo4bo11bob2obo$19bo
-14b2o4bo$19bo2bo9bo3b4ob2o$35bobobobo$31bo3bo3bo2bo$31bo6b2ob2o$35b3ob
-o4bo$o31bo4bobo3b2o$3o4bo16b3o7b2obo$3bo2bobo15bobo8bo2bob5o$2ob4o2bo
-13bo2bo8bo2bo5bo$obo4b2o14bobo10b3ob2obo$2bob2o13b3ob3o13b2obo$bob2ob
-3o10bobo14b2o4bobo$o5bo2bo8bo2bo13bo2b4ob2o$5obo2bo8bobo15bobo2bo$7bob
-2o7b3o16bo4b3o$2o3bobo4bo31bo$o4bob3o$2b2ob2o6bo$2bo2bo3bo3bo$3bobobob
-o$2b2ob4o3bo9bo2bo$4bo4b2o14bo$4bob2obo11bo4bo$3b2obo2bo11b2o2bobo$7b
-2o17bob2o3$26bo2bo$26b2o!
-
 #N Capped period-72 glider gun
 #O CC 1/18/23
 #C The smallest known p72 glider gun by bounding box.
@@ -12349,20 +11913,6 @@ x = 30, y = 26, rule = B3/S23
 2o5bo5bo7b3o$3bo2bo4bo5bo7b2o$4b2o2bo2bo5bo10b2o$6b2obo2bo3bo4b2o4b3o$
 4b2o2bo4b3o5bobo$3bo2b2o15bo$3b2o18b2o2b2o$4bob2o19b2o$4bo2bo$5b2o2$9b
 2o4b2o$10bo4bo$7b3o6b3o$7bo10bo!
-
-#N p72 lumps of muck hassler
-#O CC 6/1/23
-x = 62, y = 41, rule = B3/S23
-9b2ob2o10b2ob2o$9bo3bo10bo3bo$10b3o12b3o3$10b3o12b3o$9bo2bo12bo2bo$9bo
-b2o5b2o5b2obo$13b3ob4ob3o30bo4b2o$10b2ob4o4b4ob2o26bobo2bobo$13b2o8b2o
-29bob4o$15b2o4b2o28bo2bobo2bobo$16b6o19b2o8bo3bo4b2o$2o4bo34b2o7bo3bo$
-obo2bobo41b2o$2b4obo41b2obo$obo2bobo2bo37b2o2b3o$2o4bo3bo37b3obo$7bo3b
-o23b3o10b3obo$11b2o13b3o4b2o2bo10b2o2b3o$9bob2o11b2o2bo4bo2b2o11b2obo$
-7b3o2b2o10bo2b2o4b3o13b2o$9bob3o10b3o23bo3bo$9bob3o37bo3bo4b2o$7b3o2b
-2o37bo2bobo2bobo$9bob2o41bob4o$11b2o41bobo2bobo$7bo3bo7b2o34bo4b2o$2o
-4bo3bo8b2o19b6o$obo2bobo2bo28b2o4b2o$2b4obo29b2o8b2o$obo2bobo26b2ob4o
-4b4ob2o$2o4bo30b3ob4ob3o$33bob2o5b2o5b2obo$33bo2bo12bo2bo$34b3o12b3o3$
-34b3o12b3o$33bo3bo10bo3bo$33b2ob2o10b2ob2o!
 
 #N p72 pi-heptomino hassler
 #O NMB 10/21/23
@@ -12474,6 +12024,17 @@ o19bobo7b3o$4bo21bobo6bo3bo$b3o15b3o6bo5bo5bo$bo32bo5bo$19b2o13bo5bo$
 5bo12b2o$5b3obo14bo5bo4b2o$7bobo5b2o7bo5bo2bo2bo$8bo6b2o8bo3bo2bob2o$
 26b3o4bo2b3o$34b2o3bo$37b2o$13b2obob2o14b2obo$13bob2obo15bo2bo$18bobo
 14b2o$18b2obo$21bo$21b2o5b2o$28b2o!
+
+#N p74 lumps of muck hassler
+#O iNoMed 2/20/24
+x = 49, y = 37, rule = B3/S23
+16b2o3b2o$15bo2bo2bo2bo$15bobo5b2o$16bob5o2b2o$10b2o6bo4bo3bo$11bo5bo
+3b2ob3o7bo$10bo5bo3bobobo9b2o$10b4o2b2o3bo12b2o$13bo14bo6bo$8b3o17b3o$
+7bo2bo20bo14b2o$7b2o21b2o14bo$15b3o29bo$13b2o2bo28b2o$13bo2b2o27bo$13b
+3o29b3o$48bo$7bo33b2o4b2o$5bo2bo31bo2bo$2o4b2o33bo$o$b3o29b3o$3bo27b2o
+2bo$b2o28bo2b2o$bo29b3o$2bo14b2o21b2o$b2o14bo20bo2bo$18b3o17b3o$13bo6b
+o14bo$13b2o12bo3b2o2b4o$13b2o9bobobo3bo5bo$14bo7b3ob2o3bo5bo$21bo3bo4b
+o6b2o$22b2o2b5obo$24b2o5bobo$24bo2bo2bo2bo$26b2o3b2o!
 
 #N 6 bits
 #O RTW 9/84
@@ -12848,19 +12409,6 @@ o$21b2o2b2o6bo$19b3ob2ob3o$18bo10bo$18b2ob2ob2ob2obo$19bobo3bo2bobo$
 19bobo3b3o2bobo$20bo5bo2bob2o$27bobo$28b2o!
 
 #N p80 lumps of muck hassler
-#O CC 9/18/22
-x = 44, y = 45, rule = B3/S23
-15b2o$14bo2bo$15bo2bo$11bo6bo$10bobo3bo2bo$11b2o3b3o2$11b2o3b3o14bo3bo
-$10bobo3bo2bo12bobobobo$11bo6bo14b2ob2o$15bo2bo$14bo2bo12bo9bo$15b2o
-12bo11bo$29bo3b2ob2o3bo$30b3obobob3o$5bo3bo21b2obobob2o$4bobobobo21b2o
-3b2o$3bo2bobo2bo$2b2ob2ob2ob2o$bo3bo3bo3bo$o2bob2ob2obo2bo15b2ob2o3b2o
-b2o$3bo7bo8b2o7bo5bobo5bo$5b2ob2o11b2o11b2ob2o$o5bobo5bo7b2o8bo7bo$b2o
-b2o3b2ob2o15bo2bob2ob2obo2bo$30bo3bo3bo3bo$31b2ob2ob2ob2o$32bo2bobo2bo
-$5b2o3b2o21bobobobo$4b2obobob2o21bo3bo$3b3obobob3o$2bo3b2ob2o3bo$2bo
-11bo12b2o$3bo9bo12bo2bo$25bo2bo$6b2ob2o14bo6bo$5bobobobo12bo2bo3bobo$
-6bo3bo14b3o3b2o2$25b3o3b2o$24bo2bo3bobo$25bo6bo$25bo2bo$26bo2bo$27b2o!
-
-#N p80 lumps of muck hassler
 #O CC 9/28/22
 x = 45, y = 31, rule = B3/S23
 18bo$5bo3bo7bobo$4bobobobo7bo$3bo2bobo2bo$2b2ob2ob2ob2o$bo3bo3bo3bo$o
@@ -12869,16 +12417,6 @@ x = 45, y = 31, rule = B3/S23
 2o$8bo5b3o$8bo5bo2b2o$3b2o9b2o2bo12b2ob2o3b2ob2o$2bo2b3o8b3o11bo5bobo
 5bo$2b2o31b2ob2o$33bo7bo$30bo2bob2ob2obo2bo$31bo3bo3bo3bo$32b2ob2ob2ob
 2o$33bo2bobo2bo$26bo7bobobobo$25bobo7bo3bo$26bo!
-
-#N p80 lumps of muck hassler
-#O CC 7/29/23
-x = 41, y = 46, rule = B3/S23
-32bo2bo$31bo4bo$31bo5bo$34b2ob2o$31bo7bo$31bobob3o2bo$13b2o17b2obob3o$
-12bobo$12bo19b2obob3o$7bob2ob2o17bobob3o2bo$7b2obo20bo7bo$10bo23b2ob2o
-$10b2o4b3o12bo5bo$16bobo12bo4bo$15bo2bo13bo2bo$6b2o7bobo$7bo7b3o$7bobo
-$8b2o9$31b2o$31bobo$23b3o7bo$23bobo7b2o$5bo2bo13bo2bo$4bo4bo12bobo$3bo
-5bo12b3o4b2o$2b2ob2o23bo$bo7bo20bob2o$o2b3obobo17b2ob2obo$b3obob2o19bo
-$26bobo$b3obob2o17b2o$o2b3obobo$bo7bo$2b2ob2o$3bo5bo$4bo4bo$5bo2bo!
 
 #N p80 unnamed region shuttle
 #O CC 9/20/22
@@ -13037,22 +12575,6 @@ x = 20, y = 35, rule = B3/S23
 $4bo3bo$5b3o4b3o$11bo3bo$10bo5bo$10bo5bo$10bo5bo$11bo3bo$12b3o5$16b2o$
 16bobo$18bo$5b2o11b2o$6bo$3b3o$3bo!
 
-#N p84 pi-heptomino hassler
-#O DER 6/1/21
-x = 84, y = 44, rule = B3/S23
-35b2o10b2o$2o4bo28bo12bo28bo4b2o$obo2bob2o24bobo12bobo24b2obo2bobo$2b
-4ob2o24b2o14b2o24b2ob4o$obo2bo72bo2bobo$2o4b2o2bobo58bobo2b2o4b2o$10b
-obo58bobo$10b2o60b2o2$8b3o62b3o$8b3o18b2o22b2o18b3o$8b3o12b2o4b2o22b2o
-4b2o12b3o$8b3o12b2o6bo20bo6b2o12b3o$24bo4b2o22b2o4bo$10b2o17b2o22b2o17b
-2o$10bobo58bobo$2o4b2o2bobo58bobo2b2o4b2o$obo2bo72bo2bobo$2b4ob2o66b2o
-b4o$obo2bob2o66b2obo2bobo$2o4bo70bo4b2o3$2o4bo70bo4b2o$obo2bob2o66b2o
-bo2bobo$2b4ob2o66b2ob4o$obo2bo72bo2bobo$2o4b2o2bobo58bobo2b2o4b2o$10b
-obo58bobo$10b2o17b2o22b2o17b2o$24bo4b2o22b2o4bo$8b3o12b2o6bo20bo6b2o12b
-3o$8b3o12b2o4b2o22b2o4b2o12b3o$8b3o18b2o22b2o18b3o$8b3o62b3o2$10b2o60b
-2o$10bobo58bobo$2o4b2o2bobo58bobo2b2o4b2o$obo2bo72bo2bobo$2b4ob2o24b2o
-14b2o24b2ob4o$obo2bob2o24bobo12bobo24b2obo2bobo$2o4bo28bo12bo28bo4b2o
-$35b2o10b2o!
-
 #N p84 interchange hassler
 #O DER 7/22/21
 #C The sparkers are 34P14 and one form of a T-nosed p4.
@@ -13116,36 +12638,6 @@ x = 61, y = 27, rule = B3/S23
 2o$14b2o$13bo2bo$14b2o$2ob3o2bo$2o2bob3o$4bo20bobo$5b3o20bo$7bo16bo2bo
 $8bobo12bobobo$11bo11bo2bo$10bo13b2o!
 
-#N p84 honey farm diagonal flipper
-#O EvinZL 1/14/23 based on a partial by DER
-#C Uses p42 pi-heptomino hasslers as sparkers.
-x = 92, y = 92, rule = B3/S23
-51b2o$51b2o4$32b4o$31bo4bo$31bo3bobo$32bo3bobo$38bo$38bo6bo$35bo2bo6b
-2o13b2ob2o$36b2o23bobo$33bo11b3o3bo8bo2bo$31b3o8b4obo2bobo10bob2o$30bo
-3b2o5b3ob2o2b2ob2o5bobobobo$29bob2obobo4b2o2b2ob2o2b2o4bobob2obo$29bob
-obobo5b2ob2o2b2ob3o5b2o3bo$28b2obo10bobo2bob4o8b3o$14bo16bo2bo8bo3b3o
-11bo$14b3o14bobo23b2o$11bo5bo12b2ob2o13b2o6bo2bo$11b6obo6b2o22bo6bo$
-16bobo5bo2bo28bo$11b2o2bo2b2o7bo28bobo3bo$11bobo2b2o9bo29bobo3bo$15bob
-o3bo3bobo15bo14bo4bo$16bo3bo3bobo14b2obo14b4o$20bo4bo14b2o$21b4o7b2o4b
-obo$33bo3bo$33bobo2bobo3b3o$15b3o16b2o2bo2bo3b2o$2o12b5o20b2o3bo$2o11b
-o3b2o24bo29bo$14b2o2bo54b3o$15b5ob2o19bo27bo5bo$16b2obobo18b3o27b6obo
-6b2o$13b2o3b2o19bo3bo18bo12bobo5bo2bo$11bobob2o14b2o5bo5bo15b3o7b2o2bo
-2b2o7bo$10b2ob5o13b2o6bo3bo15bo10bobo2b2o9bo$14bo2b2o8bo3bobo6b3o16b2o
-13bobo3bo3bobo$14b2o3bo6bo7bo40bo3bo3bobo$14b5o8bo33bo17bo4bo$15b3o9b
-2o3bo26b2obo17b4o$28b2obobo24bo$33bo24bobob2o$8b4o17bob2o26bo3b2o9b3o$
-7bo4bo17bo33bo8b5o$6bobo3bo3bo40bo7bo6bo3b2o$5bobo3bo3bobo13b2o16b3o6b
-obo3bo8b2o2bo$5bo9b2o2bobo10bo15bo3bo6b2o13b5ob2o$5bo7b2o2bo2b2o7b3o
-15bo5bo5b2o14b2obobo$5bo2bo5bobo12bo18bo3bo19b2o3b2o$6b2o6bob6o27b3o
-18bobob2o$15bo5bo27bo19b2ob5o$16b3o54bo2b2o$18bo29bo24b2o3bo11b2o$47bo
-3b2o20b5o12b2o$45b2o3bo2bo2b2o16b3o$45b3o3bobo2bobo$54bo3bo$51bobo4b2o
-7b4o$50b2o14bo4bo$29b4o14bob2o14bobo3bo3bo$28bo4bo14bo15bobo3bo3bobo$
-28bo3bobo29bo9b2o2bobo$29bo3bobo28bo7b2o2bo2b2o$35bo28bo2bo5bobo$35bo
-6bo22b2o6bob6o$32bo2bo6b2o13b2ob2o12bo5bo$33b2o23bobo14b3o$30bo11b3o3b
-o8bo2bo16bo$28b3o8b4obo2bobo10bob2o$27bo3b2o5b3ob2o2b2ob2o5bobobobo$
-26bob2obobo4b2o2b2ob2o2b2o4bobob2obo$26bobobobo5b2ob2o2b2ob3o5b2o3bo$
-25b2obo10bobo2bob4o8b3o$28bo2bo8bo3b3o11bo$28bobo23b2o$27b2ob2o13b2o6b
-o2bo$46bo6bo$53bo$53bobo3bo$54bobo3bo$55bo4bo$56b4o4$39b2o$39b2o!
-
 #N p84 traffic light hassler
 #O CC 4/7/23
 x = 59, y = 59, rule = B3/S23
@@ -13165,20 +12657,6 @@ b3o2b5o4bo22bo$3b2o2b2ob2ob2o2b4o17b5ob6o$7b2obob2o3b2o2bo15bo2b2obobo
 o6b2o11b2o$19b2o7bo4bobob2o2bo$29b6ob5o$36bo$31b6o$30bo6bo$30b2o2b4o$
 34bo$35bo$34b2o!
 
-#N p84 lumps of muck hassler
-#O CC 6/1/23
-x = 53, y = 49, rule = B3/S23
-12b2ob2o10b2ob2o$12bo3bo10bo3bo$13b3o12b3o3$13b3o12b3o$12bo2bo12bo2bo$
-12bob2o5b2o5b2obo$16b3ob4ob3o$13b2ob4o4b4ob2o$16b2o8b2o$18b2o4b2o$19b
-6o20b2o4b2o$44bo2bo2bobo$44b2obo2bo$44bo2bo2bobo$46bo4b2o$2o4b2o32bob
-2o$obo2bo2bo5b2o25b2o$2bo2bob2o5b2o25bo$obo2bo2bo33bobo$2o4bo34bo3bo$
-9b2obo8b3o4b3o10bo3bo$10b2o9bobo4bobo11bobo$11bo9bo2bo3bo2bo9bo$8bobo
-11bobo4bobo9b2o$7bo3bo10b3o4b3o8bob2o$7bo3bo34bo4b2o$8bobo33bo2bo2bobo
-$11bo25b2o5b2obo2bo$10b2o25b2o5bo2bo2bobo$9b2obo32b2o4b2o$2o4bo$obo2bo
-2bo$2bo2bob2o$obo2bo2bo$2o4b2o20b6o$27b2o4b2o$25b2o8b2o$22b2ob4o4b4ob
-2o$25b3ob4ob3o$21bob2o5b2o5b2obo$21bo2bo12bo2bo$22b3o12b3o3$22b3o12b3o
-$21bo3bo10bo3bo$21b2ob2o10b2ob2o!
-
 #N p85 R-pentomino hassler
 #O LJK 8/27/22
 #C The smallest known p85 oscillator by population.
@@ -13186,6 +12664,14 @@ x = 46, y = 29, rule = B3/S23
 22b2o4b2o$22bobo2bobo$24bo2bo$23bo4bo$23bo4bo$23bo4bo$2b2o21b2o$2b2o
 41bo$43b3o$42bo$16bo25b2o$15b2o$16b2o4$28b2o$29b2o$2b2o25bo$3bo$3o$o
 41b2o$19b2o21b2o$17bo4bo$17bo4bo$17bo4bo$18bo2bo$16bobo2bobo$16b2o4b2o!
+
+#N p85 B-heptomino hassler
+#O mvr 10/25/23
+x = 47, y = 21, rule = B3/S23
+17b2o5bo$17bo6b3o$15bobo9bo$11b2o2b2o9b2o$4bo6b2o$3bobo$3bobo$b3ob2o
+29b2o$o14b2o19b2o$b3ob2o8bobo11b3o$3bob2o10bo11bo10b2obo$15b3o11bobo8b
+2ob3o$9b2o19b2o14bo$9b2o29b2ob3o$41bobo$41bobo$34b2o6bo$19b2o9b2o2b2o$
+19bo9bobo$20b3o6bo$22bo5b2o!
 
 #N Strictly volatile p86
 #O iNoMed 9/22/22
@@ -13346,16 +12832,6 @@ x = 29, y = 30, rule = B3/S23
 5bobobo$bo2bob2o13b2obo2bo$4bo2bo13bo2bo$5bo4bo7bo4bo$6b5o7b5o2$8bo11b
 o$7bobo9bobo$8bo11bo!
 
-#N p88 lumps of muck hassler
-#O mvr 1/16/23
-x = 43, y = 30, rule = B3/S23
-21b2o$21bobo2b2o$3b2o13bo4bo3bo$3bo14b5ob3o$2b2o2b3o13bobo$2bo3bob3o7b
-3obobo$2b2obo4bo6bo2bob2o14b3o$4bobo10b2o22bo$o4bob2o28bo3bo$3obo3bo
-27bobo2bo$2b3o2b2o25bo2bobo$7bo26bo3bo$6b2o26bo$19b3o13b3o$19bo2b2o$
-19b2o2bo$5b3o13b3o$8bo26b2o$4bo3bo26bo$3bobo2bo25b2o2b3o$bo2bobo27bo3b
-ob3o$bo3bo28b2obo4bo$bo22b2o10bobo$2b3o14b2obo2bo6bo4bob2o$18bobob3o7b
-3obo3bo$18bobo13b3o2b2o$16b3ob5o14bo$15bo3bo4bo13b2o$15b2o2bobo$20b2o!
-
 #N p88 R-pentomino shuttle
 #O NMB 5/6/23
 #C The R forms late in the sequence at generation 11; most form
@@ -13466,28 +12942,6 @@ x = 28, y = 22, rule = B3/S23
 19b2o2bo2b2o$19bobo2b2o$3b2o18bobo$2bo2b2o17bo$2bo4b2o8bo$2o3bob2o6bob
 o$bobo12b2o$bob6o13b2o2b2o$2bo5bo13b2o2b2o$3b3o$5bo$14bo$13bobo3b2o$
 14bo4b2o!
-
-#N p90 R-pentomino hassler
-#O DER 2/9/22
-x = 43, y = 43, rule = B3/S23
-24b2o3bo2bo3b2o$24b5o4b5o$7b2o3bo2bo3b2o3b2o3bo2bo3b2o$7b5o4b5o$7b2o3b
-o2bo3b2o$3o$3o$bo25bo10b3o$bo25b2o9b3o$bo25b2o10bo$obo36bo$39bo$25bo
-12bobo$obo22b2o$bo6b2o14bo2bo$bo5b3o4b2o9bobo10bobo$bo11bo2bo8b2o12bo$
-3o9b2ob2o22bo$3o11bo24bo$38b3o$38b3o2$2b3o$2b3o$3bo24bo11b3o$3bo22b2ob
-2o9b3o$3bo12b2o8bo2bo11bo$2bobo10bobo9b2o4b3o5bo$15bo2bo14b2o6bo$16b2o
-22bobo$2bobo12bo$3bo$3bo36bobo$3bo10b2o25bo$2b3o9b2o25bo$2b3o10bo25bo$
-40b3o$40b3o$22b2o3bo2bo3b2o$22b5o4b5o$5b2o3bo2bo3b2o3b2o3bo2bo3b2o$5b
-5o4b5o$5b2o3bo2bo3b2o!
-
-#N p90 honey farm hassler
-#O LJK 7/29/22
-x = 60, y = 26, rule = B3/S23
-10b2o$8bo2bo25bo2bo4bo2bo$35b3o2b6o2b3o$37bo2bo4bo2bo$8b2obo$10bobo2b
-2o$11bo4bo$12bo35b2o6b2o$12bo2bo30bo4bo2bo4bo$23b3o20bo4bo2bo4bo$22bo
-3bo7b3o9bo4bo2bo4bo$21bo5bo5bo3bo10b2o6b2o$21bo5bo4bo5bo$21bo5bo4bo5bo
-$2b2o6b2o10bo3bo5bo5bo$o4bo2bo4bo9b3o7bo3bo$o4bo2bo4bo20b3o$o4bo2bo4bo
-30bo2bo$2b2o6b2o35bo$43bo4bo$43b2o2bobo$48bob2o$11bo2bo4bo2bo$9b3o2b6o
-2b3o$11bo2bo4bo2bo25bo2bo$48b2o!
 
 #N p90 honey farm hassler
 #O LJK 8/27/22
@@ -13612,20 +13066,6 @@ o26bo11bobo$2b2ob2o4b2o24bobo11b2o$5bo31b2o4b2o$5bobo35bobo$6b2o23b2o
 12bo$27b2obobo12b2o$10bo2b5o2bo7bobo9b2o$9bo2b2o3b2o2bo5bo2bo9bo$9bo
 11bo6b2o2bo8b3o$11bo2bobo2bo10b2o11bo$9b2obo5bob2o8bo$9bob2ob3ob2obo9b
 o$8bo4bobobo4bo7b2o$9b3obobobob3o$11bob2obo2bo$16bobo$16b2o!
-
-#N p92 lumps of muck hassler
-#O CC 10/16/22
-x = 89, y = 62, rule = B3/S23
-43b2o$43bo$35bob2ob2obo$35b2obobobo$41bo13bo$47b2o4b3o$47b2o3bo$43b3o
-6b2o$42bobo$30bob2o8b3o$30b2obo17b2o$51b2o4$15bo3b3o$2o12bobo2b5o3b2o
-12b2o$2o12bo3b2o3b2o2b2o11bo2bo$15bo2bo3b2o16bo$16b3o3bo19b2o2$16b3o3b
-o28bo$15bo2bo3b2o27bo$2o12bo3b2o3b2o$2o12bobo2b5o27bo3bo$15bo3b3o29bo
-2bobo2$38b3o14bo$38bo2b2o13b2o$38b2o2bo$40b3o$46b3o$46bo2b2o$31b2o13b
-2o2bo$33bo14b3o2$32bobo2bo29b3o3bo$33bo3bo27b5o2bobo12b2o$64b2o3b2o3bo
-12b2o$37bo27b2o3bo2bo$37bo28bo3b3o2$45b2o19bo3b3o$48bo16b2o3bo2bo$45bo
-2bo11b2o2b2o3b2o3bo12b2o$46b2o12b2o3b5o2bobo12b2o$67b3o3bo4$36b2o$36b
-2o17bob2o$44b3o8b2obo$44bobo$35b2o6b3o$36bo3b2o$33b3o4b2o$33bo13bo$46b
-obobob2o$45bob2ob2obo$45bo$44b2o!
 
 #N p93 R-pentomino hassler
 #O iNoMed 8/1/23 based on a partial by CC the same day
@@ -13755,7 +13195,6 @@ b2o$26bo2b3obobo$27bo7bo$28b2ob2o$29bo5bo$30bo4bo$31bo2bo!
 #O LJK 8/30/22
 #C Somewhat similar to the p100 honey farm hassler in that it creates
 #C two pulsars in the middle of its evolution.
-#C One of two p96s that does so.
 x = 55, y = 34, rule = B3/S23
 19b2o13b2o$19b2obo9bob2o$23bo7bo$20bo13bo$21bob2o5b2obo$23b2o5b2o8$21b
 3o7b3o$20bo3bo5bo3bo$19bo5bo3bo5bo$19bo5bo3bo5bo$19bo5bo3bo5bo$20bo3bo
@@ -13763,19 +13202,6 @@ x = 55, y = 34, rule = B3/S23
 2o$2o5b2o37b2o5b2o$7b2o37b2o$o53bo$2ob2o2b2o7b3o17b3o7b2o2b2ob2o$bob2o
 b2o7bo23bo7b2ob2obo$15bo3bo15bo3bo$15bo2bobo13bobo2bo$17bobo2bo9bo2bob
 o$18bo3bo9bo3bo$22bo9bo$19b3o11b3o!
-
-#N p96 honey farm hassler
-#O CC 1/26/23
-#C Somewhat similar to the p100 honey farm hassler in that it creates
-#C two pulsars in the middle of its evolution.
-#C One of two p96s that does so.
-x = 49, y = 33, rule = B3/S23
-6b2o$7bo$2b3o2b2o$3obo3bo16b2o$o4bob2o12b4o4b2o$4bobo14b3ob2o2b2o$2b2o
-bo4bo15bo14bo$2bo3bob3o25b3ob2o2b2o$2b2o2b3o27b4o4b2o$3bo36b2o$3b2o3$
-18b3o7b3o$17bo3bo5bo3bo$16bo5bo3bo5bo$16bo5bo3bo5bo$16bo5bo3bo5bo$17bo
-3bo5bo3bo$18b3o7b3o3$44b2o$7b2o36bo$3b2o4b4o27b3o2b2o$3b2o2b2ob3o25b3o
-bo3bo$7bo14bo15bo4bob2o$18b2o2b2ob3o14bobo$18b2o4b4o12b2obo4bo$22b2o
-16bo3bob3o$40b2o2b3o$41bo$41b2o!
 
 #N p96 single lumps of muck hassler
 #O mvr 1/8/23
@@ -13787,17 +13213,6 @@ ob2obobo10b2o9bo4bob2o$2obo4bo9b2o10bobob2obo$bobo3b2o9bo12b3o3bo$bob
 2o2b2o20bobo2b3o$2obo3b2o19bo2bobo$3bo4bo19b2obob2o$3b2obobo22bo2bo$5b
 3o23b2o$b4o2bobo$bo3bobo2bo$4b2obob2o$4bo2bo15b2o$6b2o15bobo$25bo$13bo
 11b2o$8b3ob2o2b2o$8b4o4b2o$12b2o!
-
-#N p96 double lumps of muck hassler
-#O mvr 1/29/23
-x = 52, y = 37, rule = B3/S23
-11b6ob2o$11b6ob2o$18b2o$11b2o5b2o$11b2o5b2o$11b2o5b2o$11b2o$11b2ob6o$
-11b2ob6o26b2o$43bo4bo$41b2obobobo$41b2o3bob2o$42bob3o3bo$42bo4b2o2bo$
-4b2o36b3obo2b3o$3bo4bo10b3o20b2o3b2o$3bobobob2o8bobo20b3obo2bo$2b2obo
-3b2o7bo2bo9b3o8bo4b3o$5b3obo8bobo10bobo8bob3o$2b3o4bo8b3o9bo2bo7b2o3bo
-b2o$2bo2bob3o20bobo8b2obobobo$3b2o3b2o20b3o10bo4bo$3o2bob3o36b2o$o2b2o
-4bo$bo3b3obo$2b2obo3b2o$3bobobob2o$3bo4bo$4b2o26b6ob2o$32b6ob2o$39b2o$
-32b2o5b2o$32b2o5b2o$32b2o5b2o$32b2o$32b2ob6o$32b2ob6o!
 
 #N p96 traffic light hassler
 #O CC 1/17/23
@@ -13819,6 +13234,19 @@ x = 52, y = 38, rule = B3/S23
 $bo$bobo$2b2o$20bo10b2o$18b2ob2o8bo$18bo2bo10b3o$19b2o6b2o5bo$27bobo$
 29bo$29b2o2$10b2o$9bobo$9bo$8b2o4b2o$13bobo$13bo$12b2o!
 
+#N p97 honey farm hassler
+#O NMB 12/8/23
+#C The first known p97 engine.
+x = 51, y = 41, rule = B3/S23
+43b2o$43bobo$34bo10bo2b2o$34b3o7b2obobo$37bo9bo$36b2o6b4o$44bo3b2o$23b
+o21b3o2bo$10b2o2b2o7bo12bo5bo4bob2o$10bo2bobo7bo12bo5bo4bo$11bobo17b2o
+3bo5bo3b2o$10b2ob2o15bobo$6b2obo2bo2bo14bobo5b3o$4bo2bob2o2b2o16bo11b
+2o$4b2obo35bobo$7bo37bo$7b2o36b2o3$10b2o$10b2o27b2o$39b2o3$4b2o36b2o$
+5bo37bo$5bobo35bob2o$6b2o11bo16b2o2b2obo2bo$10b3o5bobo14bo2bo2bob2o$
+18bobo15b2ob2o$3b2o3bo5bo3b2o17bobo$3bo4bo5bo12bo7bobo2bo$2obo4bo5bo
+12bo7b2o2b2o$o2b3o21bo$b2o3bo$3b4o6b2o$3bo9bo$bobob2o7b3o$b2o2bo10bo$
+5bobo$6b2o!
+
 #N P98 emu
 #C Based on R49 conduit discovered by Luka Okanishi in 2019
 #C Can be made period 196 by having only one R-pentomino
@@ -13830,6 +13258,16 @@ o$40bobo$10b2o28bobo$10b2o27b2ob2o$43bo$b2obo8bo25b4o$bob2o7b5o21bo$
 11bo26bobo$12b2o14b2o9b2o$13b2o14bo$15bo26b2o$42bobo$12b2o30bo$11bo2bo
 bo27b2o$11b2obob3o$14bo4bo11b2o$8b2o4bob3o13bo$9bo5b2o14bo$6b3o22b2o$
 6bo!
+
+#N p98 lumps of muck hassler
+#O NMB 11/15/23
+#C The first non-conduit-based p98 engine.
+x = 50, y = 50, rule = B3/S23
+17b2o$17b2o15bo9bo$34b3o5b3o$37bo3bo$25bo10b2o3b2o$b2o22bo$2bo22bo$2bo
+bo$3b2o4$3b2o$2bobo24b3o$2bo26bo2b2o$b2o26b2o2bo$14b3o14b3o$14bobo31b
+2o$13bo2bo31b2o$13bobo$13b3o4$4b3o$43b3o4$34b3o$34bobo$2o31bo2bo$2o31b
+obo$16b3o14b3o$16bo2b2o26b2o$16b2o2bo26bo$18b3o24bobo$45b2o4$45b2o$45b
+obo$24bo22bo$24bo22b2o$7b2o3b2o10bo$8bo3bo$5b3o5b3o$5bo9bo15b2o$31b2o!
 
 #N Centinal
 #O RWB before 9/87
@@ -13865,7 +13303,7 @@ o3bo8bo3bo12b2o$6obo7bo5bo$15bo5bo$2b3ob2o7bo5bo$2bo3bo9bo3bo$3b3o11b
 
 #N p100 honey farm hassler
 #O LJK 7/29/22
-#C Somewhat similar to two of the p96 honey farm hasslers in that it
+#C Somewhat similar to one of the p96 honey farm hasslers in that it
 #C creates two pulsars in the middle of its evolution.
 x = 55, y = 33, rule = B3/S23
 20b2o4b2o$20bobo2bobo$22bo2bo$21bo4bo$21bo4bo$15bo5bo4bo$14bobo6b2o$
@@ -13971,8 +13409,8 @@ bo3b2o$o3b2o21b2o3bo23bo11bo$bob3o21b3obo2$15bobo$13b3ob3o$b2o6b2o3bo
 #C Two different stabilizations are shown. The version with two
 #C fishhooks is the smallest known p102 by population with 67 cells,
 #C while replacing a fishhook with a unix produces a large spark.
-#C The active region is coincidentally the 102nd in the list of
-#C common evolutionary sequences.
+#C The active region is coincidentally the 102nd in the list of common
+#C evolutionary sequences. It can also be seen in 45P25 and 44P49.
 #C ooo...
 #C ......
 #C ...oo.
@@ -14015,34 +13453,6 @@ x = 39, y = 21, rule = B3/S23
 o25b2o5bobo$o2bo32bo$b2o33b2o$36b2o$21bobo12b2o$20bo2bo$b2o17bo2bo$b2o
 18b2o4b2o$26bo2bo6b2o$27b2o6bo2bo$ob2o5b2o25bobo$obo6b2o23b2obo$bo11b
 2o5bo13b3o$b2o9bobo4bobo12b2o$b2o9bo7bo$b2o8b2o!
-
-#N p104 LOM hassler
-#O LOM reaction by DER, p52 by EvinZL, combined by CC 7/29/22
-#C This was found as soon as the p52 was found.
-x = 93, y = 82, rule = B3/S23
-49bo$48bobo$28b2o18bobo$29bo2b2o15bo$29bobo2bo18bo$30bo2b2o9b2o6b3o6b
-2o$38bo4bo2b2o12bo2bo$34b2o2b3o3b4o5b2o6bobo$32bob2o2bo6b4o3bo6b2obo$
-32bobo15bo3bo4b3o$32bo14bob2ob3o4b2o$32bo15b3obo$49bobo$47bob3o$46b3ob
-o$46bobo$45bob3o15bo$37b2o4b3ob2obo14bo$36b3o4bo3bo15bobo$35bob2o6bo3b
-4o6bo2b2obo$34bobo6b2o5b4o3b3o2b2o$34bo2bo12b2o2bo4bo$35b2o6b3o6b2o9b
-2o2bo$44bo18bo2bobo$48bo15b2o2bo$47bobo18b2o$47bobo$17b2o29bo12b2o$6bo
-2bo2bo3bo2bob2o38bo$6b7o2bob3obo37bobo$2o13bo6b3o34b2o$bo2b11ob6o2bo$b
-obo10bo7b2o$2ob4o3b2o4bo3b3o$o2bo5bobo4bo2b2obo4b2o2b2o$b2ob2o4b2o6b2o
-b3o2bob2ob3o40b2o$2bobo4b3o9bo3b2ob2ob3o36b2obo2bo3bo2bo2bo$2bobo4b3o
-9bo3b2ob2ob3o37bob3obo2b7o$b2ob2o4b2o6b2ob3o2bob2ob3o15b3o16b3o6bo13b
-2o$o2bo5bobo4bo2b2obo4b2o2b2o7b3o6bobo16bo2b6ob11o2bo$2ob4o3b2o4bo3b3o
-17bobo6bo2bo16b2o7bo10bobo$bobo10bo7b2o16bo2bo6bobo17b3o3bo4b2o3b4ob2o
-$bo2b11ob6o2bo16bobo6b3o7b2o2b2o4bob2o2bo4bobo5bo2bo$2o13bo6b3o16b3o
-15b3ob2obo2b3ob2o6b2o4b2ob2o$6b7o2bob3obo37b3ob2ob2o3bo9b3o4bobo$6bo2b
-o2bo3bo2bob2o36b3ob2ob2o3bo9b3o4bobo$17b2o40b3ob2obo2b3ob2o6b2o4b2ob2o
-$60b2o2b2o4bob2o2bo4bobo5bo2bo$70b3o3bo4b2o3b4ob2o$69b2o7bo10bobo$68bo
-2b6ob11o2bo$32b2o34b3o6bo13b2o$31bobo37bob3obo2b7o$31bo38b2obo2bo3bo2b
-o2bo$30b2o12bo29b2o$43bobo$23b2o18bobo$24bo2b2o15bo$24bobo2bo18bo$25bo
-2b2o9b2o6b3o6b2o$33bo4bo2b2o12bo2bo$29b2o2b3o3b4o5b2o6bobo$27bob2o2bo
-6b4o3bo6b2obo$27bobo15bo3bo4b3o$27bo14bob2ob3o4b2o$27bo15b3obo$44bobo$
-42bob3o$41b3obo$41bobo$40bob3o15bo$32b2o4b3ob2obo14bo$31b3o4bo3bo15bob
-o$30bob2o6bo3b4o6bo2b2obo$29bobo6b2o5b4o3b3o2b2o$29bo2bo12b2o2bo4bo$
-30b2o6b3o6b2o9b2o2bo$39bo18bo2bobo$43bo15b2o2bo$42bobo18b2o$42bobo$43bo!
 
 #N p104 LOM shuttle, reduced by DER the same day
 #O CC 8/12/22
@@ -14119,6 +13529,15 @@ o4bo$3b2obob2o18bob5o2bo$3bo2bo19b3obo4b2o$5bob3o15bo4b2ob2o$4b2obob2o
 15b4o4bo$5bo3bo11b2o7b4o$5bobobob2o8bo6bo2bo$6b2obobobo8b3o3b2o$8bo2bo
 b3o8bo$8bobo5bo$9bo5b2o!
 
+#N p105 pi-heptomino hassler
+#O iNoMed 3/10/24 based on a partial by mvr
+x = 51, y = 38, rule = B3/S23
+9bobo2bobo$5b2obo2bo2bo2bob2o$9bobo2bobo3$40bo$38b3o$37bo$37b2o4bo2b2o
+$42bobo2bo$42bobobo$4bobo2bobo29b2obob2o$2obo2bo2bo2bob2o24bo3bo3bo$4b
+obo2bobo7bo4b3o13bo4bobobo$18bobo2bo3bo12bo3b2o3bo$23b2ob2o12bo4bob2o$
+40bo3bo$41b2obob5o$42bobo2bo2bo$42bo2bo$43b2o4$17b3o2$16bo3bo$16bo3bo
+2$17b3o3$17b3o2$16bo3bo$16bo3bo2$17b3o!
+
 #O Adam P. Goucher, March 2009
 #C Minimum period oscillator possible with this stable reflector.
 x = 106, y = 84, rule = B3/S23
@@ -14141,26 +13560,23 @@ x = 35, y = 21, rule = B3/S23
 2o2$2bo13bobobo$2bo14bo3b2o7b3o$2bo13bobobo2$bo28bo$2o26bobo$2o27bobo$
 o28bo$10b2o5b2o$11bo6bo$8b3o4b3o$8bo6bo!
 
-#N p106 HF/LOM hassler
-#O DER 7/3/23
-#C Completed as a direct result of the p53 pi-heptomino hassler sparker
-#C being found.
-#C It emits gliders, but they can't escape.
-x = 102, y = 49, rule = B3/S23
-3b2o2b2o3b2o$3bo3bobo2bo$4b3o2bo3bo$6bobob4o5bo$7b2obo8b3o10b2o$12b2o
-8bo9bo5bo7bo$13bo7b2o7bobo5b3o5b3o$13bob2o13b2o9bo7bo$8b2o2b2obo2bo21b
-2o6b2o10b2o$7bo2bo4bob2o41bo$7bo7bo26b3o13bobo$7bo6b2o26bo15b2o$7bobo
-33bo27b2o2b2o3b2o$7bobo61bo3bobo2bo$8bo15bo47b3o2bo3bo$23bobo48bobob4o
-5bo$22bo3bo48b2obo8b3o10b2o$22bo3bo53b2o8bo9bo$7b2ob2o10b2ob2o21b3o30b
-o7b2o7bobo$7bo3bo36bo2b2o28bob2o13b2o$7bo3bo36b2o2bo23b2o2b2obo2bo$8bo
-bo39b3o22bo2bo4bob2o$9bo15bo49bo7bo$24bobo48bo6b2o$24bobo48bobo$18b2o
-6bo48bobo$18bo7bo49bo15bo$15b2obo4bo2bo22b3o39bobo$15bo2bob2o2b2o23bo
-2b2o36bo3bo$2b2o13b2obo28b2o2bo36bo3bo$bobo7b2o7bo30b3o21b2ob2o10b2ob
-2o$bo9bo8b2o53bo3bo$2o10b3o8bob2o48bo3bo$14bo5b4obobo48bobo$20bo3bo2b
-3o47bo15bo$21bo2bobo3bo61bobo$20b2o3b2o2b2o27bo33bobo$42b2o15bo26b2o6b
-o$41bobo13b3o26bo7bo$41bo41b2obo4bo2bo$40b2o10b2o6b2o21bo2bob2o2b2o$
-52bo7bo9b2o13b2obo$53b3o5b3o5bobo7b2o7bo$55bo7bo5bo9bo8b2o$68b2o10b3o
-8bob2o$82bo5b4obobo$88bo3bo2b3o$89bo2bobo3bo$88b2o3b2o2b2o!
+#N p106 pi+blinker hassler
+#O iNoMed 1/9/24 based on his own partial 4/30/23, reduced 1/12/24
+#C Also pi+beehive, but not just a bare pi.
+#C The original complete form was a fourfold rotationally symmetric
+#C tetramer that used a 2-cell offset skewed gutter symmetry. It was
+#C then reduced to a dimer form on January 12.
+#C The p2 catalyst, called "antiphase why bother", is also used in
+#C a p100 lumps of muck hassler.
+x = 60, y = 46, rule = B3/S23
+8bo6b2o$7bobo5bo$8bo4bobo$13b2o2$10b2o9b2o$9b2obo8bo$11bo7bobo$8b3o8b
+2o$5bobo$5bo5bo$5bobobob2o3b3o9bo$7b2o3bo13b3o11b2o$2o3bobo17bo15bo$bo
+4bo18b2o5b2o7bob2ob2obo$bobo11b2o15b2o8bobobob2o3bo$2b2o11bobo25bo8bob
+o$17bo33bobo$15bobo35bob2o$15b2o33b2obo$53bobo$52bobo$53bo$6bo$5bobo$
+4bobo$6bob2o33b2o$3b2obo35bobo$6bobo33bo$5bobo8bo25bobo11b2o$6bo3b2obo
+bobo8b2o15b2o11bobo$10bob2ob2obo7b2o5b2o18bo4bo$18bo15bo17bobo3b2o$18b
+2o11b3o13bo3b2o$31bo9b3o3b2obobobo$48bo5bo$52bobo$39b2o8b3o$38bobo7bo$
+38bo8bob2o$37b2o9b2o2$45b2o$44bobo4bo$44bo5bobo$43b2o6bo!
 
 #N 86P107
 #O mvr 9/18/23
@@ -14232,6 +13648,19 @@ x = 51, y = 33, rule = B3/S23
 3o$6bo20bo$5b2o19b2o4$49b2o$49bo$47bobo$21b2o5b2o17b2o$20bobo5bobo$20b
 o9bo$20bobo5bobo$2b2o17b2o5b2o$bobo$bo$2o4$23b2o19b2o$23bo20bo$24b3o
 18b3o$26bo20bo$8b2o5b2o15b2o$9bo5bo17bo$6b3o7b3o11b3o$6bo11bo11bo!
+
+#N p108 lumps of muck hassler
+#O NMB 11/14/23
+#C The p2 catalysts next to each other are called "foxclock", as it
+#C consists of a fox and a clock.
+x = 47, y = 49, rule = B3/S23
+21bo$19b3o$18bo5bo$17bob6o$17bobo9b2o$16b2o2b2ob2o3bobo$18bob2ob2o4bo
+13bo$18bob2o21bo$19bo21bo2bo$15b2o$16bo24b2o2b2o$16bobo25bo$17b2o21b3o
+$6b2o15b3o$7bo15bo$7bobo14bo16bo$8b2o32b2o$40b2o$28b3o11bo$28bobo$27bo
+2bo$27bobo$27b3o4$17b3o$17bobo$16bo2bo$16bobo$4bo11b3o$5b2o$3b2o32b2o$
+5bo16bo14bobo$23bo15bo$21b3o15b2o$4b3o21b2o$2bo25bobo$2o2b2o24bo$30b2o
+$2bo2bo21bo$3bo21b2obo$3bo13bo4b2ob2obo$16bobo3b2ob2o2b2o$16b2o9bobo$
+22b6obo$22bo5bo$25b3o$25bo!
 
 #N p109 R-pentomino hassler
 #O NMB 9/23/22
@@ -14322,7 +13751,7 @@ o$bo12bo2b2obo$bo3b2o6bo4bo4bo$3b2o9bobo2bo2bo$20b2o$17b3o2$16b3o$14b
 o12bo2b2obo$bo14b2o6bo$2bo3bo11bo4bo$3b3o12bo$21b2o$6b2o7b2o$6bo9bo$7b
 3o3b3o$9bo3bo!
 
-#N p110 lumps of muck hassler
+#N p110 C4 lumps of muck hassler
 #O mvr 4/20/23
 x = 56, y = 56, rule = B3/S23
 19b2o17bo$19bo17bobo$16b2obo7bo9bobo$16bobo6b3o8b2ob3o$11bob2obo7bo17b
@@ -14334,20 +13763,16 @@ $55bo2$42b3o$42bobo$42bo2bo4b2o$43bobo4bobo$43b3o6bo$52b2o$2b2o$3bo6b
 2b2o$29b3o4$16bob2o$14b3ob2o10b2o6b2obob2o$13bo17bo7bob2obo$14b3ob2o8b
 3o6bobo$16bobo9bo7bob2o$16bobo17bo$17bo17b2o!
 
-#N p110 honey farm hassler
-#O CC 1/26/23
-x = 48, y = 48, rule = B3/S23
-11b2o$12bo2b2o$12bobo2bo$11b2obobobob2o$12bobobob2obo10b2o$10bo22bo2b
-2o$9bob3obob4o12bobo2bo$9bo4b3o4bo10b2obobobob2o$10b3ob3ob3o12bobobob
-2obo$12b7o12bo3b3o$30bob3obob4o$2o28bo11bo$obob2obo23b3obobob3o$2bobob
-2o25b2obob2o$b2obo$3b2o$5b2o10b3o$bo3bo2bo7bo3bo$obo3bobo6bo5bo$bo3bo
-2bo6bo5bo$5b2o8bo5bo$3b2o11bo3bo$b2obo12b3o26b2o$2bobob2o32bob2obobo$o
-bob2obo32b2obobo$2o26b3o12bob2o$27bo3bo11b2o$26bo5bo8b2o$26bo5bo6bo2bo
-3bo$26bo5bo6bobo3bobo$27bo3bo7bo2bo3bo$28b3o10b2o$43b2o$43bob2o$8b2obo
-b2o25b2obobo$6b3obobob3o23bob2obobo$5bo11bo28b2o$6b4obob3obo$10b3o3bo
-12b7o$5bob2obobobo12b3ob3ob3o$5b2obobobob2o10bo4b3o4bo$9bo2bobo12b4obo
-b3obo$10b2o2bo22bo$14b2o10bob2obobobo$26b2obobobob2o$30bo2bobo$31b2o2b
-o$35b2o!
+#N p110 C2 lumps of muck hassler
+#O NMB 11/15/23
+#C The large catalyst is chucklebait, which is pretty much exclusively
+#C a honey farm catalyst. However, it also acts as a tub rock in a
+#C separate reaction in this oscillator.
+x = 57, y = 27, rule = B3/S23
+19b2o27bo$19bo27bobo$20b3o24bob3o$22bo21b2obo4bo$34b2o8bobobobobo$34b
+2o10bobob2o$45bobo$46bo$17b3o$17bo2b2o$17b2o2bo33b2o$19b3o33b2o4$2o33b
+3o$2o33bo2b2o$35b2o2bo$37b3o$10bo$9bobo$5b2obobo10b2o$4bobobobobo8b2o$
+4bo4bob2o21bo$5b3obo24b3o$7bobo27bo$8bo27b2o!
 
 #N p110 honey farm hassler
 #O NMB 8/4/23
@@ -14434,17 +13859,6 @@ $27bo2bo4b2o$27bo4b2o$27bo3bo4bo19bo$28b2obo4bo17b3o$32b4o17bo$53b2o2$
 o$23b2o4bo$20b2o4bo2bo$12b2o5bo2bo3bo2bo$12b2o5bo2bo4b2o$19bo4b2o$19bo
 3bo4bo$20b2obo4bo$24b4o!
 
-#N p112 pi-heptomino hassler
-#O CC 5/8/23
-x = 67, y = 49, rule = B3/S23
-21bo$21b3o$24bo7b2o$23b2o7bo$30bobo$30b2o$35b2o$36bo$18b2o16bobo$19bo
-17b2o3bo$19bobo24b2o10bo3bo$20b2o26bo8bobobobo$45b3o10b2ob2o$42bo3bo$
-42bobo10bo9bo$42bobo9bobo7bobo$54bo3b2ob2o3bo$55bo3bobo3bo$27b3o26b2ob
-obob2o$26bo2bo28bo3bo$25bo$26bo2bo$27b3o4$37b3o$37bo2bo$41bo$4bo3bo28b
-o2bo$2b2obobob2o26b3o$bo3bobo3bo$o3b2ob2o3bo$obo7bobo9bobo$bo9bo10bobo
-$20bo3bo$4b2ob2o10b3o$3bobobobo8bo26b2o$4bo3bo10b2o24bobo$24bo3b2o17bo
-$28bobo16b2o$30bo$30b2o$35b2o$34bobo$34bo7b2o$33b2o7bo$43b3o$45bo!
-
 #N Capped period-113 glider gun
 #O mvr 10/26/22
 #C Uses only blocks and fishhooks as catalysts.
@@ -14521,6 +13935,16 @@ x = 32, y = 32, rule = B3/S23
 23b2o$3bo24bo$bobobo20bobobo$obob2o20b2obobo$obo26bobo$b2o26b2o3$10b2o
 8b2o$10bo2b6o2bo$11b2o6b2o$8b3o10b3o$8bo2bobo4bobo2bo$9b2o4b2o4b2o!
 
+#N p116 double R shuttle
+#O NMB 3/3/24
+x = 47, y = 47, rule = B3/S23
+19b2o5b2o$13bob2obobo5bo$13b2obobo4b2obo$17b2o4bobo3$18b2o$18b2o2$31bo
+$30bobo$18b2o11bo$18b2o$b2o$2bo33bo$bo33bobo$b2o33bo$3bo$b3o2b2o3b2o
+11b2o$o5b2o3b2o11bobo19bo$2o21bo2bo17b3o$24b2o17bo$24bo19bo$2b2o16bo
+22b2o$2bo15b2ob2o$3bo14bo2bo$3o16b2o24b2o$o33b2o3b2o5bo$34b2o3b2o2b3o$
+43bo$10bo33b2o$9bobo33bo$10bo33bo$44b2o$27b2o$15bo11b2o$14bobo$15bo2$
+27b2o$27b2o3$21bobo4b2o$20bob2o4bobob2o$20bo5bobob2obo$19b2o5b2o!
+
 #N Capped p117 glider gun
 #O DER 7/6/21
 #C Previously smallest known odd-period gun by bounding box.
@@ -14546,6 +13970,18 @@ x = 55, y = 54, rule = B3/S23
 o$40b3ob5o$39bo3bo4bo$39b2o2bobo$6bo37b2o$5bobo$6bo29b2o$36b2o3$12b2ob
 2o$12bob2obobo$17b2obo$13b2obo3b3o$13bo3b3o3bo$14b3o3b3o$17bo2bo11b2o$
 16b2o14bo$33b3o$35bo!
+
+#N 86P118
+#O P1GG 7/25/24
+#C Both a century hassler and a traffic light hassler.
+#C Smallest known p118 oscillator.
+#C At one point, a century (not the obvious one) hits a toad and tub.
+#C This is the basis for the tiny "p16 century shuttle".
+x = 46, y = 41, rule = B3/S23
+27b2o$27b2o3$29bo$28bobo$29bo$16b2o12b3o$bo14bob2o12bo$2b2o15bo$2o15b
+3o10bo$2bo4b2o20b2o$6bo2bo19b2o$7b2o20bo3$31bo$30bobo$31bo4$14bo$13bob
+o$14bo3$16bo20b2o$15b2o19bo2bo$15b2o20b2o4bo$15bo10b3o15b2o$26bo15b2o$
+13bo12b2obo14bo$13b3o12b2o$16bo$15bobo$16bo3$17b2o$17b2o!
 
 #N p119 pi-heptomino hassler
 #O mvr 4/1/23
@@ -14694,21 +14130,6 @@ x = 50, y = 27, rule = B3/S23
 2o10bo5bo8bo5bo10b2o$bobo11bo3bo9bo5bo$bo14b3o10bo5bo$2o6b2o20bo3bo$9b
 o21b3o$6b3o$6bo38b2o$45bobo$47bo$47b2o$14b2o3b2o5b2o$16bobo7b2o$13bo7b
 o$14b2o3b2o!
-
-#N p120 C4 honey farm hassler
-#O mvr 1/13/23
-x = 54, y = 54, rule = B3/S23
-18bo$9bo7bobo$9b3o5bobo20b2o$12bo3b2o2b2o18bo2bo$11b2o5b2o2bo$11bob5o
-2b3o$12bo2bobobo20bob2o$16bo3bo14b2o2bobo$16bob2o15bo4bo$18b2o19bo11b
-2o$3bo2bo29bo2bo11bo$6bo41b2obo$2bo4bo39bob2o$2b2o2bobo39bo$7bob2o37bo
-$19b3o25b2o$18bo3bo22b2obobo$7bo2bo6bo5bo10b3o10b2ob3o$7b2o8bo5bo9bo3b
-o6b2o3bo3bo$17bo5bo8bo5bo5b2obobob2o$18bo3bo9bo5bo7bobobo$19b3o10bo5bo
-9bobo$33bo3bo10b2o$34b3o7$17b3o$4b2o10bo3bo$3bobo9bo5bo10b3o$3bobobo7b
-o5bo9bo3bo$b2obobob2o5bo5bo8bo5bo$o3bo3b2o6bo3bo9bo5bo8b2o$b3ob2o10b3o
-10bo5bo6bo2bo$3bobob2o22bo3bo$5b2o25b3o$5bo37b2obo$5bo39bobo2b2o$3b2ob
-o39bo4bo$2bob2o41bo$2bo11bo2bo29bo2bo$b2o11bo19b2o$13bo4bo15b2obo$12bo
-bo2b2o14bo3bo$10b2obo20bobobo2bo$31b3o2b5obo$31bo2b2o5b2o$10bo2bo18b2o
-2b2o3bo$12b2o20bobo5b3o$34bobo7bo$35bo!
 
 #N p120 Jason's p22 hassler
 #O mvr 9/6/22
@@ -15157,6 +14578,16 @@ x = 59, y = 40, rule = B3/S23
 36bobo$36b2o$22bo$2o19b2o$bo18bo$bobo15b3o$2b2o2$5b3o2$28b2o$28b2o$23b
 2o$15b2o6bobo$16bo8bo$13b3o9b2o$13bo!
 
+#O Entity Valkyrie 1/30/24
+#C The smallest known p134 by population.
+x = 40, y = 42, rule = B3/S23
+15bo$14bobo12b2o$14bobo12b2o$12b3ob2o$11bo$12b3ob2o18b2o$14bob2o17bo2b
+o$36b3o2$35bob2o$11b2o22b2o2bo$11b2o25b2o3$25bo$23b2o$24b2o2$3b2o$4bo
+31b2o$4bob2o23b2obo2bo$ob2obobo10b2o10bobob3o$2obo13bo2bo9bobo$3bo13bo
+2bo7b3ob5o$3bob2o11b2o7bo3bo4bo$4bobo20b2o2bobo$5bo26b2o4$26b2o$25bo2b
+o2b2o$25bobo4bo2bo$26bo5bobobo$29b2obo2bo$20bo8bo2bo$18bobo5bo4bo$19bo
+bo4b5o$19bo$28bo$27bobo$28bo!
+
 #O RWG 1989
 #C P135. A 2-glider shuttle, combining a rephaser and the
 #C reflections from 75.0.0.  Also see period 150.
@@ -15541,6 +14972,19 @@ $11bo26bo2b2o17b3o25bobo$36bobo11b2o8bo2b2o14b3o6bob2o$9bo26b2o12bo2bo
 b2o3b2o2bo14bo2b2o3b2obo2bo$8bobo41b2obo6b3o14b2o2bo8b2o$7bo2bo42bobo
 25b3o$8b2o41bobob2o$51b2o2bo$55bobo$56b2o26bo$83bobo$83bo2bo$84b2o!
 
+#O Entity Valkyrie 12/16/23
+#C This oscillator uses a G-to-LWSS conduit. It is nonadjustable.
+x = 57, y = 55, rule = B3/S23
+35bo$14b2o17b3o$15bo16bo$15bobo3bo10b2o$16b2o2bobo$6b2o13bo$6bobo2b2o$
+3bo4bo3bo16bo$3b5ob3o16bobo$7bobo6bo12b2o$3b3obobo5bobo$2bo2bob2o6b2o$
+2b2o31b2o$35bo$36b3o$3b2o33bo$3bo$2obo29b2o$o2bob2o26b2o$2b2obo$3bobo$
+2bo2b2o15b3o$3b2o2bo14bo$4bob2o15bo$4bobo$3b2obobo30b2o$7b2o30b2o2$16b
+2o30b2o$16b2o30bobob2o$50bobo$33bo15b2obo$34bo14bo2b2o$32b3o15b2o2bo$
+51bobo$51bob2o$22b2o26b2obo2bo$22b2o29bob2o$53bo$18bo33b2o$18b3o$21bo$
+20b2o31b2o$40b2o6b2obo2bo$39bobo5bobob3o$26b2o12bo6bobo$26bobo16b3ob5o
+$27bo16bo3bo4bo$44b2o2bobo$35bo13b2o$34bobo2b2o$23b2o10bo3bobo$24bo16b
+o$21b3o17b2o$21bo!
+
 #O DRH 1989
 #C Period 150
 x = 41, y = 52, rule = B3/S23
@@ -15839,6 +15283,19 @@ o$15bobo12bobo13bobo$15b2o6b2o6b2o12b2obo$19b2o2b2o20bo2b4o$19b2o2bob
 2o18b3o$24b3o18b2o$46b2o$45b3o$24b2o15b4o2bo$24b2o18bob2o12b2o$44bobo
 13bobo$45bo16bo$34b2o26b2o$35bo$32b3o$32bo!
 
+#N p171 pi-heptomino hassler
+#O mvr 9/7/22
+#C The smallest known p171 oscillator.
+#C Until 2/18/24, it was only known as a partial, requiring blocks to
+#C clean up. It turns out that cleanup isn't necessary at all, and
+#C it's complete as is.
+x = 64, y = 44, rule = B3/S23
+18b2o$18b2o2$32b2o$33bo$30b3o11bo$30bo12bobo$38bo4bobo$36b3o3b2ob3o$
+35bo12bo$35b2o5b2ob3o$42b2obo2$2o$bo39b2o$bobo37b2o$2b2o2$19bo39bo$18b
+3o36b3o$17bo3bo34bo$17b2ob2o34b2o$6b2o34b2ob2o$7bo34bo3bo$4b3o36b3o$4b
+o39bo2$60b2o$21b2o37bobo$21b2o39bo$62b2o2$18bob2o$16b3ob2o5b2o$15bo12b
+o$16b3ob2o3b3o$18bobo4bo$18bobo12bo$19bo11b3o$30bo$30b2o2$44b2o$44b2o!
+
 #N p174 pi and block hassler
 #O LJK 9/27/22
 #C The pi and block comes from this:
@@ -15916,6 +15373,14 @@ obo3bo2bo3bobobo$32bobobo10bobobo$33bo2bob2o4b2obo2bo$34b2o12b2o$36b2o
 ob2obo2bob2o$34bobo10bobo$34bobo10bobo$33b2obobo6bobob2o$36bobobo2bobo
 bo$36bobob4obobo$37b3o4b3o$40b4o$35b4obo2bob4o$35bo2b2o4b2o2bo!
 
+#N p176 wing shuttle
+#O LJK 12/14/23
+x = 48, y = 29, rule = B3/S23
+23bo$11b2o8b3o$12bo7bo$12bobo5b2o$13b2o3$16b2o$16b2o2$42b3o$19b2o21b3o
+bo$17b2o2bo21bobobo$17bo2bo23bo2bo$b2o14b3o25b2o$o2bo$obobo24b3o$bob3o
+22bo4bo$3b3o$26bo2bo$26bo6bo$26bo5bo$27bo3bo$28b3o$33b2o$26b2o5bobo$
+27bo7bo$24b3o8b2o$24bo!
+
 #N Karel's p177
 #O KS, 2007
 #C Has appeared semi-naturally (i.e. from symmetric soup)
@@ -15984,14 +15449,14 @@ o4bo6$48b2o$48bo$49b3o$51bo!
 #N p183 LOM hassler
 #O iNoMed 7/10/22 based on a partial by mvr
 #C Found using symmetric CatForce
-x = 59, y = 50, rule = B3/S23
-30b2o$22bo7b2o10bo$21bobo16b3o$22bo16bo6bo$39b2o3b3o$16bo26bo$16bo26b
-2o$16bo2$51bo2bo$48bo2bo2bo2bo$47bob3o2b3obo$32b3o13bo8bo$32bobo$32bo
-2bo$33bobo$33b3o18b2o$49b2obo2bo$48bobob3o$48bobo$8b2o36b3ob5o$7bobo
-35bo3bo4bo$7bo37b2o2bobo$6b2o42b2o3$7b2o42b2o$7bobo2b2o37bo$4bo4bo3bo
-35bobo$4b5ob3o36b2o$8bobo$4b3obobo$3bo2bob2o$3b2o18b3o$23bobo$23bo2bo$
-24bobo$bo8bo13b3o$ob3o2b3obo$bo2bo2bo2bo$4bo2bo2$42bo$14b2o26bo$15bo
-26bo$12b3o3b2o$12bo6bo16bo$16b3o16bobo$16bo10b2o7bo$27b2o!
+x = 50, y = 49, rule = B3/S23
+9bob2o$9b2obo13bo$7b2o17b3o$6bo3b2o17bo$7b3obo16b2o$16bo7b2o$9b2o5bo7b
+o$3b2o4b2o4b2o5bobo$4bo17b2o$4bobo8b2o$5b2o8b3o$b2o13bobobo21b3o$2bo
+14b4o$2bobo13bo$3b2o2$47bo$46bobo$14b3o30bo$12b2o2bo$12bo2b2o$12b3o$2o
+$2o2$48b2o$48b2o$35b3o$33b2o2bo$33bo2b2o$2bo30b3o$bobo$2bo2$45b2o$31bo
+13bobo$29b4o14bo$5b3o21bobobo13b2o$32b3o8b2o$33b2o8bobo$26b2o17bo$25bo
+bo5b2o4b2o4b2o$25bo7bo5b2o$24b2o7bo$20b2o16bob3o$20bo17b2o3bo$21b3o17b
+2o$23bo13bob2o$37b2obo!
 
 #N P184 glider shuttle
 #O DRH 1/24/92
@@ -16240,6 +15705,17 @@ x = 60, y = 40, rule = B3/S23
 2o$56bobo$58bo$58b2o2$21bo$19b2ob2o21b2o$20bo2bo21bo$21b2o23b3o$39b2o
 7bo$4b2o33bo$4b2o28b2o4b3o$34b2o6bo$14b2o$14bobo$16bo$16b2o!
 
+#N p208 pi-heptomino hassler
+#O P1GG 2/16/24 based on a partial by mvr
+x = 57, y = 40, rule = B3/S23
+21bo$19b3o6b2o4b2o4b2o$18bo8bo2bobo4bobo2bo$18b2o7b3o10b3o$30b2o6b2o$
+29bo2b6o2bo$29b2o8b2o2$26bo$24b3o7b3o$23bo27b2o$23b2o26b2o$33bo3bo2$
+13b2o19bobo13bo$13b2o20bo12b4o$47b3obo$2o7b2obo7b3o23b2o$bo6bo3bo6bo3b
+o21b2o$bobo3b3o9b2ob2o20b2o3bo3b2o$2b2o3bo3b2o20b2ob2o9b3o3bobo$10b2o
+21bo3bo6bo3bo6bo$9b2o23b3o7bob2o7b2o$5bob3o$5b4o12bo20b2o$6bo13bobo19b
+2o2$19bo3bo$4b2o26b2o$4b2o27bo$20b3o7b3o$30bo2$16b2o8b2o$16bo2b6o2bo$
+17b2o6b2o$14b3o10b3o7b2o$14bo2bobo4bobo2bo8bo$15b2o4b2o4b2o6b3o$35bo!
+
 #N Raucci's p217
 #O DER 5/5/21
 #C Consists of four U-turners (which were unnamed at the time) being
@@ -16303,6 +15779,7 @@ o$26b2o2$44bo$45b2o$44b2o3$18bo2bo2bo4bo2bob2obo2bo$18b7o4b4ob2ob4o$
 29bo2bob2obo2bo14b2o$18b7o30bobo$18bo2bo2bo32bo$48b2o7b2o$48b2o6$46bo
 4bo$44b2ob4ob2o$46bo4bo!
 
+#N P226 glider shuttle
 #C Uses two boojum reflectors, 180 degree reflector found in 2001 by Dave Greene
 x = 75, y = 51, rule = B3/S23
 15bo$14bobo$15bo3$9b2o$9b2o23b2o$b2o31bo$2bo29bobo$2bobo27b2o$3b2o4b2o
@@ -16310,17 +15787,6 @@ $9b2o2$43b2o$43bo$41bobo$3bob2o34b2o$b3ob2o20b3o$o28bo$b3ob2o20b3o13b
 2o$3bobo37b2o$3bobo$4bo6$70bo$69bobo$30b2o37bobo$30b2o13b3o20b2ob3o$
 45bo28bo$45b3o20b2ob3o$32b2o34b2obo$31bobo$31bo$30b2o2$64b2o$64b2o4b2o
 $41b2o27bobo$40bobo29bo$40bo31b2o$39b2o23b2o$64b2o3$59bo$58bobo$59bo!
-
-#N P226 glider shuttle
-#C Uses two boojum reflectors
-x = 76, y = 50, rule = B3/S23
-15bo$14bobo$15bo3$9b2o$9b2o23b2o$b2o31bo$2bo29bobo$2bobo27b2o$3b2o4b2o
-11b2o$9b2o11b2o$17bo$16bob2o23b2o$16bo3bo4bo17bo$20bo4bo15bobo$3bob2o
-14bo3bo15b2o$b3ob2o14b2o$o18bo2b2o20b2o$b3ob2o12b2obo21b2o$3bobo24b2o$
-3bobo23bo2bo$4bo25b2o$41bo$42b2o$41b2o2$71bo$70bobo$70bobo$30b2o19b2o
-16b2ob3o$30b2o19b2o22bo$69b2ob3o$33b2o34b2obo$32bobo$32bo$31b2o2$65b2o
-$65b2o4b2o$42b2o27bobo$41bobo29bo$41bo31b2o$40b2o23b2o$65b2o3$60bo$59b
-obo$60bo!
 
 #N P230 glider shuttle
 #O DRH 3/19/92 (using early version of toaster); since reduced
@@ -16370,6 +15836,19 @@ obo$35b3o3b3o29bo$36bo5bo30b2o2$35b2o5b2o$35b2o5b2o!
 x = 58, y = 26, rule = B3/S23
 8o42b8o$ob4obo42bob4obo$8o42b8o3$28b2o$28b2o13$19bobo6b2o6bobo$19b2o7b
 2o7b2o$20bo16bo2$8o42b8o$ob4obo42bob4obo$8o42b8o!
+
+#O NMB 11/15/23
+#C This is based on a 90-degree glider reflector found by mvr and NMB
+#C on 11/15/23, also seen in the p458 and p646.
+x = 68, y = 54, rule = B3/S23
+4b2o56b2o$5bo16b2o20b2o16bo$3bo18b2o20b2o18bo$3b5o52b5o$b2o4bo52bo4b2o
+$o2b2o58b2o2bo$2obo60bob2o$3bo60bo$3b2o58b2o3$27b2o10b2o$27bobo8bobo$
+29bo8bo$29b2o6b2o7$18b2o28b2o$17bo2bo26bo2bo$18b2o28b2o3$2b2o60b2o$2b
+2o60b2o5$33b2o$33b2o4$3bo15bo28bo15bo$3b3o12bo30bo12b3o$6bo11b3o26b3o
+11bo$5bo2bo50bo2bo$5b4o50b4o2$7b2o8b2o30b2o8b2o$7bo9b2o30b2o9bo$4b2obo
+15b2o18b2o15bob2o$4bo2bob2o3b2o7bo20bo7b2o3b2obo2bo$6b2obo3bo2bo7b3o
+14b3o7bo2bo3bob2o$10bo3b2obo8bo14bo8bob2o3bo$11bo5bo32bo5bo$9bob6o34b
+6obo$8bobo3bo38bo3bobo$8bo2bo44bo2bo$9b2o46b2o!
 
 #N P246 glider shuttle
 #O DRH 11/89 (p270+24n), 4/92 (p246)
@@ -16607,6 +16086,23 @@ ob2o58bo$b3ob2o26b2o20b2o8b2o$o33bo20b2o$b3ob2o24b3o25b2o$3bobo25bo27b
 obo$3bobo46b2o7bo$4bo40b2o5b2o7b2o$45b2o2$8bob2o$6b3ob2o$5bo$6b3ob2o$
 8bobo$8bobo$9bo!
 
+#O iNoMed 3/4/24
+#C The base R-pentomino reaction is a p69 oscillator partial. No
+#C non-period-multiplying reactions are known. The Karel's p15
+#C beehive push works in 13 of 15 phases, with the two non-working
+#C ones being consecutive, so by having the push be in phases
+#C 0, 3, 6, 9, and 12 (where 13 and 14 fail), this can be made into
+#C a period-345 oscillator.
+x = 58, y = 48, rule = B3/S23
+49bo$49bo$41b3o$49bo$40bo3bo3bobo$41b3o$48b3o3$48b3o$21b2o18b3o$15bob
+2obobo17bo3bo3bobo$6b2o7b2obobo28bo$2b2obobo11b2o20b3o$3bobo43bo$3bob
+2o35bo6bo$2obo28b2o7bobo$o2b4o25bo3bo4bobo$b2o3bo23bobo2bobo4bo$3b3o
+24b2o4bo$3bo15b3o$bobo15bo$b2o16bo$20b2obo9b2o$23b2o9bob2o$38bo16b2o$
+38bo15bobo$36b3o15bo$21bo4b2o24b3o$15bo4bobo2bobo23bo3b2o$14bobo4bo3bo
+25b4o2bo$14bobo7b2o28bob2o$8bo6bo35b2obo$8bo43bobo$14b3o20b2o11bobob2o
+$8bo28bobob2o7b2o$7bobo3bo3bo17bobob2obo$14b3o18b2o$7b3o3$7b3o$14b3o$
+7bobo3bo3bo$8bo$14b3o$8bo$8bo!
+
 #N P360 2-barrelled glider gun
 #O DJB before 10/92
 x = 69, y = 56, rule = B3/S23
@@ -16616,6 +16112,23 @@ bo2bo$36b2o12b4o$51b2o$57b2o$57b2o9$65b2o$65bobo$67bo$67b2o3$15bo$15b
 31bobo8b2o$32bo9b3o$40b2obo$40b3o$41bo4$10b2o$10b2o$16b2o$15b4o13bo$
 14bo2bobo7b3ob2o2b2o$13bobo2b2o7b4o4b2o$12bobo16b2o$11b2o$11b3o$12bobo
 $13b2o!
+
+#O iNoMed 11/15/23
+#C The glider-to-X is the same as in the p243, 458, and 646, but
+#C the X (output) is different; it becomes a pi-heptomino rather
+#C than a reflected glider.
+#C The period can be halved to 185 by including two signals.
+x = 74, y = 55, rule = B3/S23
+46b2o$46b2o9b2o$22bo12bo22bo6b2o$22b3o8b3o22bob2o3bo$25bo6bo26bobo5bo$
+24b2o6b2o27bob5o$60b2obo7b2o$66b2o2bo2bo$66bobo2bobo$16bo52b2obo$15bob
+o52bo$15bobo49bo2bo$14b2ob2o47bobob2o$13bo2bo2bo46bobobo2bo$12bobobobo
+bo46bo4b2o$13bobobobo22bo20b2o3b2o$15bobo23bobo19b2o4bo$14bo2bo23bobo
+25bobo$15b2o25bo27b2o3$16b2o47b2o$16b2o47bobo$51b2o14bo$50bobo14b2o$
+52bo5$5b2o$6bo$6bobo47b2o$7b2o47b2o3$2b2o27bo25b2o$2bobo25bobo23bo2bo$
+4bo4b2o19bobo23bobo$4b2o3b2o20bo22bobobobo$2o4bo46bobobobobo$o2bobobo
+46bo2bo2bo$2b2obobo47b2ob2o$3bo2bo49bobo$3bo52bobo$bob2o52bo$obo2bobo$
+o2bo2b2o$b2o7bob2o$6b5obo27b2o6b2o$6bo5bobo26bo6bo$8bo3b2obo22b3o8b3o$
+7b2o6bo22bo12bo$15b2o9b2o$26b2o!
 
 #N 51P384
 #O mvr 4/1/23
@@ -16688,6 +16201,19 @@ $b2o36bo2bo2bo$10bo27bobobobobo$9bobo27bobobobo$10bobo28bobo$2b2o3b3o
 bo11bobo7b2o$9bobo8b5ob3o5bo6b2o$10bo9bo4bo3bo5b3o3b2o$23bobo2b2o7bo$
 23b2o!
 
+#O NMB 11/15/23
+#C This is based on a 90-degree glider reflector found by mvr and NMB
+#C on 11/15/23, also seen in the p243 and p646.
+x = 62, y = 54, rule = B3/S23
+4b2o50b2o$5bo16b2o14b2o16bo$3bo18b2o14b2o18bo$3b5o46b5o$b2o4bo46bo4b2o
+$o2b2o52b2o2bo$2obo54bob2o$3bo54bo$3b2o52b2o3$27b2o4b2o$27bobo2bobo$
+29bo2bo$29bo2bo$30b2o6$18b2o22b2o$17bo2bo20bo2bo$18b2o22b2o3$2b2o54b2o
+$2b2o54b2o10$3bo15bo38bo$3b3o12bo37b3o$6bo11b3o34bo$5bo2bo44bo2bo$5b4o
+44b4o2$7b2o8b2o24b2o8b2o$7bo9b2o24b2o9bo$4b2obo15b2o12b2o15bob2o$4bo2b
+ob2o3b2o7bo14bo7b2o3b2obo2bo$6b2obo3bo2bo7b3o8b3o7bo2bo3bob2o$10bo3b2o
+bo8bo8bo8bob2o3bo$11bo5bo26bo5bo$9bob6o28b6obo$8bobo3bo32bo3bobo$8bo2b
+o38bo2bo$9b2o40b2o!
+
 #N P486 R-pentomino hassler
 #O DER 5/13/21
 #C Extremely similar to 576.0.0; see its entry for all the similarities.
@@ -16740,6 +16266,22 @@ o8$4bo3b2o3b2o35b2o3b2o3bo$2b2obo7b2o9bo25b2o7bob2o$2b3o19b2o34b3o$bo
 bob3o$23b3o4b2o$b3obob2o15b2o4bo25b2obob3o$o2bobobobo14bo30bobobobo2bo
 $bo6bo47bo6bo$2b3o55b3o$2b2obo53bob2o$4bo3b2o45b2o3bo3$28b2o5b2o$28b2o
 5b2o!
+
+#O NMB 11/15/23
+#C This is based on a 90-degree glider reflector found by mvr and NMB
+#C on 11/15/23, also seen in the p243 and p458.
+#C This oscillator in particular uses a previously known
+#C three-block shifter reaction in addition to the reflector.
+x = 76, y = 54, rule = B3/S23
+4b2o64b2o$5bo16b2o28b2o16bo$3bo18b2o28b2o18bo$3b5o60b5o$b2o4bo60bo4b2o
+$o2b2o66b2o2bo$2obo68bob2o$3bo68bo$3b2o66b2o3$27b2o18b2o$27bobo16bobo$
+29bo16bo$29b2o14b2o7$18b2o36b2o$17bo2bo34bo2bo$18b2o36b2o3$2b2o68b2o$
+2b2o68b2o5$36bo$37b2ob2o$36b2o2b2o3$3bo68bo$3b3o64b3o$6bo62bo$5bo2bo
+25b2o4b2o25bo2bo$5b4o25b2o4b2o25b4o2$7b2o8b2o38b2o8b2o$7bo9b2o38b2o9bo
+$4b2obo15b2o26b2o15bob2o$4bo2bob2o3b2o7bo28bo7b2o3b2obo2bo$6b2obo3bo2b
+o7b3o22b3o7bo2bo3bob2o$10bo3b2obo8bo22bo8bob2o3bo$11bo5bo40bo5bo$9bob
+6o42b6obo$8bobo3bo46bo3bobo$8bo2bo52bo2bo$9b2o54b2o!
+
 
 #O DRH 1/3/91
 #C Sparks from a p46 shuttle interact 6 times with
